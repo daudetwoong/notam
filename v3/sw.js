@@ -1,5 +1,5 @@
 // 오프라인 캐시: 처음 연 뒤에는 인터넷 없이도 열림. 새 버전이 올라오면 다음 열 때 자동 교체.
-const CACHE = 'notammap-kind-v3-b86d3a63f2';
+const CACHE = 'notammap-kind-v3-d825c42363';
 const FILES = ['./', './index.html', './manifest.webmanifest'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())); });

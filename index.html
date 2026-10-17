@@ -4624,16 +4624,46 @@ svg.leaflet-image-layer.leaflet-interactive path {
     if (level === 'none') return ['kd-gry', '⚪ 내 경로가 지나는 FIR 밖이에요. 대부분 참고만 하면 돼요.'];
     return null;
   }
+  // ---------- 동행/서행 등 방향 전용 노탐 판별 ----------
+  const DIR_KO = { EAST: '동행(→동쪽)', WEST: '서행(→서쪽)', NORTH: '북행(→북쪽)', SOUTH: '남행(→남쪽)' };
+  function cardinalOf(b) { b = ((b % 360) + 360) % 360; return b >= 45 && b < 135 ? 'EAST' : b >= 135 && b < 225 ? 'SOUTH' : b >= 225 && b < 315 ? 'WEST' : 'NORTH'; }
+  function brg(a, b) {
+    const r = Math.PI / 180, dl = (b[1] - a[1]) * r;
+    const y = Math.sin(dl) * Math.cos(b[0] * r), x = Math.cos(a[0] * r) * Math.sin(b[0] * r) - Math.sin(a[0] * r) * Math.cos(b[0] * r) * Math.cos(dl);
+    return (Math.atan2(y, x) / r + 360) % 360;
+  }
+  function dirNote(n) {
+    const txt = String(n.etext || n.summary || '').toUpperCase();
+    const want = new Set(); let m; const rx = /\b(EAST|WEST|NORTH|SOUTH)\s?-?BOUND\b/g;
+    while ((m = rx.exec(txt))) want.add(m[1]);
+    if (!want.size) return null;
+    let nv = [], R = [];
+    try { nv = pdfNav || []; R = routeCoordinates || []; } catch (e) {}
+    if (R.length < 2 || nv.length !== R.length) return null;
+    // 노탐 본문에 나온 우리 경로 지점으로 그 부근의 진행 방향을 구한다 (없으면 출발→도착 전체 방향)
+    const words = new Set(txt.match(/[A-Z]{3,5}/g) || []);
+    const idx = []; nv.forEach((w, i) => { if (w.name && words.has(w.name) && /^[A-Z]{3,5}$/.test(w.name) && !idx.includes(i)) idx.push(i); });
+    let b, where;
+    if (idx.length >= 2) { const a = Math.min(...idx), z = Math.max(...idx); b = brg(R[a], R[z]); where = `${nv[a].name}→${nv[z].name} 구간`; }
+    else if (idx.length === 1) { const i = idx[0]; b = brg(R[Math.max(0, i - 1)], R[Math.min(R.length - 1, i + 1)]); where = `${nv[i].name} 부근`; }
+    else { b = brg(R[0], R[R.length - 1]); where = '출발→도착 전체'; }
+    const mine = cardinalOf(b);
+    const wantKo = [...want].map(d => DIR_KO[d]).join(' / ');
+    if (want.has(mine)) return ['kd-red', `🧭 <b>${esc(wantKo)} 전용</b> 노탐이고, 오늘 우리 진행 방향(${esc(where)}, ${DIR_KO[mine]})과 <b>같아요.</b> 적용 대상일 수 있으니 본문을 꼭 읽어보세요.`];
+    return ['kd-gry', `🧭 <b>${esc(wantKo)} 전용</b> 노탐이에요. 오늘 우리는 ${esc(where)}에서 <b>${DIR_KO[mine]}</b>이라 <b>반대 방향 편용 — 해당 없을 가능성이 커요.</b> (자동 판정이라 본문으로 한 번 더 확인하세요)`];
+  }
   function explainHtml(n, ctx, light) {
     ctx = ctx || {};
     const cat = n.cat && CAT_KIND[n.cat];
     const rel = ctx.level ? relationKo(ctx.level, ctx.inTime, ctx.passTxt) : null;
     const gl = glossFound(n.etext);
+    let dn = null; try { dn = dirNote(n); } catch (e) {}
     const sched = n.schedule ? `<div><b>⏰ 시간대</b> ${esc(n.schedule)} → <span class="kd-ko">${esc(scheduleKo(n.schedule))}</span> <span class="kd-dim">(이 시간에만 활성)</span></div>` : '';
     return `<div class="kd-box ${light ? 'kd-light' : ''}">
       <div class="kd-head">😊 쉬운 해설 <span class="kd-dim">· 자동 풀이(참고용)</span></div>
       <div class="kd-title">${esc(headline(n))}</div>
       ${rel ? `<div class="kd-rel ${rel[0]}">${rel[1]}</div>` : ''}
+      ${dn ? `<div class="kd-rel ${dn[0]}">${dn[1]}</div>` : ''}
       ${cat ? `<div><b>${cat[0]}</b> — ${cat[1]}</div>` : ''}
       <div><b>📅 유효기간</b> ${validityKo(n)}</div>
       ${sched}
