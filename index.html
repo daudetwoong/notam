@@ -4740,7 +4740,8 @@ svg.leaflet-image-layer.leaflet-interactive path {
     '편명·기종·등록부호, 출발/목적/교체 공항과 <b>UTC·현지시각</b>, 비행시간·연료·순항고도가 한눈에 나와요.',
     '<b>실시간 기상</b>은 인터넷이 될 때만 METAR·기온을 불러와요. 공항 코드만 외부 기상 사이트로 보내고, OFP 내용은 보내지 않아요.',
     '<b>🌪️ SR 4 이상 구간</b>(아래에 추가): 항법로그의 SR(Shear Rate, 수직 윈드시어 지수)이 4 이상인 구간을 <b>이륙 후 몇 분부터 몇 분간</b>인지 보여주고 작은 지도에 표시해요. 그 시간대는 좌석벨트 사인·기내 서비스 타이밍을 미리 생각해두면 좋아요.',
-    '<b>📍 실시간 위치</b>: 아이패드 위치 서비스로 들어오는 GPS(블루투스 GPS 포함)를 받아 지도에 비행기를 표시해요.'
+    '<b>📍 실시간 위치</b>: 아이패드 위치 서비스로 들어오는 GPS(블루투스 GPS 포함)를 받아 지도에 비행기를 표시해요.',
+    '<b>🌀 흔들림 정보 → 지도</b>: 난기류 보고 텍스트를 붙여넣으면 좌표·웨이포인트·고도·원인을 읽어 지도에 그려요. 인터넷 없이 돼요.'
   ]));
   put(secs[2], guide('③ Package 1 공항 노탐 보는 법', [
     '<b>출발·목적·교체</b> 탭을 눌러 공항별 시설 노탐(활주로·유도로·게이트·항법시설·접근 minimum 등)을 봐요.',
@@ -5163,8 +5164,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 })();
 
 /* ================= 🌀 흔들림(난기류) 정보 → 지도 표시 =================
-   ① 사진: claude.ai 페이지에서만 동작 (뷰어의 Claude가 사진을 읽어 좌표·구간·원인을 JSON으로 돌려줌)
-   ② 텍스트: 오프라인 동작 (아이패드 '텍스트 인식 표시(Live Text)'로 사진 글자를 복사해 붙여넣기 → 기기 안에서 해석) */
+   텍스트 붙여넣기 → 기기 안에서 해석 (오프라인 동작). 아이패드 '텍스트 인식 표시(Live Text)'로 사진 글자를 복사해 넣으면 됨. */
 (function () {
   'use strict';
   const $id = id => document.getElementById(id);
@@ -5195,20 +5195,11 @@ svg.leaflet-image-layer.leaflet-interactive path {
   const panel = document.createElement('div');
   panel.className = 'kd-panel';
   panel.innerHTML = `
-    <h3>🌀 흔들림 정보 → 지도 <span class="kd-chip">사진 또는 텍스트</span></h3>
-    <div style="font-size:12px;color:#cbd5e1">비행 중 받은 난기류 정보(좌표·구간·원인)를 올리면 지도에 바로 그려줘요.</div>
-    <div id="kd-tb-photo-wrap" class="flex flex-col gap-1.5">
-      <div class="flex items-center gap-2 flex-wrap">
-        <label class="kd-btn" style="display:inline-block">📷 사진 올리기<input id="kd-tb-photo" type="file" accept="image/*" style="display:none"></label>
-        <button id="kd-tb-stop" class="kd-btn off" style="display:none">중지</button>
-        <span id="kd-tb-photo-msg" style="font-size:12px;color:#94a3b8">사진 인식 기능을 확인하는 중...</span>
-      </div>
-    </div>
-    <details class="kd-more"><summary>✍️ 텍스트로 넣기 (인터넷 없이 가능)</summary>
-      <div style="font-size:11.5px;color:#94a3b8;margin:4px 0">아이패드 사진 앱에서 사진을 열고 글자를 길게 눌러 <b style="color:#e2e8f0">텍스트 인식 표시(Live Text)</b>로 복사한 뒤 여기 붙여넣으세요. 좌표(N3712.5E12830.0, 3712N12830E 등), 경로 웨이포인트 이름, FL, MOD/SEV, CAT/CB/MTW 같은 단어를 찾아 지도에 그려요. 보고가 여러 개면 빈 줄로 나눠 주세요.</div>
-      <textarea id="kd-tb-text" rows="4" class="w-full bg-slate-950 border border-slate-700 rounded-lg p-2 text-xs mono text-slate-200" placeholder="예) MOD TURB REPORTED FL340-380 BTN N3730.0E13200.0 AND N3815.0E13545.0 DUE CAT"></textarea>
-      <button id="kd-tb-parse" class="kd-btn" style="margin-top:4px">지도에 표시</button>
-    </details>
+    <h3>🌀 흔들림 정보 → 지도 <span class="kd-chip">텍스트 붙여넣기 · 오프라인</span></h3>
+    <div style="font-size:12px;color:#cbd5e1">비행 중 받은 난기류 정보(좌표·구간·원인)를 붙여넣으면 지도에 바로 그려줘요.</div>
+    <div style="font-size:11.5px;color:#94a3b8">📷 종이나 화면에 있는 정보는: 아이패드 카메라/사진 앱에서 글자를 길게 눌러 <b style="color:#e2e8f0">텍스트 인식 표시(Live Text)</b>로 복사한 뒤 붙여넣으세요. 좌표(N3712.5E12830.0, 3712N12830E 등), 경로 웨이포인트 이름, FL, MOD/SEV, CAT/CB/MTW 같은 단어를 찾아요. 보고가 여러 개면 빈 줄로 나눠 주세요.</div>
+    <textarea id="kd-tb-text" rows="4" class="w-full bg-slate-950 border border-slate-700 rounded-lg p-2 text-xs mono text-slate-200" placeholder="예) MOD TURB REPORTED FL340-380 BTN N3730.0E13200.0 AND N3815.0E13545.0 DUE CAT"></textarea>
+    <div class="flex items-center gap-2"><button id="kd-tb-parse" class="kd-btn">지도에 표시</button><button id="kd-tb-clear-text" class="kd-btn off">입력 지우기</button></div>
     <div id="kd-tb-list" class="flex flex-col gap-1.5"></div>
     <div id="kd-tb-foot" class="flex items-center justify-between" style="font-size:11px;color:#94a3b8"></div>`;
   if (sec2) sec2.appendChild(panel);
@@ -5270,68 +5261,6 @@ svg.leaflet-image-layer.leaflet-interactive path {
     }).filter(r => r.points.length);
   }
 
-  // ---------- 사진 해석 (claude.ai 페이지에서만) ----------
-  let sample = null, ctl = null;
-  async function initSample() {
-    const msg = $id('kd-tb-photo-msg'), wrap = $id('kd-tb-photo-wrap');
-    try { if (window.claude && typeof window.claude.use === 'function') sample = await window.claude.use('sample'); } catch (e) { sample = null; }
-    let canImg = false;
-    if (sample) { try { const lim = await sample.limits(); canImg = !!(lim && lim.images); } catch (e) {} }
-    if (!sample || !canImg) {
-      msg.innerHTML = '이 환경에서는 사진 인식이 안 돼요 (claude.ai에서 연 페이지에서만 가능). 아래 <b>텍스트로 넣기</b>를 쓰세요.';
-      wrap.querySelector('label').style.display = 'none';
-      return;
-    }
-    msg.textContent = '사진을 올리면 Claude가 좌표·구간·원인을 읽어요. (인터넷 필요 · 처음 한 번 허용 창이 떠요)';
-  }
-  function routeHint() {
-    return nav().filter(w => /^[A-Z]{2,5}\d?$/.test(w.name)).slice(0, 120).map(w => `${w.name} ${w.ll[0].toFixed(3)} ${wrap180(w.ll[1]).toFixed(3)}`).join('\n');
-  }
-  async function readPhoto(file) {
-    const msg = $id('kd-tb-photo-msg'), stop = $id('kd-tb-stop');
-    if (!sample) return;
-    ctl = new AbortController(); stop.style.display = '';
-    msg.textContent = '사진을 읽는 중... (보통 10~40초)';
-    const prompt = `This image is a photo of a turbulence report received in an airliner cockpit (ACARS/company message, PIREP/AIREP, SIGMET, or a printout). Extract every turbulence report in it.
-
-Reply with ONLY this JSON (no other text):
-{"reports":[{"severity":"SEV|MOD|LGT|UNK","reasons":["CAT|CB|MTW|JET|WAKE|ICE|WS|CONV"],"reason_text":"cause as written","fl_low":340,"fl_high":380,"points":[{"lat":37.5,"lon":132.0,"name":"WAYPOINT or empty"}],"time_text":"validity/report time as written or empty","raw":"the report text as written, max 300 chars"}]}
-
-Rules:
-- points are the reported positions in order (start → end of the affected segment, or the corners of an area, or one point). Convert coordinates to decimal degrees (south and west negative). Formats like N3712.5E12830.0 mean 37°12.5' N, 128°30.0' E.
-- If a position is given only as a waypoint name, put it in "name" and leave lat/lon null; I will look it up. Known waypoints on this flight's route (name lat lon):
-${routeHint() || '(none)'}
-- fl_low/fl_high as numbers (FL), null if not stated. Do not invent anything not in the image. If the image contains no turbulence report, reply {"reports":[]}.`;
-    try {
-      const data = await sample.json(prompt, { images: file, signal: ctl.signal, modelTier: 'default' });
-      const arr = (data && Array.isArray(data.reports)) ? data.reports : [];
-      const add = arr.map(r => {
-        const pts = (Array.isArray(r.points) ? r.points : []).map(p => {
-          let lat = Number(p && p.lat), lon = Number(p && p.lon), name = String((p && p.name) || '').toUpperCase().trim();
-          if (!(isFinite(lat) && isFinite(lon)) || (p.lat == null || p.lon == null)) { const ll = wptLL(name); if (!ll) return null; lat = ll[0]; lon = ll[1]; }
-          if (Math.abs(lat) > 90 || Math.abs(lon) > 360) return null;
-          return { lat, lon, name };
-        }).filter(Boolean);
-        const reasons = (Array.isArray(r.reasons) ? r.reasons : []).map(x => String(x).toUpperCase()).filter(x => REASON_KO[x]);
-        const sev = ['SEV', 'MOD', 'LGT'].includes(String(r.severity).toUpperCase()) ? String(r.severity).toUpperCase() : 'UNK';
-        return { id: Date.now() + Math.random(), at: Date.now(), src: '사진', sev, reasons,
-          reason_ko: [reasons.map(x => REASON_KO[x]).join(', '), r.reason_text ? `원문: ${String(r.reason_text).slice(0, 120)}` : ''].filter(Boolean).join(' · ') || '원인 미기재',
-          flLo: isFinite(+r.fl_low) && r.fl_low != null ? +r.fl_low : null, flHi: isFinite(+r.fl_high) && r.fl_high != null ? +r.fl_high : null,
-          time: String(r.time_text || '').slice(0, 80), points: pts, raw: String(r.raw || '').slice(0, 400) };
-      }).filter(r => r.points.length);
-      if (!add.length) msg.textContent = arr.length ? '보고는 찾았지만 위치(좌표·웨이포인트)를 확인하지 못했어요. 텍스트로 넣기를 써 보세요.' : '사진에서 난기류 보고를 찾지 못했어요.';
-      else { reports.push(...add); save(); msg.textContent = `✅ ${add.length}건을 지도에 표시했어요. 원문과 꼭 대조해 주세요.`; render(); }
-    } catch (e) {
-      const c = e && e.code;
-      msg.textContent = c === 'cancelled' ? '중지했어요.'
-        : c === 'not_granted' || c === 'sampling_disabled' || c === 'images_unavailable' || c === 'capability_disabled' ? '사진 인식이 허용되지 않았어요. 텍스트로 넣기를 쓰세요.'
-        : c === 'rate_limited' ? '요청이 많아요. 잠시 후 다시 시도해 주세요.'
-        : c === 'image_rejected' ? '이 사진은 읽을 수 없어요. 다른 사진으로 해 주세요.'
-        : c === 'invalid_json' ? '결과를 해석하지 못했어요. 한 번 더 올려 주세요.'
-        : '인터넷 연결이 없거나 일시적인 오류예요. 텍스트로 넣기를 쓰세요.';
-    } finally { stop.style.display = 'none'; ctl = null; }
-  }
-
   // ---------- 목록 · 지도 ----------
   function render() {
     const box = $id('kd-tb-list'); if (!box) return;
@@ -5377,8 +5306,7 @@ ${routeHint() || '(none)'}
   window.__kdTurbLayers = layersInto;   // SR 미니맵에서도 같이 그림
 
   // ---------- 이벤트 ----------
-  $id('kd-tb-photo').addEventListener('change', e => { const f = e.target.files && e.target.files[0]; e.target.value = ''; if (f) readPhoto(f); });
-  $id('kd-tb-stop').addEventListener('click', () => { if (ctl) ctl.abort(); });
+  $id('kd-tb-clear-text').addEventListener('click', () => { $id('kd-tb-text').value = ''; });
   $id('kd-tb-parse').addEventListener('click', () => {
     const add = parseText($id('kd-tb-text').value);
     if (!add.length) { showToast('위치(좌표·경로 웨이포인트)를 찾지 못했어요'); return; }
@@ -5392,7 +5320,6 @@ ${routeHint() || '(none)'}
     reports.splice(+d.dataset.tbdel, 1); save(); render();
   });
 
-  initSample();
   render();
 })();
 
