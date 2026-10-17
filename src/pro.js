@@ -174,13 +174,17 @@
     const seen = new Set();
     const all = [].concat(typeof firNotams !== 'undefined' ? firNotams : [], typeof otherNotams !== 'undefined' ? otherNotams : [], typeof package1AirportNotams !== 'undefined' ? package1AirportNotams : [], typeof package2AirportNotams !== 'undefined' ? package2AirportNotams : [], typeof package2AreaNotams !== 'undefined' ? package2AreaNotams : []);
     all.forEach(n => { if (!n || !n.rawText) return; const k = n.notamId + '|' + String(n.rawText).slice(0, 60); if (seen.has(k)) return; seen.add(k); srcs.push({ src: n.notamId, text: n.rawText, n }); });
-    const out = [], dedupe = new Set();
+    const out = [], dedupe = new Set(); skippedDir = 0;
     srcs.forEach(s => {
       const norm = String(s.text).toUpperCase().replace(/\s+/g, ' ');
+      // 동행/서행 전용 문장이 오늘 진행 방향과 다르면 할 일에서 뺀다 (문장 → 원문 전체 순으로 판정)
+      let srcDir = null; try { srcDir = K.dirCheck ? K.dirCheck(norm) : null; } catch (e) {}
       norm.split(/(?<=\.)\s+(?=[A-Z(*-])|\s*\/\/\s*|COMMENT\)\s*|\s\*\s/).forEach(sent => {
         sent = sent.trim(); if (sent.length < 12) return;
         const vm = sent.match(VERB_RX); if (!vm) return;
         const fm = sent.match(rx); if (!fm) return;
+        let dc = null; try { dc = K.dirCheck ? (K.dirCheck(sent) || srcDir) : null; } catch (e) {}
+        if (dc && !dc.match) { skippedDir++; return; }
         const fix = fm[1]; const i = nav().findIndex(w => w.name === fix); if (i < 0) return;
         const key = fix + '|' + sent.slice(0, 50); if (dedupe.has(key)) return; dedupe.add(key);
         out.push({ i, fix, ko: VERB[vm[1]] || vm[1], text: sent.length > 200 ? sent.slice(0, 200) + '…' : sent, src: s.src, n: s.n });
@@ -191,7 +195,7 @@
   let manual = [];
   try { const o = JSON.parse(localStorage.getItem('kpManual') || '{}'); if (o && o.k === flightKey()) manual = o.r || []; } catch (e) {}
   const saveManual = () => { try { localStorage.setItem('kpManual', JSON.stringify({ k: flightKey(), r: manual })); } catch (e) {} };
-  let items = [], alerted = new Set();
+  let items = [], alerted = new Set(), skippedDir = 0;
   function buildTimeline() {
     const N = nav(); items = [];
     if (!N.length) return;
@@ -211,9 +215,10 @@
     const box = $id('kp-tl'); const ci = curIdx();
     $id('kp-tl-count').textContent = items.length ? `${items.length}건` : '';
     if (!nav().length) { box.innerHTML = '<div class="kp-dim">OFP PDF를 첨부하면 표시돼요.</div>'; return; }
-    if (!items.length) { box.innerHTML = '<div class="kp-ok">찾은 할 일이 없어요. 아래에서 직접 추가할 수 있어요.</div>'; return; }
+    const skipNote = skippedDir ? `<div class="kp-dim" style="margin-bottom:4px">🧭 반대 방향(동행/서행 등) 편 전용 문장 ${skippedDir}건은 할 일에서 뺐어요. 노탐 카드에서는 회색 안내로 볼 수 있어요.</div>` : '';
+    if (!items.length) { box.innerHTML = skipNote + '<div class="kp-ok">찾은 할 일이 없어요. 아래에서 직접 추가할 수 있어요.</div>'; return; }
     let nextMarked = false;
-    box.innerHTML = items.map((it, k) => {
+    box.innerHTML = skipNote + items.map((it, k) => {
       let cls = ''; let distTxt = '';
       if (ci) {
         if (it.i <= ci.i) cls = 'past';

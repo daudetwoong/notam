@@ -4632,8 +4632,9 @@ svg.leaflet-image-layer.leaflet-interactive path {
     const y = Math.sin(dl) * Math.cos(b[0] * r), x = Math.cos(a[0] * r) * Math.sin(b[0] * r) - Math.sin(a[0] * r) * Math.cos(b[0] * r) * Math.cos(dl);
     return (Math.atan2(y, x) / r + 360) % 360;
   }
-  function dirNote(n) {
-    const txt = String(n.etext || n.summary || '').toUpperCase();
+  // 반환: null(방향 조건 없음/판정 불가) 또는 { want, mine, where, match }
+  function dirCheck(text) {
+    const txt = String(text || '').toUpperCase();
     const want = new Set(); let m; const rx = /\b(EAST|WEST|NORTH|SOUTH)\s?-?BOUND\b/g;
     while ((m = rx.exec(txt))) want.add(m[1]);
     if (!want.size) return null;
@@ -4648,7 +4649,12 @@ svg.leaflet-image-layer.leaflet-interactive path {
     else if (idx.length === 1) { const i = idx[0]; b = brg(R[Math.max(0, i - 1)], R[Math.min(R.length - 1, i + 1)]); where = `${nv[i].name} 부근`; }
     else { b = brg(R[0], R[R.length - 1]); where = '출발→도착 전체'; }
     const mine = cardinalOf(b);
-    const wantKo = [...want].map(d => DIR_KO[d]).join(' / ');
+    return { want: [...want], mine, where, match: want.has(mine) };
+  }
+  function dirNote(n) {
+    const c = dirCheck(n.etext || n.summary || ''); if (!c) return null;
+    const want = new Set(c.want), mine = c.mine, where = c.where;
+    const wantKo = c.want.map(d => DIR_KO[d]).join(' / ');
     if (want.has(mine)) return ['kd-red', `🧭 <b>${esc(wantKo)} 전용</b> 노탐이고, 오늘 우리 진행 방향(${esc(where)}, ${DIR_KO[mine]})과 <b>같아요.</b> 적용 대상일 수 있으니 본문을 꼭 읽어보세요.`];
     return ['kd-gry', `🧭 <b>${esc(wantKo)} 전용</b> 노탐이에요. 오늘 우리는 ${esc(where)}에서 <b>${DIR_KO[mine]}</b>이라 <b>반대 방향 편용 — 해당 없을 가능성이 커요.</b> (자동 판정이라 본문으로 한 번 더 확인하세요)`];
   }
@@ -4858,7 +4864,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
     try { rawBlock = window.rawBlock; } catch (e) {}
   }
 
-  window.__kd = window.__kd || {}; window.__kd.headline = headline; window.__kd.explainHtml = explainHtml;
+  window.__kd = window.__kd || {}; window.__kd.headline = headline; window.__kd.explainHtml = explainHtml; window.__kd.dirCheck = dirCheck;
   decorateCards();
   try { renderMap(false); } catch (e) {}
 })();
