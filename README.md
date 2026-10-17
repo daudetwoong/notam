@@ -1,5 +1,8 @@
 # NOTAM 지도 친절모드
 
+- 기존 버전: https://daudetwoong.github.io/notam/
+- v3 (브리핑 보조 추가): https://daudetwoong.github.io/notam/v3/
+
 [fly-smart-team/notammap](https://fly-smart-team.github.io/notammap/) 에 한국어 해설 레이어와 몇 가지 기능을 더한 버전입니다.
 원본 기능·화면 구성·오프라인 동작은 그대로 두고, 아래를 추가했습니다.
 
@@ -11,3 +14,11 @@
 
 > 자동 해설은 참고용입니다. 판단은 반드시 NOTAM 원문과 회사 브리핑 자료로 하세요.
 > OFP PDF는 브라우저 안에서만 처리되며 서버로 전송되지 않습니다. (실시간 기상 조회 시 공항 코드만 외부 기상 API로 전송)
+
+## v3 브리핑 보조 (v3/ 폴더)
+- ✅ 비행 중 할 일 타임라인: OFP 공지·노탐 코멘트의 보고/요청 문장, 경로 교차 유효 노탐, FIR 진입, SR 구간, TOC/TOD, 직접 메모 — 실시간 위치 50NM 전 알림
+- ⛽ 연료 요약: FOD·최소 착륙연료·holding 여유·실제 RAMP/FOB 반영·노선 통계
+- 🛬 가까운 공항 (현재 위치 기준) · 🌤️ TAF 한국어 풀이 (ETD/ETA 기준) · 🌬️ 고도별 바람 힌트 · 📋 브리핑 요약 복사/인쇄
+
+## 구조
+- `src/` 친절모드 레이어 소스 · `build.py` 조립 스크립트 · `UPDATE.md` 원본 변경 반영 절차 · `upstream_commit.txt` 마지막으로 반영한 원본 커밋

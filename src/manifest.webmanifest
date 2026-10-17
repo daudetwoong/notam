@@ -1,0 +1,2 @@
+{ "name": "NOTAM 지도 친절모드", "short_name": "NOTAM 친절", "start_url": "./", "display": "standalone", "background_color": "#020617", "theme_color": "#020617",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }] }

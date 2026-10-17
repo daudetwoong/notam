@@ -779,7 +779,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 
   <header class="border-b border-slate-800 bg-slate-900/80 px-4 py-3">
     <div class="max-w-6xl mx-auto">
-      <div><h1 class="font-bold text-lg text-white">FIR NOTAM 지도 & FMS 변환 <span style="font-size:12px;color:#67e8f9">· 친절모드</span></h1><div style="font-size:10px;color:#64748b">원본: fly-smart-team/notammap (최신판 기준) · 한국어 해설·SR 구간·실시간 위치·흔들림 정보 추가</div></div>
+      <div><h1 class="font-bold text-lg text-white">FIR NOTAM 지도 & FMS 변환 <span style="font-size:12px;color:#67e8f9">· 친절모드</span></h1><div style="font-size:10px;color:#64748b">원본: fly-smart-team/notammap · 한국어 해설·SR 구간·실시간 위치·흔들림 정보 추가</div></div>
     </div>
   </header>
 
@@ -4828,6 +4828,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
     try { rawBlock = window.rawBlock; } catch (e) {}
   }
 
+  window.__kd = window.__kd || {}; window.__kd.headline = headline; window.__kd.explainHtml = explainHtml;
   decorateCards();
   try { renderMap(false); } catch (e) {}
 })();
@@ -5120,6 +5121,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
       if (!last || Math.abs(last[0] - gps.lat) + Math.abs(last[1] - gps.lon) > 0.01) { gpsTrail.push([gps.lat, gps.lon]); if (gpsTrail.length > 2000) gpsTrail.shift(); }
       gpsMsg(`✅ 위치 수신 중이에요. 정확도 ±${Math.round(c.accuracy)}m ${c.accuracy > 1000 ? '(정확도가 낮아요. Wi-Fi 위치일 수 있어요. 블루투스 GPS 연결을 확인하세요)' : ''}`, 'kd-ok');
       renderGps(); drawMain(); drawSrMini();
+      try { window.__kd && window.__kd.onGps && window.__kd.onGps(gps); } catch (e) {}
       const ref = meanLon();
       if (follow && typeof lmap !== 'undefined' && lmap) lmap.panTo([gps.lat, nearLon(gps.lon, ref)], { animate: true });
     }, err => {
@@ -5139,6 +5141,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
   setTimeout(() => { try { if (lmap) lmap.on('dragstart', unfollow); } catch (e) {} }, 3000);
 
   window.__kdDrawMini = drawSrMini;
+  window.__kd = window.__kd || {}; window.__kd.gps = () => gps; window.__kd.srRuns = () => srRuns; window.__kd.srByIdx = () => srByIdx;
   renderSrList();
 })();
 
@@ -5282,7 +5285,8 @@ svg.leaflet-image-layer.leaflet-interactive path {
     window.renderMap = function () { const r = orig.apply(this, arguments); try { draw(); } catch (e) {} return r; };
     try { renderMap = window.renderMap; } catch (e) {}
   }
-  window.__kdTurbLayers = layersInto;   // SR 미니맵에서도 같이 그림
+  window.__kdTurbLayers = layersInto;
+  window.__kd = window.__kd || {}; window.__kd.turb = () => reports;   // SR 미니맵에서도 같이 그림
 
   // ---------- 이벤트 ----------
   $id('kd-tb-clear-text').addEventListener('click', () => { $id('kd-tb-text').value = ''; });
