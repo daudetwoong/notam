@@ -7,7 +7,7 @@
   const hm = m => m == null ? '--' : `${Math.floor(m / 60)}:${pad2(Math.round(m) % 60)}`;
   const wrap180 = d => ((d + 540) % 360) - 180;
   const SEV = { SEV: ['#ef4444', '심함(SEV)'], MOD: ['#f97316', '보통(MOD)'], LGT: ['#facc15', '약함(LGT)'], UNK: ['#38bdf8', '세기 미상'] };
-  const REASON_KO = { CAT: '청천난류(CAT)', CB: '적란운·뇌우(CB/TS)', MTW: '산악파(MTW)', JET: '제트기류', WAKE: '후류(Wake)', ICE: '착빙', WS: '윈드시어', CONV: '대류' };
+  const REASON_KO = { CAT: '청천난류(CAT)', CB: '적란운·뇌우(CB/TS)', MTW: '산악파(MTW)', JET: '제트기류', WAKE: '후류(Wake)', ICE: '착빙', WS: '윈드시어', HWS: '수평 윈드시어', TERR: '지형 유발', CONV: '대류' };
 
   const css = `.kd-tb{border:1px solid #9a3412;background:rgba(124,45,18,.22);border-radius:10px;padding:6px 10px;font-size:12px}
   .kd-tb b{color:#fed7aa}.kd-tbx{float:right;color:#fda4af;cursor:pointer;padding:0 4px}
@@ -33,7 +33,7 @@
     <h3>🌀 흔들림 정보 → 지도 <span class="kd-chip">텍스트 붙여넣기 · 오프라인</span></h3>
     <div style="font-size:12px;color:#cbd5e1">비행 중 받은 난기류 정보(좌표·구간·원인)를 붙여넣으면 지도에 바로 그려줘요.</div>
     <div style="font-size:11.5px;color:#94a3b8">📷 종이나 화면에 있는 정보는: 아이패드 카메라/사진 앱에서 글자를 길게 눌러 <b style="color:#e2e8f0">텍스트 인식 표시(Live Text)</b>로 복사한 뒤 붙여넣으세요. 좌표(N3712.5E12830.0, 3712N12830E 등), 경로 웨이포인트 이름, FL, MOD/SEV, CAT/CB/MTW 같은 단어를 찾아요. 보고가 여러 개면 빈 줄로 나눠 주세요.</div>
-    <textarea id="kd-tb-text" rows="4" class="w-full bg-slate-950 border border-slate-700 rounded-lg p-2 text-xs mono text-slate-200" placeholder="예) MOD TURB REPORTED FL340-380 BTN N3730.0E13200.0 AND N3815.0E13545.0 DUE CAT"></textarea>
+    <textarea id="kd-tb-text" rows="4" class="w-full bg-slate-950 border border-slate-700 rounded-lg p-2 text-xs mono text-slate-200" placeholder="예) ACARS 출력물 그대로: SEVERITY: OCNL MOD / ENTRY/EXIT: 3540N10937E / 3633N11042E / ALT: FL310-FL380 …"></textarea>
     <div class="flex items-center gap-2"><button id="kd-tb-parse" class="kd-btn">지도에 표시</button><button id="kd-tb-clear-text" class="kd-btn off">입력 지우기</button></div>
     <div id="kd-tb-list" class="flex flex-col gap-1.5"></div>
     <div id="kd-tb-foot" class="flex items-center justify-between" style="font-size:11px;color:#94a3b8"></div>`;
@@ -81,7 +81,7 @@
       const names = [...new Set(nav().map(w => w.name).filter(n => /^[A-Z]{3,5}$/.test(n) && n !== 'TOC' && n !== 'TOD'))];
       names.forEach(n => { const rx = new RegExp('(?<![A-Z0-9])' + n + '(?![A-Z0-9])'); const mm = rx.exec(t); if (mm) { const ll = wptLL(n); if (ll) pts.push({ lat: ll[0], lon: ll[1], name: n, idx: mm.index }); } });
       pts.sort((a, b) => a.idx - b.idx);
-      const sev = /\bSEV|SEVERE\b/.test(t) ? 'SEV' : /\bMOD|MODERATE\b/.test(t) ? 'MOD' : /\bLGT|LIGHT\b/.test(t) ? 'LGT' : 'UNK';
+      const sev = /\bSEV\b|\bSEVERE\b|\bSVR\b/.test(t) ? 'SEV' : /\bMOD\b|\bMODERATE\b/.test(t) ? 'MOD' : /\bLGT\b|\bLIGHT\b/.test(t) ? 'LGT' : 'UNK';
       const reasons = [];
       if (/\bCAT\b|CLEAR AIR/.test(t)) reasons.push('CAT');
       if (/\bCB\b|\bTS\b|THUNDER|CONVECT|\bTCU\b/.test(t)) reasons.push('CB');
@@ -89,14 +89,30 @@
       if (/\bJET\b|JETSTREAM|JET STREAM/.test(t)) reasons.push('JET');
       if (/\bWAKE\b/.test(t)) reasons.push('WAKE');
       if (/\bICE\b|ICING/.test(t)) reasons.push('ICE');
-      if (/WIND\s?SHEAR|\bWS\b/.test(t)) reasons.push('WS');
+      if (/HORIZONTAL\s+WIND\s?SHEAR/.test(t)) reasons.push('HWS'); else if (/WIND\s?SHEAR|\bWS\b/.test(t)) reasons.push('WS');
+      if (/TERRAIN/.test(t)) reasons.push('TERR');
+      // ACARS(WSI) 양식: VALID 시간창 · 간헐/빈번 · 진입/이탈 · ID
+      const vm = t.match(/VALID:?\s*(\d{2}):?(\d{2})(?::\d{2})?Z?\s*[-~]\s*(\d{2}):?(\d{2})(?::\d{2})?Z?/);
+      const freq = /\bOCNL\b/.test(t) ? '간헐적(OCNL)' : /\bFRQ\b/.test(t) ? '빈번(FRQ)' : /\bCONS\b|CONTINUOUS/.test(t) ? '지속(CONS)' : '';
+      const idm = t.match(/\bID:?\s*(\d{3,8})/);
+      const isEE = /ENTRY\s*\/\s*EXIT/.test(t);
       const fls = [...t.matchAll(/\bFL\s?(\d{3})(?:\s?[-\/~]\s?(?:FL)?\s?(\d{3}))?/g)].flatMap(m => [+m[1], m[2] ? +m[2] : null]).filter(v => v != null);
-      return { id: Date.now() + Math.random(), at: Date.now(), src: '텍스트', sev, reasons, reason_ko: reasons.map(r => REASON_KO[r]).join(', ') || '원인 미기재',
+      return { id: Date.now() + Math.random(), at: Date.now(), src: idm ? 'ACARS ' + idm[1] : '텍스트', sev, reasons, freq, valid: vm ? `${vm[1]}:${vm[2]}Z~${vm[3]}:${vm[4]}Z` : '', validMin: vm ? [+vm[1] * 60 + +vm[2], +vm[3] * 60 + +vm[4]] : null, isEE, reason_ko: reasons.map(r => REASON_KO[r]).join(', ') || '원인 미기재',
         flLo: fls.length ? Math.min(...fls) : null, flHi: fls.length ? Math.max(...fls) : null, points: pts.map(({ lat, lon, name }) => ({ lat, lon, name })), raw: t.slice(0, 600) };
     }).filter(r => r.points.length);
   }
 
   // ---------- 목록 · 지도 ----------
+  function validNote(r) {
+    try {
+      if (!r.validMin) return '';
+      const a = elapsedNear([r.points[0].lat, r.points[0].lon]); const w = flightWindow(); if (!a || a.el == null || !w || !w.etd) return '';
+      const pass = new Date(w.etd + a.el * 6e4); let pm = pass.getUTCHours() * 60 + pass.getUTCMinutes();
+      let [lo, hi] = r.validMin; if (hi < lo) hi += 1440; if (pm < lo - 720) pm += 1440;
+      const inside = pm >= lo - 10 && pm <= hi + 10;
+      return inside ? ' <span style="color:#fca5a5">(통과 예정 ' + String(pass.getUTCHours()).padStart(2, '0') + ':' + String(pass.getUTCMinutes()).padStart(2, '0') + 'Z — 유효시간 안)</span>' : ' <span style="color:#86efac">(통과 예정 ' + String(pass.getUTCHours()).padStart(2, '0') + ':' + String(pass.getUTCMinutes()).padStart(2, '0') + 'Z — 유효시간 밖)</span>';
+    } catch (e) { return ''; }
+  }
   function render() {
     const box = $id('kd-tb-list'); if (!box) return;
     box.innerHTML = reports.map((r, k) => {
@@ -105,8 +121,8 @@
       const fl = r.flLo != null ? `FL${pad2(r.flLo).padStart(3, '0')}${r.flHi != null && r.flHi !== r.flLo ? '~' + pad2(r.flHi).padStart(3, '0') : ''}` : '고도 미기재';
       return `<div class="kd-tb"><span class="kd-tbx" data-tbdel="${k}">✕</span>
         <b style="color:${SEV[r.sev][0]}">● ${SEV[r.sev][1]}</b> · <b>${esc(r.reason_ko)}</b> · ${esc(fl)} <span class="kd-chip">${esc(r.src)}${r.at ? ' · ' + new Date(r.at).toISOString().slice(11, 16) + 'Z 입력' : ''}</span>
-        <div style="color:#fdba74">${esc(when)}${r.time ? ' · ' + esc(r.time) : ''}</div>
-        <div style="color:#94a3b8;font-size:11px">${r.points.map(p => p.name || `${p.lat.toFixed(2)},${wrap180(p.lon).toFixed(2)}`).map(esc).join(' → ')}</div></div>`;
+        <div style="color:#fdba74">${esc(when)}${r.time ? ' · ' + esc(r.time) : ''}${r.valid ? ` · <b>유효 ${esc(r.valid)}</b>${validNote(r)}` : ''}${r.freq ? ' · ' + esc(r.freq) : ''}</div>
+        <div style="color:#94a3b8;font-size:11px">${r.points.map((p, j) => (r.isEE && r.points.length === 2 ? (j === 0 ? '진입 ' : '이탈 ') : '') + (p.name || `${p.lat.toFixed(2)},${wrap180(p.lon).toFixed(2)}`)).map(esc).join(' → ')}</div></div>`;
     }).join('');
     const foot = $id('kd-tb-foot');
     if (foot) foot.innerHTML = reports.length ? `<span>${reports.length}건 · 이 기기에만 저장돼요 (다른 비행 OFP를 올리면 자동으로 지워져요)</span><button id="kd-tb-clear" class="kd-chip" style="cursor:pointer">모두 지우기</button>` : '';
@@ -118,7 +134,7 @@
     reports.forEach(r => {
       const c = SEV[r.sev][0], ll = r.points.map(p => [p.lat, nearLon(p.lon, ref)]);
       const fl = r.flLo != null ? ` FL${r.flLo}${r.flHi != null && r.flHi !== r.flLo ? '-' + r.flHi : ''}` : '';
-      const tip = `🌀 ${SEV[r.sev][1]} · ${esc(r.reason_ko)}${fl}`;
+      const tip = `🌀 ${SEV[r.sev][1]}${r.freq ? ' ' + esc(r.freq) : ''} · ${esc(r.reason_ko)}${fl}${r.valid ? ' · ' + esc(r.valid) : ''}`;
       let lyr;
       if (ll.length >= 3 && /AREA|WI |BOUNDED|POLYGON/.test(r.raw || '')) lyr = L.polygon(ll, { color: c, weight: 2, fillColor: c, fillOpacity: 0.2 });
       else if (ll.length >= 2) lyr = L.polyline(ll, { color: c, weight: 8, opacity: 0.7, lineCap: 'round' });
