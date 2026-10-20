@@ -17,3 +17,8 @@
 - 섹션 제목 `1.`~`6.`, 요소 id: fir-list, pdf-input, dropzone, map, flt-info, fpl-input, btn-reset
 - 함수: rawBlock, renderMap, notamRange, notamIsActive, tafAt, wxCat, gcDistNm, getAirportCoord, elAt, flightWindow
 - 전역: visibleFir, otherNotams, pdfNav, window.__ofpText
+
+## MEL 바로 보기 데이터 (v3)
+- `data/mel/<기종>/*.json` 은 MEL PDF에서 `tools/mel_extract.py` 로 만든 색인(항목·운항절차·ECAM 엔트리)이고, `build.py --v3` 가 `v3/mel/` 로 복사한다. 원본(notammap)과 무관하므로 원본 업데이트 때 그대로 유지한다.
+- MEL 개정판이 나오면: `python3 tools/mel_extract.py <새 MEL.pdf> data/mel/a321 --ko data/mel-ko/a321` → 출력의 `stale`(원문이 바뀐 항목)·`missing`(새 항목) 목록을 다시 번역해 `data/mel-ko/a321/ko_<ATA>.json` 에 반영(`tools/mel_ko_merge.py`) → 다시 조립·푸시.
+- 한국어 해석은 `data/mel-ko/<기종>/ko_<ATA>.json` (원문 해시 포함)에 보관한다. 해시가 다르면 UI가 "이전 개정판 기준" 경고를 띄운다.

@@ -2,7 +2,7 @@
 """친절모드 조립 스크립트.
 사용: python3 build.py <원본 index.html> <출력 폴더> [--v3]
   원본(fly-smart-team/notammap index.html) 끝에 src/*.js 를 끼워 넣어 index.html 을 만든다.
-  --v3 : pro.js(브리핑 보조)까지 포함.
+  --v3 : pro.js(브리핑 보조)·mel.js(MEL 바로 보기)·data/mel 색인까지 포함.
 원본 구조가 바뀌어 친절모드가 붙을 자리를 못 찾으면 종료코드 2 로 실패한다 (상충 보고용).
 """
 import re, sys, os, shutil
@@ -66,8 +66,8 @@ def main():
     h1 = re.search(r'<h1[^>]*>.*?</h1>', o, re.S).group(0)
     tag = ' <span style="font-size:12px;color:#67e8f9">· 친절모드' + (' v3' if v3 else '') + '</span></h1>'
     o = o.replace(h1, '<div>' + h1.replace('</h1>', tag) +
-        '<div style="font-size:10px;color:#64748b">원본: fly-smart-team/notammap · 한국어 해설·SR 구간·실시간 위치·흔들림 정보' + (' · 브리핑 보조' if v3 else '') + ' 추가</div></div>', 1)
-    files = ['kind.js', 'addon.js', 'turb.js'] + (['pro.js'] if v3 else [])
+        '<div style="font-size:10px;color:#64748b">원본: fly-smart-team/notammap · 한국어 해설·SR 구간·실시간 위치·흔들림 정보' + (' · 브리핑 보조 · MEL 바로 보기' if v3 else '') + ' 추가</div></div>', 1)
+    files = ['kind.js', 'addon.js', 'turb.js'] + (['pro.js', 'mel.js'] if v3 else [])
     js = '\n'.join(open(os.path.join(src_dir, f), encoding='utf-8').read() for f in files)
     sw = "\n// 오프라인 캐시 등록 (https 웹 주소에서만 동작)\nif ('serviceWorker' in navigator && location.protocol === 'https:') { navigator.serviceWorker.register('sw.js').catch(() => {}); }\n"
     i = o.rfind('</body>')
@@ -76,6 +76,12 @@ def main():
     open(os.path.join(out_dir, 'index.html'), 'w', encoding='utf-8').write(o)
     for f in ['sw.js', 'manifest.webmanifest', 'icon.svg']:
         shutil.copy(os.path.join(src_dir, f), os.path.join(out_dir, f))
+    # MEL 색인 데이터 (data/mel/<fleet>/*.json) → 출력폴더/mel/
+    data_dir = os.path.join(here, 'data', 'mel')
+    if v3 and os.path.isdir(data_dir):
+        dst = os.path.join(out_dir, 'mel')
+        if os.path.isdir(dst): shutil.rmtree(dst)
+        shutil.copytree(data_dir, dst)
     # 캐시 이름에 빌드 식별자 → 새 버전이 올라가면 오프라인 캐시 교체
     import hashlib
     h = hashlib.sha1(o.encode('utf-8')).hexdigest()[:10]
