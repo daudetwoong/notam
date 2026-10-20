@@ -104,7 +104,7 @@
   function melLines() {
     const t = ofp(); const a = t.search(/MEL\s*\/\s*CDL ITEMS/); if (a < 0) return null;
     const block = t.slice(a, a + 3000).split('\n').slice(1);
-    const out = []; for (const l of block) { if (/^\s*\d+\.\s+[A-Z]/.test(l)) break; const m = l.match(/^\s*-\s*(MEL|CDL)\s+([0-9]{2}-[0-9]{2}-[0-9]{2}[A-Z]?)\s*:?\s*(.*)$/); if (m) out.push({ kind: m[1], code: m[2], desc: m[3].trim() }); else if (/^\s*-\s*NIL\b/.test(l)) return []; }
+    const out = []; for (const l of block) { if (/^\s*\d+\.\s+[A-Z]/.test(l)) break; const m = l.match(/^\s*-\s*(MEL|CDL)\s+([0-9]{2}-[0-9]{2}-[0-9]{2}(?:-[0-9]{2})?[A-Z]?)\s*:?\s*(.*)$/); if (m) out.push({ kind: m[1], code: m[2], desc: m[3].trim() }); else if (/^\s*-\s*NIL\b/.test(l)) return []; }
     return out;
   }
 
@@ -184,10 +184,10 @@
     const q = ($id('km-q').value || '').trim().toUpperCase(); const res = $id('km-res'), show = $id('km-show'); show.innerHTML = ''; res.innerHTML = '';
     if (!q) return;
     const f = fleetOf().fleet || 'a321'; const idx = await loadIndex(f); if (!idx) { res.innerHTML = '<div class="kp-dim">색인이 없어요.</div>'; return; }
-    const cm = q.match(/^(\d{2})-?(\d{2})?-?(\d{2})?([A-Z])?$/);
+    const cm = q.match(/^(\d{2})-?(\d{2})?-?(\d{2})?-?(\d{2})?([A-Z])?$/);
     if (cm) { // 번호 검색 (앞부분만 넣어도 됨)
       const ata = cm[1]; const d = await getJson(`${f}/${ata}.json`); if (!d) { res.innerHTML = '<div class="kp-dim">그 챕터가 없어요.</div>'; return; }
-      const pref = cm[1] + (cm[2] ? '-' + cm[2] : '') + (cm[3] ? '-' + cm[3] : '') + (cm[4] || '');
+      const pref = cm[1] + (cm[2] ? '-' + cm[2] : '') + (cm[3] ? '-' + cm[3] : '') + (cm[4] ? '-' + cm[4] : '') + (cm[5] || '');
       const hits = Object.keys(d.items).filter(c => c.startsWith(pref)).slice(0, 40);
       if (!hits.length) { res.innerHTML = '<div class="kp-dim">없어요.</div>'; return; }
       if (hits.length === 1) { show.innerHTML = card(hits[0], d.items[hits[0]], d.ops[hits[0]], '', 'MEL'); return; }
@@ -208,7 +208,7 @@
     const h = e.target.closest('.km-hit'); if (!h) return; const f = fleetOf().fleet || 'a321'; const show = $id('km-show');
     if (h.dataset.code) { const r = await lookup(f, h.dataset.code); show.innerHTML = card(h.dataset.code, r.it, r.op, '', 'MEL'); show.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); return; }
     if (h.dataset.ecam) { const ec = await getJson(`${f}/ecam.json`); const en = ec && ec.ecam.find(x => x.t === h.dataset.ecam); if (!en) return;
-      const codes = [...new Set((en.txt.match(/\b\d{2}-\d{2}-\d{2}[A-Z]?\b/g) || []))];
+      const codes = [...new Set((en.txt.match(/\b\d{2}-\d{2}-\d{2}(?:-\d{2})?[A-Z]?\b/g) || []))];
       show.innerHTML = `<div class="km-card"><div class="km-title">⚡ ECAM: ${esc(en.t)} <span class="km-sub">p.${en.p}</span></div><div class="km-txt">${hl(dedent(en.txt))}</div>${codes.length ? `<div>${codes.map(c => `<span class="km-hit" style="display:inline-block;margin:2px 4px 0 0" data-code="${c}"><b>${c}</b> 열기</span>`).join('')}</div>` : ''}</div>`;
       show.querySelectorAll('[data-code]').forEach(el => el.addEventListener('click', async () => { const r = await lookup(f, el.dataset.code); show.insertAdjacentHTML('beforeend', card(el.dataset.code, r.it, r.op, '', 'MEL')); }));
     }
