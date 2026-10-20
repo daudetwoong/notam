@@ -69,7 +69,23 @@ def main():
         '<div style="font-size:10px;color:#64748b">원본: fly-smart-team/notammap · 한국어 해설·SR 구간·실시간 위치·흔들림 정보' + (' · 브리핑 보조 · MEL 바로 보기' if v3 else '') + ' 추가</div></div>', 1)
     files = ['kind.js', 'addon.js', 'turb.js', 'fpl.js'] + (['pro.js', 'mel.js'] if v3 else [])
     js = '\n'.join(open(os.path.join(src_dir, f), encoding='utf-8').read() for f in files)
-    sw = "\n// 오프라인 캐시 등록 (https 웹 주소에서만 동작)\nif ('serviceWorker' in navigator && location.protocol === 'https:') { navigator.serviceWorker.register('sw.js').catch(() => {}); }\n"
+    sw = '''
+// 오프라인 캐시 등록 (https 웹 주소에서만 동작) · 새 버전이 내려오면 위에 안내 띠를 띄움
+if ('serviceWorker' in navigator && location.protocol === 'https:') {
+  let hadCtrl = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!hadCtrl) { hadCtrl = true; return; }   // 첫 설치는 안내 불필요
+    if (document.getElementById('kd-upd')) return;
+    const b = document.createElement('div'); b.id = 'kd-upd';
+    b.style.cssText = 'position:fixed;left:50%;top:10px;transform:translateX(-50%);z-index:99999;background:#0e7490;color:#fff;font-size:13px;font-weight:700;padding:10px 16px;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,.5);display:flex;gap:10px;align-items:center';
+    b.innerHTML = '🆕 새 버전이 준비됐어요 <button id="kd-upd-go" style="background:#fff;color:#0e7490;border:0;border-radius:8px;padding:6px 10px;font-weight:800">새로고침</button><button id="kd-upd-x" style="background:transparent;color:#a5f3fc;border:0;font-size:16px">✕</button>';
+    document.body.appendChild(b);
+    b.querySelector('#kd-upd-go').onclick = () => location.reload();
+    b.querySelector('#kd-upd-x').onclick = () => b.remove();
+  });
+  navigator.serviceWorker.register('sw.js').then(r => { try { r.update(); } catch (e) {} }).catch(() => {});
+}
+'''
     i = o.rfind('</body>')
     o = o[:i] + '<script>\n' + js + sw + '</script>\n' + o[i:]
     os.makedirs(out_dir, exist_ok=True)
