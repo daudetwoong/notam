@@ -1,0 +1,42 @@
+{
+"items": {
+"74-07-01A": {
+"h": "bcc10218",
+"ko": "(o) 해당 ENG 1(2) IGN A(B)(A+B) FAULT alert가 작동하는 것을 확인한 조건이면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 74-07-01A Selected Igniter Indication on the ENGINE SD page 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"74-09-01B": {
+"h": "aa302ab0",
+"ko": "(m) 해당 엔진 점화 계통(ignition system)이 작동하는 것을 매일 확인하는 조건이면 하나가 표시된 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry(정비일지 기록)를 작성한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 74-31-00-040-805 참조 (정비 절차)"
+},
+"74-09-01C": {
+"h": "6c041f55",
+"ko": "(m) 해당 엔진 점화 계통(ignition system)들이 작동하는 것을 매 비행 전 확인하는 조건이면 최대 3개까지 표시된 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry(정비일지 기록)를 작성한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 74-31-00-040-805 참조 (정비 절차)"
+},
+"74-09-01A": {
+"h": "9faaba24",
+"ko": "최대 3개까지 표시된 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"74-31-01A": {
+"h": "93d31194",
+"ko": "(o) 다음 조건이면 하나가 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) 해당 엔진의 ignition system B가 작동한다.\nNote: ENG 1(2) START FAULT [ENG 1(2) IGN A FAULT] alert가 발생한 경우, AMM task 74-31-00-040-804를 적용하여 Ignition System A를 복구할 수 있다. 이 정비 작업을 적용한 후에는 system B가 작동 불능이 된다.\nItem 74-31-02 Ignition System B 참조\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE (정비 조치)>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 74-31-01A Ignition System A 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"74-31-02A": {
+"h": "dcc78f44",
+"ko": "(o) 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 74-31-02A Ignition System B 참조 (운항 절차 — 아래 운항 절차 칸)"
+}
+},
+"ops": {
+"74-07-01A": {
+"h": "1113322b",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nAFTER ENGINE START (엔진 시동 후)\n• 엔진 1이 해당되는 경우:\n‐ ENGINE/1 AND 2/IGN/SYS A (49VU A03) C/B ..... PULL (C/B를 뽑는다)\n‐ ENGINE/IGN/ENG 1/ SYS A BAT (121VU P39) C/B ..... PULL\n‐ ENGINE/IGN/ENG 1/ SYS B (121VU P41) C/B ..... PULL\n• 엔진 2가 해당되는 경우:\n‐ ENGINE/1 AND 2/IGN/SYS A (49VU A03) C/B ..... PULL\n‐ ENGINE/IGN/ENG 2/ SYS A BAT (121VU P40) C/B ..... PULL\n‐ ENGINE/IGN/ENG 2/ SYS B (121VU P42) C/B ..... PULL\nEWD에 ENG 1(2) A+B IGN FAULT alert가 표시되는지 확인한다.\n• 엔진 1이 해당되는 경우:\n‐ ENGINE/1 AND 2/IGN/SYS A (49VU A03) C/B ..... PUSH (C/B를 다시 밀어 넣는다)\n‐ ENGINE/IGN/ENG 1/ SYS A BAT (121VU P39) C/B ..... PUSH\n‐ ENGINE/IGN/ENG 1/ SYS B (121VU P41) C/B ..... PUSH\n• 엔진 2가 해당되는 경우:\n‐ ENGINE/1 AND 2/IGN/SYS A (49VU A03) C/B ..... PUSH\n‐ ENGINE/IGN/ENG 2/ SYS A BAT (121VU P40) C/B ..... PUSH\n‐ ENGINE/IGN/ENG 2/ SYS B (121VU P42) C/B ..... PUSH"
+},
+"74-31-01A": {
+"h": "8af14e32",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 받는다.\nBEFORE ENGINE START (엔진 시동 전)\n지상에서 자동 시동(automatic start) 중 FADEC이 Ignition System A를 선택하면 엔진 시동에 실패하고, Ignition System A 고장 관련 alert가 EWD에 나타난다. 그 다음 FADEC은 두 점화 계통을 모두 선택한 상태로 자동으로 추가 시동을 시도한다.\n첫 시도에서 엔진이 시동될 확률을 최대로 하려면 FADEC이 Ignition System B를 선택하도록 해야 한다. 다음 중 한 가지 방법으로 엔진을 시동한다:\n• 자동 시동(automatic engine start):\n• 엔진 시동 전:\nENGINE/1 AND 2/IGN/SYS A (49VU A03) C/B ..... PULL (C/B를 뽑는다)\n• 엔진 시동 후:\nENGINE/1 AND 2/IGN/SYS A (49VU A03) C/B ..... PUSH (C/B를 다시 밀어 넣는다)\n• 수동 시동(manual engine start):\nFCOM/PRO-NOR-SUP-ENG Manual Engine Start - Procedure 참조.\nIgnition System A의 circuit breaker를 뽑지 않고 자동 시동을 하는 것도 여전히 가능하다. FADEC이 Ignition System B를 선택할 수 있으므로 첫 시동 시도가 성공할 수도 있다. 그러나 FADEC이 Ignition System A를 선택할 수 있으므로 첫 시동 시도가 실패할 수도 있다."
+},
+"74-31-02A": {
+"h": "5ad05622",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nBEFORE ENGINE START (엔진 시동 전)\n지상에서 자동 시동(automatic start) 중 FADEC이 Ignition System B를 선택하면 엔진 시동에 실패하고, Ignition System B 고장 관련 alert가 EWD에 나타난다. 그 다음 FADEC은 두 점화 계통을 모두 선택한 상태로 자동으로 추가 시동을 시도한다.\n첫 시도에서 엔진이 시동될 확률을 최대로 하려면 FADEC이 Ignition System A를 선택하도록 해야 한다. 다음 중 한 가지 방법으로 엔진을 시동한다:\n• 자동 시동(automatic engine start):\n• 엔진 시동 전:\nENGINE/IGN/ENG 1(2)/SYS B (121VU P41 or P42) C/B ..... PULL (C/B를 뽑는다)\n• 엔진 시동 후:\nENGINE/IGN/ENG 1(2)/SYS B (121VU P41 or P42) C/B ..... PUSH (C/B를 다시 밀어 넣는다)\n• 수동 시동(manual engine start):\nFCOM/PRO-NOR-SUP-ENG Manual Engine Start - Procedure 참조.\nIgnition System B의 circuit breaker를 뽑지 않고 자동 시동을 하는 것도 여전히 가능하다. FADEC이 Ignition System A를 선택할 수 있으므로 첫 시동 시도가 성공할 수도 있다. 그러나 FADEC이 Ignition System B를 선택할 수 있으므로 첫 시동 시도가 실패할 수도 있다."
+}
+}
+}

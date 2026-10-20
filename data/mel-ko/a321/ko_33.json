@@ -1,0 +1,226 @@
+{
+"items": {
+"33-10-01A": {
+"h": "377b6a2a",
+"ko": "다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 모든 계기와 조작 장치(instruments and controls)에 대해 조명이 충분하고,\n2) RH dome light(우측 돔 라이트)가 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-20-01A": {
+"h": "af1cab0a",
+"ko": "(o) 다음 조건이면 하나 이상의 등(light)이 작동 불능 상태로 운항할 수 있다:\n1) 객실승무원이 임무를 수행하기에 조명이 충분하고,\n2) 축광식(photoluminescent) Floor Path Marking System(바닥 비상탈출 경로 표시)을 충전(charge)하기에 조명이 충분하다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 33-20-01A Cabin General Illumination 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"33-20-02A": {
+"h": "c4a64fa1",
+"ko": "다음 조건이면 하나 이상이 작동 불능이어도 되고, 해당 승객 좌석에 승객이 앉아도 된다:\n1) 기내 방송(passenger address, PA) 시스템이 작동하고, 비행 중 객실 전체에서 들을 수 있으며,\n2) 좌석 복귀 요청 시, 좌석벨트를 매야 할 때, 그리고 흡연이 금지됨을 알릴 때 PA 시스템을 사용하여 승객에게 알린다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-20-02B": {
+"h": "b44cf1ff",
+"ko": "(m) 다음 조건이면 하나 이상의 “No Smoking/No Electronic Devices/Fasten Seat Belt” sign이 작동 불능 상태로 운항할 수 있다:\n1) 쉽게 읽을 수 있는 “No Smoking/No Electronic Devices/Fasten Seat Belt” sign이 보이지 않는 승객 좌석에는 승객을 앉히지 않고,\n2) 해당 좌석은 사용 차단(block)하고 작동 불능 플래카드를 붙인다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 33-20-00-040-001 참조 (정비 절차)"
+},
+"33-20-03A": {
+"h": "0aca5651",
+"ko": "(o) 필요 시 화장실 사용자에게 좌석으로 돌아가도록 알리는 대체 절차(alternate procedure)를 수립하고 사용한다면, 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 33-20-03A Lavatory Sign (Return to seat) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"33-20-03B": {
+"h": "e58bb03e",
+"ko": "해당 화장실(lavatory)을 잠가 닫고 작동 불능 플래카드를 붙인다면, 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-20-04A": {
+"h": "479a81cb",
+"ko": "조명이 충분하다면 하나 이상의 등(light)이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-20-04B": {
+"h": "ea12a56f",
+"ko": "해당 화장실을 잠가 닫고 작동 불능 플래카드를 붙인다면, 하나 이상의 등이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-30-01A": {
+"h": "db02baf4",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-40-01A": {
+"h": "26dcaa4b",
+"ko": "(o) 주간 운항(daylight operations)에 한해 하나 이상의 NAV 1 light가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 사항)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 33-40-01A NAV 1 Light 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"33-40-01B": {
+"h": "5496ba27",
+"ko": "모든 NAV 2 light가 작동한다면 하나 이상의 NAV 1 light가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-40-02A": {
+"h": "c988dcab",
+"ko": "하나 이상의 NAV 2 light가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-40-03A": {
+"h": "6b2d2406",
+"ko": "taxi light와 takeoff light가 둘 다 작동한다면 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-40-03B": {
+"h": "205bf336",
+"ko": "(o) 주간 운항(daylight operations)에 한해 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 사항)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 33-40-03B Landing light 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"33-40-04A": {
+"h": "a61deeb9",
+"ko": "(o) 하나 또는 둘 다 펼쳐진(extended) 위치에서 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 사항)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 33-40-04A Landing light Extension/Retraction System 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"33-40-04B": {
+"h": "48da6f22",
+"ko": "해당 landing light를 작동 불능으로 간주한다면, 하나 또는 둘 다 접힌(retracted) 위치에서 작동 불능이어도 된다.\nItem 33-40-03 Landing light 참조"
+},
+"33-40-05A": {
+"h": "f2b32238",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-40-06A": {
+"h": "f2b32238",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-40-07A": {
+"h": "230e465a",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-40-08A": {
+"h": "5d007895",
+"ko": "(o) Strobe light가 작동한다면 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 33-40-08A Beacon light 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"33-40-09A": {
+"h": "23d2c863",
+"ko": "하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-40-09B": {
+"h": "e7b801a1",
+"ko": "(o) 주간 운항(daylight operations)에 한해 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 사항)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 33-40-09B Wing Scan light 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"33-40-10A": {
+"h": "367d0427",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-51-01A": {
+"h": "efeb8462",
+"ko": "하나 이상의 sign(표시등)에서, 서로 인접하지 않은(non-adjacent) LED/전구가 최대 3개까지 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-51-01B": {
+"h": "6a3532fc",
+"ko": "해당 exit(비상구)을 작동 불능으로 간주한다면, 하나가 작동 불능인 상태로 5 비행(5 flights)까지 운항할 수 있다.\nItem 52-10-01 Cabin Door 참조\nNote: <MAINTENANCE> (정비 사항)\n1. Defer Control(이연 관리)은 MCC에 연락."
+},
+"33-51-02A": {
+"h": "bb8fc973",
+"ko": "하나 이상의 sign(표시등)에서, 서로 인접하지 않은(non-adjacent) 전구/LED가 최대 3개까지 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-51-03A": {
+"h": "9f40b84b",
+"ko": "서로 인접하지 않은(non-adjacent) overhead emergency light(천장 비상등)가 최대 3개까지 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-51-04A": {
+"h": "8f59c504",
+"ko": "해당 exit(비상구)을 작동 불능으로 간주한다면, 하나가 작동 불능인 상태로 5 비행(5 flights)까지 운항할 수 있다.\nItem 52-10-01 Cabin Door 참조\nNote: <MAINTENANCE> (정비 사항)\n1. Defer Control(이연 관리)은 MCC에 연락."
+},
+"33-51-05A": {
+"h": "45938908",
+"ko": "다음 조건이면 작동 불능이거나 없어진(missing) 상태로 운항할 수 있다:\n1) 영향받은 각 구간(section)의 길이가 0.5 m를 넘지 않고,\n2) 영향받은 구간들이 서로 마주 보고 있지 않고,\n3) 영향받은 구간 사이의 거리가 2 m를 넘고,\n4) 객실 존(cabin zone)당 영향받은 구간이 2개를 넘지 않고,\n5) 직각 교차점(right angle intersection)을 표시하는 구간(cross-aisle 및 overwing exit 포함)은 작동하고,\n6) 직각 교차점을 표시하는 띠(strip)로부터 1 m 이내의 모든 구간은 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-51-05B": {
+"h": "940ff2e9",
+"ko": "다음 조건이면 작동 불능이거나 없어진(missing) 상태로 운항할 수 있다:\n1) 영향받은 각 구간(section)의 길이가 0.5 m를 넘지 않고,\n2) 영향받은 구간들이 서로 마주 보고 있지 않고,\n3) 영향받은 구간 사이의 거리가 2 m를 넘고,\n4) 객실 존(cabin zone)당 영향받은 구간이 2개를 넘지 않고,\n5) 직각 교차점(right angle intersection)을 표시하는 구간(cross-aisle 포함)은 작동하고,\n6) 직각 교차점을 표시하는 띠(strip)로부터 1 m 이내의 모든 구간은 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-51-07A": {
+"h": "6a3532fc",
+"ko": "해당 exit(비상구)을 작동 불능으로 간주한다면, 하나가 작동 불능인 상태로 5 비행(5 flights)까지 운항할 수 있다.\nItem 52-10-01 Cabin Door 참조\nNote: <MAINTENANCE> (정비 사항)\n1. Defer Control(이연 관리)은 MCC에 연락."
+},
+"33-51-07B": {
+"h": "dd676876",
+"ko": "해당 cabin overwing exit(객실 날개 위 비상구)을 작동 불능으로 간주한다면, 같은 쪽에서 하나 또는 두 개가 작동 불능인 상태로 5 비행(5 flights)까지 운항할 수 있다.\nItem 52-10-02 Cabin Overwing Exit 참조\nNote: <MAINTENANCE> (정비 사항)\n1. Defer Control(이연 관리)은 MCC에 연락."
+},
+"33-51-08A": {
+"h": "4bfd274e",
+"ko": "(o) 주간 운항(daylight operations)에 한해 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 사항)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 33-51-08A Overwing Emergency light 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"33-51-08B": {
+"h": "321b9f3e",
+"ko": "해당 cabin overwing exit(객실 날개 위 비상구)을 작동 불능으로 간주한다면, 같은 쪽에서 하나 또는 두 개가 작동 불능인 상태로 5 비행(5 flights)까지 운항할 수 있다.\nItem 52-10-02 Cabin Overwing Exit 참조\nNote: cabin overwing exit가 두 쌍 장착된 항공기에서는, 같은 쪽의 cabin overwing exit 둘 다를 작동 불능으로 간주해야 한다.\nNote: <MAINTENANCE> (정비 사항)\n1. Defer Control(이연 관리)은 MCC에 연락."
+},
+"33-51-09A": {
+"h": "68e7c8a2",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-51-10A": {
+"h": "50623095",
+"ko": "(o) 주간 운항(daylight operations)에 한해 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 사항)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 33-51-10A Escape Slide light 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"33-51-10B": {
+"h": "92860ef2",
+"ko": "해당 exit(비상구)을 작동 불능으로 간주한다면, 하나가 작동 불능인 상태로 5 비행(5 flights)까지 운항할 수 있다.\nItem 52-10-01 Cabin Door 참조\nNote: <MAINTENANCE> (정비 사항)\n1. Defer Control(이연 관리)은 MCC에 연락."
+},
+"33-51-11A": {
+"h": "0d32986e",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-01-01-01A": {
+"h": "62b32a4a",
+"ko": "작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-01-01-02A": {
+"h": "2c42b32b",
+"ko": "bright lighting(밝은 조명)이 작동하는 조건이면 dim lighting(어두운 조명)이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-01-01-03A": {
+"h": "7994417f",
+"ko": "야간 운항(night operation)의 경우 bright lighting(밝은 조명)이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-01-02-01A": {
+"h": "62b32a4a",
+"ko": "작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"33-01-02-02A": {
+"h": "2acadf3c",
+"ko": "(o) 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 33-01-02-02A AUTO Function of SEAT BELT SIGNS sw 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"33-01-02-03A": {
+"h": "65027530",
+"ko": "(o) 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 33-01-02-03A AUTO Function of NO SMOKING/EXIT/NO PORTABLE SIGNS sw 참조 (운항 절차 — 아래 운항 절차 칸)"
+}
+},
+"ops": {
+"33-20-01A": {
+"h": "1cbd7d2e",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\n축광식(photoluminescent) Floor Path Marking System을 올바르게 충전하려면, 객실 조명의 최소 50 %가 밝기 50 %로 켜져 있어야 한다.\nNote: FAP(Flight Attendant Panel)의 DIM 1 밝기 수준이 밝기 50 %에 해당한다.\n출발 전 PIC(기장)는 Purser(사무장)에게 연락하여 FAP에서 객실 조명 시스템을 확인하게 해야 한다.\n※ 필요하면 MCC에 연락."
+},
+"33-20-03A": {
+"h": "803c9fa2",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n대체 절차(alternate procedure)로,\n‐ 해당 화장실의 문을 닫은 상태에서 기내 방송(PA) 시스템이 작동하는지 확인한다.\n‐ 화장실 사용자에게 좌석으로 돌아가도록 알리는 데 PA 시스템을 사용한다."
+},
+"33-40-01A": {
+"h": "7ad3a0a7",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n주간(daylight)에만 운항한다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release를 갱신하고 “FLIGHT PLANNING RESTRICTIONS”를 확인한다."
+},
+"33-40-03B": {
+"h": "7ad3a0a7",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n주간(daylight)에만 운항한다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release를 갱신하고 “FLIGHT PLANNING RESTRICTIONS”를 확인한다."
+},
+"33-40-04A": {
+"h": "47dc4954",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n펼쳐진(extended) landing light 하나당 연료 소모가 1 % 증가한다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release를 갱신하고 “FLIGHT PLANNING RESTRICTIONS”를 확인한다."
+},
+"33-40-08A": {
+"h": "673a7f2d",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nBEFORE ENGINE START (엔진 시동 전)\n• 하부(lower) beacon light가 작동 불능이고,\n그리고\n이 등을 지상 요원에게 엔진 시동을 알리는 데 사용하는 경우:\n‐ strobe light를 켜고, interphone으로 지상 요원(ground crew)에게 엔진 시동을 알린다. 양쪽 엔진의 시동이 완전히 끝나면 strobe light를 끈다.\n‐ interphone 통신이 불가능하면, 운항승무원은 수신호(hand signal)로 지상 요원과 교신한다.\n운항승무원과 지상 요원은 ICAO 규정에 따른 필요한 수신호를 서로 확인해야 한다.\nPARKING (주기)\n• 하부(lower) beacon light가 작동 불능이고,\n그리고\n이 등을 지상 요원에게 엔진 정지(spool down)를 알리는 데 사용하는 경우:\n‐ 엔진 정지(shut down) 후 strobe light를 켰다가 끈다.\n‐ 운항승무원은 수신호(hand signal)로 지상 요원과 교신한다.\n운항승무원과 지상 요원은 ICAO 규정에 따른 필요한 수신호를 서로 확인해야 한다."
+},
+"33-40-09B": {
+"h": "7ad3a0a7",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n주간(daylight)에만 운항한다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release를 갱신하고 “FLIGHT PLANNING RESTRICTIONS”를 확인한다."
+},
+"33-51-08A": {
+"h": "7ad3a0a7",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n주간(daylight)에만 운항한다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release를 갱신하고 “FLIGHT PLANNING RESTRICTIONS”를 확인한다."
+},
+"33-51-10A": {
+"h": "7ad3a0a7",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n주간(daylight)에만 운항한다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release를 갱신하고 “FLIGHT PLANNING RESTRICTIONS”를 확인한다."
+},
+"33-01-02-02A": {
+"h": "8dd0f579",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nSEAT BELTS sw ..... ON\nAFTER TAKEOFF (이륙 후)\nSEAT BELTS sw ..... As required (필요에 따라)\nDURING APPROACH (접근 중)\nSEAT BELTS sw ..... ON"
+},
+"33-01-02-03A": {
+"h": "e4a68d6c",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND OR IN FLIGHT (지상 또는 비행 중)\n필요에 따라 NO SMOKING sw를 ON으로 놓는다."
+}
+}
+}

@@ -1,0 +1,22 @@
+{
+"items": {
+"71-09-01A": {
+"h": "114010f1",
+"ko": "(o) 매 비행 전에 해당 fan cowl door latch(팬 카울 도어 걸쇠)가 닫혀 있는지 확인한다면, 하나 또는 둘 다 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 71-09-01A ENG 1(2) FAN COWL NOT CLSD Alert 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"71-13-01A": {
+"h": "3be73b31",
+"ko": "(o) (m) 다음 조건이면 하나 또는 둘 다 작동 불능 상태로 운항할 수 있다:\n1) Fan Cowl Loss Prevention Mechanical system(팬 카울 이탈 방지 기계 장치)을 inhibit(억제)하고,\n2) 매 비행 전에 해당 fan cowl latch가 닫혀 있는지 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 사항)\n1. 반복 정비 조치 필요 — 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 71-13-01A Fan Cowl Loss Prevention Mechanical System 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 71-13-00-040-816 참조 (정비 절차)"
+}
+},
+"ops": {
+"71-09-01A": {
+"h": "06fa9cd7",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n정비사(maintenance personnel)에게 연락하여 해당 fan cowl door latch가 닫혀 있는지 확인하게 한다. 정비사가 없으면 Return To Gate(게이트로 돌아간다).\nEXTERIOR WALKAROUND (외부 점검)\n외부 점검(exterior walkaround) 중 운항승무원은 각 엔진의 양쪽에서 모든 fan cowl door latch가 올바르게 닫혀 있는지 주의 깊게 확인해야 한다.\n필요하면 손전등(torch)을 사용하고 몸을 낮춰(crouch) 확인한다."
+},
+"71-13-01A": {
+"h": "06fa9cd7",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n정비사(maintenance personnel)에게 연락하여 해당 fan cowl door latch가 닫혀 있는지 확인하게 한다. 정비사가 없으면 Return To Gate(게이트로 돌아간다).\nEXTERIOR WALKAROUND (외부 점검)\n외부 점검(exterior walkaround) 중 운항승무원은 각 엔진의 양쪽에서 모든 fan cowl door latch가 올바르게 닫혀 있는지 주의 깊게 확인해야 한다.\n필요하면 손전등(torch)을 사용하고 몸을 낮춰(crouch) 확인한다."
+}
+}
+}

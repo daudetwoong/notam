@@ -1,0 +1,434 @@
+{
+"items": {
+"22-00-00A": {
+"h": "0291fc12",
+"ko": "(o) Downgrade 상태로 인해 autoland 능력이 CAT III(Fail-Passive) 운항으로 제한된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. 이 이연(deferral)을 적용하거나 해제하려면 MCC 승인이 필요하다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-00-00A Autoland Capability (Downgraded to CAT III(Fail-Passive)) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-00-00B": {
+"h": "99d5b8f5",
+"ko": "(o) Downgrade 상태로 인해 autoland 능력이 CAT II 운항으로 제한된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. 이 이연(deferral)을 적용하거나 해제하려면 MCC 승인이 필요하다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-00-00B Autoland Capability (Downgraded to CAT II) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-00-00C": {
+"h": "6be1ad04",
+"ko": "(o) Downgrade 상태로 인해 autoland 능력이 CAT I 운항으로 제한된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. 이 이연(deferral)을 적용하거나 해제하려면 MCC 승인이 필요하다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-00-00C Autoland Capability (Downgraded to CAT I) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-05-01A": {
+"h": "c827a153",
+"ko": "(o) 한쪽 FMA에서 하나 이상의 지시(indication)가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-05-01A AP/FD Related Indications on the FMA (inoperative on one FMA) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-05-01B": {
+"h": "c5b39b15",
+"ko": "(o) 다음 조건이면 양쪽 FMA에서 하나 이상의 지시(indication)가 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) AP를 사용하지 않는다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE>\n1. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-05-01B AP/FD Related Indications on the FMA (inoperative on both FMAs) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-05-02A": {
+"h": "6855d082",
+"ko": "한쪽 FMA에서 하나 이상의 지시(indication)가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"22-05-02B": {
+"h": "d8d54574",
+"ko": "autothrust(A/THR)를 작동 불능으로 간주하면 양쪽 FMA에서 하나 이상의 지시(indication)가 작동 불능이어도 된다.\nItem 22-30-01 Autothrust (A/THR) 참조"
+},
+"22-05-03A": {
+"h": "e331e79c",
+"ko": "(o) 한쪽 또는 양쪽 FMA에서 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-05-03A Approach and Landing Capabilities on the FMA 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-05-04A": {
+"h": "eb2b38d9",
+"ko": "“MAN PITCH TRIM ONLY” 메시지는 한쪽에서는 반드시 작동해야 한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"22-10-01A": {
+"h": "3d864e44",
+"ko": "(o) 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-10-01A Autopilot (AP) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-10-01B": {
+"h": "bd482b56",
+"ko": "(o) EDTO를 수행하지 않는다면 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-10-01B Autopilot (AP) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-10-02A": {
+"h": "1a12292c",
+"ko": "(o) 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-10-02A Flight Director (FD) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-10-02B": {
+"h": "04815444",
+"ko": "(o) AP/FD TCAS 기능을 작동 불능으로 간주하면 둘 다 작동 불능이어도 된다.\nItem 22-10-08 AP/FD TCAS Mode 참조.\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-10-02B Flight Director (FD) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-10-03A": {
+"h": "d4fa86a6",
+"ko": "둘 다 작동해야 한다."
+},
+"22-10-04A": {
+"h": "47608124",
+"ko": "(o) 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-10-04A Take-over pb AP Disconnection Function (One inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-10-04B": {
+"h": "d33280b5",
+"ko": "(o) 접근(approach)에 AP를 사용하지 않는다면 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-10-04B Take-over pb AP Disconnection Function (Both inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-10-05A": {
+"h": "28adc197",
+"ko": "(o) 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-10-05A AUTO LAND light 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-10-06A": {
+"h": "356a6afe",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) AP를 engage하지 않는다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-10-06A AP Disengagement Warning 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-10-07A": {
+"h": "54735345",
+"ko": "(o) autoland를 수행하지 않는다면 하나 또는 두 개가 잠기지 않은(unlocked) 상태로 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-10-07A Sticks and Rudder Pedals Locking Solenoid in AP Mode 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-10-08A": {
+"h": "3053639b",
+"ko": "(o) 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 22-10-08A AP/FD TCAS Mode 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-10-09A": {
+"h": "b9a4bf15",
+"ko": "(o) 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 22-10-09A Soft Go-Around Function 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-30-01A": {
+"h": "ff0a353f",
+"ko": "(o) 매 비행 전에 autothrust(A/THR)를 disconnect한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-30-01A Autothrust (A/THR) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-30-02A": {
+"h": "53fdf4ec",
+"ko": "(o) 남은 Instinctive Disconnect pb와 FCU의 A/THR pb로 autothrust(A/THR)를 disconnect할 수 있는지 매 비행 전에 확인한다면 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 22-30-02A Autothrust Instinctive Disconnect pb 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-30-03A": {
+"h": "07f8b0c6",
+"ko": "autothrust(A/THR)를 작동 불능으로 간주하면 작동 불능 상태로 운항할 수 있다.\nItem 22-30-01 Autothrust (A/THR) 참조"
+},
+"22-60-01A": {
+"h": "cfdaef63",
+"ko": "(m) 작동해야 한다.\nNote: 관련 AUTO FLT/FAC1/28VDC C/B가 trip된 상태로 AUTO FLT FAC 1 FAULT 경고가 표시될 수 있다.\n이는 rudder trim actuator channel 1 또는 rudder travel limitation unit channel 1 내부의 단락(short circuit) 때문일 수 있다.\n이 경우, 해당 정비 절차로 rudder 계통의 영향받은 부분을 비활성화(deactivate)하면 FAC 1을 복구할 수 있다.\nAMM 27-22-00-040-001 참조, 또는\nAMM 27-23-00-040-001 참조.\nItem 27-22-01 Rudder Trim System 참조, 또는\nItem 27-23-01 Rudder Travel Limiter System 참조\n참조\n(m) AMM Task 27-22-00-040-001 및(또는) 27-23-00-040-001 참조 (정비 절차)"
+},
+"22-60-02A": {
+"h": "2392d6d5",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 모든 ADIRS, ELAC, SEC, SFCC, LGCIU 및 RA가 작동하고,\n2) Rudder Travel Limiter System 2를 작동 불능으로 간주한다.\nItem 22-60-04 Yaw Damper System 참조, 및\nItem 27-22-01 Rudder Trim System 참조, 및\nItem 27-23-01 Rudder Travel Limiter System 참조\nNote: <MAINTENANCE>\n1. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-60-02A FAC 2 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-60-03A": {
+"h": "79cadbd0",
+"ko": "(o) 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-60-03A Reactive Windshear Detection Function 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-60-04A": {
+"h": "9031eac1",
+"ko": "(o) 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-60-04A Yaw Damper System 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-70-01A": {
+"h": "4b609b17",
+"ko": "(o) 다음 조건이면 FMS 1이 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) MCDU 두 대가 작동하고,\n3) IR 1 NAV mode 또는 GPS 1이 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-70-01A Flight Management System (FMS) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-70-01B": {
+"h": "b553f603",
+"ko": "(o) IR 1 NAV mode 또는 GPS 1이 작동한다면 FMS 2가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-70-01B Flight Management System (FMS) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-70-01C": {
+"h": "f2ac59f3",
+"ko": "(o) 다음 조건이면 FMS 1이 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) 비행이 radio navaid(지상 항행안전시설) 수신 범위(coverage) 안에서 이루어진다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-70-01C Flight Management System (FMS) (Flight within radio navaids) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-70-01D": {
+"h": "cf10da1d",
+"ko": "(o) 비행이 radio navaid 수신 범위(coverage) 안에서 이루어진다면 FMS 2가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-70-01D Flight Management System (FMS) (Flight within radio navaids) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-70-02A": {
+"h": "ab105e62",
+"ko": "(o) 다음 조건이면 연속 10 calendar day 동안 유효기간이 지난(out of date) 상태로 사용할 수 있다:\n1) 유효기간이 지난 navigation database의 절차 중 현재(current) navigation database에서 변경된 절차는 사용하지 않고(변경되지 않은 절차는 사용할 수 있다),\n2) 대체 절차(alternate procedures)를 수립하여 사용하고,\n3) 최신 항공정보(예: chart)로 database의 navigation fix(좌표, 주파수, 상태(해당 시))와 예정 항로에 필요한 항행시설의 적합성을 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n2. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 22-70-02A Navigation Database 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-70-03A": {
+"h": "ab2a3712",
+"ko": "(o) 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-70-03A Performance Information 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-70-04A": {
+"h": "728fe93b",
+"ko": "(o) 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-70-04A Fuel/Time Prediction 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-82-01A": {
+"h": "889d1ed2",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) MCDU 2가 작동하고,\n3) 비행이 radio navaid 수신 범위(coverage) 안에서 이루어진다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-82-01A MCDU 1 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-82-02A": {
+"h": "04c2e429",
+"ko": "(o) 비행이 radio navaid 수신 범위(coverage) 안에서 이루어진다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-82-02A MCDU 2 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-82-04A": {
+"h": "36e08dcd",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"22-83-01A": {
+"h": "a4dd2ce0",
+"ko": "(o) 다음 조건이면 FMGC 1이 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) FMGC 1을 비활성화(deactivate)하고,\n3) FMS 1을 작동 불능으로 간주하고,\nItem 22-70-01 Flight Management System (FMS) 참조, 및\n4) AP 1을 작동 불능으로 간주하고,\nItem 22-10-01 Autopilot (AP) 참조, 및\n5) FD 1을 작동 불능으로 간주한다.\nItem 22-10-02 Flight Director (FD) 참조.\nNote: FMGC 1을 비활성화하면 STATUS SD page에 F/CTL MAINTENANCE 메시지가 표시된다. Item 27-00-01 F/CTL MAINTENANCE Message 참조.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE>\n1. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-83-01A Flight Management and Guidance Computer (FMGC) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-83-01B": {
+"h": "ace854a3",
+"ko": "(o) 다음 조건이면 FMGC 2가 작동 불능이어도 된다:\n1) FMGC 2를 비활성화(deactivate)하고,\n2) FMS 2를 작동 불능으로 간주하고,\nItem 22-70-01 Flight Management System (FMS) 참조, 및\n3) AP 2를 작동 불능으로 간주하고,\nItem 22-10-01 Autopilot (AP) 참조, 및\n4) FD 2를 작동 불능으로 간주한다.\nItem 22-10-02 Flight Director (FD) 참조.\nNote: FMGC 2를 비활성화하면 STATUS SD page에 F/CTL MAINTENANCE 메시지가 표시된다. Item 27-00-01 F/CTL MAINTENANCE Message 참조.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE>\n1. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-83-01B Flight Management and Guidance Computer (FMGC) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-01-01-01A": {
+"h": "dfc20a13",
+"ko": "하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"22-01-01-02A": {
+"h": "67f341cc",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"22-01-02-01A": {
+"h": "60d5a52f",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"22-01-02-31A": {
+"h": "df7f7145",
+"ko": "(o) 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 22-01-02-31A T.O SURV pb-sw 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-81-01-01A": {
+"h": "0304486c",
+"ko": "해당 autopilot(AP)을 작동 불능으로 간주하는 조건이면 하나 또는 둘 다 작동 불능이어도 된다.\nItem 22-10-01 Autopilot (AP) 참조"
+},
+"22-81-01-02A": {
+"h": "3b08f72e",
+"ko": "autothrust(A/THR)를 작동 불능으로 간주하는 조건이면 작동 불능이어도 된다.\nItem 22-30-01 Autothrust (A/THR) 참조"
+},
+"22-81-01-03A": {
+"h": "6d1fdda2",
+"ko": "(o) 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-81-01-03A Mode Engagement pb 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-81-01-04A": {
+"h": "254a4586",
+"ko": "작동해야 한다."
+},
+"22-81-01-05A": {
+"h": "b941344b",
+"ko": "운항에 그 사용이 필요하지 않은 조건이면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비)\n1. Defer Control은 MCC에 연락."
+},
+"22-81-01-06A": {
+"h": "84aabbb9",
+"ko": "HDG-V/S 선택(selection)이 작동하는 조건이면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"22-81-01-07A": {
+"h": "5a065e69",
+"ko": "SPD 선택(selection)이 작동하는 조건이면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"22-81-01-08A": {
+"h": "5885bcac",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"22-81-01-09B": {
+"h": "91d76de3",
+"ko": "해당 지시(indication)가 양쪽 PFD와 양쪽 ND에서 모두 작동하는 조건이면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"22-81-01-10A": {
+"h": "788c5fe4",
+"ko": "해당 지시(indication)가 양쪽 PFD에서 작동하는 조건이면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"22-81-01-11A": {
+"h": "7c938124",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"22-81-02-01A": {
+"h": "75be7837",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"22-81-02-02A": {
+"h": "2462ca81",
+"ko": "해당 비행에 필요한 단위(in Hg 또는 hPa)가 양쪽 EFIS control panel에서 모두 작동하는 조건이면 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"22-81-02-03A": {
+"h": "030daa12",
+"ko": "둘 다 작동해야 한다."
+},
+"22-81-02-04A": {
+"h": "76abd761",
+"ko": "해당 FD를 작동 불능으로 간주하는 조건이면 하나 또는 둘 다 작동 불능이어도 된다.\nItem 22-10-02 Flight Director (FD) 참조"
+},
+"22-81-02-05A": {
+"h": "aa24b3d3",
+"ko": "해당 ILS, FLS를 작동 불능으로 간주하는 조건이면 하나 또는 둘 다 작동 불능이어도 된다.\nItem 34-30-04 Instrument Landing System (ILS) 참조\nItem 34-30-06 FLS 참조"
+},
+"22-81-02-06A": {
+"h": "86f58406",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"22-81-02-07A": {
+"h": "a013b10f",
+"ko": "(o) 작동하는 ND range selector에 연결된 ND unit이 작동하는 조건이면 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-81-02-07A ND Range Selector 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-81-02-08A": {
+"h": "4954615d",
+"ko": "(o) 작동하는 ND mode selector에 연결된 ND unit이 작동하는 조건이면 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-81-02-08A ND Mode Selector 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-81-02-09A": {
+"h": "e561c91a",
+"ko": "ND의 해당 ADF/VOR 지시를 작동 불능으로 간주하는 조건이면 하나 이상이 작동 불능이어도 된다.\nItem 34-06-06 Radio Navaids Indications on the ND 참조"
+},
+"22-81-02-10A": {
+"h": "5727e697",
+"ko": "해당 지시(indication)가 양쪽 PFD에서 작동하는 조건이면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"22-81-02-11A": {
+"h": "00c61343",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"22-81-03-01A": {
+"h": "224d702c",
+"ko": "(o) 다음 조건이면 channel 하나가 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) RMP 2대, 모든 DU, 양쪽 RA, 양쪽 LGCIU, 양쪽 FAC, 양쪽 Automatic Cabin Pressure Control System(자동 객실 여압 조절 계통), 모든 ADIRU 및 ISIS altitude(고도) 지시가 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 22-81-03-01A FCU Channel (Non EDTO Flight) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"22-81-03-01B": {
+"h": "ddfa9942",
+"ko": "(o) EDTO의 경우, RMP 2대, 모든 DU, 양쪽 RA, 양쪽 LGCIU, 양쪽 FAC, 양쪽 Automatic Cabin Pressure Control System(자동 객실 여압 조절 계통), 모든 ADIRU 및 ISIS altitude(고도) 지시가 작동하는 조건이면 channel 하나가 1회 비행(one flight) 동안 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비)\n1. 출발 승인은 MCC에 연락.\n2. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 22-81-03-01B FCU Channel (EDTO Flight) 참조 (운항 절차 — 아래 운항 절차 칸)"
+}
+},
+"ops": {
+"22-00-00A": {
+"h": "ccca96c8",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nCAT III(Fail-Operational) 운항은 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-00-00B": {
+"h": "b6b2923d",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nCAT III 운항은 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-00-00C": {
+"h": "705736e0",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nCAT III 운항은 허용되지 않는다.\nCAT II 운항은 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-05-01A": {
+"h": "a6c9146b",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nRNP AR 능력이 있는 항공기의 경우, 0.3 NM 미만(strictly below)의 RNP AR 운항은 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-05-01B": {
+"h": "4f8288cf",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\nRVSM 운항은 허용되지 않는다.\n최대 착륙 능력(landing capability)은 CAT I이다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-05-03A": {
+"h": "07a4e024",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n한쪽 FMA가 영향을 받은 경우:\n최대 착륙 능력(landing capability)은 CAT II이다.\n양쪽 FMA가 영향을 받은 경우:\n최대 착륙 능력(landing capability)은 CAT I이다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-10-01A": {
+"h": "0334b862",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nAP 하나가 작동 불능인 경우:\nRNP AR 능력이 있는 항공기의 경우, 다음 RNP AR 운항은 허용되지 않는다:\n• 0.3 NM 미만(strictly below)의 RNP AR 운항\n• missed approach의 RNP 값이 1 NM 미만인 RNP AR 운항.\n최대 착륙 능력(landing capability)은 CAT III(Fail-passive)이다.\nAP 둘 다 작동 불능인 경우:\nEDTO를 수행하지 않는다.\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\nRVSM 운항은 허용되지 않는다.\n최대 착륙 능력(landing capability)은 CAT I이다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-10-01B": {
+"h": "0334b862",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nAP 하나가 작동 불능인 경우:\nRNP AR 능력이 있는 항공기의 경우, 다음 RNP AR 운항은 허용되지 않는다:\n• 0.3 NM 미만(strictly below)의 RNP AR 운항\n• missed approach의 RNP 값이 1 NM 미만인 RNP AR 운항.\n최대 착륙 능력(landing capability)은 CAT III(Fail-passive)이다.\nAP 둘 다 작동 불능인 경우:\nEDTO를 수행하지 않는다.\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\nRVSM 운항은 허용되지 않는다.\n최대 착륙 능력(landing capability)은 CAT I이다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-10-02A": {
+"h": "6958287a",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\n양쪽 모두 영향을 받은 경우:\nRNAV 1 / RNAV 2 운항은 허용되지 않는다.\nRNP 1 운항은 허용되지 않는다.\nRNP APCH 운항은 허용되지 않는다.\nPF 쪽이 영향을 받은 경우:\nRNP APCH 운항은 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\nFOR TAKEOFF (이륙 시)\nFD 없이 이륙하는 경우:\nFCOM/PRO-NOR-SRP-01-30 No Flight Director Takeoff 참조."
+},
+"22-10-02B": {
+"h": "6958287a",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\n양쪽 모두 영향을 받은 경우:\nRNAV 1 / RNAV 2 운항은 허용되지 않는다.\nRNP 1 운항은 허용되지 않는다.\nRNP APCH 운항은 허용되지 않는다.\nPF 쪽이 영향을 받은 경우:\nRNP APCH 운항은 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\nFOR TAKEOFF (이륙 시)\nFD 없이 이륙하는 경우:\nFCOM/PRO-NOR-SRP-01-30 No Flight Director Takeoff 참조."
+},
+"22-10-04A": {
+"h": "f048a4dc",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n최대 착륙 능력(landing capability)은 CAT I이다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\nBEFORE ENGINE START (엔진 시동 전)\n‐ AP 1 ........ On\n‐ 작동하는 take-over pb ........ Press (누름)\n‐ EWD에 적색 AP OFF 메시지가 표시되는지 확인한다.\n‐ AP 2 ........ On\n‐ 작동하는 take-over pb ........ Press (누름)\n‐ EWD에 적색 AP OFF 메시지가 표시되는지 확인한다.\nBEFORE APPROACH (접근 전)\n접근에 AP를 사용하는 경우:\n작동하는 AP disconnect pb를 PF에게 배정해야 한다."
+},
+"22-10-04B": {
+"h": "a6f8cc9b",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\n최대 착륙 능력(landing capability)은 CAT I이다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-10-05A": {
+"h": "1838d808",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n두 light 모두 작동 불능인 경우:\n최대 착륙 능력(landing capability)은 CAT I이다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-10-06A": {
+"h": "4f8288cf",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\nRVSM 운항은 허용되지 않는다.\n최대 착륙 능력(landing capability)은 CAT I이다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-10-07A": {
+"h": "9332cd82",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n최대 착륙 능력(landing capability)은 CAT I이다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-10-08A": {
+"h": "acff40e2",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nIN FLIGHT (비행 중)\nTCAS Resolution Advisory가 발생하면 운항승무원은 기본 TCAS 절차를 적용해야 한다.\nFCOM/PRO-ABN-SURV [MEM] TCAS WARNING - RESOLUTION ADVISORY 참조"
+},
+"22-10-09A": {
+"h": "b93d95c0",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nFOR GO-AROUND (복행 시)\nthrust reduction altitude까지 TOGA를 set하고 유지한다."
+},
+"22-30-01A": {
+"h": "9a054b77",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n최대 착륙 능력(landing capability)은 CAT II이다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\nAFTER ENGINE START (엔진 시동 후)\n‐ autothrust instinctive disconnect pb 중 하나를 15초 이상 누르고 있는다.\nA/THR 계통이 비행 내내 영구적으로 disconnect된다.\n‐ STATUS SD page에 A/THR INOP SYS가 표시되는지 확인한다.\nALPHA FLOOR 보호 기능을 포함한 모든 A/THR 기능이 상실된다."
+},
+"22-30-02A": {
+"h": "225955fc",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n이 절차의 목적은 남은 Instinctive Disconnect pb와 FCU의 A/THR pb로 A/THR이 disconnect되는지 확인하는 것이다.\nAFTER IRS ALIGNMENT (IRS 정렬 후)\nNote: 시험 중 발생하는 경고(alert)는 무시한다. 필요하면 ECAM control panel의 EMER CANCEL pb를 사용한다.\nFMS 1을 통한 확인을 위한 항공기 configuration:\n‐ ENG/FADEC GND PWR 1 및 2 ........ ON\n‐ 양쪽 thrust lever ........ MCT\n‐ FD ........ Off\n‐ AUTO FLT/FMGC/2 (121 VU M17) C/B ........ Pull (뽑음)\n‐ A/THR ........ On\n‐ PFD에 녹색 SPEED와 백색 A/THR 지시가 나타나는지 확인한다.\n‐ A/THR pb light bar가 ON인지 확인한다.\n남은 Instinctive Disconnect pb를 통한 A/THR disconnect 확인:\n‐ A/THR instinctive disconnect pb (영향받지 않은 쪽) ........ Push (누름)\n‐ A/THR pb light bar가 OFF인지 확인한다.\n‐ PFD에 녹색 SPEED와 백색 A/THR 지시가 더 이상 표시되지 않는지 확인한다.\n‐ A/THR ........ On\n‐ A/THR pb light bar가 ON인지 확인한다.\n‐ PFD에 녹색 SPEED와 백색 A/THR 지시가 표시되는지 확인한다.\nFCU의 A/THR pb를 통한 A/THR disconnect 확인:\n‐ A/THR pb (FCU) ........ Off\n‐ A/THR pb light bar가 OFF인지 확인한다.\n‐ PFD에 녹색 SPEED와 백색 A/THR 지시가 더 이상 표시되지 않는지 확인한다.\n‐ A/THR ........ On\nFMS 2를 통한 확인을 위한 항공기 configuration:\n‐ AUTO FLT/FMGC/2 (121VU M17) C/B ........ Push (밀어 넣음)\n‐ 2분 대기.\n‐ AUTO FLT/FMGC/1 (49VU H08) C/B ........ Pull (뽑음)\n남은 Instinctive Disconnect pb를 통한 A/THR disconnect 확인:\n‐ A/THR instinctive disconnect pb (영향받지 않은 쪽) ........ Push (누름)\n‐ A/THR pb light bar가 OFF인지 확인한다.\n‐ PFD에 녹색 SPEED와 백색 A/THR 지시가 더 이상 표시되지 않는지 확인한다.\n‐ A/THR ........ On\n‐ A/THR pb light bar가 ON인지 확인한다.\n‐ PFD에 녹색 SPEED와 백색 A/THR 지시가 표시되는지 확인한다.\nFCU의 A/THR pb를 통한 A/THR disconnect 확인:\n‐ A/THR pb (FCU) ........ Off\n‐ A/THR pb light bar가 OFF인지 확인한다.\n‐ PFD에 녹색 SPEED와 백색 A/THR 지시가 더 이상 표시되지 않는지 확인한다.\n‐ A/THR ........ On\n정상 항공기 configuration 복원:\n‐ A/THR ........ Off\n‐ AUTO FLT/FMGC/1 (49VU H08) C/B ........ Push (밀어 넣음)\n‐ ENG/FADEC GND PWR 1 및 2 ........ Off\n‐ 양쪽 thrust lever ........ IDLE\n‐ RCL pb (ECAM control panel) ........ Push (누름)\n‐ MCDU와 FD를 사용하기 전에 2분 대기한다."
+},
+"22-60-02A": {
+"h": "3581d486",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\n최대 착륙 능력(landing capability)은 CAT III(Fail-passive)이다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\nON GROUND (지상에서)\nEWD에 AUTO FLT FAC 2 FAULT 경고가 표시되거나\n또는\n잘못된 속도(erroneous speeds)가 표시되는 경우:\n‐ AUTO FLT/FAC 2/28VDC (121VU M19) C/B ........ Pull (뽑음)\n‐ FAC 2 pb-sw(푸시버튼 스위치) ........ OFF"
+},
+"22-60-03A": {
+"h": "6a411eac",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n운항승무원은 실제 및 예보 기상을 고려하여 출발·목적지·교체 비행장에서 windshear 조건을 만날 가능성이 없음을 확인해야 한다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\nIN FLIGHT (비행 중)\nwindshear가 감지(perceivable)되는 경우:\nwindshear 상황에 해당하는 memory action을 적용한다. FCOM/PRO-ABN-SURV [MEM] WINDSHEAR WARNING - REACTIVE WINDSHEAR 참조."
+},
+"22-60-04A": {
+"h": "d99cb7e9",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n최대 착륙 능력(landing capability)은 CAT III(Fail-passive)이다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-70-01A": {
+"h": "ebff0145",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nFMS 1이 작동 불능인 경우:\nEDTO를 수행하지 않는다.\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\n최대 착륙 능력(landing capability)은 CAT III(Fail-passive)이다.\n주 기지(GMP/ICN)에서는 RNP-10을 위해 양쪽 lateral navigation이 모두 작동해야 한다. (FOM Chapter 10.3 RNP-10(or RNAV-10) Airspace Operation 참조.)\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\nIN FLIGHT (비행 중)\nFMS 1+2 failure가 발생한 경우:\nMCDU NAV B/UP ........ Use (사용)\nFCOM/DSC-22-20-40-30 MCDU Back Up Navigation 참조."
+},
+"22-70-01B": {
+"h": "ebff0145",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nFMS 1이 작동 불능인 경우:\nEDTO를 수행하지 않는다.\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\n최대 착륙 능력(landing capability)은 CAT III(Fail-passive)이다.\n주 기지(GMP/ICN)에서는 RNP-10을 위해 양쪽 lateral navigation이 모두 작동해야 한다. (FOM Chapter 10.3 RNP-10(or RNAV-10) Airspace Operation 참조.)\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\nIN FLIGHT (비행 중)\nFMS 1+2 failure가 발생한 경우:\nMCDU NAV B/UP ........ Use (사용)\nFCOM/DSC-22-20-40-30 MCDU Back Up Navigation 참조."
+},
+"22-70-01C": {
+"h": "b85ff178",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nFMS 1이 작동 불능인 경우:\nEDTO를 수행하지 않는다.\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\n최대 착륙 능력(landing capability)은 CAT III(Fail-passive)이다.\n주 기지(GMP/ICN)에서는 RNP-10을 위해 양쪽 lateral navigation이 모두 작동해야 한다. (FOM Chapter 10.3 RNP-10(or RNAV-10) Airspace Operation 참조.)\nNAV BACK/UP 기능이 작동 불능인 경우:\nRNAV 10 운항은 허용되지 않는다.\nRNP 4 운항은 허용되지 않는다.\n해양(oceanic) 및 원격 대륙(remote continental) 지역에서의 RNP 2 운항은 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-70-01D": {
+"h": "b85ff178",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nFMS 1이 작동 불능인 경우:\nEDTO를 수행하지 않는다.\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\n최대 착륙 능력(landing capability)은 CAT III(Fail-passive)이다.\n주 기지(GMP/ICN)에서는 RNP-10을 위해 양쪽 lateral navigation이 모두 작동해야 한다. (FOM Chapter 10.3 RNP-10(or RNAV-10) Airspace Operation 참조.)\nNAV BACK/UP 기능이 작동 불능인 경우:\nRNAV 10 운항은 허용되지 않는다.\nRNP 4 운항은 허용되지 않는다.\n해양(oceanic) 및 원격 대륙(remote continental) 지역에서의 RNP 2 운항은 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-70-02A": {
+"h": "3b331869",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n비행하려는 navigation database 절차가 최신 항공정보(chart)와 동일하지 않은 경우:\n‐ RNP APCH, RNP AR, RNAV 1 SID, RNAV 1 STAR, RNP 1 SID, RNP 1 STAR 절차는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\n운항승무원은 해당되는 절차(SID, Airway, STAR, APPR)를 최신 항공정보(chart)와 교차 확인(crosscheck)해야 한다.\n비행하려는 navigation database 절차가 최신 항공정보(chart)와 동일한 경우:\n유효기간이 지난 navigation database의 절차를 사용한다.\n비행하려는 navigation database 절차가 최신 항공정보(chart)와 동일하지 않은 경우:\n‐ 재래식(conventional) SID, STAR, APPR 절차의 경우, radio navigation aid(VOR, DME, ADF, ILS)를 수동으로 tuning하여 비행하려는 절차를 사용하거나, 항행서비스 제공자(Air Navigation Service Provider, 관제기관)의 도움을 요청한다.\n‐ En route 운항의 경우, 현재 airway에 따라 새 routing을 입력한다."
+},
+"22-70-03A": {
+"h": "ac70ce1b",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n양쪽 FMS 모두 작동 불능인 경우:\n4D Operations 능력이 있는 항공기의 경우, 4D Operations는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-70-04A": {
+"h": "ac70ce1b",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n양쪽 FMS 모두 작동 불능인 경우:\n4D Operations 능력이 있는 항공기의 경우, 4D Operations는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-82-01A": {
+"h": "41dee4fa",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nRNAV 10 운항은 허용되지 않는다.\nRNP 4 운항은 허용되지 않는다.\n해양(oceanic) 및 원격 대륙(remote continental) 지역에서의 RNP 2 운항은 허용되지 않는다.\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-82-02A": {
+"h": "f5cb9346",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nRNAV 10 운항은 허용되지 않는다.\nRNP 4 운항은 허용되지 않는다.\n해양(oceanic) 및 원격 대륙(remote continental) 지역에서의 RNP 2 운항은 허용되지 않는다.\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-83-01A": {
+"h": "d8131db0",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nFMGC 1이 작동 불능인 경우:\nEDTO를 수행하지 않는다.\n최대 착륙 능력(landing capability)은 CAT III(Fail-passive)이다.\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\nBACK/UP NAV 기능이 작동 불능인 경우:\nRNAV 10 운항은 허용되지 않는다.\nRNP 4 운항은 허용되지 않는다.\n해양(oceanic) 및 원격 대륙(remote continental) 지역에서의 RNP 2 운항은 허용되지 않는다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nFMGC 1이 영향을 받은 경우:\nAUTO FLT/FMGC/1 (49VU H08 또는 121VU M16) C/B ........ Pull (뽑음)\n예정 비행에 ADS-B 또는 EHS가 필요한 경우:\nATC selector ........ 2\nFMGC 2가 영향을 받은 경우:\nAUTO FLT/FMGC/2 (121VU M17) C/B ........ Pull (뽑음)\nNote: IR 정렬(alignment) 중 FMGC 2가 비활성화되어 있으면, FD 1이 engage될 때까지 IRS IN ALIGN memo가 표시되지 않는다.\n예정 비행에 ADS-B 또는 EHS가 필요한 경우:\nATC selector ........ 1\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-83-01B": {
+"h": "d8131db0",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nFMGC 1이 작동 불능인 경우:\nEDTO를 수행하지 않는다.\n최대 착륙 능력(landing capability)은 CAT III(Fail-passive)이다.\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\nBACK/UP NAV 기능이 작동 불능인 경우:\nRNAV 10 운항은 허용되지 않는다.\nRNP 4 운항은 허용되지 않는다.\n해양(oceanic) 및 원격 대륙(remote continental) 지역에서의 RNP 2 운항은 허용되지 않는다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nFMGC 1이 영향을 받은 경우:\nAUTO FLT/FMGC/1 (49VU H08 또는 121VU M16) C/B ........ Pull (뽑음)\n예정 비행에 ADS-B 또는 EHS가 필요한 경우:\nATC selector ........ 2\nFMGC 2가 영향을 받은 경우:\nAUTO FLT/FMGC/2 (121VU M17) C/B ........ Pull (뽑음)\nNote: IR 정렬(alignment) 중 FMGC 2가 비활성화되어 있으면, FD 1이 engage될 때까지 IRS IN ALIGN memo가 표시되지 않는다.\n예정 비행에 ADS-B 또는 EHS가 필요한 경우:\nATC selector ........ 1\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-01-02-31A": {
+"h": "c18dd7bc",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\nTakeoff Surveillance(TOS, 이륙 감시) 기능은 운항승무원이 FMS page에 입력하고 선택한 이륙 데이터를 점검한다.\nBEFORE TAKEOFF (이륙 전)\n아래 이륙 데이터를 다시 확인한다.\n‐ ZFW\n‐ Takeoff Speeds (V1, VR, V2)\n‐ T.O RWY"
+},
+"22-81-01-03A": {
+"h": "b48df3e4",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nAPPR pb가 작동 불능인 경우:\nLNAV/VNAV minima까지의 RNP APCH 운항은 허용되지 않는다.\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\n최대 착륙 능력(landing capability)은 CAT I이다.\n접근(approach)에는 다음 mode를 계속 사용할 수 있다:\n‐ NAV/FPA\n‐ TRK/FPA\n‐ LOC/FPA (LOC pb를 사용할 수 있는 경우)\n‐ RAW data를 이용한 manual mode(수동 조종).\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-81-02-07A": {
+"h": "f1557298",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\n한쪽에서 range 10 NM과 range 20 NM을 사용할 수 없는 경우:\nRNP APCH 운항은 허용되지 않는다.\nPF 쪽이 영향을 받은 경우:\nRNAV 10 운항은 허용되지 않는다.\nRNAV 5 운항은 허용되지 않는다.\nRNAV 1 / RNAV 2 운항은 허용되지 않는다.\nRNP 4 운항은 허용되지 않는다.\nRNP 2 운항은 허용되지 않는다.\nRNP 1 운항은 허용되지 않는다.\nRNP APCH 운항은 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-81-02-08A": {
+"h": "e2436373",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\n한쪽에서 ROSE NAV mode와 ARC mode를 사용할 수 없는 경우:\nRNP APCH 운항은 허용되지 않는다.\nPF 쪽이 영향을 받은 경우:\nRNAV 10 운항은 허용되지 않는다.\nRNAV 5 운항은 허용되지 않는다.\nRNAV 1 / RNAV 2 운항은 허용되지 않는다.\nRNP 4 운항은 허용되지 않는다.\nRNP 2 운항은 허용되지 않는다.\nRNP 1 운항은 허용되지 않는다.\nRNP APCH 운항은 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-81-03-01A": {
+"h": "399e0a62",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nRNP APCH 운항은 허용되지 않는다.\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"22-81-03-01B": {
+"h": "d2cc6687",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nRNP APCH 운항은 허용되지 않는다.\nRNP AR 능력이 있는 항공기의 경우, RNP AR 운항은 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+}
+}
+}

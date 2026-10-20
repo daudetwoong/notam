@@ -1,0 +1,62 @@
+{
+"items": {
+"49-00-01A": {
+"h": "b6db9d52",
+"ko": "APU MAINTENANCE 메시지가 STATUS SD page에 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"49-01-01A": {
+"h": "be9514d1",
+"ko": "APU SD page에서 N 및 EGT 지시가 작동하는 조건이면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"49-01-02A": {
+"h": "7cc6a223",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"49-01-03A": {
+"h": "9cad4e31",
+"ko": "APU SD page에서 N 지시가 작동하는 조건이면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"49-01-04A": {
+"h": "7cc6a223",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"49-07-01A": {
+"h": "a1cb311b",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"49-10-01A": {
+"h": "4daa09d6",
+"ko": "(o) EDTO를 수행하지 않는 조건이면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE (정비)>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 49-10-01A Power Plant (APU) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"49-10-01B": {
+"h": "6f90ee2c",
+"ko": "(o) 120분을 초과하는 EDTO를 수행하지 않는 조건이면, 4 flights 동안 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE (정비)>\n1. 출발 승인은 MCC에 연락.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 49-10-01B Power Plant (APU) (EDTO 120 min flight) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"49-10-01C": {
+"h": "745a1cbb",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) APU를 deactivate(비활성화)하거나 떼어낸다(removed).\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비)>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 49-10-01C Power Plant (APU) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 49-10-00-040-008 참조 (정비 절차)"
+},
+"49-10-02A": {
+"h": "1b1a69ce",
+"ko": "APU를 작동 불능으로 간주하는 조건이면, 닫힌 위치에서 작동 불능이어도 된다.\nItem 49-10-01 Power Plant (APU) 참조"
+},
+"49-10-02B": {
+"h": "78188430",
+"ko": "(m) 열린 위치에서 10일 동안 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비)>\n1. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 49-16-00-040-003 참조 (정비 절차)"
+}
+},
+"ops": {
+"49-10-01A": {
+"h": "7f3de3eb",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nOne engine taxi(단발 엔진 택시) 운항은 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nDURING PRELIMINARY COCKPIT PREPARATION (예비 조종실 준비 중)\nAPU를 사용하지 않는다.\nAPU MASTER SW pb-sw ........................ Off\nMain Engine Start(MES, 엔진 시동)나 air conditioning에 APU bleed air를 사용할 수 없다.\nAPU generator에서 전원을 공급받을 수 없다.\nBEFORE PUSHBACK OR ENGINE START (푸시백 또는 엔진 시동 전)\nAPU 없이 엔진을 시동하려면 FCOM/PRO-NOR-SUP-ENG Engine Start with an Air Start Unit 참조.\nAFTER LANDING, AT THE GATE (착륙 후 게이트에서)\n목적지에 적절한 지상 지원 장비가 없으면, 엔진 시동용 bleed air와 전원을 계속 확보하기 위해 급유 중에 급유구 반대쪽 엔진을 작동시켜야 한다.\nFCOM/PRO-NOR-SUP-FUEL Refueling with One Engine Running 참조."
+},
+"49-10-01C": {
+"h": "7f3de3eb",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nOne engine taxi(단발 엔진 택시) 운항은 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nDURING PRELIMINARY COCKPIT PREPARATION (예비 조종실 준비 중)\nAPU를 사용하지 않는다.\nAPU MASTER SW pb-sw ........................ Off\nMain Engine Start(MES, 엔진 시동)나 air conditioning에 APU bleed air를 사용할 수 없다.\nAPU generator에서 전원을 공급받을 수 없다.\nBEFORE PUSHBACK OR ENGINE START (푸시백 또는 엔진 시동 전)\nAPU 없이 엔진을 시동하려면 FCOM/PRO-NOR-SUP-ENG Engine Start with an Air Start Unit 참조.\nAFTER LANDING, AT THE GATE (착륙 후 게이트에서)\n목적지에 적절한 지상 지원 장비가 없으면, 엔진 시동용 bleed air와 전원을 계속 확보하기 위해 급유 중에 급유구 반대쪽 엔진을 작동시켜야 한다.\nFCOM/PRO-NOR-SUP-FUEL Refueling with One Engine Running 참조."
+},
+"49-10-01B": {
+"h": "86bea165",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nOne engine taxi(단발 엔진 택시) 운항은 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락.\nDURING PRELIMINARY COCKPIT PREPARATION (예비 조종실 준비 중)\nAPU를 사용하지 않는다.\nAPU MASTER SW pb-sw ..... Off\nMain Engine Start(MES, 엔진 시동)나 air conditioning에 APU bleed air를 사용할 수 없다.\nAPU generator에서 전원을 공급받을 수 없다.\nBEFORE PUSHBACK OR ENGINE START (푸시백 또는 엔진 시동 전)\nAPU 없이 엔진을 시동하려면 FCOM/PRO-NOR-SUP-ENG Engine Start with an Air Start Unit 참조.\nAFTER LANDING, AT THE GATE (착륙 후 게이트에서)\n목적지에 적절한 지상 지원 장비가 없으면, 엔진 시동용 bleed air와 전원을 계속 확보하기 위해 급유 중에 급유구 반대쪽 엔진을 작동시켜야 한다.\nFCOM/PRO-NOR-SUP-FUEL Refueling with One Engine Running 참조."
+}
+}
+}

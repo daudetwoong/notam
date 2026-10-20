@@ -1,0 +1,374 @@
+{
+"items": {
+"52-07-01A": {
+"h": "19adf408",
+"ko": "(o) 실제로는 닫혀 있는데 계속 열림(open)으로 표시되는 것이 하나 이상 있어도 다음 조건이면 운항할 수 있다:\n1) 매 비행 전 해당 도어가 닫히고 잠겼는지(closed and locked) 육안으로 확인하고,\n2) 해당 도어가 닫히고 잠긴 상태에서 slide arming lever(슬라이드 arm 레버)를 armed 위치에 두었을 때, 해당 도어의 흰색 SLIDE ARMED light가 켜지지 않는다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 52-07-01A Cabin Door Permanently Indicated Open on the DOOR/OXY SD page (SLIDE ARMED light operative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-07-01B": {
+"h": "f5c0db30",
+"ko": "(o) 실제로는 닫혀 있는데 계속 열림(open)으로 표시되는 것이 하나 이상 있어도, 매 비행 전 해당 도어가 닫히고 잠겼는지(closed and locked) 육안으로 확인하는 조건이면 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE (정비 조치)>\n1. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 52-07-01B Cabin Door Permanently Indicated Open on the DOOR/OXY SD page 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-07-01C": {
+"h": "92f4f5c5",
+"ko": "(o) 실제로는 닫혀 있는데 계속 열림(open)으로 표시되는 것이 하나 이상 있어도 다음 조건이면 운항할 수 있다:\n1) 야간에 항공기를 운항하지 않고,\n2) 매 비행 전 해당 도어가 닫히고 잠겼는지(closed and locked) 육안으로 확인한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE (정비 조치)>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 52-07-01C Cabin Door Permanently Indicated Open on the DOOR/OXY SD page (No night operations) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-07-01D": {
+"h": "40f96cfa",
+"ko": "(o) 실제로는 닫혀 있는데 계속 열림(open)으로 표시되는 것 하나는, 다음 조건이면 5회 비행 동안 허용된다:\n1) 매 비행 전 해당 도어가 닫히고 잠겼는지(closed and locked) 육안으로 확인하고,\n2) 해당 도어의 slide를 arm(장전)하지 않고,\n3) 해당 도어를 작동 불능으로 간주한다.\nItem 52-10-01 Cabin Door 참조\nNote: <MAINTENANCE (정비 조치)>\n1. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 52-07-01D Cabin Door Permanently Indicated Open on the DOOR/OXY SD page 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-07-02A": {
+"h": "5d6b7150",
+"ko": "(o) 실제로는 열려 있는데 계속 닫힘(closed)으로 표시되는 것이 하나 이상 있어도 다음 조건이면 운항할 수 있다:\n1) 야간에 항공기를 운항하지 않고,\n2) 매 비행 전 해당 도어가 닫히고 잠겼는지(closed and locked) 육안으로 확인한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE (정비 조치)>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 52-07-02A Cabin Door Permanently Indicated Closed on the DOOR/OXY SD page (No night operations) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-07-02B": {
+"h": "14863355",
+"ko": "(o) 실제로는 열려 있는데 계속 닫힘(closed)으로 표시되는 것 하나는, 다음 조건이면 5회 비행 동안 허용된다:\n1) 매 비행 전 해당 도어가 닫히고 잠겼는지(closed and locked) 육안으로 확인하고,\n2) 해당 도어를 작동 불능으로 간주한다.\nItem 52-10-01 Cabin Door 참조\nNote: <MAINTENANCE (정비 조치)>\n1. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 52-07-02B Cabin Door Permanently Indicated Closed on the DOOR/OXY SD page (Check of associated door) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-07-03A": {
+"h": "09270836",
+"ko": "(o) (m) 실제로는 닫혀 있는데 계속 열림(open)으로 표시되는 것이 하나 이상 있어도 다음 조건이면 운항할 수 있다:\n1) 매 비행 전 해당 exit(비상구)가 닫히고 잠겼는지(closed and locked) 육안으로 확인하고,\n2) DOOR/OXY SD page에 해당 SLIDE 표시가 흰색으로 표시된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer placard를 사용하고 log entry(정비 기록)를 작성한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 52-07-03A Cabin Overwing Exit Permanently Indicated Open on the DOOR/OXY SD page 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 52-70-00-040-010 참조 (정비 절차)"
+},
+"52-07-03B": {
+"h": "d8768b32",
+"ko": "(o) (m) 실제로는 닫혀 있는데 계속 열림(open)으로 표시되는 것이 하나 이상 있어도, 매 비행 전 해당 exit(비상구)가 닫히고 잠겼는지(closed and locked) 육안으로 확인하는 조건이면 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer placard를 사용하고 log entry(정비 기록)를 작성한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 52-07-03B Cabin Overwing Exit Permanently Indicated Open on the DOOR/OXY SD page 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 52-70-00-040-010 참조 (정비 절차)"
+},
+"52-07-03C": {
+"h": "871eb3f9",
+"ko": "(o) (m) 실제로는 닫혀 있는데 계속 열림(open)으로 표시되는 것이 하나 이상 있어도 다음 조건이면 운항할 수 있다:\n1) 야간에 항공기를 운항하지 않고,\n2) 매 비행 전 해당 exit(비상구)가 닫히고 잠겼는지(closed and locked) 육안으로 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer placard를 사용하고 log entry(정비 기록)를 작성한다.\n2. 출발 승인은 MCC에 연락.\n3. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 52-07-03C Cabin Overwing Exit Permanently Indicated Open on the DOOR/OXY SD page (No night operations) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 52-70-00-040-010 참조 (정비 절차)"
+},
+"52-07-03D": {
+"h": "4f428622",
+"ko": "(o) (m) 같은 쪽의 exit 하나 또는 둘이 실제로는 닫혀 있는데 계속 열림(open)으로 표시되어도, 다음 조건이면 5회 비행 동안 허용된다:\n1) 매 비행 전 해당 exit(비상구)가 닫히고 잠겼는지(closed and locked) 육안으로 확인하고,\n2) 같은 쪽의 exit 둘 다 작동 불능으로 간주한다.\nItem 52-10-02 Cabin Overwing Exit 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer placard를 사용하고 log entry(정비 기록)를 작성한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 52-07-03D Cabin Overwing Exit Permanently Indicated Open on the DOOR/OXY SD page 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 52-70-00-040-010 참조 (정비 절차)"
+},
+"52-07-04A": {
+"h": "317d1ebe",
+"ko": "(o) (m) 실제로는 열려 있는데 계속 닫힘(closed)으로 표시되는 것이 하나 이상 있어도 다음 조건이면 운항할 수 있다:\n1) 야간에 항공기를 운항하지 않고,\n2) 매 비행 전 해당 exit(비상구)가 닫히고 잠겼는지(closed and locked) 육안으로 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer placard를 사용하고 log entry(정비 기록)를 작성한다.\n2. 출발 승인은 MCC에 연락.\n3. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 52-07-04A Cabin Overwing Exit Permanently Indicated Closed on the DOOR/OXY SD page (No night operations) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 52-70-00-040-011 참조 (정비 절차)"
+},
+"52-07-04B": {
+"h": "5580cb90",
+"ko": "(o) (m) 같은 쪽의 exit 하나 또는 둘이 실제로는 열려 있는데 계속 닫힘(closed)으로 표시되어도, 다음 조건이면 5회 비행 동안 허용된다:\n1) 매 비행 전 해당 exit(비상구)가 닫히고 잠겼는지(closed and locked) 육안으로 확인하고,\n2) 같은 쪽의 exit 둘 다 작동 불능으로 간주한다.\nItem 52-10-02 Cabin Overwing Exit 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer placard를 사용하고 log entry(정비 기록)를 작성한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 52-07-04B Cabin Overwing Exit Permanently Indicated Closed on the DOOR/OXY SD page 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 52-70-00-040-011 참조 (정비 절차)"
+},
+"52-07-05A": {
+"h": "e4a1efc4",
+"ko": "(o) (m) 매 비행 전 해당 도어가 닫히고 잠겼는지(closed and locked) 육안으로 확인하는 조건이면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer placard를 사용하고 log entry(정비 기록)를 작성한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 52-07-05A Cargo Door Indication on the DOOR/OXY SD page 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 52-70-00-040-001 참조 (정비 절차)"
+},
+"52-07-06A": {
+"h": "f99803b5",
+"ko": "(o) (m) 매 비행 전 해당 도어가 닫히고 잠겼는지(closed and locked) 육안으로 확인하는 조건이면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer placard를 사용하고 log entry(정비 기록)를 작성한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 52-07-06A Avionics Compartment Access Door Indication on the DOOR/OXY SD page 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 52-70-00-040-004 참조 (정비 절차)"
+},
+"52-10-01A": {
+"h": "003a26c1",
+"ko": "(o) (m) 다음 조건이면 하나가 5회 비행 동안 작동 불능 상태로 운항할 수 있다:\n1) 탑승 승객 수와 객실 내 승객 위치가 아래 도표(diagram)에 따르고,\n2) 해당 exit(비상구)를 안쪽에서 닫고(closed), 걸고(latched), 잠그고(locked), 작동 불능 placard를 붙이고,\n3) 해당 exit를 승객 탑승에 사용하지 않고, 승객이 탑승해 있는 동안 어떤 용도로도 사용하지 않고,\n4) 해당 exit에 관련된 모든 EXIT 표시(marking), 표지판(sign), 등(light)을 가리고,\n5) 대체 객실 안전 절차를 수립하여 사용한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 출발 승인은 MCC에 연락.\n2. Defer Control(이연 관리)은 MCC에 연락.\n도표의 도어 위치: (그림은 원문 참조)\nDiagram 1-1. A321-200 Seat Block Layout With Inoperative Door (171석 항공기) — Non-extended overwater flights(비확장 해상비행)용\nNote: 음영 영역은 블록(사용 금지)할 좌석 수를 나타낸다. (좌석 배치 그림은 원문 참조)\n[Zone별 블록 좌석 수]\nNo.1 Door Inoperative: Zone A 0 / Zone B 10 / Zone C 16 / 합계 26\nNo.2 Door Inoperative: Zone A 0 / Zone B 40 / Zone C 7 / 합계 47\nNo.3 Door Inoperative: Zone A 0 / Zone B 25 / Zone C 30 / 합계 55\nNo.4 Door Inoperative: Zone A 0 / Zone B 0 / Zone C 47 / 합계 47\nDiagram 1-2. A321-200 Seat Block Layout With Inoperative Door (171석 항공기) — extended overwater flights(확장 해상비행)용\nNote: 음영 영역은 블록(사용 금지)할 좌석 수를 나타낸다. (좌석 배치 그림은 원문 참조)\n[Zone별 블록 좌석 수]\nNo.1 Door Inoperative: Zone A 0 / Zone B 10 / Zone C 69 / 합계 79\nNo.2 Door Inoperative: Zone A 0 / Zone B 40 / Zone C 7 / 합계 47\nNo.3 Door Inoperative: Zone A 0 / Zone B 25 / Zone C 30 / 합계 55\nNo.4 Door Inoperative: Zone A 0 / Zone B 8 / Zone C 71 / 합계 79\nDiagram 2-1. A321-200 Seat Block Layout With Inoperative Door (174석 항공기) — Non-extended overwater flights(비확장 해상비행)용\nNote: 음영 영역은 블록(사용 금지)할 좌석 수를 나타낸다. (좌석 배치 그림은 원문 참조)\n[Zone별 블록 좌석 수]\nNo.1 Door Inoperative: Zone A 0 / Zone B 10 / Zone C 19 / 합계 29\nNo.2 Door Inoperative: Zone A 0 / Zone B 40 / Zone C 10 / 합계 50\nNo.3 Door Inoperative: Zone A 0 / Zone B 25 / Zone C 33 / 합계 58\nNo.4 Door Inoperative: Zone A 0 / Zone B 0 / Zone C 50 / 합계 50\nDiagram 2-2. A321-200 Seat Block Layout With Inoperative Door (174석 항공기) — extended overwater flights(확장 해상비행)용\nNote: 음영 영역은 블록(사용 금지)할 좌석 수를 나타낸다. (좌석 배치 그림은 원문 참조)\n[Zone별 블록 좌석 수]\nNo.1 Door Inoperative: Zone A 0 / Zone B 10 / Zone C 72 / 합계 82\nNo.2 Door Inoperative: Zone A 0 / Zone B 40 / Zone C 10 / 합계 50\nNo.3 Door Inoperative: Zone A 0 / Zone B 25 / Zone C 33 / 합계 58\nNo.4 Door Inoperative: Zone A 0 / Zone B 8 / Zone C 74 / 합계 82\nDiagram 3-1. A321-200 Seat Block Layout With Inoperative Door (195석 항공기) — Non-extended overwater flights(비확장 해상비행)용\nNote: 음영 영역은 블록(사용 금지)할 좌석 수를 나타낸다. (좌석 배치 그림은 원문 참조)\n[Zone별 블록 좌석 수]\nNo.1 Door Inoperative: Zone A 11 / Zone B 17 / Zone C 22 / 합계 50\nNo.2 Door Inoperative: Zone A 11 / Zone B 40 / Zone C 13 / 합계 64\nNo.3 Door Inoperative: Zone A 0 / Zone B 25 / Zone C 36 / 합계 61\nNo.4 Door Inoperative: Zone A 0 / Zone B 0 / Zone C 53 / 합계 53\nDiagram 3-2. A321-200 Seat Block Layout With Inoperative Door (195석 항공기) — extended overwater flights(확장 해상비행)용\nNote: 음영 영역은 블록(사용 금지)할 좌석 수를 나타낸다. (좌석 배치 그림은 원문 참조)\n[Zone별 블록 좌석 수]\nNo.1 Door Inoperative: Zone A 11 / Zone B 17 / Zone C 66 / 합계 94\nNo.2 Door Inoperative: Zone A 11 / Zone B 40 / Zone C 13 / 합계 64\nNo.3 Door Inoperative: Zone A 0 / Zone B 25 / Zone C 36 / 합계 61\nNo.4 Door Inoperative: Zone A 0 / Zone B 17 / Zone C 77 / 합계 94\n참조\n(o) OpsProc 52-10-01A Cabin Door 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 52-10-00-040-803 참조 (정비 절차)"
+},
+"52-10-02A": {
+"h": "5dc8cead",
+"ko": "(o) (m) 다음 조건이면 같은 쪽의 하나 또는 둘이 5회 비행 동안 작동 불능 상태로 운항할 수 있다:\n1) 탑승 승객 수와 객실 내 승객 위치가 MEL item 52-10-01의 도표(diagram)에 따르고,\nNote: overwing exit slide 또는 쌍둥이(twin) overwing exit의 공용 exit sign이 작동 불능이면, 도표의 'Exit 2A&2B inop'을 적용하여 좌석을 블록한다.\n2) 해당 exit(비상구)를 닫고 작동 불능 placard를 붙이고,\n3) 해당 exit에 관련된 모든 EXIT 표시(marking), 표지판(sign), 등(light)을 가리고,\n4) 적절한 객실 안전 절차를 수립하여 사용하고,\n5) 그 밖의 모든 객실 도어가 작동 가능하다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 출발 승인은 MCC에 연락.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 52-10-02A Cabin Overwing Exit 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 52-21-00-040-803 참조 (정비 절차)"
+},
+"52-10-03A": {
+"h": "6ea47e95",
+"ko": "(o) 비행을 여압하지 않는(unpressurized) 조건이면 도어당 최대 하나가 작동 불능이어도 된다.\nFCOM/PRO-NOR-SUP-MISC-E Flight Without Cabin Pressurization 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 52-10-03A Cabin Door Stop Fitting 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-10-04A": {
+"h": "ee509767",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"52-10-05A": {
+"h": "c47a812f",
+"ko": "해당 도어를 작동 불능으로 간주하는 조건이면 하나가 5회 비행 동안 작동 불능이어도 된다.\nItem 52-10-01 Cabin Door 참조\nNote: <MAINTENANCE (정비 조치)>\n1. Defer Control(이연 관리)은 MCC에 연락."
+},
+"52-10-07A": {
+"h": "6472da39",
+"ko": "해당 도어를 작동 불능으로 간주하는 조건이면 하나가 5회 비행 동안 작동 불능이어도 된다.\nItem 52-10-01 Cabin Door 참조\nNote: <MAINTENANCE (정비 조치)>\n1. Defer Control(이연 관리)은 MCC에 연락."
+},
+"52-10-08A": {
+"h": "6e805b27",
+"ko": "(o) 해당 객실 도어를 열기 전에 차압(differential pressure)이 없음을 확인하는 조건이면 하나 이상이 작동 불능이어도 된다.\nNote: placard는 항공기 안쪽과 바깥쪽 모두에서 보여야 한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 52-10-08A CABIN PRESSURE light (on Cabin Doors) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-10-09A": {
+"h": "2f509855",
+"ko": "해당 cabin overwing exit를 작동 불능으로 간주하는 조건이면, 같은 쪽의 하나 또는 둘이 locked(잠김) 위치에서 5회 비행 동안 작동 불능이어도 된다.\nItem 52-10-02 Cabin Overwing Exit 참조\nNote: <MAINTENANCE (정비 조치)>\n1. Defer Control(이연 관리)은 MCC에 연락."
+},
+"52-10-09B": {
+"h": "ae92e4e2",
+"ko": "(o) 다음 조건이면 하나 이상이 unlocked(잠기지 않음) 위치에서 작동 불능이어도 된다: 최소 필요 객실승무원 수를 초과하는 객실승무원 또는 운항사가 고용한 그 밖의 적절히 훈련된 인원 한 명을 지정하여, 객실 차압(cabin differential pressure)이 4 PSI 미만일 때 해당 exit에서 가장 가까운 승객 좌석에 계속 앉아 있도록 한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 52-10-09B Flight Lock Actuator (Inoperative in Unlocked Position) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-10-09C": {
+"h": "0dae4e63",
+"ko": "(o) (m) 다음 조건이면 하나 이상이 작동 불능 상태로 운항할 수 있다:\n1) 해당 flight lock actuator를 deactivate(비활성화)하고,\n2) 최소 필요 객실승무원 수를 초과하는 객실승무원 또는 운항사가 고용한 그 밖의 적절히 훈련된 인원 한 명을 지정하여, 객실 차압(cabin differential pressure)이 4 PSI 미만일 때 해당 exit에서 가장 가까운 승객 좌석에 계속 앉아 있도록 한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 52-10-09C Flight Lock Actuator (Deactivated) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 52-22-71-040-801 참조 (정비 절차)"
+},
+"52-10-10A": {
+"h": "1e8c4831",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 객실 도어의 모든 CABIN PRESSURE light에 작동 불능 placard를 붙이고,\n2) 어떤 객실 도어든 열기 전에 차압(differential pressure)이 없음을 확인한다.\nNote: placard는 항공기 안쪽과 바깥쪽 모두에서 보여야 한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 52-10-10A Door Residual Differential Pressure Detection 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-30-01A": {
+"h": "06189045",
+"ko": "DOOR/OXY SD page에 locked(잠김)으로 표시되는 조건이면, 하나 이상이 닫히고 잠긴(closed and locked) 위치에서 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+},
+"52-30-01B": {
+"h": "abab4b76",
+"ko": "(m) 매 비행 전 해당 cargo door가 닫히고 잠겼는지(closed and locked) 육안으로 확인하는 조건이면, 하나 이상이 닫히고 잠긴 위치에서 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer placard를 사용하고 log entry(정비 기록)를 작성한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 52-30-00-040-001 참조 (정비 절차)"
+},
+"52-30-02A": {
+"h": "9f5cbb07",
+"ko": "다음 조건이면 cargo door당 최대 하나가 작동 불능 상태로 운항할 수 있다:\n1) yellow 유압 계통의 건전성(integrity)에 영향이 없고,\n2) 하역(loading/unloading) 작업 중 풍속이 30 kt 미만이고,\n3) actuator 하나로 하는 도어 작동은 100회 개폐(open/close) 사이클로 제한한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+},
+"52-30-02B": {
+"h": "3ac0de41",
+"ko": "(m) 다음 조건이면 cargo door당 최대 actuator 하나가 작동 불능 상태로 운항할 수 있다:\n1) 해당 actuator를 deactivate(비활성화)하고,\n2) yellow 유압 계통의 건전성(integrity)에 영향이 없고,\n3) 하역(loading/unloading) 작업 중 풍속이 30 kt 미만이고,\n4) actuator 하나로 하는 도어 작동은 100회 개폐(open/close) 사이클로 제한한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 52-36-00-040-001 참조 (정비 절차)"
+},
+"52-30-02C": {
+"h": "4212992d",
+"ko": "(m) 다음 조건이면 하나 이상이 작동 불능 상태로 운항할 수 있다:\n1) yellow 유압 계통의 건전성(integrity)에 영향이 없고,\n2) 해당 cargo door를 crane(크레인)으로 작동한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 52-36-00-040-001 참조 (정비 절차)"
+},
+"52-30-03A": {
+"h": "88bb86d9",
+"ko": "(o) 해당 cargo door를 hand pump(수동 펌프)로 작동할 수 있는 조건이면 하나 이상이 작동 불능이어도 된다.\nNote: yellow electric pump(전동 펌프)가 계속 작동하는 경우에만 운항 절차를 적용한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 52-30-03A Cargo Door Electrical Control 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-30-03B": {
+"h": "42751bcc",
+"ko": "(o) 해당 cargo door를 작동 불능으로 간주하는 조건이면 하나 이상이 작동 불능이어도 된다.\nItem 52-30-01 Cargo Door (FWD, AFT and BULK) 참조\nNote: yellow electric pump(전동 펌프)가 계속 작동하는 경우에만 운항 절차를 적용한다.\n참조\n(o) OpsProc 52-30-03B Cargo Door Electrical Control 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-30-04A": {
+"h": "2d758bef",
+"ko": "(o) 다음 조건이면 cargo door당 locking hook(잠금 고리) 하나 또는 spool(롤러) 하나까지 작동 불능 상태로 운항할 수 있다:\n1) 나머지 모두에 손상이 없고,\n2) 비행을 여압하지 않는다(unpressurized).\nFCOM/PRO-NOR-SUP-MISC-E Flight Without Cabin Pressurization 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 52-30-04A Cargo Door Locking Hooks and Spools (Rollers) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-30-05A": {
+"h": "3a449302",
+"ko": "yellow 유압 계통의 건전성(integrity)에 영향이 없는 조건이면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+},
+"52-30-06A": {
+"h": "771ef271",
+"ko": "각 cargo door의 하나 또는 둘 다 1회 비행 동안 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. Defer Control(이연 관리)은 MCC에 연락."
+},
+"52-30-07A": {
+"h": "887cd47b",
+"ko": "(o) 하역(loading/unloading) 작업 중 해당 cargo door를 완전히 열린(fully open) 위치에 두는 조건이면 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 52-30-07A Cargo Door Open/Locked Indicator light 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-33-01A": {
+"h": "ae9fe70d",
+"ko": "(m) 다음 조건이면 작동 불능이거나 손상된 상태로 운항할 수 있다:\n1) 하역(loading/unloading) 작업 중 cargo door를 열린 위치로 유지하기 위해 safety hold device(안전 고정 장치)를 사용하고,\n2) 해당 cargo door가 닫히고 잠겼는지(closed and locked) 육안으로 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 52-33-00-040-001 참조 (정비 절차)"
+},
+"52-51-01B": {
+"h": "2eb34af5",
+"ko": "반드시 작동 가능해야 한다."
+},
+"52-51-03A": {
+"h": "55d83337",
+"ko": "(o) (m) 대체 절차를 수립하여 사용하는 조건이면 작동 불능이어도 된다.\nNote: buzzer가 계속 울리는 경우에만 정비 절차를 적용한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 52-51-03A CDLS Buzzer 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 52-51-00-040-803 참조 (정비 절차)"
+},
+"52-51-04A": {
+"h": "11729fb1",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 객실과 조종실 간 interphone 계통이 작동 가능하고,\n2) CDLS keypad를 deactivate(비활성화)한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 52-51-04A CDLS Keypad 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 52-51-00-040-007 참조 (정비 절차)"
+},
+"52-51-05A": {
+"h": "73bc0fa3",
+"ko": "(o) 대체 절차를 수립하여 사용하는 조건이면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 52-51-05A CDLS Keypad LED 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-51-06A": {
+"h": "3baae64e",
+"ko": "(m) 하나가 작동 불능이어도 된다.\nNote: 작동 불능인 door release strike가 locked(잠김) 위치에서 고장 난 경우에만 정비 절차를 적용한다. 중앙(center) release strike를 비활성화하면 cockpit door OPEN light를 작동 불능으로 간주한다.\nItem 52-53-02 COCKPIT DOOR OPEN light 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 52-51-00-040-010 참조 (정비 절차)"
+},
+"52-51-06B": {
+"h": "9b762db7",
+"ko": "(m) CDLS Normal System을 작동 불능으로 간주하는 조건이면 둘 이상이 작동 불능이어도 된다.\nItem 52-51-01 CDLS Normal System 참조\nNote: 작동 불능인 door release strike들이 locked(잠김) 위치에서 고장 난 경우에만 정비 절차를 적용한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 52-51-00-040-010 참조 (정비 절차)"
+},
+"52-51-08A": {
+"h": "fa8ee3fe",
+"ko": "하나가 disengaged/unlocked(풀림/잠기지 않음) 위치에서 작동 불능이어도 된다.\nNote: 중앙(center) cockpit door latch mechanism이 disengaged/unlocked 위치에서 작동 불능이면, cockpit door OPEN light를 작동 불능으로 간주한다.\nItem 52-53-02 COCKPIT DOOR OPEN light 참조\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"52-51-08B": {
+"h": "a5a8af9a",
+"ko": "CDLS Normal System을 작동 불능으로 간주하는 조건이면 둘 이상이 disengaged/unlocked(풀림/잠기지 않음) 위치에서 작동 불능이어도 된다.\nItem 52-51-01 CDLS Normal System 참조\nNote: 중앙(center) cockpit door latch mechanism이 disengaged/unlocked 위치에서 작동 불능이면, cockpit door OPEN light를 작동 불능으로 간주한다.\nItem 52-53-02 COCKPIT DOOR OPEN light 참조\nNote: <MAINTENANCE (정비 조치)>\n1. Defer Control(이연 관리)은 MCC에 연락."
+},
+"52-51-08C": {
+"h": "db6194fe",
+"ko": "(o) 다음 조건이면 하나 이상이 engaged/locked(걸림/잠김) 위치에서 작동 불능 상태로 운항할 수 있다:\n1) CDLS Normal System이 작동 가능하고,\n2) cockpit door OPEN light가 표시되지 않고,\n3) COCKPIT DOOR sw(스위치)의 UNLOCK 기능이 작동 가능하다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 52-51-08C Cockpit Door Latch Mechanism (Mechanical Latches) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-51-09A": {
+"h": "379570b0",
+"ko": "CDLS Normal System과 cockpit door OPEN light를 작동 불능으로 간주하는 조건이면 open/unlocked(열림/잠기지 않음) 위치에서 작동 불능이어도 된다.\nItem 52-51-01 CDLS Normal System 참조\nItem 52-53-02 COCKPIT DOOR OPEN light 참조\nNote: <MAINTENANCE (정비 조치)>\n1. Defer Control(이연 관리)은 MCC에 연락."
+},
+"52-51-09B": {
+"h": "70e005cb",
+"ko": "(o) 다음 조건이면 closed/locked(닫힘/잠김) 위치에서 작동 불능 상태로 운항할 수 있다:\n1) CDLS Normal System이 작동 가능하고,\n2) cockpit door OPEN light가 표시되지 않고,\n3) COCKPIT DOOR sw(스위치)의 UNLOCK 기능이 작동 가능하다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 52-51-09B Cockpit Door Handle (including Bellcranks Linkage) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-53-01A": {
+"h": "1dfa78e8",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"52-53-02A": {
+"h": "dc9fd5a8",
+"ko": "(o) 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 52-53-02A COCKPIT DOOR OPEN light 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-53-03A": {
+"h": "5b6837a5",
+"ko": "cockpit door keypad를 작동 불능으로 간주하는 조건이면 작동 불능이어도 된다.\nItem 52-51-04 CDLS Keypad 참조\nNote: <MAINTENANCE (정비 조치)>\n1. Defer Control(이연 관리)은 MCC에 연락."
+},
+"52-53-04A": {
+"h": "66b2af3d",
+"ko": "(o) 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 52-53-04A UNLOCK Function of the COCKPIT DOOR sw 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-01-01-01A": {
+"h": "ebfaae3d",
+"ko": "(o) CKPT DOOR FAULT light indicator가 작동하는 것으로 점검된 조건이면 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 52-01-01-01A CHAN (1, 2) LEDs on the CKPT DOOR CONT Overhead Panel 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-01-01-01B": {
+"h": "e0381544",
+"ko": "CDLS Normal System을 작동 불능으로 간주하는 조건이면 하나 또는 둘 다 작동 불능이어도 된다.\nItem 52-51-01 CDLS Normal System 참조"
+},
+"52-01-01-02A": {
+"h": "b3aeb2e8",
+"ko": "(o) center pedestal의 CKPT DOOR FAULT light indicator가 작동하는 것으로 점검된 조건이면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 52-01-01-02A STRIKE (TOP, MID, BOT) LEDs on the CKPT DOOR CONT Overhead Panel 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"52-01-01-02B": {
+"h": "b0e2c710",
+"ko": "CDLS Normal System을 작동 불능으로 간주하는 조건이면 하나 이상이 작동 불능이어도 된다.\nItem 52-51-01 CDLS Normal System 참조"
+},
+"52-01-01-03A": {
+"h": "78fa1577",
+"ko": "(m) 나머지 pressure rate sensor(압력 변화율 센서)가 작동하는 것으로 점검된 조건이면 하나가 연속 60 calendar days 동안 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 52-51-00-040-011 참조 (정비 절차)"
+},
+"52-01-01-03B": {
+"h": "0eacecc3",
+"ko": "CDLS normal system을 작동 불능으로 간주하는 조건이면 둘 다 작동 불능이어도 된다.\nItem 52-51-01 CDLS Normal System 참조."
+}
+},
+"ops": {
+"52-07-01A": {
+"h": "6bc9a3ff",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\n객실 도어가 영향을 받으면 PTP 또는 FAP의 표시가 영향을 받을 수 있다.\n객실 도어가 영향을 받으면 ACARS movement report에 기록되는 시각이 틀릴 수 있다.\nAFTER ENGINE START (엔진 시동 후)\n거짓(false) door alert가 발생한 경우:\nEMER CANC pb .......... Press (누른다)\nNote: STATUS SD page에 MAX FL : 100/MEA-MORA 제한은 계속 표시된다.\nBEFORE TAKEOFF (이륙 전)\nCAUTION: alert가 없는지 확인하려면 T.O CONFIG pb를 계속 누르고 있어야 한다.\n‐ T.O CONFIG pb .......... Press (누른다)\nT.O MEMO에서 \"T.O CONFIG NORMAL\" 줄이 \"T.O CONFIG . . TEST\" 줄을 대체하지 않는다.\n‐ T.O CONFIG TEST 중 alert가 표시되지 않았으면 이륙 configuration이 정상인 것으로 간주한다."
+},
+"52-07-01B": {
+"h": "8b100f6e",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\n객실 도어가 영향을 받으면 PTP 또는 FAP의 표시가 영향을 받을 수 있다.\n객실 도어가 영향을 받으면 ACARS movement report에 기록되는 시각이 틀릴 수 있다.\n객실 도어의 SLIDE ARMED light가 계속 켜져 있을 수 있다.\nAFTER ENGINE START (엔진 시동 후)\n거짓(false) door alert가 발생한 경우:\nEMER CANC pb .......... Press (누른다)\nNote: STATUS SD page에 MAX FL : 100/MEA-MORA 제한은 계속 표시된다.\nBEFORE TAKEOFF (이륙 전)\nCAUTION: alert가 없는지 확인하려면 T.O CONFIG pb를 계속 누르고 있어야 한다.\n‐ T.O CONFIG pb .......... Press (누른다)\nT.O MEMO에서 \"T.O CONFIG NORMAL\" 줄이 \"T.O CONFIG . . TEST\" 줄을 대체하지 않는다.\n‐ T.O CONFIG TEST 중 alert가 표시되지 않았으면 이륙 configuration이 정상인 것으로 간주한다."
+},
+"52-07-01D": {
+"h": "8b100f6e",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\n객실 도어가 영향을 받으면 PTP 또는 FAP의 표시가 영향을 받을 수 있다.\n객실 도어가 영향을 받으면 ACARS movement report에 기록되는 시각이 틀릴 수 있다.\n객실 도어의 SLIDE ARMED light가 계속 켜져 있을 수 있다.\nAFTER ENGINE START (엔진 시동 후)\n거짓(false) door alert가 발생한 경우:\nEMER CANC pb .......... Press (누른다)\nNote: STATUS SD page에 MAX FL : 100/MEA-MORA 제한은 계속 표시된다.\nBEFORE TAKEOFF (이륙 전)\nCAUTION: alert가 없는지 확인하려면 T.O CONFIG pb를 계속 누르고 있어야 한다.\n‐ T.O CONFIG pb .......... Press (누른다)\nT.O MEMO에서 \"T.O CONFIG NORMAL\" 줄이 \"T.O CONFIG . . TEST\" 줄을 대체하지 않는다.\n‐ T.O CONFIG TEST 중 alert가 표시되지 않았으면 이륙 configuration이 정상인 것으로 간주한다."
+},
+"52-07-01C": {
+"h": "1b361009",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n항공기를 주간(daylight)에만 운항한다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nGENERAL INFORMATION (일반 정보)\n객실 도어가 영향을 받으면 PTP 또는 FAP의 표시가 영향을 받을 수 있다.\n객실 도어가 영향을 받으면 ACARS movement report에 기록되는 시각이 틀릴 수 있다.\n객실 도어의 SLIDE ARMED light가 계속 켜져 있을 수 있다.\nAFTER ENGINE START (엔진 시동 후)\n거짓(false) door alert가 발생한 경우:\nEMER CANC pb .......... Press (누른다)\nNote: STATUS SD page에 MAX FL : 100/MEA-MORA 제한은 계속 표시된다.\nBEFORE TAKEOFF (이륙 전)\nCAUTION: alert가 없는지 확인하려면 T.O CONFIG pb를 계속 누르고 있어야 한다.\n‐ T.O CONFIG pb .......... Press (누른다)\nT.O MEMO에서 \"T.O CONFIG NORMAL\" 줄이 \"T.O CONFIG . . TEST\" 줄을 대체하지 않는다.\n‐ T.O CONFIG TEST 중 alert가 표시되지 않았으면 이륙 configuration이 정상인 것으로 간주한다."
+},
+"52-07-02A": {
+"h": "7e7a0a6f",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n항공기를 주간(daylight)에만 운항한다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nGENERAL INFORMATION (일반 정보)\n객실 도어가 영향을 받으면 PTP 또는 FAP의 표시가 영향을 받을 수 있다.\n객실 도어가 영향을 받으면 ACARS movement report에 기록되는 시각이 틀릴 수 있다."
+},
+"52-07-02B": {
+"h": "5f871ca2",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\n객실 도어가 영향을 받으면 PTP 또는 FAP의 표시가 영향을 받을 수 있다.\n객실 도어가 영향을 받으면 ACARS movement report에 기록되는 시각이 틀릴 수 있다."
+},
+"52-07-03A": {
+"h": "43906f46",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\nPTP 또는 FAP의 표시가 영향을 받을 수 있다.\nAFTER ENGINE START (엔진 시동 후)\n거짓(false) door alert가 발생한 경우:\nEMER CANC pb .......... Press (누른다)\nNote: STATUS SD page에 MAX FL : 100/MEA-MORA 제한은 계속 표시된다.\nBEFORE TAKEOFF (이륙 전)\nCAUTION: alert가 없는지 확인하려면 T.O CONFIG pb를 계속 누르고 있어야 한다.\n‐ T.O CONFIG pb .......... Press (누른다)\nT.O MEMO에서 \"T.O CONFIG NORMAL\" 줄이 \"T.O CONFIG . . TEST\" 줄을 대체하지 않는다.\n‐ T.O CONFIG TEST 중 alert가 표시되지 않았으면 이륙 configuration이 정상인 것으로 간주한다."
+},
+"52-07-03B": {
+"h": "43906f46",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\nPTP 또는 FAP의 표시가 영향을 받을 수 있다.\nAFTER ENGINE START (엔진 시동 후)\n거짓(false) door alert가 발생한 경우:\nEMER CANC pb .......... Press (누른다)\nNote: STATUS SD page에 MAX FL : 100/MEA-MORA 제한은 계속 표시된다.\nBEFORE TAKEOFF (이륙 전)\nCAUTION: alert가 없는지 확인하려면 T.O CONFIG pb를 계속 누르고 있어야 한다.\n‐ T.O CONFIG pb .......... Press (누른다)\nT.O MEMO에서 \"T.O CONFIG NORMAL\" 줄이 \"T.O CONFIG . . TEST\" 줄을 대체하지 않는다.\n‐ T.O CONFIG TEST 중 alert가 표시되지 않았으면 이륙 configuration이 정상인 것으로 간주한다."
+},
+"52-07-03D": {
+"h": "43906f46",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\nPTP 또는 FAP의 표시가 영향을 받을 수 있다.\nAFTER ENGINE START (엔진 시동 후)\n거짓(false) door alert가 발생한 경우:\nEMER CANC pb .......... Press (누른다)\nNote: STATUS SD page에 MAX FL : 100/MEA-MORA 제한은 계속 표시된다.\nBEFORE TAKEOFF (이륙 전)\nCAUTION: alert가 없는지 확인하려면 T.O CONFIG pb를 계속 누르고 있어야 한다.\n‐ T.O CONFIG pb .......... Press (누른다)\nT.O MEMO에서 \"T.O CONFIG NORMAL\" 줄이 \"T.O CONFIG . . TEST\" 줄을 대체하지 않는다.\n‐ T.O CONFIG TEST 중 alert가 표시되지 않았으면 이륙 configuration이 정상인 것으로 간주한다."
+},
+"52-07-03C": {
+"h": "84efed6f",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n항공기를 주간(daylight)에만 운항한다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nGENERAL INFORMATION (일반 정보)\nPTP 또는 FAP의 표시가 영향을 받을 수 있다.\nAFTER ENGINE START (엔진 시동 후)\n거짓(false) door alert가 발생한 경우:\nEMER CANC pb .......... Press (누른다)\nNote: STATUS SD page에 MAX FL : 100/MEA-MORA 제한은 계속 표시된다.\nBEFORE TAKEOFF (이륙 전)\nCAUTION: alert가 없는지 확인하려면 T.O CONFIG pb를 계속 누르고 있어야 한다.\n‐ T.O CONFIG pb .......... Press (누른다)\nT.O MEMO에서 \"T.O CONFIG NORMAL\" 줄이 \"T.O CONFIG . . TEST\" 줄을 대체하지 않는다.\n‐ T.O CONFIG TEST 중 alert가 표시되지 않았으면 이륙 configuration이 정상인 것으로 간주한다."
+},
+"52-07-04A": {
+"h": "7a642d2d",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n항공기를 주간(daylight)에만 운항한다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nGENERAL INFORMATION (일반 정보)\nPTP 또는 FAP의 표시가 영향을 받을 수 있다."
+},
+"52-07-04B": {
+"h": "ad66fc36",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\nPTP 또는 FAP의 표시가 영향을 받을 수 있다."
+},
+"52-07-05A": {
+"h": "821e2a15",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\ncargo door가 영향을 받으면 ACARS movement report에 기록되는 시각이 틀릴 수 있다.\nAFTER ENGINE START (엔진 시동 후)\n거짓(false) door alert가 발생한 경우:\nEMER CANC pb .......... Press (누른다)\nNote: STATUS SD page에 MAX FL : 100/MEA-MORA 제한은 계속 표시된다.\nBEFORE TAKEOFF (이륙 전)\nCAUTION: alert가 없는지 확인하려면 T.O CONFIG pb를 계속 누르고 있어야 한다.\n‐ T.O CONFIG pb .......... Press (누른다)\nT.O MEMO에서 \"T.O CONFIG NORMAL\" 줄이 \"T.O CONFIG . . TEST\" 줄을 대체하지 않는다.\n‐ T.O CONFIG TEST 중 alert가 표시되지 않았으면 이륙 configuration이 정상인 것으로 간주한다."
+},
+"52-07-06A": {
+"h": "bf20fc14",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nAFTER ENGINE START (엔진 시동 후)\n거짓(false) door alert가 발생한 경우:\nEMER CANC pb .......... Press (누른다)\nNote: STATUS SD page에 MAX FL : 100/MEA-MORA 제한은 계속 표시된다.\nBEFORE TAKEOFF (이륙 전)\nCAUTION: alert가 없는지 확인하려면 T.O CONFIG pb를 계속 누르고 있어야 한다.\n‐ T.O CONFIG pb .......... Press (누른다)\nT.O MEMO에서 \"T.O CONFIG NORMAL\" 줄이 \"T.O CONFIG . . TEST\" 줄을 대체하지 않는다.\n‐ T.O CONFIG TEST 중 alert가 표시되지 않았으면 이륙 configuration이 정상인 것으로 간주한다."
+},
+"52-10-01A": {
+"h": "ec1b59c2",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nMEL Item 52-10-01A의 도표(Diagram) 참조\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher(운항관리사)에게 연락한다.\n모든 승무원에게 해당 exit의 위치와 상태, 승객 배치, 변경된 객실 안전 절차를 브리핑한다.\n‐ 매 이륙 및 착륙 전에 해당 exit, 탈출 경로(escape path), 블록된 좌석 배치를 점검한다.\n‐ 관련 승객 모두에게 exit가 작동 불능임을 알리고, 적절한 placard를 게시한다."
+},
+"52-10-02A": {
+"h": "ec1b59c2",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nMEL Item 52-10-01A의 도표(Diagram) 참조\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher(운항관리사)에게 연락한다.\n모든 승무원에게 해당 exit의 위치와 상태, 승객 배치, 변경된 객실 안전 절차를 브리핑한다.\n‐ 매 이륙 및 착륙 전에 해당 exit, 탈출 경로(escape path), 블록된 좌석 배치를 점검한다.\n‐ 관련 승객 모두에게 exit가 작동 불능임을 알리고, 적절한 placard를 게시한다."
+},
+"52-10-03A": {
+"h": "207afb87",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n비행을 여압하지 않는다(unpressurized).\nFCOM/PRO-NOR-SUP-MISC-E Flight Without Cabin Pressurization 참조\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher(운항관리사)에게 연락한다."
+},
+"52-10-08A": {
+"h": "939db6d8",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n운항승무원은 Purser(객실 사무장)와 함께 다음을 확인해야 한다:\n‐ cabin pressure light가 작동 불능인 해당 객실 도어에 placard를 붙여야 하고,\n‐ placard는 항공기 안쪽과 바깥쪽 모두에서 보여야 한다.\n(그림: placard 위치 — Observation window(관측창). 그림은 원문 참조)\nON GROUND (지상)\n항공기를 외부 공기 공급원으로 환기할 때 의도하지 않은 여압(pressurization)이 생기지 않도록 지상 절차를 엄격히 적용해야 한다.\nAFTER LANDING (착륙 후)\n객실 도어를 안전하게 열기 위해 운항승무원과 객실승무원 간에 협조가 이루어져야 한다.\n객실 도어를 바깥에서 안전하게 열기 위해 운항승무원과 지상 직원 간에 협조가 이루어져야 한다.\n객실승무원이 객실 도어를 열기 전에 운항승무원은 잔류 차압(residual differential pressure)이 없음을 확인해야 한다:\n‐ PACK 1 pb-sw(푸시버튼 스위치) .......... OFF\n‐ PACK 2 pb-sw .......... OFF\nCAB PRESS SD page에서 확인:\n‐ ΔP = 0.0 PSI\n‐ Outflow valve 위치가 완전히 열림(fully open)\nSLIDING WINDOW .......... OPEN (연다)\n운항승무원이 조종실 sliding window 중 하나를 열 수 없다면 잔류 압력이 남아 있다는 뜻이다. 따라서 객실 도어를 절대 열어서는 안 된다(MUST NOT BE OPENED). 이 경우 운항승무원은 잔류 압력이 없음을 확인하기 위해 조종실 sliding window 열기를 주기적으로 다시 시도할 수 있다.\nWARNING: 위 조건이 모두 충족되지 않으면 어떤 객실 도어도 열지 않는다(DO NOT OPEN). 잔류 압력이 남아 있다.\n위 조건이 모두 충족되면:\n‐ 운항승무원은 객실승무원에게 객실 도어를 열도록 지시할 수 있다."
+},
+"52-10-09B": {
+"h": "769131d3",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n운항승무원은 Purser(객실 사무장)와 함께, 최소 필요 객실승무원 수를 초과하는 객실승무원 또는 운항사가 고용한 그 밖의 적절히 훈련된 인원 한 명이 지정되어, 객실 차압(cabin differential pressure)이 4 PSI 미만일 때 해당 exit에서 가장 가까운 승객 좌석에 계속 앉아 있도록 되어 있는지 확인해야 한다.\nNote: 운항승무원은 \"CAB PRESS\" 및 \"CRUISE\" ECAM SD page에 표시되는 객실 차압이 4 PSI보다 높아지거나 낮아지는 시점을 객실승무원에게 알려, 객실승무원이 지정 좌석으로 이동하거나 계속 앉아 있도록 해야 한다."
+},
+"52-10-09C": {
+"h": "88d1a971",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n운항승무원은 Purser(객실 사무장)와 함께, 최소 필요 객실승무원 수를 초과하는 객실승무원 또는 운항사가 고용한 그 밖의 적절히 훈련된 인원 한 명이 지정되어, 객실 차압(cabin differential pressure)이 4 PSI 미만일 때 해당 exit에서 가장 가까운 승객 좌석에 계속 앉아 있도록 되어 있는지 확인해야 한다.\nNote: 운항승무원은 \"CAB PRESS\" 및 \"CRUISE\" ECAM SD page에 표시되는 객실 차압이 4 PSI보다 높아지거나 낮아지는 시점을 객실승무원에게 알려, 객실승무원이 지정 좌석으로 이동하거나 계속 앉아 있도록 해야 한다.\nGENERAL INFORMATION (일반 정보)\nEWD에 FLIGHT LOCK ENGAGED 부제목(subtitle)과 함께 해당 DOOR L(R) FWD(AFT) OVERWNG FAULT alert가 표시되면 무시한다."
+},
+"52-10-10A": {
+"h": "140de924",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n운항승무원은 Purser(객실 사무장)와 함께 다음을 확인해야 한다:\n‐ 모든 객실 도어의 모든 CABIN PRESSURE light에 placard를 붙여야 하고,\n‐ placard는 항공기 안쪽과 바깥쪽 모두에서 보여야 한다.\n(그림: placard 위치 — Observation window(관측창). 그림은 원문 참조)\nON GROUND (지상)\n항공기를 외부 공기 공급원으로 환기할 때 의도하지 않은 여압(pressurization)이 생기지 않도록 지상 절차를 엄격히 적용해야 한다.\nAFTER LANDING (착륙 후)\n객실 도어를 안전하게 열기 위해 운항승무원과 객실승무원 간에 협조가 이루어져야 한다.\n객실 도어를 바깥에서 안전하게 열기 위해 운항승무원과 지상 직원 간에 협조가 이루어져야 한다.\n객실승무원이 객실 도어를 열기 전에 운항승무원은 잔류 차압(residual differential pressure)이 없음을 확인해야 한다:\n‐ PACK 1 pb-sw(푸시버튼 스위치) .......... OFF\n‐ PACK 2 pb-sw .......... OFF\nCAB PRESS SD page에서 확인:\n‐ ΔP = 0.0 PSI\n‐ Outflow valve 위치가 완전히 열림(fully open)\nSLIDING WINDOW .......... OPEN (연다)\n운항승무원이 조종실 sliding window 중 하나를 열 수 없다면 잔류 압력이 남아 있다는 뜻이다. 따라서 객실 도어를 절대 열어서는 안 된다(MUST NOT BE OPENED). 이 경우 운항승무원은 잔류 압력이 없음을 확인하기 위해 조종실 sliding window 열기를 주기적으로 다시 시도할 수 있다.\nWARNING: 위 조건이 모두 충족되지 않으면 어떤 객실 도어도 열지 않는다(DO NOT OPEN). 잔류 압력이 남아 있다.\n위 조건이 모두 충족되면:\n‐ CAB PR EXCES RESIDUAL PR alert가 발생했다면 무시하고 clear 한다.\n‐ 운항승무원은 객실승무원에게 객실 도어를 열도록 지시할 수 있다."
+},
+"52-30-03A": {
+"h": "c900f0e5",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nDOORS/CARGO (122VU T12) C/B(회로 차단기) .......... Pull (뽑는다)"
+},
+"52-30-03B": {
+"h": "c900f0e5",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nDOORS/CARGO (122VU T12) C/B(회로 차단기) .......... Pull (뽑는다)"
+},
+"52-30-04A": {
+"h": "207afb87",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n비행을 여압하지 않는다(unpressurized).\nFCOM/PRO-NOR-SUP-MISC-E Flight Without Cabin Pressurization 참조\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher(운항관리사)에게 연락한다."
+},
+"52-30-07A": {
+"h": "95a2c588",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND (지상)\nCargo Door Open/Locked Indicator light가 작동 불능이면 지상 직원에게 다음을 알려야 한다:\n‐ manual selector valve(수동 선택 밸브)의 레버를 놓은 뒤 아래로 움직임이 없이 해당 cargo door가 완전히 열린(fully open) 위치에 있는지 육안으로 확인할 것.\n‐ manual selector valve의 레버가 neutral(중립) 위치에 머물러 있는지 육안으로 확인할 것."
+},
+"52-51-03A": {
+"h": "03a5bec3",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n출발 전, PIC(기장)는 객실승무원에게 조종실 출입을 요청할 때 cabin interphone으로 운항승무원과 교신하도록 알려야 한다.\nFOM Chapter 12.2 Enhanced Security Cockpit Door System - Alternate Access Procedure 참조."
+},
+"52-51-04A": {
+"h": "512001e8",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n출발 전, PIC(기장)는 객실승무원에게 CDLS keypad가 작동 불능이며 조종실 출입을 요청할 때 cabin interphone으로 운항승무원과 교신해야 함을 브리핑해야 한다.\nFOM Chapter 12.2 Enhanced Security Cockpit Door System - Alternate Access Procedure 참조.\nIN FLIGHT (비행 중)\n비행 내내 조종실에는 항상 최소 2명이 있어야 한다."
+},
+"52-51-05A": {
+"h": "6746467b",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n녹색 또는 적색 LED가 작동 불능인 경우:\n출발 전, PIC(기장)는 객실승무원에게 조종실 도어가 잠겼는지 또는 잠기지 않았는지 도어를 손으로 밀어 확인하도록 알려야 한다."
+},
+"52-51-08C": {
+"h": "91051e70",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\ndoor latch 하나 이상이 engaged/locked(걸림/잠김) 위치에서 작동 불능이면, 운항승무원은 조종실 쪽에서 핸들로 조종실 도어를 열 수 없다.\n조종실 도어를 열려면(unlock) 운항승무원은 COCKPIT DOOR panel(중앙 pedestal)에 있는 COCKPIT DOOR sw(스위치)를 사용하여 조종실 도어를 열어야 한다."
+},
+"52-51-09B": {
+"h": "1ee487dc",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\ncockpit door handle 및/또는 bellcranks linkage(벨크랭크 링키지)가 고장 나면, 운항승무원은 조종실 쪽에서 핸들로 조종실 도어를 열 수 없다.\n조종실 도어를 열려면(unlock) 운항승무원은 COCKPIT DOOR panel(중앙 pedestal)에 있는 COCKPIT DOOR sw(스위치)를 사용하여 조종실 도어를 열어야 한다."
+},
+"52-53-02A": {
+"h": "a5b346fb",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND AND IN FLIGHT (지상 및 비행 중)\n조종실 도어가 닫히고 잠겼는지(closed and locked) 확인한다."
+},
+"52-53-04A": {
+"h": "351260e4",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\n운항승무원이 도어를 수동으로 열어야 한다. 따라서 조종실 출입은 꼭 필요한 경우로 제한해야 한다."
+},
+"52-01-01-01A": {
+"h": "7b2210f4",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\n‐ ANN LT selector ..... TEST\n‐ cockpit door의 관련 OPEN/FAULT light가 켜지는지 확인한다."
+},
+"52-01-01-02A": {
+"h": "5b8099c9",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\n‐ ANN LT selector ..... TEST\n‐ cockpit door의 관련 OPEN/FAULT light가 켜지는지 확인한다."
+}
+}
+}

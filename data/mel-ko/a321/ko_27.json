@@ -1,0 +1,426 @@
+{
+"items": {
+"27-00-01A": {
+"h": "3a915d9b",
+"ko": "STATUS SD page에 F/CTL MAINTENANCE 메시지가 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"27-00-02A": {
+"h": "dc691463",
+"ko": "STATUS SD page에 SFCS MAINTENANCE 메시지가 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"27-00-03A": {
+"h": "77a2b97c",
+"ko": "STATUS SD page에 SLAT SYNCH 1(2) MAINTENANCE 메시지가 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"27-00-04A": {
+"h": "bc9c7518",
+"ko": "STATUS SD page에 FLAP SYNCH 1(2) MAINTENANCE 메시지가 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"27-07-01A": {
+"h": "29ba07b0",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"27-07-02A": {
+"h": "c1ebfc7e",
+"ko": "(o) 매 비행 전에 각 servo-control(서보 컨트롤)을 통한 해당 aileron의 편향(deflection)을 육안으로 확인한다면, 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 27-07-02A Aileron Position Indication on the F/CTL SD page 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"27-07-03A": {
+"h": "3a4e0649",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"27-07-04A": {
+"h": "61fd422c",
+"ko": "(o) 매 비행 전에 해당 elevator의 편향(deflection)을 육안으로 확인한다면, 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 27-07-04A Elevator Position Indication on the F/CTL SD page 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"27-07-05A": {
+"h": "ea599eba",
+"ko": "(o) 매 비행 전에 pitch trim handwheel(피치 트림 핸드휠)과 stabilizer(수평안정판)가 서로 동기(synchronous)되어 움직이는지 육안으로 확인한다면, 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 27-07-05A Pitch Trim Position Indication on the F/CTL SD page 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"27-07-06A": {
+"h": "f49f7ec4",
+"ko": "(o) 매 비행 전에 rudder의 편향(deflection)을 육안으로 확인한다면, 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 27-07-06A Rudder Position Indication on the F/CTL SD page 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"27-07-07A": {
+"h": "b8c1a4e1",
+"ko": "center pedestal의 rudder trim position indication(러더 트림 위치 표시)이 작동한다면, 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"27-07-07B": {
+"h": "e731698e",
+"ko": "이륙 전에 F/CTL SD page에서 rudder position이 0(zero)인지 확인한다면, 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"27-07-08A": {
+"h": "408ffc0b",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"27-07-09A": {
+"h": "6f5eddc4",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"27-07-10A": {
+"h": "0da41239",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"27-07-11A": {
+"h": "1d23743e",
+"ko": "(o) 매 비행 전에 해당 조종면(surface)의 편향(deflection)을 육안으로 확인한다면, 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 27-07-11A Spoilers/Speedbrakes Indication on the F/CTL SD page 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"27-07-12A": {
+"h": "3088bf96",
+"ko": "(o) 매 비행 전에 해당 조종면(surface)의 편향(deflection)을 육안으로 확인한다면, 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 27-07-12A Spoilers/Speedbrakes Indication on the WHEEL SD page 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"27-08-01A": {
+"h": "909516a5",
+"ko": "반드시 작동 가능해야 한다."
+},
+"27-08-02A": {
+"h": "909516a5",
+"ko": "반드시 작동 가능해야 한다."
+},
+"27-14-01A": {
+"h": "599c3cba",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 전기적으로 분리(electrically disconnected)하고,\n2) 기계적으로는 연결된 상태이고 유압은 공급되는 상태로 유지하며(damping 기능에는 영향 없음),\n3) left aileron green servo-control(ELAC 2가 제어)이 작동하고,\n4) right aileron blue servo-control(ELAC 2가 제어)이 작동하고,\n5) 모든 roll spoiler가 작동하고,\n6) TR 1과 TR 2(변압정류기)가 작동하고,\n7) DC TIE contactor 1PC1이 닫혀(closed) 있는지 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 27-14-01A Left Aileron Blue Servo-Control (Controlled by ELAC 1) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 27-14-00-040-001 참조 (정비 절차)"
+},
+"27-14-02A": {
+"h": "45b2e1f1",
+"ko": "(m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 전기적으로 분리(electrically disconnected)하고,\n2) 기계적으로는 연결된 상태이고 유압은 공급되는 상태로 유지하며(damping 기능에는 영향 없음),\n3) 모든 roll spoiler가 작동한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 27-14-00-040-001 참조 (정비 절차)"
+},
+"27-14-03A": {
+"h": "e5e08bbc",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 전기적으로 분리(electrically disconnected)하고,\n2) 기계적으로는 연결된 상태이고 유압은 공급되는 상태로 유지하며(damping 기능에는 영향 없음),\n3) right aileron blue servo-control(ELAC 2가 제어)이 작동하고,\n4) left aileron green servo-control(ELAC 2가 제어)이 작동하고,\n5) 모든 roll spoiler가 작동하고,\n6) TR 1과 TR 2(변압정류기)가 작동하고,\n7) DC TIE contactor 1PC1이 닫혀(closed) 있는지 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 27-14-03A Right Aileron Green Servo-Control (Controlled by ELAC 1) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 27-14-00-040-001 참조 (정비 절차)"
+},
+"27-14-04A": {
+"h": "5aad87dd",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 전기적으로 분리(electrically disconnected)하고,\n2) 기계적으로는 연결된 상태이고 유압은 공급되는 상태로 유지하며(damping 기능에는 영향 없음),\n3) 모든 roll spoiler가 작동한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 27-14-04A Right Aileron Blue Servo-Control (Controlled by ELAC 2) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 27-14-00-040-001 참조 (정비 절차)"
+},
+"27-21-01A": {
+"h": "6deb52e4",
+"ko": "(o) 다음 조건이면 하나 또는 둘 다 작동 불능 상태로 운항할 수 있다:\n1) rudder pedal을 각 조종사의 요구에 맞는 위치에 고정(secure)할 수 있고,\n2) 양쪽 조종석(pilot station)에서 rudder pedal의 완전하고 제한 없는 움직임과 brake pedal의 편향이 가능하다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 27-21-01A Rudder Pedal Adjustment System 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"27-22-01A": {
+"h": "45965363",
+"ko": "(o) EDTO(회항시간 연장운항)를 수행하지 않는다면 Rudder Trim System 1이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 사항)\n1. CAT II/III 운항 등급 하향(downgrade) 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 27-22-01A Rudder Trim System 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"27-22-01B": {
+"h": "a48db3fb",
+"ko": "(o) Rudder Trim System 2가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 사항)\n1. CAT II/III 운항 등급 하향(downgrade) 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 27-22-01B Rudder Trim System 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"27-22-02A": {
+"h": "6a5b279c",
+"ko": "rudder trim position indication(러더 트림 위치 표시) 하나가 작동한다면, 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"27-22-03A": {
+"h": "96037726",
+"ko": "(o) 이륙 전에 F/CTL SD page에서 rudder trim position이 중앙(centered)에 있는지 확인한다면, 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 27-22-03A Rudder Trim Position Indication on the Center Pedestal 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"27-23-01A": {
+"h": "cbb31307",
+"ko": "하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"27-34-01A": {
+"h": "098fa781",
+"ko": "전부 작동 가능해야 한다."
+},
+"27-34-02A": {
+"h": "049bdc07",
+"ko": "(m) servo-control마다 transducer(위치 변환기) 하나는 작동해야 한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 27-34-00-040-001 참조 (정비 절차)"
+},
+"27-40-01A": {
+"h": "9a3e9503",
+"ko": "반드시 작동 가능해야 한다."
+},
+"27-40-02A": {
+"h": "0494d43d",
+"ko": "stabilizer actuator electric motor 3이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"27-40-02B": {
+"h": "6ec0dca9",
+"ko": "(o) 다음 조건이면 stabilizer actuator electric motor 2가 작동 불능 상태로 운항할 수 있다:\n1) EDTO(회항시간 연장운항)를 수행하지 않고,\n2) ELAC 1 pitch channel을 작동 불능으로 간주한다.\nItem 27-93-01 ELAC 1 참조\nNote: <MAINTENANCE> (정비 사항)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 27-40-02B Stabilizer Actuator Electric Motor (Electric motor 2 inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"27-51-01A": {
+"h": "2dff213a",
+"ko": "(o) (m) 다음 조건이면 SFCC 2 flap channel이 작동 불능 상태로 운항할 수 있다:\n1) deactivate(비활성화)하고,\n2) OAT(외기 온도)가 ISA+35 °C 미만이고,\n3) SFCC 1으로 slat과 flap이 작동하는지 확인하고,\n4) 첫 MEL 출발 전과 이후 매일 SFCC 1 flap WTB(Wing Tip Brake)가 작동하는지 확인하고,\n5) 모든 ELAC, SEC, LGCIU, RA, FAC 및 ADIRS가 작동하고,\n6) minimum idle on ground(지상 최소 아이들)를 작동 불능으로 간주한다.\nItem 73-20-05 Minimum Idle on Ground 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 사항)\n1. 반복 정비 조치 필요 — 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. 출발 승인은 MCC에 연락.\n3. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 27-51-01A SFCC Flap Channel 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 27-51-00-040-001 참조 (정비 절차)"
+},
+"27-51-02A": {
+"h": "1717aa87",
+"ko": "(o) (m) 첫 MEL 출발 전과 이후 매일 SFCC 1 flap WTB(Wing Tip Brake)가 작동하는지 확인한다면, SFCC 2에 연결된 solenoid 하나 또는 두 개가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 사항)\n1. 반복 정비 조치 필요 — 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. 출발 승인은 MCC에 연락.\n3. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 27-51-02A Flap Wing Tip Brakes Solenoid 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 27-51-00-040-004 참조 (정비 절차)"
+},
+"27-54-01A": {
+"h": "89378618",
+"ko": "Green motor(Green 유압 계통 모터)가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"27-54-01B": {
+"h": "6d00e68f",
+"ko": "blue slat motor가 작동한다면 Yellow motor가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"27-54-02A": {
+"h": "51f4a012",
+"ko": "SFCC 2 flap channel을 작동 불능으로 간주한다면, SFCC 2에 연결된 valve block이 작동 불능이어도 된다.\nItem 27-51-01 SFCC Flap Channel 참조"
+},
+"27-54-03A": {
+"h": "dc9554c6",
+"ko": "둘 다 작동 가능해야 한다."
+},
+"27-64-01A": {
+"h": "fc7a3291",
+"ko": "(o) (m) 다음 조건이면 spoiler 5 한 쌍(pair)이 작동 불능 상태로 운항할 수 있다:\n1) 해당 spoiler를 접힌(retracted) 위치에서 deactivate(비활성화)하고,\n2) spoiler 1, 2, 3, 4 쌍이 작동한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 27-64-01A Spoiler 5 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 27-64-00-040-001 참조 (정비 절차)"
+},
+"27-64-02A": {
+"h": "c3879e69",
+"ko": "(o) (m) 다음 조건이면 spoiler 1 또는 3 중 한 쌍(pair)이 작동 불능 상태로 운항할 수 있다:\n1) 해당 spoiler를 접힌(retracted) 위치에서 deactivate(비활성화)하고,\n2) spoiler 2, 4, 5 쌍이 작동하고,\n3) Flight Manual(비행교범) 성능 감손(performance penalty)을 적용한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 사항)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 27-64-02A Spoiler 1 or 3 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 27-64-00-040-001 참조 (정비 절차)"
+},
+"27-64-03A": {
+"h": "610c26c6",
+"ko": "(o) (m) 다음 조건이면 spoiler 2 또는 4 중 한 쌍(pair)이 접힌(retracted) 위치에서 작동 불능 상태로 운항할 수 있다:\n1) 해당 spoiler를 접힌(retracted) 위치에서 deactivate(비활성화)하고,\n2) spoiler 1, 3, 5 쌍이 작동하고,\n3) SFCC 2 flap channel이 작동하고,\n4) Flight Manual(비행교범) 성능 감손(performance penalty)을 적용한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 사항)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 27-64-03A Spoiler 2 or 4 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 27-64-00-040-001 참조 (정비 절차)"
+},
+"27-64-04A": {
+"h": "03e6bfc7",
+"ko": "(o) (m) 다음 조건이면 spoiler 1과 2 쌍(pairs)이 접힌(retracted) 위치에서 작동 불능 상태로 운항할 수 있다:\n1) 해당 spoiler들을 접힌(retracted) 위치에서 deactivate(비활성화)하고,\n2) spoiler 3, 4, 5 쌍이 작동하고,\n3) SFCC 2 flap channel이 작동하고,\n4) Flight Manual(비행교범) 성능 감손(performance penalty)을 적용한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 사항)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 27-64-04A Spoilers 1 and 2 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 27-64-00-040-002 참조 (정비 절차)"
+},
+"27-64-05A": {
+"h": "5ea0cecc",
+"ko": "(o) (m) 다음 조건이면 spoiler 3과 4 쌍(pairs)이 접힌(retracted) 위치에서 작동 불능 상태로 운항할 수 있다:\n1) 해당 spoiler들을 접힌(retracted) 위치에서 deactivate(비활성화)하고,\n2) spoiler 1, 2, 5 쌍이 작동하고,\n3) TR 1과 TR 2(변압정류기)가 작동하고,\n4) DC TIE contactor 1PC1이 닫혀(closed) 있는지 확인하고,\n5) SFCC 2 flap channel이 작동하고,\n6) Flight Manual(비행교범) 성능 감손(performance penalty)을 적용한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 사항)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 27-64-05A Spoilers 3 and 4 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 27-64-00-040-001 참조 (정비 절차)"
+},
+"27-81-01A": {
+"h": "a105c330",
+"ko": "(o) (m) 다음 조건이면 SFCC 2 slat channel이 작동 불능 상태로 운항할 수 있다:\n1) deactivate(비활성화)하고,\n2) SFCC 1으로 slat과 flap이 작동하는지 확인하고,\n3) 첫 MEL 출발 전과 이후 매일 SFCC 1 slat WTB(Wing Tip Brake)가 작동하는지 확인하고,\n4) 모든 ELAC, SEC, LGCIU, RA, FAC 및 ADIRS가 작동하고,\n5) CONF 1+F로 이륙하지 않는다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 사항)\n1. 반복 정비 조치 필요 — 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. 출발 승인은 MCC에 연락.\n3. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 27-81-01A SFCC Slat Channel 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 27-51-00-040-005 참조 (정비 절차)"
+},
+"27-81-02A": {
+"h": "c94a4805",
+"ko": "(o) (m) 첫 MEL 출발 전과 이후 매일 SFCC 1 slat WTB(Wing Tip Brake)가 작동하는지 확인한다면, SFCC 2에 연결된 solenoid 하나 또는 두 개가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 사항)\n1. 반복 정비 조치 필요 — 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. 출발 승인은 MCC에 연락.\n3. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 27-81-02A Slat Wing Tip Brakes Solenoid 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 27-81-00-040-001 참조 (정비 절차)"
+},
+"27-84-01A": {
+"h": "4c06cc67",
+"ko": "하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+},
+"27-84-02A": {
+"h": "cd1a7a17",
+"ko": "SFCC 2 slat channel을 작동 불능으로 간주한다면, SFCC 2에 연결된 valve block이 작동 불능이어도 된다.\nItem 27-81-01 SFCC Slat Channel 참조"
+},
+"27-84-03A": {
+"h": "dc9554c6",
+"ko": "둘 다 작동 가능해야 한다."
+},
+"27-93-01A": {
+"h": "82899e49",
+"ko": "(o) (m) 다음 조건이면 ELAC 1 또는 ELAC 1의 어떤 기능이든 작동 불능 상태로 운항할 수 있다:\n1) EDTO(회항시간 연장운항)를 수행하지 않고,\n2) 모든 SEC, SFCC, LGCIU, RA, ADIRS 및 FAC가 작동하고,\n3) spoiler 2, 3, 4, 5 쌍이 작동하고,\n4) TR 1과 TR 2(변압정류기)가 작동하고,\n5) 매 비행 전에 ELAC 2에 연결된 accelerometer(가속도계) 둘 다가 작동하는지 확인하고,\n6) 매 비행 전에 ELAC 2 및 세 개의 SEC에 연결된 모든 sidestick transducer가 작동하는지 확인하고,\n7) 매 비행 전에 DC TIE contactor 1PC1이 닫혀(closed) 있는지 확인하고,\n8) 매 비행 전에 SEC를 통한 elevator 및 roll spoiler 제어가 작동하는지 확인하고,\n9) 매 비행 전에 ELAC 2를 통한 aileron 제어가 작동하는지 확인한다.\nNote: F/O take-over pb(사이드스틱 우선권 버튼)로는 AP 1을 해제(disengage)할 수 없다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 사항)\n1. 반복 정비 조치 필요 — 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. CAT II/III 운항 등급 하향(downgrade) 관리는 MEL item 22-00-00을 적용한다.\n3. 출발 승인은 MCC에 연락.\n4. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 27-93-01A ELAC 1 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 27-93-00-040-001 참조 (정비 절차)"
+},
+"27-93-02A": {
+"h": "65937d9f",
+"ko": "반드시 작동 가능해야 한다."
+},
+"27-93-03A": {
+"h": "65937d9f",
+"ko": "반드시 작동 가능해야 한다."
+},
+"27-94-01A": {
+"h": "e11cec0b",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) EDTO(회항시간 연장운항)를 수행하지 않고,\n2) deactivate(비활성화)하고,\n3) SEC 2와 SEC 3이 작동하고,\n4) 모든 ELAC, SFCC, LGCIU, RA, FAC 및 ADIRS가 작동하고,\n5) SFCC 2 flap channel이 작동하고,\n6) 모든 aileron servo-control이 작동하고,\n7) TR 1과 TR 2(변압정류기)가 작동하고,\n8) 매 비행 전에 ELAC 및 작동하는 SEC에 연결된 sidestick transducer가 작동하는지 확인하고,\n9) 매 비행 전에 DC TIE contactor 1PC1이 닫혀(closed) 있는지 확인하고,\n10) 매 비행 전에 SEC 2 및 ELAC를 통한 elevator 제어와 작동하는 SEC를 통한 roll spoiler 제어가 작동하는지 확인하고,\n11) spoiler 3과 4 쌍 작동 불능에 대한 Flight Manual(비행교범) 성능 감손(performance penalty)을 적용한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 사항)\n1. 반복 정비 조치 필요 — 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. 출발 승인은 MCC에 연락.\n3. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 27-94-01A SEC 1 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 27-94-00-040-002 참조 (정비 절차)"
+},
+"27-94-02A": {
+"h": "f28d97f0",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) deactivate(비활성화)하고,\n2) SEC 1과 SEC 3이 작동하고,\n3) 모든 ELAC, SFCC, LGCIU, RA, FAC 및 ADIRS가 작동하고,\n4) 모든 aileron servo-control이 작동하고,\n5) 매 비행 전에 ELAC 및 작동하는 SEC에 연결된 sidestick transducer가 작동하는지 확인하고,\n6) 매 비행 전에 SEC 1 및 ELAC를 통한 elevator 제어와 작동하는 SEC를 통한 roll spoiler 제어가 작동하는지 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 사항)\n1. 반복 정비 조치 필요 — 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 27-94-02A SEC 2 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 27-94-00-040-002 참조 (정비 절차)"
+},
+"27-94-03A": {
+"h": "3bedb37d",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) deactivate(비활성화)하고,\n2) SEC 1과 SEC 2가 작동하고,\n3) SFCC 2 flap channel이 작동하고,\n4) 모든 aileron servo-control이 작동하고,\n5) 작동하는 SEC에 연결된 모든 roll spoiler가 작동하고,\n6) spoiler 1과 2 쌍 작동 불능에 대한 Flight Manual(비행교범) 성능 감손(performance penalty)을 적용한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 사항)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 27-94-03A SEC 3 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"27-95-01A": {
+"h": "5d10ece1",
+"ko": "반드시 작동 가능해야 한다."
+},
+"27-95-02A": {
+"h": "d0c65be0",
+"ko": "(o) 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 27-95-02A FCDC 2 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"27-01-01-01A": {
+"h": "77b2bc63",
+"ko": "하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"27-01-01-02A": {
+"h": "74fcbb72",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"27-01-01-03A": {
+"h": "67510bfe",
+"ko": "하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"27-01-01-04A": {
+"h": "5d9bb474",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"27-92-01A": {
+"h": "377e9699",
+"ko": "(o) ground spoiler control system 작동 불능에 해당하는 Flight Manual(비행교범) 성능 감손(performance penalty)을 적용한다면, speedbrake control system이 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 27-92-01A Speedbrake Control System (speedbrake control system inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"27-92-01B": {
+"h": "ac6b8c57",
+"ko": "(o) spoiler 한 쌍(one pair) 작동 불능에 해당하는 Flight Manual(비행교범) 성능 감손(performance penalty)을 적용한다면, speedbrake 2가 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 27-92-01B Speedbrake Control System (speedbrake 2 inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"27-92-01C": {
+"h": "c2ee9411",
+"ko": "(o) spoiler 두 쌍(two pairs) 작동 불능에 해당하는 Flight Manual(비행교범) 성능 감손(performance penalty)을 적용한다면, speedbrake 3과 4가 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 27-92-01C Speedbrake Control System (speedbrakes 3 and 4 inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"27-92-02A": {
+"h": "e0bc9eb2",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 성능 계산(performance computation)에 양쪽 thrust reverser를 모두 반영하지 않고,\n2) autobrake 기능을 사용하지 않고,\n3) Flight Manual(비행교범) 성능 감손(performance penalty)을 적용한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 27-92-02A Ground Spoiler Control System (ground spoiler control system inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"27-92-02B": {
+"h": "aaa5c41f",
+"ko": "(o) spoiler 5 쌍(pair)이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 27-92-02B Ground Spoiler Control System (pair of spoilers 5 inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"27-92-02C": {
+"h": "9880d27c",
+"ko": "(o) Flight Manual(비행교범) 성능 감손(performance penalty)을 적용한다면, spoiler 1과 2 쌍(pairs) 또는 spoiler 3과 4 쌍이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 27-92-02C Ground Spoiler Control System (pairs of spoilers 1 and 2 or pairs of spoilers 3 and 4 inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"27-92-03A": {
+"h": "c6d5474f",
+"ko": "모두 작동해야 한다."
+},
+"27-92-04A": {
+"h": "06c2f626",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+},
+"27-92-05A": {
+"h": "6b641eae",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+}
+},
+"ops": {
+"27-07-02A": {
+"h": "e442b5ac",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nNote: Yellow Electric Pump를 사용할 수 없으면:\n‐ 다음으로 Yellow Hydraulic System을 가압한다:\n• Ground cart(지상 유압 카트), 또는\n• Engine 2를 작동시킨 상태의 Yellow Engine 2 Pump.\n‐ 아래 절차에서 YELLOW ELEC PUMP pb-sw(푸시버튼 스위치)에 대한 조작은 Ground Cart 또는 YELLOW ENG 2 PUMP pb-sw에 대한 같은 조작으로 대체한다.\nELAC를 통한 aileron 제어 점검:\n항공기를 시험 구성(test configuration)으로 놓는다:\n‐ YELLOW ELEC PUMP pb-sw ..... ON\n‐ PTU pb-sw ..... AUTO\n‐ BLUE ELEC PUMP pb-sw ..... AUTO\n‐ BLUE PUMP OVRD pb ..... ON\n‐ ELAC 1 pb-sw ..... On\n‐ ELAC 2 pb-sw ..... On\nELAC 1을 통한 aileron 제어 점검:\n‐ CAPT stick을 오른쪽 끝(right stop)에서 왼쪽 끝(left stop)까지 움직인다.\n‐ aileron이 전체 행정(full travel)으로 움직이는지 육안으로 확인한다.\nCAUTION: 예상한 aileron 움직임이 나타나지 않으면 reset을 시도하지 말 것. 정비(maintenance)에 연락한다.\nELAC 2를 통한 aileron 제어 점검:\n‐ ELAC 1 pb-sw ..... OFF\n‐ CAPT stick을 오른쪽 끝(right stop)에서 왼쪽 끝(left stop)까지, 이어서 앞쪽 끝(forward stop)에서 뒤쪽 끝(aft stop)까지 움직인다.\n‐ aileron이 전체 행정(full travel)으로 움직이는지 육안으로 확인한다.\nCAUTION: 예상한 aileron 움직임이 나타나지 않으면 reset을 시도하지 말 것. 정비(maintenance)에 연락한다.\n정상 구성으로 복귀:\n‐ YELLOW ELEC PUMP pb-sw ..... Off\n‐ BLUE PUMP OVRD pb-sw ..... Off\n‐ ELAC 1 pb-sw ..... On"
+},
+"27-07-04A": {
+"h": "90957dc3",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nNote: Yellow Electric Pump를 사용할 수 없으면:\n‐ 다음으로 Yellow Hydraulic System을 가압한다:\n• Ground cart(지상 유압 카트), 또는\n• Engine 2를 작동시킨 상태의 Yellow Engine 2 Pump.\n‐ 아래 절차에서 YELLOW ELEC PUMP pb-sw(푸시버튼 스위치)에 대한 조작은 Ground Cart 또는 YELLOW ENG 2 PUMP pb-sw에 대한 같은 조작으로 대체한다.\nelevator 제어 점검:\n‐ YELLOW ELEC PUMP pb-sw ..... ON\n‐ PTU pb-sw ..... AUTO\n‐ BLUE ELEC PUMP pb-sw ..... AUTO\n‐ BLUE PUMP OVRD pb ..... ON\n‐ 지상 요원(ground crew)과 통신을 설정한다.\n‐ CAPT 또는 F/O stick을 최대 nose down 위치로 움직인다.\n‐ 양쪽 elevator가 아래로 움직이는지 육안으로 확인한다.\n‐ CAPT 또는 F/O stick을 최대 nose up 위치로 움직인다.\n‐ 양쪽 elevator가 위로 움직이는지 육안으로 확인한다.\n‐ CAPT 또는 F/O stick을 중립(neutral) 위치로 움직인다.\n‐ 양쪽 elevator가 중립 위치로 돌아가는지 육안으로 확인한다.\n‐ YELLOW ELEC PUMP pb-sw ..... Off\n‐ BLUE PUMP OVRD pb-sw ..... Off"
+},
+"27-07-05A": {
+"h": "9b250af5",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nNote: Yellow Electric Pump를 사용할 수 없으면:\n‐ 다음으로 Yellow Hydraulic System을 가압한다:\n• Ground cart(지상 유압 카트), 또는\n• Engine 2를 작동시킨 상태의 Yellow Engine 2 Pump.\n‐ 아래 절차에서 YELLOW ELEC PUMP pb-sw(푸시버튼 스위치)에 대한 조작은 Ground Cart 또는 YELLOW ENG 2 PUMP pb-sw에 대한 같은 조작으로 대체한다.\nstabilizer(수평안정판) 제어 점검:\n‐ YELLOW ELEC PUMP pb-sw ..... ON\n‐ 지상 요원(ground crew)과 통신을 설정한다.\n‐ pitch trim handwheel을 full DN 위치로 움직인다.\n‐ stabilizer가 full down 위치로 움직이는지 육안으로 확인한다.\n‐ pitch trim handwheel을 full UP 위치로 움직인다.\n‐ stabilizer가 full up 위치로 움직이는지 육안으로 확인한다.\n‐ pitch trim handwheel을 필요한 위치로 움직인다.\n‐ YELLOW ELEC PUMP pb-sw ..... Off"
+},
+"27-07-06A": {
+"h": "204ada1b",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nNote: Yellow Electric Pump를 사용할 수 없으면:\n‐ 다음으로 Yellow Hydraulic System을 가압한다:\n• Ground cart(지상 유압 카트), 또는\n• Engine 2를 작동시킨 상태의 Yellow Engine 2 Pump.\n‐ 아래 절차에서 YELLOW ELEC PUMP pb-sw(푸시버튼 스위치)에 대한 조작은 Ground Cart 또는 YELLOW ENG 2 PUMP pb-sw에 대한 같은 조작으로 대체한다.\nrudder 제어 점검:\n‐ YELLOW ELEC PUMP pb-sw ..... ON\n‐ 지상 요원(ground crew)과 통신을 설정한다.\n‐ CAPT 또는 F/O 쪽에서 left rudder를 밟는다.\n‐ rudder가 왼쪽으로 움직이는지 육안으로 확인한다.\n‐ CAPT 또는 F/O 쪽에서 right rudder를 밟는다.\n‐ rudder가 오른쪽으로 움직이는지 육안으로 확인한다.\n‐ CAPT 또는 F/O 쪽에서 pedal을 놓는다.\n‐ rudder가 중립(neutral) 위치로 움직이는지 육안으로 확인한다.\n‐ YELLOW ELEC PUMP pb-sw ..... Off"
+},
+"27-07-11A": {
+"h": "fd17e07c",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nNote: Yellow Electric Pump를 사용할 수 없으면:\n‐ 다음으로 Yellow Hydraulic System을 가압한다:\n• Ground cart(지상 유압 카트), 또는\n• Engine 2를 작동시킨 상태의 Yellow Engine 2 Pump.\n‐ 아래 절차에서 YELLOW ELEC PUMP pb-sw(푸시버튼 스위치)에 대한 조작은 Ground Cart 또는 YELLOW ENG 2 PUMP pb-sw에 대한 같은 조작으로 대체한다.\n• surface 1 표시가 작동 불능이면:\nCAUTION: 점검 중 항공기는 정지해 있어야 한다.\n‐ YELLOW ELEC PUMP pb-sw ..... ON\n‐ PTU pb-sw ..... AUTO\n‐ SPEEDBRAKES lever ..... FULL\n‐ surface 1이 약간(약 6°) 펼쳐지는지 육안으로 확인한다.\n‐ YELLOW ELEC PUMP pb-sw ..... Off\n• surface 3 표시가 작동 불능이면:\n‐ BLUE ELEC PUMP pb-sw ..... AUTO\n‐ BLUE PUMP OVRD pb-sw ..... ON\n‐ stick을 왼쪽 끝(left stop)에서 오른쪽 끝(right stop)까지 움직인다.\n‐ surface 3이 올바르게 움직이는지 육안으로 확인한다.\n‐ BLUE PUMP OVRD pb-sw ..... Off\n• surface 2, 4 또는 5 표시가 작동 불능이면:\n‐ YELLOW ELEC PUMP pb-sw ..... ON\n‐ PTU pb-sw ..... AUTO\n‐ stick을 왼쪽 끝에서 오른쪽 끝까지 움직이고, surface 2, 4, 5가 올바르게 움직이는지 육안으로 확인한다.\n‐ YELLOW ELEC PUMP pb-sw ..... Off"
+},
+"27-07-12A": {
+"h": "fd17e07c",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nNote: Yellow Electric Pump를 사용할 수 없으면:\n‐ 다음으로 Yellow Hydraulic System을 가압한다:\n• Ground cart(지상 유압 카트), 또는\n• Engine 2를 작동시킨 상태의 Yellow Engine 2 Pump.\n‐ 아래 절차에서 YELLOW ELEC PUMP pb-sw(푸시버튼 스위치)에 대한 조작은 Ground Cart 또는 YELLOW ENG 2 PUMP pb-sw에 대한 같은 조작으로 대체한다.\n• surface 1 표시가 작동 불능이면:\nCAUTION: 점검 중 항공기는 정지해 있어야 한다.\n‐ YELLOW ELEC PUMP pb-sw ..... ON\n‐ PTU pb-sw ..... AUTO\n‐ SPEEDBRAKES lever ..... FULL\n‐ surface 1이 약간(약 6°) 펼쳐지는지 육안으로 확인한다.\n‐ YELLOW ELEC PUMP pb-sw ..... Off\n• surface 3 표시가 작동 불능이면:\n‐ BLUE ELEC PUMP pb-sw ..... AUTO\n‐ BLUE PUMP OVRD pb-sw ..... ON\n‐ stick을 왼쪽 끝(left stop)에서 오른쪽 끝(right stop)까지 움직인다.\n‐ surface 3이 올바르게 움직이는지 육안으로 확인한다.\n‐ BLUE PUMP OVRD pb-sw ..... Off\n• surface 2, 4 또는 5 표시가 작동 불능이면:\n‐ YELLOW ELEC PUMP pb-sw ..... ON\n‐ PTU pb-sw ..... AUTO\n‐ stick을 왼쪽 끝에서 오른쪽 끝까지 움직이고, surface 2, 4, 5가 올바르게 움직이는지 육안으로 확인한다.\n‐ YELLOW ELEC PUMP pb-sw ..... Off"
+},
+"27-14-01A": {
+"h": "1b3dccfd",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nDC TIE contactor 1이 닫혀(closed) 있는지 확인:\n‐ APU 또는 external power(외부 전원)로 전기 계통(electrical network)에 전원을 공급한다.\n‐ ELEC SD page에서 DC BUS 1과 DC BAT BUS 사이의 연결(link)을 확인한다."
+},
+"27-14-03A": {
+"h": "1b3dccfd",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nDC TIE contactor 1이 닫혀(closed) 있는지 확인:\n‐ APU 또는 external power(외부 전원)로 전기 계통(electrical network)에 전원을 공급한다.\n‐ ELEC SD page에서 DC BUS 1과 DC BAT BUS 사이의 연결(link)을 확인한다."
+},
+"27-14-04A": {
+"h": "39e6d8c5",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING ENGINE START (엔진 시동 중)\n‐ 첫 번째 엔진 시동 후 EWD에 F/CTL ELAC2 FAULT 경고가 표시될 수 있다/표시된다.\n‐ 두 번째 엔진 시동 후 F/CTL ELAC2 FAULT 경고가 사라지는지 확인한다."
+},
+"27-21-01A": {
+"h": "053cf3fb",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\n양쪽 pedal에 동시에 (rudder 조작 움직임 방향으로) 힘을 가하여 고정 위치(secured position)에 도달했는지 확인한다. 이때 가하는 힘은 full rudder 편향에 해당하는 크기여야 한다."
+},
+"27-22-01A": {
+"h": "a4f6913f",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n• Rudder Trim System 1이 작동 불능이면:\nEDTO(회항시간 연장운항)를 수행하지 않는다.\n최대 착륙 능력(maximum landing capability)은 CAT III(Fail-Passive)이다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release를 갱신하고 “FLIGHT PLANNING RESTRICTIONS”를 확인한다."
+},
+"27-22-01B": {
+"h": "a4f6913f",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n• Rudder Trim System 1이 작동 불능이면:\nEDTO(회항시간 연장운항)를 수행하지 않는다.\n최대 착륙 능력(maximum landing capability)은 CAT III(Fail-Passive)이다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release를 갱신하고 “FLIGHT PLANNING RESTRICTIONS”를 확인한다."
+},
+"27-22-03A": {
+"h": "6c630ace",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nRUD TRIM position indication ..... CHECK CENTERED (중앙에 있는지 확인)\n• RUD TRIM position indication이 중앙(centered)에 있지 않으면:\nRESET pb ..... PRESS (누름)"
+},
+"27-40-02B": {
+"h": "81c05b84",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO(회항시간 연장운항)를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release를 갱신하고 “FLIGHT PLANNING RESTRICTIONS”를 확인한다."
+},
+"27-51-01A": {
+"h": "fbb4cb58",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nOAT(외기 온도)가 ISA+35 °C 미만이어야 한다.\nRNP AR 능력이 있는 항공기는 RNP AR 운항이 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release를 갱신하고 “FLIGHT PLANNING RESTRICTIONS”를 확인한다.\nGENERAL INFORMATION (일반 정보)\nSTATUS SD page에 F/CTL MAINTENANCE 메시지와 SFCS MAINTENANCE 메시지가 표시될 수 있다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nEWD에 표시되는 F/CTL FLAP SYS 2 FAULT 경고는 무시하고 clear한다.\nAFTER ENGINE START (엔진 시동 후)\nSTATUS SD page에 ENG 2 APPR IDLE ONLY 메시지가 표시된다.\nSTATUS SD page에 FLAPS SLOW 메시지가 표시된다."
+},
+"27-51-02A": {
+"h": "03c11d3e",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nRNP AR 능력이 있는 항공기는 RNP AR 운항이 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release를 갱신하고 “FLIGHT PLANNING RESTRICTIONS”를 확인한다."
+},
+"27-64-01A": {
+"h": "9b47873e",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nAFTER ENGINE START (엔진 시동 후)\nHYD SD page에서 amber(황색) 데이터가 없는지 확인한다.\nNote: spoiler 5 쌍이 작동 불능일 때는 성능 감손(performance penalty)이 적용되지 않는다."
+},
+"27-64-02A": {
+"h": "4d40881f",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n이륙(T/O) 및 착륙 성능 산출 시, 해당 Flight Manual(비행교범) 성능 감손(performance penalty)을 OCTOPUS 프로그램으로 산출한다.\nNote: Airbus EFB PERF 애플리케이션(FlySmart+)에서는 MEL item \"GROUND SPOILERS 1 PAIR INOPERATIVE\"에 해당한다.\n사용할 수 없으면, 운항관리사(dispatcher)에게 연락하여 이륙 및 착륙 성능 데이터를 받는다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release를 갱신하고 “FLIGHT PLANNING RESTRICTIONS”를 확인한다.\nAFTER ENGINE START (엔진 시동 후)\nHYD SD page에서 amber(황색) 데이터가 없는지 확인한다."
+},
+"27-64-03A": {
+"h": "80c860f2",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n이륙(T/O) 및 착륙 성능 산출 시, 해당 Flight Manual(비행교범) 성능 감손(performance penalty)을 OCTOPUS 프로그램으로 산출한다.\nNote: Airbus EFB PERF 애플리케이션(FlySmart+)에서는 MEL item \"GROUND SPOILERS 1 PAIR INOPERATIVE\"에 해당한다.\n사용할 수 없으면, 운항관리사(dispatcher)에게 연락하여 이륙 및 착륙 성능 데이터를 받는다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release를 갱신하고 “FLIGHT PLANNING RESTRICTIONS”를 확인한다.\nAFTER ENGINE START (엔진 시동 후)\nHYD SD page에서 amber(황색) 데이터가 없는지 확인한다."
+},
+"27-64-04A": {
+"h": "3d7bb538",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n이륙(T/O) 및 착륙 성능 산출 시, 해당 Flight Manual(비행교범) 성능 감손(performance penalty)을 OCTOPUS 프로그램으로 산출한다.\nNote: Airbus EFB PERF 애플리케이션(FlySmart+)에서는 MEL item \"GROUND SPOILERS 2 PAIRS INOPERATIVE\"에 해당한다.\n사용할 수 없으면, 운항관리사(dispatcher)에게 연락하여 이륙 및 착륙 성능 데이터를 받는다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release를 갱신하고 “FLIGHT PLANNING RESTRICTIONS”를 확인한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\n‐ SEC 3 pb-sw ..... OFF\n‐ FLIGHT CONTROLS/SEC3/SPLY (121VU Q19) C/B ..... Pull (뽑음)\nIN FLIGHT (비행 중)\n• SEC 1과 SEC 2가 추가로 고장 나는 경우:\n‐ Autoland(자동착륙)는 허용되지 않는다.\n‐ direct law로 착륙하기 전 500 ft RA에서 AP를 해제(disengage)한다. 세 개의 SEC가 모두 고장 난 상태에서 AP를 해제하면 다시 engage할 수 없다.\n‐ 최대 착륙 능력(maximum landing capability)은 CAT 1이다."
+},
+"27-64-05A": {
+"h": "90357e1a",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n이륙(T/O) 및 착륙 성능 산출 시, 해당 Flight Manual(비행교범) 성능 감손(performance penalty)을 OCTOPUS 프로그램으로 산출한다.\nNote: Airbus EFB PERF 애플리케이션(FlySmart+)에서는 MEL item \"GROUND SPOILERS 2 PAIRS INOPERATIVE\"에 해당한다.\n사용할 수 없으면, 운항관리사(dispatcher)에게 연락하여 이륙 및 착륙 성능 데이터를 받는다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release를 갱신하고 “FLIGHT PLANNING RESTRICTIONS”를 확인한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nDC TIE contactor 1이 닫혀(closed) 있는지 확인:\n‐ APU 또는 external power(외부 전원)로 전기 계통(electrical network)에 전원을 공급한다.\n‐ ELEC SD page에서 DC BUS 1과 DC BAT BUS 사이의 연결(link)을 확인한다.\nIN FLIGHT (비행 중)\nspeedbrake를 사용하지 않는다."
+},
+"27-81-01A": {
+"h": "dc9b5c73",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nRNP AR 능력이 있는 항공기는 RNP AR 운항이 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release를 갱신하고 “FLIGHT PLANNING RESTRICTIONS”를 확인한다.\nGENERAL INFORMATION (일반 정보)\nSTATUS SD page에 F/CTL MAINTENANCE 메시지와 SFCS MAINTENANCE 메시지가 표시될 수 있다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nEWD에 표시되는 F/CTL SLAT SYS 2 FAULT 경고는 무시하고 clear한다.\nAFTER ENGINE START (엔진 시동 후)\nSTATUS SD page에 SLATS SLOW 메시지가 표시된다.\nNote: slat이 절반 속도로 접힌다(retract). 운항승무원은 일시적인 VFE 초과를 피하기 위해 slat 접힘 속도를 고려해야 한다.\nFOR TAKEOFF (이륙 시)\nCONF 1+F 이륙은 허용되지 않는다.\nNote: SFCC 2 Slat channel이 deactivate된 상태에서 항공기가 CONF 1+F이면, SFCS 2 Flap channel이 ADR 1에서 오는 대기속도를 SFCS 2 Slat channel에서 오는 ADR 2 대기속도와 교차 확인(crosscheck)할 수 없다. 이로 인해 이륙 중 의도하지 않은 flap 접힘(uncommanded flap retraction)이 발생할 수 있다. 따라서 SFCC 2 Slat channel이 deactivate된 경우 CONF 1+F 이륙은 허용되지 않는다."
+},
+"27-81-02A": {
+"h": "44cfffbb",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nRNP AR 능력이 있는 항공기는 RNP AR 운항이 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release를 갱신하고 “FLIGHT PLANNING RESTRICTIONS”를 확인한다."
+},
+"27-93-01A": {
+"h": "67e694ee",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO(회항시간 연장운항)를 수행하지 않는다.\nRNP AR 능력이 있는 항공기는 RNP AR 운항이 허용되지 않는다.\n• 착륙에 AP 1을 engage하는 경우:\n최대 착륙 능력(maximum landing capability)은 CAT I이다.\n• 착륙에 AP 2를 engage하는 경우:\n최대 착륙 능력은 CAT III(Fail-passive)이다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release를 갱신하고 “FLIGHT PLANNING RESTRICTIONS”를 확인한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nNote: Yellow Electric Pump를 사용할 수 없으면:\n‐ 다음으로 Yellow Hydraulic System을 가압한다:\n• Ground cart(지상 유압 카트), 또는\n• 양쪽 Engine을 작동시킨 상태의 Yellow 및 Green Engine Hydraulic Pump 둘 다.\n‐ 아래 절차에서 YELLOW ELEC PUMP pb-sw(푸시버튼 스위치)에 대한 조작은 Ground Cart 또는 GREEN ENG 1 PUMP pb-sw와 YELLOW ENG 2 PUMP pb-sw 둘 다에 대한 같은 조작으로 대체한다.\n• EWD에 F/CTL ELAC 1 FAULT 경고가 표시된 경우:\nNote: 1. 정비 절차 적용 후에도 다음 ECAM 경고는 EWD에 계속 표시된다:\n‐ C/B TRIPPED R ELEC BAY 경고, 그리고\n‐ C/B TRIPPED ON OVHD PNL 경고, 그리고\n‐ F/CTL ELAC 1 FAULT 경고.\n2. 첫 번째 엔진 시동 후 F/CTL ALTN LAW 경고가 거짓으로(spuriously) 표시될 수 있다. 보통 두 번째 엔진 시동 후 사라진다.\nSEC를 통한 elevator 및 roll spoiler 제어 점검:\n항공기를 시험 구성(test configuration)으로 놓는다:\n‐ YELLOW ELEC PUMP pb-sw ..... ON\nNote: Yellow Electric Pump를 사용할 수 없으면, Ground Cart 또는 양쪽 Engine을 작동시킨 상태의 Green 및 Yellow Engine Hydraulic Pump 둘 다로 Yellow Hydraulic System을 가압한다.\n‐ PTU pb-sw ..... AUTO\n‐ BLUE ELEC PUMP pb-sw ..... AUTO\n‐ BLUE PUMP OVRD pb ..... ON\n‐ ELAC 2 pb-sw ..... On\n‐ SEC 1 pb-sw ..... On\n‐ SEC 2 pb-sw ..... On\n‐ SEC 3 pb-sw ..... On\n‐ 5초 대기\nSEC 1을 통한 elevator 제어 및 SEC 1과 SEC 3을 통한 spoiler 제어 점검:\n‐ BLUE PUMP OVRD pb-sw ..... Off\n‐ 유압 계통(hydraulic circuit)이 감압될 때까지 기다린다.\n‐ F/CTL SD page에서 blue elevator actuator 기호가 amber로 바뀌는지 확인한다.\n‐ 5초 대기\n‐ BLUE PUMP OVRD pb-sw ..... ON\n‐ ELAC 2 pb-sw ..... OFF\n‐ SEC 2 pb-sw ..... OFF\n‐ CAPT stick을 오른쪽 끝(right stop)에서 왼쪽 끝(left stop)까지, 이어서 앞쪽 끝(forward stop)에서 뒤쪽 끝(aft stop)까지 움직인다.\n‐ F/CTL SD page에서 spoiler 2, 3, 4 쌍이 올바르게 움직이고 양쪽 elevator가 전체 행정(full travel)으로 움직이는지 확인한다.\n‐ F/O stick을 오른쪽 끝(right stop)에서 왼쪽 끝(left stop)까지, 이어서 앞쪽 끝(forward stop)에서 뒤쪽 끝(aft stop)까지 움직인다.\n‐ F/CTL SD page에서 spoiler 2, 3, 4 쌍이 올바르게 움직이고 양쪽 elevator가 전체 행정(full travel)으로 움직이는지 확인한다.\nCAUTION: 예상한 spoiler 또는 elevator 움직임이 나타나지 않으면 reset을 시도하지 말 것. 정비(maintenance)에 연락한다.\nSEC 2를 통한 elevator 제어 및 SEC 2와 SEC 3을 통한 spoiler 제어 점검:\n‐ ELAC 2 pb-sw ..... On\n‐ SEC 2 pb-sw ..... On\n‐ 5초 대기\n‐ YELLOW ELEC PUMP pb-sw ..... Off\n‐ 유압 계통(hydraulic circuit)이 감압될 때까지 기다린다.\n‐ F/CTL SD page에서 yellow 및 green elevator actuator 기호가 amber로 바뀌는지 확인한다.\n‐ 5초 대기\n‐ YELLOW ELEC PUMP pb-sw ..... ON\n‐ ELAC 2 pb-sw ..... OFF\n‐ SEC 1 pb-sw ..... OFF\n‐ CAPT stick을 오른쪽 끝(right stop)에서 왼쪽 끝(left stop)까지, 이어서 앞쪽 끝(forward stop)에서 뒤쪽 끝(aft stop)까지 움직인다.\n‐ F/CTL SD page에서 spoiler 2, 5 쌍이 올바르게 움직이고 양쪽 elevator가 전체 행정(full travel)으로 움직이는지 확인한다.\n‐ F/O stick을 오른쪽 끝(right stop)에서 왼쪽 끝(left stop)까지, 이어서 앞쪽 끝(forward stop)에서 뒤쪽 끝(aft stop)까지 움직인다.\n‐ F/CTL SD page에서 spoiler 2, 5 쌍이 올바르게 움직이고 양쪽 elevator가 전체 행정(full travel)으로 움직이는지 확인한다.\nCAUTION: 예상한 spoiler 또는 elevator 움직임이 나타나지 않으면 reset을 시도하지 말 것. 정비(maintenance)에 연락한다.\nELAC 2를 통한 aileron 제어 점검:\n‐ SEC 1 pb-sw ..... On\n‐ ELAC 2 pb-sw ..... On\n‐ BLUE PUMP OVRD pb-sw ..... Off\n‐ YELLOW ELEC PUMP pb-sw ..... Off\n‐ 유압 계통(hydraulic circuit)이 감압될 때까지 기다린다.\n‐ F/CTL SD page에서 blue 및 green aileron actuator 기호가 amber로 바뀌는지 확인한다.\n‐ 5초 대기\n‐ BLUE PUMP OVRD pb-sw ..... ON\n‐ YELLOW ELEC PUMP pb-sw ..... ON\n‐ CAPT stick을 오른쪽 끝(right stop)에서 왼쪽 끝(left stop)까지 움직인다.\n‐ F/CTL SD page에서 aileron이 전체 행정(full travel)으로 움직이는지 확인한다.\n‐ F/O stick을 오른쪽 끝(right stop)에서 왼쪽 끝(left stop)까지 움직인다.\n‐ F/CTL SD page에서 aileron이 전체 행정(full travel)으로 움직이는지 확인한다.\nCAUTION: 예상한 aileron 움직임이 나타나지 않으면 reset을 시도하지 말 것. 정비(maintenance)에 연락한다.\n정상 구성으로 복귀:\n‐ YELLOW ELEC PUMP pb-sw ..... Off\n‐ BLUE PUMP OVRD pb-sw ..... Off\n‐ ELAC1 pb-sw ..... Check Off (Off 상태인지 확인)\nDC TIE contactor 1이 닫혀(closed) 있는지 확인:\n‐ APU 또는 external power(외부 전원)로 전기 계통(electrical network)에 전원을 공급한다.\n‐ ELEC SD page에서 DC BUS 1과 DC BAT BUS 사이의 연결(link)을 확인한다.\n• EWD에 F/CTL ELAC 1 PITCH FAULT 경고가 표시된 경우:\nNote: 첫 번째 엔진 시동 후 EWD에 F/CTL ALTN LAW 경고가 거짓으로(spuriously) 표시될 수 있다. 보통 두 번째 엔진 시동 후 사라진다.\nSEC를 통한 elevator 및 roll spoiler 제어 점검:\n항공기를 시험 구성(test configuration)으로 놓는다:\n‐ YELLOW ELEC PUMP pb-sw ..... ON\n‐ PTU pb-sw ..... AUTO\n‐ BLUE ELEC PUMP pb-sw ..... AUTO\n‐ BLUE PUMP OVRD pb ..... ON\n‐ ELAC 1 pb-sw ..... On\n‐ ELAC 2 pb-sw ..... On\n‐ SEC 1 pb-sw ..... On\n‐ SEC 2 pb-sw ..... On\n‐ SEC 3 pb-sw ..... On\n‐ 5초 대기\nSEC 1을 통한 elevator 제어 및 SEC 1과 SEC 3을 통한 spoiler 제어 점검:\n‐ BLUE PUMP OVRD pb-sw ..... Off\n‐ 유압 계통(hydraulic circuit)이 감압될 때까지 기다린다.\n‐ F/CTL SD page에서 blue elevator actuator 기호가 amber로 바뀌는지 확인한다.\n‐ 5초 대기\n‐ BLUE PUMP OVRD pb-sw ..... ON\n‐ ELAC 1 pb-sw ..... OFF\n‐ ELAC 2 pb-sw ..... OFF\n‐ SEC 2 pb-sw ..... OFF\n‐ CAPT stick을 오른쪽 끝(right stop)에서 왼쪽 끝(left stop)까지, 이어서 앞쪽 끝(forward stop)에서 뒤쪽 끝(aft stop)까지 움직인다.\n‐ F/CTL SD page에서 spoiler 2, 3, 4 쌍이 올바르게 움직이고 양쪽 elevator가 전체 행정(full travel)으로 움직이는지 확인한다.\n‐ F/O stick을 오른쪽 끝(right stop)에서 왼쪽 끝(left stop)까지, 이어서 앞쪽 끝(forward stop)에서 뒤쪽 끝(aft stop)까지 움직인다.\n‐ F/CTL SD page에서 spoiler 2, 3, 4 쌍이 올바르게 움직이고 양쪽 elevator가 전체 행정(full travel)으로 움직이는지 확인한다.\nCAUTION: 예상한 spoiler 또는 elevator 움직임이 나타나지 않으면 reset을 시도하지 말 것. 정비(maintenance)에 연락한다.\nSEC 2를 통한 elevator 제어 및 SEC 2와 SEC 3을 통한 spoiler 제어 점검:\n‐ ELAC 1 pb-sw ..... On\n‐ ELAC 2 pb-sw ..... On\n‐ SEC 2 pb-sw ..... On\n‐ 5초 대기\n‐ YELLOW ELEC PUMP pb-sw ..... Off\n‐ 유압 계통(hydraulic circuit)이 감압될 때까지 기다린다.\n‐ F/CTL SD page에서 yellow 및 green elevator actuator 기호가 amber로 바뀌는지 확인한다.\n‐ 5초 대기\n‐ YELLOW ELEC PUMP pb-sw ..... ON\n‐ ELAC 1 pb-sw ..... OFF\n‐ ELAC 2 pb-sw ..... OFF\n‐ SEC 1 pb-sw ..... OFF\n‐ CAPT stick을 오른쪽 끝(right stop)에서 왼쪽 끝(left stop)까지, 이어서 앞쪽 끝(forward stop)에서 뒤쪽 끝(aft stop)까지 움직인다.\n‐ F/CTL SD page에서 spoiler 2, 5 쌍이 올바르게 움직이고 양쪽 elevator가 전체 행정(full travel)으로 움직이는지 확인한다.\n‐ F/O stick을 오른쪽 끝(right stop)에서 왼쪽 끝(left stop)까지, 이어서 앞쪽 끝(forward stop)에서 뒤쪽 끝(aft stop)까지 움직인다.\n‐ F/CTL SD page에서 spoiler 2, 5 쌍이 올바르게 움직이고 양쪽 elevator가 전체 행정(full travel)으로 움직이는지 확인한다.\nCAUTION: 예상한 spoiler 또는 elevator 움직임이 나타나지 않으면 reset을 시도하지 말 것. 정비(maintenance)에 연락한다.\n정상 구성으로 복귀:\n‐ YELLOW ELEC PUMP pb-sw ..... Off\n‐ BLUE PUMP OVRD pb-sw ..... Off\n‐ ELAC 1 pb-sw ..... On\n‐ ELAC 2 pb-sw ..... On\n‐ SEC 1 pb-sw ..... On\nDC TIE contactor 1이 닫혀(closed) 있는지 확인:\n‐ APU 또는 external power(외부 전원)로 전기 계통(electrical network)에 전원을 공급한다.\n‐ ELEC SD page에서 DC BUS 1과 DC BAT BUS 사이의 연결(link)을 확인한다.\nAPPROACH (접근)\n• 접근(approach)에 AP 1을 사용하는 경우:\n기장(captain)이 PF여야 한다.\nNote: ELAC 1에 전원이 공급되지 않으므로, F/O take-over pb(사이드스틱 우선권 버튼)로는 AP 1을 해제(disengage)할 수 없다."
+},
+"27-94-01A": {
+"h": "fc63313f",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n성능 감손(performance penalty)은 OpsProc 27-64-05A Spoilers 3 and 4 참조.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release를 갱신하고 “FLIGHT PLANNING RESTRICTIONS”를 확인한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nNote: Yellow Electric Pump를 사용할 수 없으면:\n‐ 다음으로 Yellow Hydraulic System을 가압한다:\n• Ground cart(지상 유압 카트), 또는\n• 양쪽 Engine을 작동시킨 상태의 Yellow 및 Green Engine Hydraulic Pump 둘 다.\n‐ 아래 절차에서 YELLOW ELEC PUMP pb-sw(푸시버튼 스위치)에 대한 조작은 Ground Cart 또는 GREEN ENG 1 PUMP pb-sw와 YELLOW ENG 2 PUMP pb-sw 둘 다에 대한 같은 조작으로 대체한다.\nNote: 정비 절차 적용 후, EWD에 C/B TRIPPED R ELEC BAY 및 C/B TRIPPED ON OVHD PNL 경고가 표시된다.\n작동하는 컴퓨터를 통한 elevator 제어 및 roll spoiler 제어 점검:\n항공기를 시험 구성(test configuration)으로 놓는다:\n‐ YELLOW ELEC PUMP pb-sw ..... ON\n‐ PTU pb-sw ..... AUTO\n‐ BLUE ELEC PUMP pb-sw ..... AUTO\n‐ BLUE PUMP OVRD pb ..... ON\n‐ ELAC 1 pb-sw ..... On\n‐ ELAC 2 pb-sw ..... On\n‐ SEC 2 pb-sw ..... On\n‐ SEC 3 pb-sw ..... On\n‐ 5초 대기\nELAC 1을 통한 elevator 제어 점검:\n‐ BLUE PUMP OVRD pb-sw ..... Off\n‐ 유압 계통(hydraulic circuit)이 감압될 때까지 기다린다.\n‐ F/CTL SD page에서 blue elevator actuator 기호가 amber로 바뀌는지 확인한다.\n‐ 5초 대기\n‐ BLUE PUMP OVRD pb-sw ..... ON\n‐ ELAC 2 pb-sw ..... OFF\n‐ SEC 2 pb-sw ..... OFF\n‐ CAPT stick을 앞쪽 끝(forward stop)에서 뒤쪽 끝(aft stop)까지 움직인다.\n‐ F/CTL SD page에서 양쪽 elevator가 전체 행정(full travel)으로 움직이는지 확인한다.\nCAUTION: 예상한 elevator 움직임이 나타나지 않으면 reset을 시도하지 말 것. 정비(maintenance)에 연락한다.\nSEC 2를 통한 elevator 제어 점검:\n‐ ELAC 2 pb-sw ..... On\n‐ SEC 2 pb-sw ..... On\n‐ 5초 대기\n‐ YELLOW ELEC PUMP pb-sw ..... Off\n‐ 유압 계통(hydraulic circuit)이 감압될 때까지 기다린다.\n‐ F/CTL SD page에서 yellow 및 green elevator actuator 기호가 amber로 바뀌는지 확인한다.\n‐ 5초 대기\n‐ YELLOW ELEC PUMP pb-sw ..... ON\n‐ ELAC 1 pb-sw ..... OFF\n‐ ELAC 2 pb-sw ..... OFF\n‐ CAPT stick을 오른쪽 끝(right stop)에서 왼쪽 끝(left stop)까지, 이어서 앞쪽 끝(forward stop)에서 뒤쪽 끝(aft stop)까지 움직인다. 각 끝(stop)에서 3초간 유지해야 한다.\n‐ F/CTL SD page에서 spoiler 2, 5 쌍이 올바르게 움직이고 양쪽 elevator가 전체 행정(full travel)으로 움직이는지 확인한다.\n‐ F/O stick을 오른쪽 끝(right stop)에서 왼쪽 끝(left stop)까지, 이어서 앞쪽 끝(forward stop)에서 뒤쪽 끝(aft stop)까지 움직인다. 각 끝(stop)에서 3초간 유지해야 한다.\n‐ F/CTL SD page에서 spoiler 2, 5 쌍이 올바르게 움직이고 양쪽 elevator가 전체 행정(full travel)으로 움직이는지 확인한다.\nCAUTION: 예상한 spoiler 또는 elevator 움직임이 나타나지 않으면 reset을 시도하지 말 것. 정비(maintenance)에 연락한다.\n정상 구성으로 복귀:\n‐ YELLOW ELEC PUMP pb-sw ..... Off\n‐ BLUE PUMP OVRD pb-sw ..... Off\n‐ ELAC 1 pb-sw ..... On\n‐ ELAC 2 pb-sw ..... On\n‐ SEC 1 pb-sw ..... Off\nDC TIE contactor 1이 닫혀(closed) 있는지 확인:\n‐ APU 또는 external power(외부 전원)로 전기 계통(electrical network)에 전원을 공급한다.\n‐ ELEC SD page에서 DC BUS 1과 DC BAT BUS 사이의 연결(link)을 확인한다.\nIN FLIGHT (비행 중)\nspeedbrake를 사용하지 않는다.\n• 비행 중 SEC 2와 SEC 3이 고장 나면:\nAutoland(자동착륙)는 허용되지 않는다.\n최대 착륙 능력(maximum landing capability)은 CAT I이다.\ndirect law로 착륙하기 전 500 ft RA에서 AP를 해제(disengage)한다.\n세 개의 SEC가 모두 고장 난 상태에서 AP를 해제하면 다시 engage할 수 없다."
+},
+"27-94-02A": {
+"h": "f846dffa",
+"ko": "적용 기체: HL8533, HL8534, HL8582, HL8584, HL8586, HL8705\nFLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nNote: Yellow Electric Pump를 사용할 수 없으면:\n‐ 다음으로 Yellow Hydraulic System을 가압한다:\n• Ground cart(지상 유압 카트), 또는\n• 양쪽 Engine을 작동시킨 상태의 Yellow 및 Green Engine Hydraulic Pump 둘 다.\n‐ 아래 절차에서 YELLOW ELEC PUMP pb-sw(푸시버튼 스위치)에 대한 조작은 Ground Cart 또는 GREEN ENG 1 PUMP pb-sw와 YELLOW ENG 2 PUMP pb-sw 둘 다에 대한 같은 조작으로 대체한다.\nNote: 정비 절차 적용 후, EWD에 C/B TRIPPED REAR PNL N-R 경고가 표시된다.\n작동하는 컴퓨터를 통한 elevator 제어 및 roll spoiler 제어 점검:\n항공기를 시험 구성(test configuration)으로 놓는다:\n‐ YELLOW ELEC PUMP pb-sw ..... ON\n‐ PTU pb-sw ..... AUTO\n‐ BLUE ELEC PUMP pb-sw ..... AUTO\n‐ BLUE PUMP OVRD pb ..... ON\n‐ ELAC 1 pb-sw ..... On\n‐ ELAC 2 pb-sw ..... On\n‐ SEC 1 pb-sw ..... On\n‐ SEC 3 pb-sw ..... On\n‐ 5초 대기\nELAC 1을 통한 elevator 제어 점검:\n‐ BLUE PUMP OVRD pb-sw ..... Off\n‐ 유압 계통(hydraulic circuit)이 감압될 때까지 기다린다.\n‐ F/CTL SD page에서 blue elevator actuator 기호가 amber로 바뀌는지 확인한다.\n‐ 5초 대기\n‐ BLUE PUMP OVRD pb-sw ..... ON\n‐ ELAC 2 pb-sw ..... OFF\n‐ SEC 1 pb-sw ..... OFF\n‐ CAPT stick을 앞쪽 끝(forward stop)에서 뒤쪽 끝(aft stop)까지 움직인다.\n‐ F/CTL SD page에서 양쪽 elevator가 전체 행정(full travel)으로 움직이는지 확인한다.\nCAUTION: 예상한 elevator 움직임이 나타나지 않으면 reset을 시도하지 말 것. 정비(maintenance)에 연락한다.\nSEC 1을 통한 elevator 제어 점검:\n‐ ELAC 2 pb-sw ..... On\n‐ SEC 1 pb-sw ..... On\n‐ 5초 대기\n‐ BLUE PUMP OVRD pb-sw ..... Off\n‐ 유압 계통(hydraulic circuit)이 감압될 때까지 기다린다.\n‐ F/CTL SD page에서 blue elevator actuator 기호가 amber로 바뀌는지 확인한다.\n‐ 5초 대기\n‐ BLUE PUMP OVRD pb-sw ..... ON\n‐ ELAC 1 pb-sw ..... OFF\n‐ ELAC 2 pb-sw ..... OFF\n‐ CAPT stick을 오른쪽 끝(right stop)에서 왼쪽 끝(left stop)까지, 이어서 앞쪽 끝(forward stop)에서 뒤쪽 끝(aft stop)까지 움직인다. 각 끝(stop)에서 3초간 유지해야 한다.\n‐ F/CTL SD page에서 spoiler 2, 3, 4 쌍이 올바르게 움직이고 양쪽 elevator가 전체 행정(full travel)으로 움직이는지 확인한다.\n‐ F/O stick을 오른쪽 끝(right stop)에서 왼쪽 끝(left stop)까지, 이어서 앞쪽 끝(forward stop)에서 뒤쪽 끝(aft stop)까지 움직인다. 각 끝(stop)에서 3초간 유지해야 한다.\n‐ F/CTL SD page에서 spoiler 2, 3, 4 쌍이 올바르게 움직이고 양쪽 elevator가 전체 행정(full travel)으로 움직이는지 확인한다.\nCAUTION: 예상한 spoiler 또는 elevator 움직임이 나타나지 않으면 reset을 시도하지 말 것. 정비(maintenance)에 연락한다.\n정상 구성으로 복귀:\n‐ YELLOW ELEC PUMP pb-sw ..... Off\n‐ BLUE PUMP OVRD pb-sw ..... Off\n‐ ELAC 1 pb-sw ..... On\n‐ ELAC 2 pb-sw ..... On\n‐ SEC 2 pb-sw ..... Off\nAFTER ENGINE START (엔진 시동 후)\nNote: PTU가 inhibit(억제)되고 엔진 하나만 작동 중이면 EWD에 F/CTL ELEV SERVO FAULT 경고가 표시될 수 있다. 이 경고는 PTU가 작동하거나 두 번째 엔진이 시동되면 사라져야 한다.\nIN FLIGHT (비행 중)\n• 비행 중 SEC 1과 SEC 3이 고장 나면:\nAutoland(자동착륙)는 허용되지 않는다.\n최대 착륙 능력(maximum landing capability)은 CAT I이다.\ndirect law로 착륙하기 전 500 ft RA에서 AP를 해제(disengage)한다.\n세 개의 SEC가 모두 고장 난 상태에서 AP를 해제하면 다시 engage할 수 없다."
+},
+"27-94-03A": {
+"h": "6f9f8c19",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n성능 감손(performance penalty)은 OpsProc 27-64-04A Spoilers 1 and 2 참조.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release를 갱신하고 “FLIGHT PLANNING RESTRICTIONS”를 확인한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nSEC 3 deactivate(비활성화):\n‐ SEC 3 pb-sw ..... OFF\n‐ FLIGHT CONTROLS/SEC 3/SPLY (121VU Q19) C/B ..... Pull (뽑음)\nIN FLIGHT (비행 중)\n• 비행 중 SEC 1과 SEC 2가 고장 나면:\nAutoland(자동착륙)는 허용되지 않는다.\n최대 착륙 능력(maximum landing capability)은 CAT I이다.\ndirect law로 착륙하기 전 500 ft RA에서 AP를 해제(disengage)한다.\n세 개의 SEC가 모두 고장 난 상태에서 AP를 해제하면 다시 engage할 수 없다."
+},
+"27-95-02A": {
+"h": "7a9999f7",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nFLIGHT CONTROLS/FCDC2/SPLY (121VU Q20) C/B ..... Pull (뽑음)"
+},
+"27-92-01A": {
+"h": "d9dcf0dd",
+"ko": "OpsProc 27-92-02A Ground Spoiler Control System (ground spoiler control system inoperative) 참조"
+},
+"27-92-01B": {
+"h": "cf2dce38",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n이륙(T/O) 및 착륙 성능 산출 시, 해당 Flight Manual(비행교범) 성능 감손(performance penalty)을 OCTOPUS 프로그램으로 산출한다.\nNote: Airbus EFB PERF 애플리케이션(FlySmart+)에서는 MEL item \"GROUND SPOILERS 1 PAIR INOPERATIVE\"에 해당한다.\n사용할 수 없으면, dispatcher에게 연락하여 이륙 및 착륙 성능 데이터를 받는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"27-92-01C": {
+"h": "2ad8ddbc",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n이륙(T/O) 및 착륙 성능 산출 시, 해당 Flight Manual(비행교범) 성능 감손(performance penalty)을 OCTOPUS 프로그램으로 산출한다.\nNote: Airbus EFB PERF 애플리케이션(FlySmart+)에서는 MEL item \"GROUND SPOILERS 2 PAIRS INOPERATIVE\"에 해당한다.\n사용할 수 없으면, dispatcher에게 연락하여 이륙 및 착륙 성능 데이터를 받는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\nIN FLIGHT (비행 중)\nspeedbrake를 사용하지 않는다."
+},
+"27-92-02A": {
+"h": "71108ba1",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n이륙(T/O) 및 착륙 성능 산출 시, 해당 Flight Manual(비행교범) 성능 감손(performance penalty)을 OCTOPUS 프로그램으로 산출한다.\nNote: Airbus EFB PERF 애플리케이션(FlySmart+)에서는 MEL item \"GROUND SPOILERS ALL INOPERATIVE\"에 해당한다.\n사용할 수 없으면, dispatcher에게 연락하여 이륙 및 착륙 성능 데이터를 받는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\nGENERAL INFORMATION (일반 정보)\nautobrake 기능을 사용할 수 없다. OpsProc 32-42-05A AUTO/BRK Function 참조\nCAUTION: 착륙 시 thrust reverser 하나 또는 둘 다 전개(deploy)되지 않을 수 있다. 따라서 성능 산출 시 thrust reverser의 credit(역추력 기여분)을 반영하지 않는다."
+},
+"27-92-02B": {
+"h": "f5e10179",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n성능 감손(performance penalty)은 OpsProc 27-64-01A Spoiler 5 참조\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"27-92-02C": {
+"h": "da34555f",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nspoiler 1과 2 쌍(pairs)이 작동 불능인 경우:\n성능 감손(performance penalty)은 OpsProc 27-64-04A Spoilers 1 and 2 참조\nspoiler 3과 4 쌍(pairs)이 작동 불능인 경우:\n성능 감손(performance penalty)은 OpsProc 27-64-05A Spoilers 3 and 4 참조\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+}
+}
+}

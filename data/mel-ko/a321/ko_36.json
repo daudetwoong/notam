@@ -1,0 +1,310 @@
+{
+"items": {
+"36-00-01A": {
+"h": "7e8f609f",
+"ko": "(m) CFDS가 BMC, pylon leak detection loop 또는 APU leak detection loop의 결함(fault)을 보고하지 않음을 확인하면, AIR BLEED MAINTENANCE message가 STATUS SD page에 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 36-11-00-040-004 참조 (정비 절차)"
+},
+"36-00-01B": {
+"h": "6e6747b5",
+"ko": "(m) 다음 조건이면 AIR BLEED MAINTENANCE message가 STATUS SD page에 표시되어도 된다:\n1) CFDS가 BMC 1, LH pylon leak detection loop 또는 APU leak detection loop의 결함(fault)을 보고하지 않고,\n2) CFDS가 BMC 2의 결함을 보고하는 경우, BMC 2는 작동 불능이며\nItem 36-11-08 Bleed Monitoring Computer (BMC) 참조, 그리고\n3) CFDS가 RH pylon leak detection loop의 결함을 보고하는 경우, RH pylon leak detection loop는 작동 불능이다.\nItem 36-22-01 Pylon Leak Detection System 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 36-11-00-040-807 참조 (정비 절차)"
+},
+"36-00-01C": {
+"h": "e7889890",
+"ko": "(m) 다음 조건이면 AIR BLEED MAINTENANCE message가 STATUS SD page에 표시되어도 된다:\n1) CFDS가 BMC 2 또는 RH pylon leak detection loop의 결함(fault)을 보고하지 않고,\n2) CFDS가 BMC 1의 결함을 보고하는 경우, BMC 1은 작동 불능이며\nItem 36-11-08 Bleed Monitoring Computer (BMC) 참조, 그리고\n3) CFDS가 LH pylon leak detection loop의 결함을 보고하는 경우, LH pylon leak detection loop는 작동 불능이며\nItem 36-22-01 Pylon Leak Detection System 참조, 그리고\n4) CFDS가 APU leak detection loop의 결함을 보고하는 경우, APU leak detection loop는 작동 불능이다.\nItem 36-22-03 APU Leak Detection Loop 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 36-11-00-040-808 참조 (정비 절차)"
+},
+"36-00-01F": {
+"h": "e3f04e0d",
+"ko": "AIR BLEED MAINTENANCE message가 STATUS SD page에 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"36-01-01A": {
+"h": "83e26605",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"36-01-02A": {
+"h": "83e26605",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"36-01-03A": {
+"h": "5d5fc23f",
+"ko": "작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"36-01-04A": {
+"h": "5d5fc23f",
+"ko": "작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"36-07-01A": {
+"h": "00756b65",
+"ko": "X Bleed Valve의 Automatic Control(자동 제어)을 작동 불능으로 간주하면 작동 불능 상태로 운항할 수 있다.\nItem 36-12-04 Automatic Control of the X Bleed Valve 참조\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"36-07-02B": {
+"h": "ecce4643",
+"ko": "둘 다 작동해야 한다."
+},
+"36-07-02A": {
+"h": "89bdfc22",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"36-07-03A": {
+"h": "89bdfc22",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"36-07-04B": {
+"h": "10ef86ec",
+"ko": "둘 다 작동해야 한다."
+},
+"36-07-04A": {
+"h": "2ad3b2d5",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"36-07-05B": {
+"h": "10ef86ec",
+"ko": "둘 다 작동해야 한다."
+},
+"36-07-05A": {
+"h": "2ad3b2d5",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"36-07-06A": {
+"h": "a2c4acff",
+"ko": "작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"36-09-01A": {
+"h": "183c7aec",
+"ko": "(o) (m) 다음 조건이면 표시되어도 된다:\n1) AIR APU BLEED LEAK alert가 troubleshooting으로 거짓(false)임이 확인되고,\n2) APU leak detection loop를 deactivate(비활성화)하고,\n3) APU bleed check valve를 제거하고 blanking cap(막음 캡)으로 대체하고,\n4) APU bleed air supply system을 작동 불능으로 간주한다.\nItem 36-12-01 APU Bleed Air Supply System 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 36-09-01A AIR APU BLEED LEAK Alert (APU bleed check valve replaced by a blanking cap or checked operative) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 36-12-00-040-808 또는 36-12-00-040-814 참조 (정비 절차)"
+},
+"36-09-01B": {
+"h": "a96f6587",
+"ko": "(o) (m) 다음 조건이면 표시되어도 된다:\n1) EDTO를 수행하지 않고,\n2) AIR APU BLEED LEAK alert가 troubleshooting으로 거짓(false)임이 확인되고,\n3) APU leak detection loop를 deactivate(비활성화)하고,\n4) ENG 1 BLEED pb-sw(푸시버튼 스위치)를 OFF로 놓고,\n5) PACK 1 pb-sw를 OFF로 놓고,\n6) X BLEED selector를 SHUT으로 놓고,\n7) APU BLEED pb-sw를 OFF로 놓고,\n8) 계획 항로상의 알려진 또는 예보된 착빙 조건에서 항공기를 운항하지 않고,\n9) speedbrake가 작동한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 36-09-01B AIR APU BLEED LEAK Alert (ENG 1 BLEED pb-sw OFF and X BLEED selector SHUT) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 36-12-00-040-810 또는 36-12-00-040-819 참조 (정비 절차)"
+},
+"36-09-01C": {
+"h": "1cd95877",
+"ko": "(o) (m) 다음 조건이면 표시되어도 된다:\n1) EDTO를 수행하지 않고,\n2) AIR APU BLEED LEAK alert가 troubleshooting으로 거짓(false)임이 확인되고,\n3) APU leak detection loop를 deactivate(비활성화)하고,\n4) ENG 1 BLEED pb-sw(푸시버튼 스위치)를 OFF로 놓고,\n5) PACK 1 pb-sw를 OFF로 놓고,\n6) X BLEED selector를 SHUT으로 놓고,\n7) APU BLEED pb-sw를 OFF로 놓고,\n8) 계획 항로상의 알려진 또는 예보된 착빙 조건에서 항공기를 운항하지 않고,\n9) 고도를 31 500 ft (9 600 m)로 제한한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 36-09-01C AIR APU BLEED LEAK Alert (Limitation to 31 500 ft) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 36-12-00-040-810 또는 36-12-00-040-819 참조 (정비 절차)"
+},
+"36-09-01E": {
+"h": "d1460ebe",
+"ko": "(o) (m) 다음 조건이면 표시되어도 된다:\n1) AIR APU BLEED LEAK alert가 troubleshooting으로 거짓(false)임이 확인되고,\n2) APU leak detection loop를 deactivate(비활성화)하고,\n3) APU bleed check valve가 작동함을 확인하고,\n4) APU bleed air supply system을 작동 불능으로 간주한다.\nItem 36-12-01 APU Bleed Air Supply System 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 36-09-01E AIR APU BLEED LEAK Alert (APU bleed check valve replaced by a blanking cap or checked operative) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 36-12-00-040-811 또는 36-12-00-040-821 참조 (정비 절차)"
+},
+"36-11-01A": {
+"h": "83190548",
+"ko": "(o) 다음 조건이면 하나가 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) 해당 ENG BLEED pb-sw(푸시버튼 스위치)를 OFF로 놓고,\n3) X BLEED selector를 OPEN으로 놓고,\n4) speedbrake가 작동한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 36-11-01A Engine Bleed Air Supply System (non-EDTO flights) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"36-11-01B": {
+"h": "f4d171cc",
+"ko": "(o) EDTO의 경우, 다음 조건이면 하나가 1회 비행(one flight) 동안 작동 불능이어도 된다:\n1) APU bleed air supply system이 작동하고,\n2) 비행 내내 APU를 작동(running)시키고,\n3) 해당 ENG BLEED pb-sw(푸시버튼 스위치)를 OFF로 놓고,\n4) X BLEED selector를 OPEN으로 놓고,\n5) speedbrake가 작동한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 36-11-01B Engine Bleed Air Supply System (EDTO flights) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"36-11-01E": {
+"h": "9fcad9fc",
+"ko": "(o) 다음 조건이면 하나가 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) 해당 ENG BLEED pb-sw(푸시버튼 스위치)를 OFF로 놓고,\n3) X BLEED selector를 OPEN으로 놓고,\n4) 고도를 31 500 ft (9 600 m)로 제한한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 36-11-01E Engine Bleed Air Supply System (non-EDTO flights - limitation to 31,500 ft) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"36-11-01F": {
+"h": "cf5ff1a5",
+"ko": "(o) EDTO의 경우, 다음 조건이면 하나가 1회 비행(one flight) 동안 작동 불능이어도 된다:\n1) APU bleed air supply system이 작동하고,\n2) 비행 내내 APU를 작동(running)시키고,\n3) 해당 ENG BLEED pb-sw(푸시버튼 스위치)를 OFF로 놓고,\n4) X BLEED selector를 OPEN으로 놓고,\n5) 고도를 31 500 ft (9 600 m)로 제한한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 36-11-01F Engine Bleed Air Supply System (EDTO flights - limitation to 31,500 ft) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"36-11-02A": {
+"h": "61cb80b1",
+"ko": "(m) 다음 조건이면 하나가 작동 불능이어도 된다:\n1) 해당 engine bleed valve를 닫힌 위치로 고정(secure)하고,\n2) 해당 bleed air supply system을 작동 불능으로 간주한다.\nItem 36-11-01 Engine Bleed Air Supply System 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 36-11-00-040-001 (A320F CEO) 또는 36-11-00-040-809 (A321NEO) 참조 (정비 절차)"
+},
+"36-11-03A": {
+"h": "2d2de1f5",
+"ko": "해당 bleed air supply system을 작동 불능으로 간주하면 하나가 열린 위치에서 작동 불능이어도 된다.\nItem 36-11-01 Engine Bleed Air Supply System 참조"
+},
+"36-11-03B": {
+"h": "2d7034d9",
+"ko": "이전 비행 중 해당 AIR ENG 1(2) BLEED FAULT alert 또는 AIR ENG 1(2) BLEED ABNORM PR alert가 표시되지 않았으면, 하나 또는 둘 다 열린 위치에서 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"36-11-03C": {
+"h": "dbbca977",
+"ko": "(m) 다음 조건이면 하나가 작동 불능이어도 된다:\n1) 열린 위치에서 deactivate(비활성화)되었고,\n2) 해당 bleed air supply system을 작동 불능으로 간주한다.\nItem 36-11-01 Engine Bleed Air Supply System 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 36-11-00-040-812 참조 (정비 절차)"
+},
+"36-11-04A": {
+"h": "c85aca9a",
+"ko": "해당 engine bleed air supply system을 작동 불능으로 간주하면 하나가 작동 불능이어도 된다.\nItem 36-11-01 Engine Bleed Air Supply System 참조"
+},
+"36-11-05A": {
+"h": "c85aca9a",
+"ko": "해당 engine bleed air supply system을 작동 불능으로 간주하면 하나가 작동 불능이어도 된다.\nItem 36-11-01 Engine Bleed Air Supply System 참조"
+},
+"36-11-06A": {
+"h": "c85aca9a",
+"ko": "해당 engine bleed air supply system을 작동 불능으로 간주하면 하나가 작동 불능이어도 된다.\nItem 36-11-01 Engine Bleed Air Supply System 참조"
+},
+"36-11-06B": {
+"h": "25ec3340",
+"ko": "(o) (m) 다음 조건이면 하나가 열린 위치에서 작동 불능이어도 된다:\n1) 해당 engine bleed HP valve를 닫힌 위치로 고정(secure)하고,\n2) 반대쪽 engine bleed supply system이 작동한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 36-11-06B Engine Bleed IP Check Valve 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 36-11-00-040-002 (A320F CEO) 또는 36-11-00-040-810 (A321NEO) 참조 (정비 절차)"
+},
+"36-11-07A": {
+"h": "3e56d36b",
+"ko": "해당 engine bleed air supply system을 작동 불능으로 간주하면 하나가 닫힌 위치에서 작동 불능이어도 된다.\nItem 36-11-01 Engine Bleed Air Supply System 참조"
+},
+"36-11-07C": {
+"h": "fd1565b2",
+"ko": "(m) 다음 조건이면 하나가 작동 불능이어도 된다:\n1) 해당 engine bleed HP valve를 닫힌 위치로 고정(secure)하고,\n2) 해당 bleed valve (PRV)를 작동 불능으로 간주한다.\nItem 36-11-02 Engine Bleed Valve (PRV) 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 36-11-00-040-811 참조 (정비 절차)"
+},
+"36-11-07B": {
+"h": "8dcb09e3",
+"ko": "(o) (m) 다음 조건이면 하나가 작동 불능이어도 된다:\n1) 해당 engine bleed HP valve를 닫힌 위치로 고정(secure)하고,\n2) 반대쪽 engine bleed supply system이 작동한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 36-11-07B Engine Bleed HP Valve 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 36-11-00-040-003 (A320F CEO) 또는 36-11-00-040-811 (A321NEO) 참조 (정비 절차)"
+},
+"36-11-08A": {
+"h": "b33a91f9",
+"ko": "(o) 다음 조건이면 BMC 1이 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) engine 1 bleed air supply system을 작동 불능으로 간주하며\nItem 36-11-01 Engine Bleed Air Supply System 참조, 그리고\n3) APU bleed check valve를 blanking cap(막음 캡)으로 대체한다.\nItem 36-22-03A APU bleed check valve replaced by a blanking cap 참조\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 36-11-08A Bleed Monitoring Computer (BMC) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"36-11-08B": {
+"h": "a0cfcd7a",
+"ko": "engine 2 bleed air supply system을 작동 불능으로 간주하면 BMC 2가 작동 불능이어도 된다.\nItem 36-11-01 Engine Bleed Air Supply System 참조"
+},
+"36-11-08F": {
+"h": "fa9b89e6",
+"ko": "(o) 다음 조건이면 BMC 1이 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) APU leak detection loop를 작동 불능으로 간주한다.\nItem 36-22-03B/C 참조\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 36-11-08F Bleed Monitoring Computer (BMC) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"36-11-08G": {
+"h": "5c331cb8",
+"ko": "(o) 다음 조건이면 BMC 1이 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) engine 1 bleed air supply system을 작동 불능으로 간주하며\nItem 36-11-01 Engine Bleed Air Supply System 참조, 그리고\n3) 이전 비행 중 AIR APU BLEED LEAK alert가 표시되지 않았고,\n4) APU bleed check valve가 작동함을 확인한다.\nItem 36-22-03E APU bleed check valve checked operative 참조\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 36-11-08G Bleed Monitoring Computer (BMC) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"36-12-01A": {
+"h": "06ef5913",
+"ko": "(o) APU BLEED pb-sw(푸시버튼 스위치)를 OFF로 놓으면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 36-12-01A APU Bleed Air Supply System 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"36-12-02A": {
+"h": "2597f0cc",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) APU bleed valve를 닫힌 위치에서 deactivate(비활성화)하고,\n2) APU BLEED pb-sw를 OFF로 놓는다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 36-12-02A APU Bleed Valve (Deactivated in the closed position) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 49-51-00-040-004 참조 (정비 절차)"
+},
+"36-12-02B": {
+"h": "3a8fc28c",
+"ko": "(o) 다음 조건이면 열린 위치에서 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) 비행 중 APU를 사용하지 않는다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 36-12-02B APU Bleed Valve (Inoperative in the open position for non EDTO flight) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"36-12-02C": {
+"h": "90ad9e68",
+"ko": "(o) 다음 조건이면 4회 비행 동안 열린 위치에서 작동 불능이어도 된다:\n1) 120 min을 초과하는 EDTO(EDTO beyond 120 min)를 수행하지 않고,\n2) 비행 중 APU를 사용하지 않는다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 조치)\n1. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 36-12-02C APU Bleed Valve (Inoperative in the open position) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"36-12-03A": {
+"h": "035e0226",
+"ko": "APU bleed air supply system을 작동 불능으로 간주하면 작동 불능 상태로 운항할 수 있다.\nItem 36-12-01 APU Bleed Air Supply System 참조"
+},
+"36-12-04A": {
+"h": "0273a43c",
+"ko": "(o) manual control(수동 제어)이 작동함을 확인하면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 36-12-04A Automatic control of the X Bleed Valve 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"36-12-05B": {
+"h": "3e110439",
+"ko": "작동해야 한다."
+},
+"36-12-05A": {
+"h": "539cd7cc",
+"ko": "(o) automatic control(자동 제어)이 작동함을 확인하면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 36-12-05A Manual Control of the X Bleed Valve 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"36-22-01A": {
+"h": "45d115f4",
+"ko": "(m) 다음 조건이면 하나가 작동 불능이어도 된다:\n1) 해당 pylon leak detection loop를 deactivate(비활성화)하고,\n2) 이전 비행 중 AIR ENG 1(2) BLEED LEAK alert가 표시되었다면, troubleshooting으로 거짓(false)임이 확인되고,\n3) 해당 bleed air supply system을 작동 불능으로 간주한다.\nItem 36-11-01 Engine Bleed Air Supply System 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 36-22-00-040-001 참조 (정비 절차)"
+},
+"36-22-01E": {
+"h": "5af47917",
+"ko": "작동해야 한다.\nNote: 한쪽 또는 양쪽 pylon의 loop 하나가 고장 나면 STATUS SD page에 MAINTENANCE message가 표시된다.\nItem 36-00-01 AIR BLEED MAINTENANCE Message 참조"
+},
+"36-22-02A": {
+"h": "b90828d8",
+"ko": "작동해야 한다.\nNote: 한쪽 또는 양쪽 wing leading edge의 loop 하나가 고장 나면 STATUS SD page에 MAINTENANCE message가 표시된다.\nItem 36-00-01 AIR BLEED MAINTENANCE Message 참조"
+},
+"36-22-03A": {
+"h": "7cc60117",
+"ko": "(m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) APU bleed check valve를 제거하고 blanking cap(막음 캡)으로 대체하고,\n2) APU bleed air supply system을 작동 불능으로 간주한다.\nItem 36-12-01 APU Bleed Air Supply System 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 36-12-00-040-801 (A320F CEO) 또는 36-12-00-040-803 (A321NEO) 참조 (정비 절차)"
+},
+"36-22-03B": {
+"h": "f299d890",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) 이전 비행 중 AIR APU BLEED LEAK alert가 표시되지 않았고,\n3) ENG 1 BLEED pb-sw(푸시버튼 스위치)를 OFF로 놓고,\n4) PACK 1 pb-sw를 OFF로 놓고,\n5) X BLEED selector를 SHUT으로 놓고,\n6) APU BLEED pb-sw를 OFF로 놓고,\n7) 계획 항로상의 알려진 또는 예보된 착빙 조건에서 항공기를 운항하지 않고,\n8) speedbrake가 작동한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 36-22-03B APU Leak Detection Loop 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"36-22-03C": {
+"h": "4d84143b",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) 이전 비행 중 AIR APU BLEED LEAK alert가 표시되지 않았고,\n3) ENG 1 BLEED pb-sw(푸시버튼 스위치)를 OFF로 놓고,\n4) PACK 1 pb-sw를 OFF로 놓고,\n5) X BLEED selector를 SHUT으로 놓고,\n6) APU BLEED pb-sw를 OFF로 놓고,\n7) 계획 항로상의 알려진 또는 예보된 착빙 조건에서 항공기를 운항하지 않고,\n8) 고도를 31 500 ft (9 600 m)로 제한한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 36-22-03C APU Leak Detection Loop (Limitation to 31,500 ft) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"36-22-03E": {
+"h": "3e422b10",
+"ko": "(m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) APU bleed check valve가 작동함을 확인하고,\n2) 이전 비행 중 AIR APU BLEED LEAK alert가 표시되지 않았고,\n3) APU bleed air supply system을 작동 불능으로 간주한다.\nItem 36-12-01 APU Bleed Air Supply System 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 36-12-00-040-804 (A320F CEO) 또는 36-12-00-040-806 (A321NEO) 참조 (정비 절차)"
+}
+},
+"ops": {
+"36-11-07B": {
+"h": "f80bfde3",
+"ko": "2 적용 대상: HL8356, HL8364, HL8371, HL8398, HL8399, HL8511\n\nA320F MEL R46 TR1에서 삭제됨(DELETED)."
+},
+"36-12-05A": {
+"h": "12efc53c",
+"ko": "2 적용 대상: HL8004, HL8018, HL8038, HL8039, HL8059, HL8060, HL8071, HL8074, HL8277, HL8278, HL8279, HL8510, HL8533, HL8534, HL8582, HL8584, HL8586, HL8705\n\nFLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nX BLEED selector ..... AUTO\nX BLEED valve 자동 제어 점검:\n‐ APU가 시동되어 있는지 확인한다.\n‐ APU BLEED pb-sw ..... Off\n‐ BLEED SD page에서 cross bleed valve가 닫힘(closed)으로 표시되는지 확인한다.\n‐ APU BLEED pb-sw ..... ON\n‐ BLEED SD page에서 cross bleed valve가 열림(open)으로 표시되는지 확인한다."
+},
+"36-09-01A": {
+"h": "5a04d5d0",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\n• 정비 절차 적용 후:\nEWD에 표시되는 AIR APU LEAK DET FAULT alert를 무시한다."
+},
+"36-09-01E": {
+"h": "5a04d5d0",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\n• 정비 절차 적용 후:\nEWD에 표시되는 AIR APU LEAK DET FAULT alert를 무시한다."
+},
+"36-09-01B": {
+"h": "0b01ee5d",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\n계획 항로상의 알려진 또는 예보된 착빙 조건에서 항공기를 운항하지 않는다.\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\n• 정비 절차 적용 후:\nEWD에 표시되는 AIR APU LEAK DET FAULT alert를 무시한다.\nENG 1 BLEED pb-sw ..... OFF\nPACK 1 pb-sw ..... OFF\nX BLEED selector ..... SHUT\nAPU BLEED pb-sw ..... Off\nBEFORE ENGINE START (엔진 시동 전)\nX BLEED selector ..... OPEN\nAPU BLEED pb-sw ..... AS RQRD (필요에 따라)\nNote: Main Engine Start(주 엔진 시동)에는 APU bleed air supply system 사용이 허용된다.\nAFTER ENGINE START (엔진 시동 후)\nX BLEED selector ..... SHUT\nAPU BLEED pb-sw ..... Off\nIN FLIGHT (비행 중)\n• 남은 engine bleed air supply system이 고장 나거나, 해당(associated) 엔진이 고장 난 경우:\nAIR ENG 1+2 BLEED FAULT ECAM 절차를 적용한다.\nDURING DESCENT (강하 중)\n• 10 000 ft에서, engine anti-ice(ENG BLEED pb-sw가 OFF인 쪽)를 사용할 수 있는 경우:\nANTI ICE ENG (ENG BLEED pb-sw가 OFF인 쪽) pb-sw ..... ON"
+},
+"36-09-01C": {
+"h": "e07567a9",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\n계획 항로상의 알려진 또는 예보된 착빙 조건에서 항공기를 운항하지 않는다.\n고도는 31 500 ft (9 600 m)로 제한된다.\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\n• 정비 절차 적용 후:\nEWD에 표시되는 AIR APU LEAK DET FAULT alert를 무시한다.\nENG 1 BLEED pb-sw ..... OFF\nPACK 1 pb-sw ..... OFF\nX BLEED selector ..... SHUT\nAPU BLEED pb-sw ..... Off\nBEFORE ENGINE START (엔진 시동 전)\nX BLEED selector ..... OPEN\nAPU BLEED pb-sw ..... AS RQRD (필요에 따라)\nNote: Main Engine Start(주 엔진 시동)에는 APU bleed air supply system 사용이 허용된다.\nAFTER ENGINE START (엔진 시동 후)\nX BLEED selector ..... SHUT\nAPU BLEED pb-sw ..... Off\nIN FLIGHT (비행 중)\n• 남은 engine bleed air supply system이 고장 나거나, 해당(associated) 엔진이 고장 난 경우:\nAIR ENG 1+2 BLEED FAULT ECAM 절차를 적용한다.\nDURING DESCENT (강하 중)\n• 10 000 ft에서, engine anti-ice(ENG BLEED pb-sw가 OFF인 쪽)를 사용할 수 있는 경우:\nANTI ICE ENG (ENG BLEED pb-sw가 OFF인 쪽) pb-sw ..... ON"
+},
+"36-11-01A": {
+"h": "2659ddfb",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\n운항승무원은 예보된 착빙 조건의 심각도를 고려해야 한다. 남은 engine bleed air supply system이 작동 불능이 되면 wing anti-ice를 잃게 된다.\nNote: bleed air supply system 하나가 작동 불능인 경우에도 wing anti-ice system은 계속 사용할 수 있다.\nbleed 설계상의 제한으로, 남은 engine bleed air supply system은 wing anti-ice 상태와 관계없이 pack 하나만 공급할 수 있다.\n• ENG 1 bleed가 영향을 받는 경우:\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nAFTER ENGINE START (엔진 시동 후)\n• 출발 시 two engine taxi(양발 엔진 택시)인 경우:\nENG BLEED (영향받은 쪽) pb-sw ..... OFF\nAFT CARGO HOT AIR (장착 시) pb-sw ..... OFF\n• 양쪽 PACK이 작동하는 경우:\nPACK (영향받은 쪽) pb-sw ..... OFF\nX BLEED rotary selector ..... OPEN\n• 출발 시 one engine taxi(단발 엔진 택시)인 경우:\n• ENG 2 bleed가 영향을 받는 경우:\n• engine 2 시동 후:\nENG BLEED 2 pb-sw ..... OFF\nAFT CARGO HOT AIR (장착 시) pb-sw ..... OFF\n• 양쪽 PACK이 작동하는 경우:\nPACK 2 pb-sw ..... OFF\nX BLEED rotary selector ..... OPEN\nAFTER TAKEOFF (이륙 후)\n• 이륙 중 APU로 air conditioning을 공급한 경우:\nAPU BLEED pb-sw ..... Off\n• PACKs OFF로 이륙했고 양쪽 pack이 작동하는 경우:\nPACK (영향받지 않은 쪽) pb-sw ..... On\n의도적으로 꺼 둔 PACK에 대한 AIR PACK 1(2) OFF alert는 무시한다.\nIN FLIGHT (비행 중)\n• 남은 engine bleed air supply system이 고장 나거나, 해당(associated) 엔진이 고장 난 경우:\nAIR ENG 1+2 BLEED FAULT ECAM 절차를 적용한다.\nCAUTION: MEL 36-11-01에 따라 ENG BLEED pb-sw에 작동 불능 플래카드가 붙어 있더라도, ECAM 절차가 요구하는 대로 ENG BLEED pb-sw를 reset한다.\n• 반대쪽 PACK이 고장 난 경우:\nPACK (영향받은 쪽) pb-sw ..... On"
+},
+"36-11-01B": {
+"h": "552e6f6a",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nAPU ON(APU GEN OFF 및 APU BLEED Off) 상태의 APU 연료 소모량:\nAPU ON (IDLE)\nFL: GND | 100 | 200 | 315 | 354 | 370 | 390\nKG/H: 80 | 60 | 42 | 28 | 24 | 22 | 20\nLB/H: 176 | 132 | 93 | 62 | 53 | 49 | 44\n운항승무원은 예보된 착빙 조건의 심각도를 고려해야 한다. 남은 engine bleed air supply system이 작동 불능이 되면 wing anti-ice를 잃게 된다.\nNote: bleed air supply system 하나가 작동 불능인 경우에도 wing anti-ice system은 계속 사용할 수 있다.\nbleed 설계상의 제한으로, 남은 engine bleed air supply system은 wing anti-ice 상태와 관계없이 pack 하나만 공급할 수 있다.\n• ENG 1 bleed가 영향을 받는 경우:\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nAFTER ENGINE START (엔진 시동 후)\n• 출발 시 two engine taxi(양발 엔진 택시)인 경우:\nENG BLEED (영향받은 쪽) pb-sw ..... OFF\nAFT CARGO HOT AIR (장착 시) pb-sw ..... OFF\n• 양쪽 PACK이 작동하는 경우:\nPACK (영향받은 쪽) pb-sw ..... OFF\nX BLEED rotary selector ..... OPEN\n• 출발 시 one engine taxi(단발 엔진 택시)인 경우:\n• ENG 2 bleed가 영향을 받는 경우:\n• engine 2 시동 후:\nENG BLEED 2 pb-sw ..... OFF\nAFT CARGO HOT AIR (장착 시) pb-sw ..... OFF\n• 양쪽 PACK이 작동하는 경우:\nPACK 2 pb-sw ..... OFF\nX BLEED rotary selector ..... OPEN\nBEFORE TAKEOFF (이륙 전)\nAPU MASTER SW pb-sw ..... ON\nAPU START pb-sw ..... ON\nAFTER TAKEOFF (이륙 후)\n• 이륙 중 APU로 air conditioning을 공급한 경우:\nAPU BLEED pb-sw ..... Off\n• PACKs OFF로 이륙했고 양쪽 pack이 작동하는 경우:\nPACK (영향받지 않은 쪽) pb-sw ..... On\n의도적으로 꺼 둔 PACK에 대한 AIR PACK 1(2) OFF alert는 무시한다.\nIN FLIGHT (비행 중)\n• 남은 engine bleed air supply system이 고장 나거나, 해당(associated) 엔진이 고장 난 경우:\nAIR ENG 1+2 BLEED FAULT ECAM 절차를 적용한다.\nCAUTION: MEL 36-11-01에 따라 ENG BLEED pb-sw에 작동 불능 플래카드가 붙어 있더라도, ECAM 절차가 요구하는 대로 ENG BLEED pb-sw를 reset한다.\n• 반대쪽 PACK이 고장 난 경우:\nPACK (영향받은 쪽) pb-sw ..... On"
+},
+"36-11-01E": {
+"h": "10c26e67",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\n고도는 31 500 ft (9 600 m)로 제한된다.\n운항승무원은 예보된 착빙 조건의 심각도를 고려해야 한다. 남은 engine bleed air supply system이 작동 불능이 되면 wing anti-ice를 잃게 된다.\nNote: bleed air supply system 하나가 작동 불능인 경우에도 wing anti-ice system은 계속 사용할 수 있다.\nbleed 설계상의 제한으로, 남은 engine bleed air supply system은 wing anti-ice 상태와 관계없이 pack 하나만 공급할 수 있다.\n• ENG 1 bleed가 영향을 받는 경우:\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nAFTER ENGINE START (엔진 시동 후)\n• 출발 시 two engine taxi(양발 엔진 택시)인 경우:\nENG BLEED (영향받은 쪽) pb-sw ..... OFF\nAFT CARGO HOT AIR (장착 시) pb-sw ..... OFF\n• 양쪽 PACK이 작동하는 경우:\nPACK (영향받은 쪽) pb-sw ..... OFF\nX BLEED rotary selector ..... OPEN\n• 출발 시 one engine taxi(단발 엔진 택시)인 경우:\n• ENG 2 bleed가 영향을 받는 경우:\n• engine 2 시동 후:\nENG BLEED 2 pb-sw ..... OFF\nAFT CARGO HOT AIR (장착 시) pb-sw ..... OFF\n• 양쪽 PACK이 작동하는 경우:\nPACK 2 pb-sw ..... OFF\nX BLEED rotary selector ..... OPEN\nAFTER TAKEOFF (이륙 후)\n• 이륙 중 APU로 air conditioning을 공급한 경우:\nAPU BLEED pb-sw ..... Off\n• PACKs OFF로 이륙했고 양쪽 pack이 작동하는 경우:\nPACK (영향받지 않은 쪽) pb-sw ..... On\n의도적으로 꺼 둔 PACK에 대한 AIR PACK 1(2) OFF alert는 무시한다.\nIN FLIGHT (비행 중)\n• 남은 engine bleed air supply system이 고장 나거나, 해당(associated) 엔진이 고장 난 경우:\nAIR ENG 1+2 BLEED FAULT ECAM 절차를 적용한다.\nCAUTION: MEL 36-11-01에 따라 ENG BLEED pb-sw에 작동 불능 플래카드가 붙어 있더라도, ECAM 절차가 요구하는 대로 ENG BLEED pb-sw를 reset한다.\n• 반대쪽 PACK이 고장 난 경우:\nPACK (영향받은 쪽) pb-sw ..... On"
+},
+"36-11-01F": {
+"h": "002c660b",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n고도는 31 500 ft (9 600 m)로 제한된다.\nAPU ON(APU GEN OFF 및 APU BLEED Off) 상태의 APU 연료 소모량:\nAPU ON (IDLE)\nFL: GND | 100 | 200 | 315 | 354 | 370 | 390\nKG/H: 80 | 60 | 42 | 28 | 24 | 22 | 20\nLB/H: 176 | 132 | 93 | 62 | 53 | 49 | 44\n운항승무원은 예보된 착빙 조건의 심각도를 고려해야 한다. 남은 engine bleed air supply system이 작동 불능이 되면 wing anti-ice를 잃게 된다.\nNote: bleed air supply system 하나가 작동 불능인 경우에도 wing anti-ice system은 계속 사용할 수 있다.\nbleed 설계상의 제한으로, 남은 engine bleed air supply system은 wing anti-ice 상태와 관계없이 pack 하나만 공급할 수 있다.\n• ENG 1 bleed가 영향을 받는 경우:\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nAFTER ENGINE START (엔진 시동 후)\n• 출발 시 two engine taxi(양발 엔진 택시)인 경우:\nENG BLEED (영향받은 쪽) pb-sw ..... OFF\nAFT CARGO HOT AIR (장착 시) pb-sw ..... OFF\n• 양쪽 PACK이 작동하는 경우:\nPACK (영향받은 쪽) pb-sw ..... OFF\nX BLEED rotary selector ..... OPEN\n• 출발 시 one engine taxi(단발 엔진 택시)인 경우:\n• ENG 2 bleed가 영향을 받는 경우:\n• engine 2 시동 후:\nENG BLEED 2 pb-sw ..... OFF\nAFT CARGO HOT AIR (장착 시) pb-sw ..... OFF\n• 양쪽 PACK이 작동하는 경우:\nPACK 2 pb-sw ..... OFF\nX BLEED rotary selector ..... OPEN\nBEFORE TAKEOFF (이륙 전)\nAPU MASTER SW pb-sw ..... ON\nAPU START pb-sw ..... ON\nAFTER TAKEOFF (이륙 후)\n• 이륙 중 APU로 air conditioning을 공급한 경우:\nAPU BLEED pb-sw ..... Off\n• PACKs OFF로 이륙했고 양쪽 pack이 작동하는 경우:\nPACK (영향받지 않은 쪽) pb-sw ..... On\n의도적으로 꺼 둔 PACK에 대한 AIR PACK 1(2) OFF alert는 무시한다.\nIN FLIGHT (비행 중)\n• 남은 engine bleed air supply system이 고장 나거나, 해당(associated) 엔진이 고장 난 경우:\nAIR ENG 1+2 BLEED FAULT ECAM 절차를 적용한다.\nCAUTION: MEL 36-11-01에 따라 ENG BLEED pb-sw에 작동 불능 플래카드가 붙어 있더라도, ECAM 절차가 요구하는 대로 ENG BLEED pb-sw를 reset한다.\n• 반대쪽 PACK이 고장 난 경우:\nPACK (영향받은 쪽) pb-sw ..... On"
+},
+"36-11-06B": {
+"h": "e1b8d5f9",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n운항승무원은 예보된 착빙 조건의 심각도를 고려해야 한다. 낮은 출력 설정(low power settings)에서는 반대쪽 engine bleed air supply system이 작동 불능이 되면 wing anti-ice를 잃게 된다.\n• ENG 1 bleed IP Check Valve가 영향을 받는 경우:\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nDURING TAXI (지상 활주 중)\n• 출발 시 two engine taxi(양발 엔진 택시)인 경우:\n엔진이 idle thrust로 작동할 때:\n‐ ENG (영향받은 쪽) BLEED pb-sw ..... OFF\n‐ X BLEED selector ..... OPEN\n‐ PACK pb-sw 하나 ..... OFF\n• 출발 시 one engine taxi(단발 엔진 택시)인 경우:\nengine 2 시동 후, engine 2가 idle thrust로 작동할 때:\n‐ ENG 2 BLEED pb-sw ..... OFF\n‐ X BLEED selector ..... OPEN\n‐ PACK pb-sw 하나 ..... OFF\nBEFORE TAKEOFF AND UNTIL DESCENT (이륙 전부터 강하까지)\n이륙 추력(takeoff thrust)을 가하기 직전\n‐ ENG (영향받은 쪽) BLEED pb-sw ..... On\n‐ X BLEED selector ..... AUTO\n‐ PACK pb-sw ..... ON\nBEFORE DESCENT AND UNTIL LANDING (강하 전부터 착륙까지)\n엔진이 idle thrust로 작동할 때:\n‐ ENG (영향받은 쪽) BLEED pb-sw ..... OFF\n‐ X BLEED selector ..... OPEN\n‐ PACK pb-sw 하나 ..... OFF"
+},
+"36-11-08A": {
+"h": "6af79ed8",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nHOT AIR pb-sw ..... OFF"
+},
+"36-11-08F": {
+"h": "6af79ed8",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nHOT AIR pb-sw ..... OFF"
+},
+"36-11-08G": {
+"h": "6af79ed8",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nHOT AIR pb-sw ..... OFF"
+},
+"36-12-01A": {
+"h": "128277b4",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\nMain Engine Start (MES) 또는 air conditioning에 APU bleed air를 사용할 수 없다. FCOM/PRO-NOR-SUP-ENG Engine Start with an Air Start Unit 참조.\nONE ENGINE TAXI AT DEPARTURE (출발 시 단발 엔진 택시)\n• ENG 2 시동의 경우:\nCROSSBLEED ENGINE START ..... PERFORM (수행)\nFCOM/PRO-NOR-SUP-ENG Crossbleed Engine Start 참조."
+},
+"36-12-02A": {
+"h": "e44b5036",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\nMain Engine Start (MES) 또는 air conditioning에 APU bleed air를 사용할 수 없다. FCOM/PRO-NOR-SUP-ENG Engine Start with an Air Start Unit 참조.\nAPU SD page와 BLEED SD page에서 APU bleed air valve의 위치 표시는 무시한다.\nONE ENGINE TAXI AT DEPARTURE (출발 시 단발 엔진 택시)\n• ENG 2 시동의 경우:\nCROSSBLEED ENGINE START ..... PERFORM (수행)\nFCOM/PRO-NOR-SUP-ENG Crossbleed Engine Start 참조."
+},
+"36-12-02B": {
+"h": "0ca898e5",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nGENERAL INFORMATION (일반 정보)\nMain Engine Start (MES) 또는 air conditioning용 APU bleed air는 지상(GROUND)에서만 사용할 수 있다.\nON GROUND (지상에서)\nECAM alert AIR APU BLEED FAULT가 발생(trigger)하지 않도록, APU 상태에 맞춰 APU BLEED pb-sw를 선택해야 한다:\n• APU가 작동 중일 때:\nAPU BLEED pb-sw ..... ON\n• APU가 정지되면:\nAPU BLEED pb-sw ..... Off\nBEFORE TAKEOFF (이륙 전)\nAPU BLEED pb-sw ..... Off\nAPU MASTER pb-sw ..... Off"
+},
+"36-12-02C": {
+"h": "4e5c850c",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\nMain Engine Start (MES) 또는 air conditioning용 APU bleed air는 지상(GROUND)에서만 사용할 수 있다.\nON GROUND (지상에서)\nECAM alert AIR APU BLEED FAULT가 발생(trigger)하지 않도록, APU 상태에 맞춰 APU BLEED pb-sw를 선택해야 한다:\n• APU가 작동 중일 때:\nAPU BLEED pb-sw ..... ON\n• APU가 정지되면:\nAPU BLEED pb-sw ..... Off\nBEFORE TAKEOFF (이륙 전)\nAPU BLEED pb-sw ..... Off\nAPU MASTER pb-sw ..... Off"
+},
+"36-12-04A": {
+"h": "86bf83f2",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\nAPU BLEED pb-sw가 ON일 때, 또는 엔진 시동 시:\n‐ X BLEED selector ..... OPEN\n‐ 그 외 모든 경우에는 SHUT을 선택한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nX BLEED valve 수동 제어 점검:\n‐ X BLEED selector ..... OPEN\n‐ BLEED SD page에서 cross bleed valve가 열림(open)으로 표시되는지 확인한다.\n‐ X BLEED selector ..... SHUT\n‐ BLEED SD page에서 cross bleed valve가 닫힘(closed)으로 표시되는지 확인한다.\n‐ X BLEED selector ..... AS RQRD (필요에 따라)"
+},
+"36-22-03B": {
+"h": "9abe1df1",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\n계획 항로상의 알려진 또는 예보된 착빙 조건에서 항공기를 운항하지 않는다.\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nFLIGHT PREPARATION/LIMITATIONS (비행 준비/제한)\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nENG 1 BLEED pb-sw ..... OFF\nPACK 1 pb-sw ..... OFF\nX BLEED selector ..... SHUT\nAPU BLEED pb-sw ..... Off\nBEFORE ENGINE START (엔진 시동 전)\nX BLEED selector ..... OPEN\nAPU BLEED pb-sw ..... AS RQRD (필요에 따라)\nNote: Main Engine Start(주 엔진 시동)에는 APU bleed air supply system 사용이 허용된다.\nAFTER ENGINE START (엔진 시동 후)\nX BLEED selector ..... SHUT\nAPU BLEED pb-sw ..... Off\nIN FLIGHT (비행 중)\n• 남은 engine bleed air supply system이 고장 나거나, 해당(associated) 엔진이 고장 난 경우:\nAIR ENG 1+2 BLEED FAULT ECAM 절차를 적용한다.\nDURING DESCENT (강하 중)\n• 10 000 ft에서, engine anti-ice(ENG BLEED pb-sw가 OFF인 쪽)를 사용할 수 있는 경우:\nANTI ICE ENG (ENG BLEED pb-sw가 OFF인 쪽) pb-sw ..... ON"
+},
+"36-22-03C": {
+"h": "9b7d29c6",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\n계획 항로상의 알려진 또는 예보된 착빙 조건에서 항공기를 운항하지 않는다.\n고도는 31 500 ft (9 600 m)로 제한된다.\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nFLIGHT PREPARATION/LIMITATIONS (비행 준비/제한)\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nENG 1 BLEED pb-sw ..... OFF\nPACK 1 pb-sw ..... OFF\nX BLEED selector ..... SHUT\nAPU BLEED pb-sw ..... Off\nBEFORE ENGINE START (엔진 시동 전)\nX BLEED selector ..... OPEN\nAPU BLEED pb-sw ..... AS RQRD (필요에 따라)\nNote: Main Engine Start(주 엔진 시동)에는 APU bleed air supply system 사용이 허용된다.\nAFTER ENGINE START (엔진 시동 후)\nX BLEED selector ..... SHUT\nAPU BLEED pb-sw ..... Off\nIN FLIGHT (비행 중)\n• 남은 engine bleed air supply system이 고장 나거나, 해당(associated) 엔진이 고장 난 경우:\nAIR ENG 1+2 BLEED FAULT ECAM 절차를 적용한다.\nDURING DESCENT (강하 중)\n• 10 000 ft에서, engine anti-ice(ENG BLEED pb-sw가 OFF인 쪽)를 사용할 수 있는 경우:\nANTI ICE ENG (ENG BLEED pb-sw가 OFF인 쪽) pb-sw ..... ON"
+}
+}
+}

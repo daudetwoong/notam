@@ -1,0 +1,190 @@
+{
+"items": {
+"29-07-01A": {
+"h": "09e72272",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"29-07-02A": {
+"h": "5b42dc3e",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"29-07-03A": {
+"h": "3fb273f0",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"29-07-04A": {
+"h": "e7369210",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"29-07-05A": {
+"h": "23fcf303",
+"ko": "(m) 다음 조건이면 하나가 작동 불능 상태로 운항할 수 있다:\n1) 해당 HYD B(G)(Y) RSVR LO LVL alert가 작동함을 확인하고,\n2) 매 비행 전 해당 reservoir quantity(저장조 유량)를 점검한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control은 MCC에 연락.\n참조\n(m) AMM Task 29-31-00-040-001 및(또는) 29-31-00-040-002 참조 (정비 절차)"
+},
+"29-07-06A": {
+"h": "6f0a61dc",
+"ko": "매 비행 전 RAT가 수납(stowed)되어 있음을 육안으로 확인하는 조건이면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"29-07-07A": {
+"h": "f0800a21",
+"ko": "(o) 매 비행 전 해당 system pressure(계통 압력)가 정상적으로 공급됨을 확인하는 조건이면 하나 이상이 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 29-07-07A System Label Indication on the HYD SD page 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"29-07-08A": {
+"h": "f4991ca7",
+"ko": "(o) 매 비행 전 해당 system label 지시가 작동함을 확인하는 조건이면 하나가 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 29-07-08A System Pressure Indication on the HYD SD page 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"29-07-09A": {
+"h": "4bd959b2",
+"ko": "vertical link(수직 연결선) 지시 하나 이상이 잘못 표시되거나 표시되지 않아도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"29-09-01A": {
+"h": "c3b6d937",
+"ko": "해당 system pressure 지시가 작동하는 조건이면 하나 또는 둘 다 표시된 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"29-09-02A": {
+"h": "df0c20e5",
+"ko": "하나 또는 둘 다 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+},
+"29-09-03A": {
+"h": "8aa6f60d",
+"ko": "(o) 다음 조건이면 하나 또는 둘 다 표시된 상태로 운항할 수 있다:\n1) 해당 system pressure 지시가 작동하고,\n2) 매 비행 전 engine pump가 작동함을 확인한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 29-09-03A HYD G(Y) ENG 1(2) PUMP LO PR Alert 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"29-09-04A": {
+"h": "50c4f9d0",
+"ko": "(m) 매 비행 전 해당 reservoir의 air pressure(공기 압력)를 점검하는 조건이면 하나가 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control은 MCC에 연락.\n참조\n(m) AMM Task 29-34-00-040-001 및(또는) 29-34-00-040-002 참조 (정비 절차)"
+},
+"29-09-05A": {
+"h": "b05db6bd",
+"ko": "매 비행 전 HYD SD page에서 해당 reservoir quantity를 점검하는 조건이면 하나가 표시된 상태로 운항할 수 있다.\nNote: 1. 이 alert가 EWD에 표시될 때, 해당 PUMP pb-sw FAULT light와 PTU pb-sw FAULT light(green 또는 yellow 계통이 해당되는 경우)가 동시에 켜질 수 있다.\nItem 29-01-01-01 B(Y) ELEC PUMP pb-sw FAULT light 참조, 그리고\nItem 29-01-01-04 G(Y) ENG 1(2) PUMP pb-sw FAULT light 참조, 그리고\nItem 29-01-01-06 PTU pb-sw FAULT light 참조\n2. blue reservoir가 해당되는 경우, 엔진 시동 전 STATUS SD page의 INOP SYS 칸에 EMER GEN이 나타날 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+},
+"29-09-06A": {
+"h": "5f09cb96",
+"ko": "HYD G RSVR OVHT alert 또는 HYD Y RSVR OVHT alert가 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+},
+"29-09-07A": {
+"h": "fc79109f",
+"ko": "(o) 매 비행 전 PTU가 작동함을 확인하는 조건이면 표시된 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 29-09-07A HYD PTU FAULT Alert 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"29-09-08A": {
+"h": "e7cfbf90",
+"ko": "(m) 매 비행 전 RAT의 건전성(integrity)을 점검하는 조건이면 표시된 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control은 MCC에 연락.\n참조\n(m) AMM Task 29-30-00-040-001 참조 (정비 절차)"
+},
+"29-09-09A": {
+"h": "2f0ca1dc",
+"ko": "전부 작동해야 한다. (하나라도 작동 불능이면 출발 불가)"
+},
+"29-10-01A": {
+"h": "efffc2a6",
+"ko": "둘 다 작동해야 한다. (하나라도 작동 불능이면 출발 불가)"
+},
+"29-10-02A": {
+"h": "20ab9c59",
+"ko": "(m) 다음 조건이면 하나가 작동 불능 상태로 운항할 수 있다:\n1) 남은 EDP depressurization 기능(엔진 구동 펌프 감압 기능)이 작동함을 확인하고,\n2) APU가 작동하고,\n3) 해당 side의 start valve가 작동한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 29-10-00-710-004 참조 (정비 절차)"
+},
+"29-10-03A": {
+"h": "9d64492c",
+"ko": "(o) pump를 수동으로 조작하는 조건이면 automatic control(자동 제어)이 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 29-10-03A Blue System Electric Pump 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"29-10-04A": {
+"h": "5399e1e9",
+"ko": "(m) 해당 accumulator를 비활성화(deactivate)한 조건이면 하나 이상이 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 29-10-00-040-004 및(또는) 29-10-00-040-005 및(또는) 29-10-00-040-006 참조 (정비 절차)"
+},
+"29-10-05A": {
+"h": "f3edb7a5",
+"ko": "반드시 작동해야 한다. (작동 불능이면 출발 불가)"
+},
+"29-10-07A": {
+"h": "2ec6e754",
+"ko": "둘 다 작동해야 한다. (하나라도 작동 불능이면 출발 불가)"
+},
+"29-10-08A": {
+"h": "719fb0fa",
+"ko": "LP filter(저압 필터) 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+},
+"29-10-08B": {
+"h": "a8a28cad",
+"ko": "reservoir filling filter(저장조 보충 필터)가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+},
+"29-10-09A": {
+"h": "6507ac42",
+"ko": "(m) 해당 필터를 장탈(remove)한 조건이면 하나가 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 29-10-00-040-001 및(또는) 29-10-00-040-002 및(또는) 29-10-00-040-003 참조 (정비 절차)"
+},
+"29-10-10A": {
+"h": "347ea450",
+"ko": "(m) 해당 reservoir drain circuit(저장조 배출 회로)을 cap으로 막아 고정한 조건이면 하나 이상이 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 29-10-00-040-007 참조 (정비 절차)"
+},
+"29-22-01A": {
+"h": "2d242c3f",
+"ko": "반드시 작동해야 한다. (작동 불능이면 출발 불가)"
+},
+"29-23-01A": {
+"h": "2933234e",
+"ko": "(o) 매일 첫 비행 전 PTU가 양방향으로 작동함을 확인하는 조건이면, AUTO로 놓았을 때 PTU가 계속 작동(continuously run)해도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 29-23-01A Power Transfer Unit (PTU) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"29-24-01A": {
+"h": "a19cf6d2",
+"ko": "(o) 해당 pb-sw를 off로 놓는 조건이면 작동 불능 상태로 운항할 수 있다.\nNote: AFT 및 FWD cargo door는 수동으로 조작해야 한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 29-24-01A Yellow System Electric Pump 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"29-01-01-01A": {
+"h": "0782823a",
+"ko": "해당 reservoir quantity(저장조 유량) 지시가 HYD SD page에서 작동한다면 하나 또는 둘 다 작동 불능이어도 된다.\nNote: 엔진이 꺼진 상태에서 BLUE ELEC PUMP pb-sw FAULT light와 ENG 1(2) PUMP pb-sw FAULT light가 동시에 켜지는 것은 engine oil low pressure switch 고장 때문일 수 있다. 이 경우 ENG 1(2) OIL LO PR alert가 작동 불능이며 출발(dispatch)이 허용되지 않는다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"29-01-01-02A": {
+"h": "acbee2d0",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"29-01-01-03A": {
+"h": "acbee2d0",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"29-01-01-04A": {
+"h": "0782823a",
+"ko": "해당 reservoir quantity(저장조 유량) 지시가 HYD SD page에서 작동한다면 하나 또는 둘 다 작동 불능이어도 된다.\nNote: 엔진이 꺼진 상태에서 BLUE ELEC PUMP pb-sw FAULT light와 ENG 1(2) PUMP pb-sw FAULT light가 동시에 켜지는 것은 engine oil low pressure switch 고장 때문일 수 있다. 이 경우 ENG 1(2) OIL LO PR alert가 작동 불능이며 출발(dispatch)이 허용되지 않는다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"29-01-01-05A": {
+"h": "6d44a5c6",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"29-01-01-06A": {
+"h": "2cae2988",
+"ko": "yellow 및 green reservoir의 quantity(유량) 지시가 HYD SD page에서 작동한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"29-01-01-07A": {
+"h": "52f9bae9",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"29-01-02-01A": {
+"h": "ce20afb3",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+}
+},
+"ops": {
+"29-07-07A": {
+"h": "05f65e9d",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nNote: Yellow Electric Pump를 사용할 수 없는 경우:\n- 다음 방법으로 Yellow Hydraulic System을 가압한다:\n• Ground cart(지상 유압 카트), 또는\n• Engine 2를 작동시킨 상태에서 Yellow Engine 2 Pump.\n- 아래 절차에서 YELLOW ELEC PUMP pb-sw에 대한 조작은 Ground Cart 또는 YELLOW ENG 2 PUMP pb-sw에 대한 같은 조작으로 대체한다.\n- YELLOW ELEC PUMP pb-sw ...... ON\n- BLUE ELEC PUMP pb-sw ...... AUTO\n- BLUE PUMP OVRD pb-sw ...... ON\n- PTU pb-sw ...... AUTO\n- CAPT sidestick을 좌우로 움직인다.\n- F/CTL SD page에서 spoiler 쌍(pair)이 움직이는지 확인한다.\n- YELLOW ELEC PUMP pb-sw ...... Off\n- BLUE PUMP OVRD pb-sw ...... OFF"
+},
+"29-07-08A": {
+"h": "85469e4d",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nNote: Yellow Electric Pump를 사용할 수 없는 경우:\n- 다음 방법으로 Yellow Hydraulic System을 가압한다:\n• Ground cart(지상 유압 카트), 또는\n• Engine 2를 작동시킨 상태에서 Yellow Engine 2 Pump.\n- 아래 절차에서 YELLOW ELEC PUMP pb-sw에 대한 조작은 Ground Cart 또는 YELLOW ENG 2 PUMP pb-sw에 대한 같은 조작으로 대체한다.\n• blue system pressure 지시가 작동 불능인 경우:\nSystem label 점검:\n- HYD SD page에서 BLUE system label이 황색(amber)인지 확인한다.\n- BLUE ELEC PUMP pb-sw ...... AUTO\n- BLUE PUMP OVRD pb-sw ...... ON\n- HYD SD page에서 BLUE system label이 흰색이고 화살표가 녹색인지 확인한다.\n- BLUE PUMP OVRD pb-sw ...... Off\n• yellow system pressure 지시가 작동 불능인 경우:\nSystem label 점검:\n- YELLOW ELEC PUMP pb-sw ...... Off\n- HYD SD page에서 YELLOW system label이 황색(amber)인지 확인한다.\n- YELLOW ELEC PUMP pb-sw ...... ON\n- HYD SD page에서 YELLOW system label이 흰색이고 화살표가 녹색인지 확인한다.\n- YELLOW ELEC PUMP pb-sw ...... Off\n• green system pressure 지시가 작동 불능인 경우:\nSystem label 점검:\n- HYD SD page에서 GREEN system label이 황색(amber)인지 확인한다.\n- YELLOW ELEC PUMP pb-sw ...... ON\n- PTU pb-sw ...... AUTO\n- HYD SD page에서 GREEN system label이 흰색이고 화살표가 녹색인지 확인한다.\n- YELLOW ELEC PUMP pb-sw ...... Off\nAFTER ENGINES START (엔진 시동 후)\nNote: HYD PTU FAULT ECAM alert가 발생할 수 있다."
+},
+"29-09-03A": {
+"h": "264791d2",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nAFTER ENGINE START (엔진 시동 후)\nEngine pump 점검:\n- PTU pb-sw ...... OFF\n- HYD SD page에서 green 및 yellow hydraulic system 압력이 정상인지 확인한다.\n정상 압력은 3 000 PSI (± 200 PSI)이다.\n- PTU pb-sw ...... AUTO\nNote: HYD SD page에서 PTU는 계속 작동 중(running)으로 표시된다.\nTAXI (택시)\nNote: EWD에 표시되는 거짓(false) HYD G(Y) ENG 1(2) PUMP LO PR alert 때문에, T.O MEMO에서 \"T.O CONFIG . . TEST\" 줄이 \"T.O CONFIG NORMAL\" 줄로 바뀌지 않는다.\nT.O CONFIG TEST 중 거짓 HYD G(Y) ENG 1(2) PUMP LO PR alert 외에 다른 alert가 표시되지 않았다면 이륙 형상(configuration)이 정상인 것으로 간주한다.\nCAUTION: 거짓 HYD G(Y) ENG 1(2) PUMP LO PR alert 외에 다른 alert가 없음을 확인하기 위해 T.O CONFIG TEST pb를 계속 누르고 있어야 한다."
+},
+"29-09-07A": {
+"h": "abb4a768",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nNote: Yellow Electric Pump를 사용할 수 없는 경우:\n- 다음 방법으로 Yellow Hydraulic System을 가압한다:\n• Ground cart(지상 유압 카트), 또는\n• Engine 2를 작동시킨 상태에서 Yellow Engine 2 Pump.\n- 아래 절차에서 YELLOW ELEC PUMP pb-sw에 대한 조작은 Ground Cart 또는 YELLOW ENG 2 PUMP pb-sw에 대한 같은 조작으로 대체한다.\nPTU 점검:\n- YELLOW ELEC PUMP pb-sw ...... ON\n- PTU pb-sw ...... AUTO\n- HYD SD page에서 green hydraulic system 압력 지시가 녹색인지 확인한다.\ngreen hydraulic system 압력 지시를 사용할 수 없으면, HYD SD page에서 GREEN system label이 흰색이고 화살표가 녹색인지 확인한다.\n- YELLOW ELEC PUMP pb-sw ...... Off"
+},
+"29-10-03A": {
+"h": "4eead682",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING PRELIMINARY COCKPIT PREPARATION (예비 조종실 준비 중)\n• blue electric pump가 계속 작동하는 경우:\n전원 공급 시:\nBLUE ELEC PUMP pb-sw ...... OFF\nAFTER ENGINE START (엔진 시동 후)\nBLUE ELEC PUMP pb-sw ...... AUTO\n• blue electric pump가 자동으로 시작되지 않는 경우:\n- BLUE PUMP OVRD pb-sw ...... ON\n- HYD SD page에서 blue hydraulic circuit 압력이 공급되는지 확인한다.\nAFTER ENGINE SHUTDOWN (엔진 정지 후)\nBLUE ELEC PUMP pb-sw ...... OFF"
+},
+"29-23-01A": {
+"h": "82400abc",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nAFTER ENGINE START (엔진 시동 후)\nPTU 작동 점검:\n- GREEN ENG 1 PUMP pb-sw ...... OFF\n- HYD SD page에서 green system 압력이 정상인지 확인한다.\n정상 압력은 3 000 PSI (± 200 PSI)이다.\n- GREEN ENG 1 PUMP pb-sw ...... On\n- YELLOW ENG 2 PUMP pb-sw ...... OFF\n- YELLOW ELEC PUMP pb-sw ...... Off\n- HYD SD page에서 yellow system 압력이 정상인지 확인한다.\n정상 압력은 3 000 PSI (± 200 PSI)이다.\n- YELLOW ENG 2 PUMP pb-sw ...... On\nNote: 1. PTU는 계통을 공칭값 3 000 PSI (± 200 PSI)로 가압하지만, 유압 사용 장치(consumer)를 작동하지 않으면 압력이 일정하지 않다. PTU는 유압 계통 압력을 2 100 PSI와 3 200 PSI 사이로 유지하는 주기(cycle)로 작동한다.\n2. 승객 쾌적성을 위해, 양쪽 engine hydraulic pump가 모두 작동하며 돌아가고 있는 조건이면 착륙 후 택시 중 PTU를 OFF로 놓을 수 있다. 항공기를 떠나기 전에 PTU를 반드시 AUTO로 되돌려 놓아야 한다."
+},
+"29-24-01A": {
+"h": "123ddc72",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nONE ENGINE TAXI (단발 엔진 택시)\none engine taxi 중에는 PTU가 yellow hydraulic system을 가압하며 조종실과 객실에 소음이 발생한다.\nON GROUND (지상에서)\npump가 계속 작동하고 off로 놓아도 멈추지 않는 경우:\nDOORS/CARGO (122 VU의 T12) C/B ..... Pull\n그래도 해결되지 않으면:\n- Y HYD/ELEC PUMP/NORM (123 VU의 AB 03) C/B ..... Pull\n- Y HYD/ELEC/PUMP (123 VU의 AB 06) C/B ..... Pull\nNote: 1. 지상에서 pump가 계속 작동하면 과열(overheat) 가능성이 있다.\n2. C/B reset은 cargo door를 열거나 닫는 데 필요한 시간으로 제한해야 한다."
+}
+}
+}

@@ -1,0 +1,262 @@
+{
+"items": {
+"24-00-01A": {
+"h": "dfd26266",
+"ko": "DC BUS TIE MAINTENANCE 메시지가 STATUS SD page에 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"24-00-03A": {
+"h": "4e69a55c",
+"ko": "AC GEN MAINTENANCE 메시지가 STATUS SD page에 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"24-07-01A": {
+"h": "f5ca4857",
+"ko": "(o) 다음 조건이면 AC generation(교류 발전) 관련 지시 하나 이상이 작동 불능 상태로 운항할 수 있다:\n1) engine driven generator 하나에 대해서는 load, voltage, frequency 지시가 작동하고,\n2) GEN 1(2) pb-sw(푸시버튼 스위치) FAULT light가 작동함을 확인하고,\n3) galley automatic load shed system(갤리 자동 부하 차단 계통)이 작동함을 확인한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 24-07-01A AC Generation Indications on the ELEC SD page 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"24-07-02A": {
+"h": "49c3c31e",
+"ko": "DC generation(직류 발전) 관련 지시 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"24-07-03A": {
+"h": "2635cc60",
+"ko": "표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"24-09-01A": {
+"h": "39eddd7b",
+"ko": "(o) 다음 조건이면 표시된 상태로 운항할 수 있다:\n1) troubleshooting(고장 탐구)을 통해 이 alert가 거짓(false)임을 확인하고,\n2) 매 비행 전 AC ESS BUS SHED가 작동함을 확인하고,\n3) HF 1을 비활성화(deactivate)한다.\nItem 23-10-01 HF Voice 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 24-09-01A ELEC AC ESS BUS SHED Alert 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"24-09-02A": {
+"h": "ab47b1be",
+"ko": "(m) troubleshooting(고장 탐구)을 통해 이 alert가 거짓(false)임을 확인한 조건이면 표시된 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM 24-50-00-040-001 참조 (정비 절차)"
+},
+"24-22-01A": {
+"h": "c56a073f",
+"ko": "(o) (m) 다음 조건이면 하나가 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) 비행 고도를 33 500 ft로 제한하고,\n3) APU와 AC auxiliary generation(APU 발전)이 작동하며 비행 내내 사용하고,\n4) APU fuel pump가 작동하고,\n5) 매 비행 전 APU oil quantity(오일량)가 충분함을 확인하고,\n6) 매 비행 전 작동하는 IDG 쪽의 fuel recirculation system(연료 재순환 계통)이 작동함을 확인하고,\n7) 모든 bus에 전원이 공급되고,\n8) 남은 AC main generation과 AC auxiliary generation의 지시 및 alert가 작동하고,\n9) galley automatic load shed system이 작동함을 확인한다.\n10) 해당 IDG를 disconnect한 경우, 이륙 전 영향받는 쪽의 inner/wing tank 연료 온도가 -30 °C보다 높음을 확인한다.\n11) 해당 IDG를 disconnect한 경우, 비행 중 영향받는 쪽의 inner/wing tank 연료 온도를 감시하여 -43 °C보다 높음을 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n3. 출발 승인은 MCC에 연락.\n4. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 24-22-01A AC Main Generation (IDG, GCU, Line Contactor) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 24-20-00-040-001 참조 (정비 절차)"
+},
+"24-22-02A": {
+"h": "8dd7668a",
+"ko": "반드시 작동해야 한다. (작동 불능이면 출발 불가)"
+},
+"24-23-01A": {
+"h": "f5a15e6f",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) APU GEN pb-sw를 OFF로 놓는다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 24-23-01A AC Auxiliary Generation (APU Generator, GCU or GAPCU Auxiliary Power Control function, Line Contactor) (Non EDTO flight and APU GEN pb-sw set to OFF) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"24-23-01B": {
+"h": "c48178cf",
+"ko": "(o) 다음 조건이면 4개 비행(four flights) 동안 작동 불능 상태로 운항할 수 있다:\n1) 120분을 초과하는 EDTO를 수행하지 않고,\n2) APU GEN pb-sw를 OFF로 놓는다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비)\n1. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 24-23-01B AC Auxiliary Generation (APU Generator, GCU or GAPCU Auxiliary Power Control function, Line Contactor) (APU GEN pb-sw set to OFF) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"24-23-01C": {
+"h": "9edba8c2",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) AC auxiliary generation을 비활성화(deactivate)하거나 장탈(remove)한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 24-23-01C AC Auxiliary Generation (APU Generator, GCU or GAPCU Auxiliary Power Control function, Line Contactor) (Non EDTO flight and AC auxiliary generation deactivated or removed) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 24-23-00-040-001 또는 24-23-00-040-002 참조 (정비 절차)"
+},
+"24-24-01A": {
+"h": "d79160f6",
+"ko": "반드시 작동해야 한다. (작동 불능이면 출발 불가)"
+},
+"24-24-02A": {
+"h": "0055e293",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) 매일 RAT extension manual control(RAT 수동 전개 조작)이 작동함을 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. 출발 승인은 MCC에 연락.\n3. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 24-24-02A RAT Extension Automatic Control 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 24-20-00-040-002 참조 (정비 절차)"
+},
+"24-24-03A": {
+"h": "dc6dc1b5",
+"ko": "(o) EDTO를 수행하지 않는 조건이면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비)\n1. 출발 승인은 MCC에 연락.\n2. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 24-24-03A RAT Extension Manual Control 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"24-25-01A": {
+"h": "ad9213e4",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) AC ESS FEED pb-sw를 NORM으로 놓고,\n2) ELEC SD page에서 AC BUS 1이 AC ESS BUS에 전원을 공급하고 있음을 확인하고,\n3) TR 2가 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 24-25-01A Manual Transfer to the AC BUS 2 (ALTN Function) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"24-25-02A": {
+"h": "b83dbb51",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) AC ESS FEED pb-sw를 NORM으로 놓고,\n2) ELEC SD page에서 AC BUS 1이 AC ESS BUS에 전원을 공급하고 있음을 확인하고,\n3) TR 2가 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 24-25-02A Automatic Transfer to the AC BUS 2 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"24-26-01A": {
+"h": "f438c9d1",
+"ko": "manual load shed system(수동 부하 차단 계통)과 GALY & CAB pb-sw FAULT light가 작동하는 조건이면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"24-26-01B": {
+"h": "a3e5c62a",
+"ko": "(m) 모든 GALY & CAB 부하(load)를 분리(disconnect)한 조건이면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 24-56-00-040-001 참조 (정비 절차)"
+},
+"24-26-02A": {
+"h": "69ecc272",
+"ko": "(m) 모든 GALY & CAB 부하(load)를 분리(disconnect)한 조건이면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 24-56-00-040-002 참조 (정비 절차)"
+},
+"24-26-02B": {
+"h": "7d379a68",
+"ko": "(o) (m) COMMERCIAL supply system이 작동함을 확인한 조건이면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 24-26-02B Galley Manual Load Shed System (GALLEY/GALY & CAB pb-sw) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 24-51-00-040-001 참조 (정비 절차)"
+},
+"24-26-03A": {
+"h": "41ecd669",
+"ko": "(o) 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 24-26-03A Commercial Supply System 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"24-28-01A": {
+"h": "2d242c3f",
+"ko": "반드시 작동해야 한다. (작동 불능이면 출발 불가)"
+},
+"24-32-01A": {
+"h": "5150578d",
+"ko": "(o) EDTO를 수행하지 않는 조건이면 TR 1이 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 24-32-01A DC Main Generation (TR 1 inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"24-32-01B": {
+"h": "b17c7160",
+"ko": "(o) (m) 다음 조건이면 TR 2가 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) 매일 AC ESS FEED control이 작동함을 확인하고,\n3) ISIS airspeed(속도) 지시가 작동하고,\n4) ISIS altitude(고도) 지시가 작동하고,\n5) ISIS attitude(자세) 지시가 작동하고,\n6) standby compass가 작동한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. CAT II/III 운항 downgrade 관리는 MEL item 22-00-00을 적용한다.\n3. 출발 승인은 MCC에 연락.\n4. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 24-32-01B DC Main Generation (TR 2 inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 24-30-00-040-002 참조 (정비 절차)"
+},
+"24-34-01A": {
+"h": "e5912b02",
+"ko": "반드시 작동해야 한다. (작동 불능이면 출발 불가)"
+},
+"24-35-01A": {
+"h": "4752a447",
+"ko": "하나가 열림(open) 위치에서 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"24-35-02A": {
+"h": "559208c6",
+"ko": "반드시 작동해야 한다. (작동 불능이면 출발 불가)"
+},
+"24-38-01A": {
+"h": "e254f7eb",
+"ko": "반드시 작동해야 한다. (작동 불능이면 출발 불가)"
+},
+"24-38-02A": {
+"h": "17934068",
+"ko": "(o) (m) 다음 조건이면 하나가 10개 비행(10 flights) 동안 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) 지상에서도 비행 중에도 APU 시동을 시도하지 않고,\n3) 두 AC main generation이 모두 작동하고,\n4) external power unit(외부 전원)을 연결한 상태에서 급유하고,\n5) 매 비행 전 작동 불능인 BCL에 해당하는 battery를 충전한다.\nRAMP RETURN (AFTER DOOR CLOSE) (도어 닫힌 후 발생 시 램프 리턴)\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. 출발 승인은 MCC에 연락.\n3. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 24-38-02A Battery Charger Limiter (BCL) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 24-30-00-040-001 참조 (정비 절차)"
+},
+"24-38-03A": {
+"h": "488ef58a",
+"ko": "해당 voltage(전압) 지시가 ELEC SD page에서 작동하는 조건이면 하나 또는 둘 다 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"24-41-01A": {
+"h": "cc50bb10",
+"ko": "작동 불능이어도 된다.\nNote: GPCU/GAPCU의 Ground Power Control 기능과 APU Generator가 모두 작동 불능이면 엔진을 시동할 수 없다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"24-41-02A": {
+"h": "82563a07",
+"ko": "(m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) receptacle(외부 전원 연결구)을 육안 점검하고, 작동 불능 플래카드를 붙이고, 사용하지 않으며,\n2) EXT PWR pb에 작동 불능 플래카드를 붙인다.\nRAMP RETURN (AFTER DOOR CLOSE) (도어 닫힌 후 발생 시 램프 리턴)\nNote: GPCU/GAPCU의 Ground Power Control 기능과 APU Generator가 모두 작동 불능이면 엔진을 시동할 수 없다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 24-41-00-040-001 참조 (정비 절차)"
+},
+"24-01-01-01A": {
+"h": "6d44a5c6",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"24-01-01-02A": {
+"h": "6d44a5c6",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"24-01-01-03A": {
+"h": "3c611908",
+"ko": "해당 generator 지시가 ELEC SD page에서 작동하는 조건이면 GEN pb-sw FAULT light 하나 및/또는 APU GEN pb-sw FAULT light가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"24-01-01-04A": {
+"h": "0ff67e5d",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"24-01-01-05A": {
+"h": "5fc68470",
+"ko": "AC ESS bus 지시가 ELEC SD page에서 작동하는 조건이면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"24-01-01-06A": {
+"h": "5fc68470",
+"ko": "AC ESS bus 지시가 ELEC SD page에서 작동하는 조건이면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"24-01-01-07A": {
+"h": "c3aa8d8f",
+"ko": "(o) 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 24-01-01-07A EXT PWR pb AVAIL light 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"24-01-01-08A": {
+"h": "eb3fdd3d",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"24-01-01-09A": {
+"h": "69fcb74e",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 각 generator에 대해 AC load(부하) 지시가 ELEC SD page에서 작동하고,\n2) GALY & CAB automatic load shed system(갤리/객실 자동 부하 차단 계통)이 작동함을 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 24-01-01-09A GALLEY/GALY & CAB pb-sw FAULT light 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"24-01-01-10A": {
+"h": "b4081b74",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+},
+"24-01-01-11A": {
+"h": "b4081b74",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+},
+"24-01-01-12A": {
+"h": "b4081b74",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+},
+"24-01-01-13A": {
+"h": "7c247aa8",
+"ko": "해당 generator의 frequency(주파수) 및 temperature(온도) 지시가 ELEC SD page에서 작동하는 조건이면 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+},
+"24-01-02-01A": {
+"h": "e5d00b6c",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비)\n1. Defer Control은 MCC에 연락."
+}
+},
+"ops": {
+"24-07-01A": {
+"h": "466217da",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nGEN 1(2) pb-sw FAULT light가 켜지는지 확인한다 (GEN 1(2) pb-sw는 on 위치에 둔 상태).\nGalley automatic load shed system 점검:\n- APU 또는 external power로 전기 네트워크에 전원을 공급한다.\n- GALY & CAB pb-sw ...... AUTO\n- ELEC/GALY & CAB/GND/FLT/LOGIC (122VU S24) C/B ...... Pull\n- 작동 중인 galley 장비 일부가 작동을 멈추는지 확인한다.\n- ELEC/GALY & CAB/GND/FLT/LOGIC (122VU S24) C/B ...... Push\nNote: main galley가 연결되어 있지 않으면 이 절차는 무시한다."
+},
+"24-09-01A": {
+"h": "5d91e0f1",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\nELEC AC ESS BUS SHED alert가 EWD에 표시되면:\n- ELEC SD page에 AC ESS BUS SHED 메시지가 나타날 수 있고,\n- STATUS SD page의 INOP SYS 칸에 CAPT AOA 메시지가 표시될 수 있고,\n- ELEC/AC BUS/8XP/MONG (49VU H11) C/B가 trip될 수 있다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nCOM/HF1 (49VU HA14) C/B ...... Pull\nAC ESS BUS SHED 점검:\n- APU 또는 external power로 전기 네트워크에 전원을 공급한다.\n- CAPT 우측 DU(display unit)가 작동하는지 확인한다.\nIN FLIGHT (비행 중)\n• ANTI ICE F/O AOA alert 또는 ANTI ICE F/O PROBES alert가 EWD에 표시되고 결빙 조건(icing conditions)을 피할 수 없는 경우:\n- ADR 2 pb-sw ...... OFF\n- AIR DATA sw ...... F/O 3\nNote: ADR 2 pb-sw를 OFF로 놓으면 CONF 1+F 이륙은 허용되지 않는다.\n• ANTI ICE STBY AOA alert 또는 ANTI ICE STBY PROBES alert가 EWD에 표시되고 결빙 조건을 피할 수 없는 경우:\nADR 3 pb-sw ...... OFF"
+},
+"24-22-01A": {
+"h": "6becb2c7",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\n비행 고도는 33 500 ft로 제한된다.\n최대 착륙 능력(landing capability)은 CAT III (Fail-passive)이다.\nAPU GEN pb-sw On 상태에서의 APU 연료 소모량:\nFL | GND | 200 | 250 | 300 | 335 | 390\nKG/H | 100 | 63 | 57 | 54 | 49 | 42\nLB/H | 220 | 139 | 126 | 119 | 108 | 93\nNote: External Power를 분리하면 APU가 전기 네트워크에 전원을 공급할 때까지 IFE(기내 엔터테인먼트)가 상실된다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nGalley automatic load shed system 점검:\n- PAX SYS pb-sw (장착된 경우) (VCC에 위치) ...... OFF\n- APU 또는 external power로 전기 네트워크에 전원을 공급한다.\n- GALY & CAB pb-sw ...... AUTO\n- ELEC/GALY & CAB/GND/FLT/LOGIC (122VU S24) C/B ...... Pull\n- 작동 중인 galley 장비 일부가 작동을 멈추는지 확인한다.\n- ELEC/GALY & CAB/GND/FLT/LOGIC (122VU S24) C/B ...... Push\nNote: main galley가 연결되어 있지 않으면 이 절차는 무시한다.\nTWO ENGINE TAXI AT DEPARTURE (출발 시 양발 엔진 택시)\n• 엔진 시동 전:\n• 작동 불능인 AC main generation 1(2)에 해당하는 IDG 1(2)를 disconnect한 경우:\nELEC SD page에 DISC 메시지가 표시되는지 확인한다.\nCAUTION: 경제적인 이유로, IDG를 disconnect 상태로 50 비행시간 이상 운용해서는 안 된다.\n• 엔진 시동 후:\n전기 bus에 전원이 공급되는지 확인한다:\n- APU MASTER SW pb-sw ...... ON\n- APU GEN pb-sw ...... ON\n- GEN 1 pb-sw ...... OFF\n- GEN 2 pb-sw ...... OFF\n- ELEC SD page에서 모든 AC bus에 전원이 공급되는지 확인한다.\n- GEN pb-sw (작동하는 쪽) ...... ON\n- APU GEN pb-sw ...... OFF\n- ELEC SD page에서 모든 AC bus에 전원이 공급되는지 확인한다.\n- APU GEN pb-sw ...... ON\n- PAX SYS pb-sw (장착된 경우) (VCC에 위치) ...... ON\nONE ENGINE TAXI AT DEPARTURE (출발 시 단발 엔진 택시)\n• Engine 1 시동 전:\n• 작동 불능인 AC main generation 1(2)에 해당하는 IDG 1(2)를 disconnect한 경우:\nELEC SD page에 DISC 메시지가 표시되는지 확인한다.\nCAUTION: 경제적인 이유로, IDG를 disconnect 상태로 50 비행시간 이상 운용해서는 안 된다.\n• AC main generation 2가 작동 불능인 경우:\n• Engine 1 시동 후:\n- APU MASTER SW pb-sw ...... ON\n- APU GEN pb-sw ...... ON\n- GEN 1 pb-sw ...... OFF\n- GEN 2 pb-sw ...... OFF\n- ELEC SD page에서 모든 AC bus에 전원이 공급되는지 확인한다.\n- GEN 1 pb-sw ...... ON\n- APU GEN pb-sw ...... OFF\n- ELEC SD page에서 모든 AC bus에 전원이 공급되는지 확인한다.\n- APU GEN pb-sw ...... ON\n- PAX SYS pb-sw (장착된 경우) (VCC에 위치) ...... ON\n• AC main generation 1이 작동 불능인 경우:\n• Engine 1 시동 후:\n- APU MASTER SW pb-sw ...... ON\n- APU GEN pb-sw ...... ON\n- GEN 1 pb-sw ...... OFF\n- GEN 2 pb-sw ...... OFF\n- ELEC SD page에서 모든 AC bus에 전원이 공급되는지 확인한다.\n• Engine 2 시동 후:\n- GEN 2 pb-sw ...... ON\n- APU GEN pb-sw ...... OFF\n- ELEC SD page에서 모든 AC bus에 전원이 공급되는지 확인한다.\n- APU GEN pb-sw ...... ON\n- PAX SYS pb-sw (장착된 경우) (VCC에 위치) ...... ON\nBEFORE TAKE-OFF (이륙 전)\n• OAT가 -40 °C 이하이면,\nENG SD page에서 oil temperature가 60 °C 이상인지 확인한다.\n• 작동 불능인 AC main generation 1(2)에 해당하는 IDG 1(2)를 disconnect한 경우:\nFUEL SD page에서 해당 inner/wing tank 연료 온도가 -30 °C보다 높은지 확인한다.\nDURING THE FLIGHT (비행 중)\n• 작동 불능인 AC main generation 1(2)에 해당하는 IDG 1(2)를 disconnect한 경우:\n연료 온도를 감시한다. 필요하면 연료 온도를 -43 °C 이상으로 유지하기 위해 강하하거나 가속한다(또는 둘 다).\n연료 첨가제(fuel additives)를 사용하는 경우, inner/wing tank 연료 온도는 이륙 전과 비행 중 모두 -45 °C 미만이어서는 안 된다 (이륙 전 -30 °C, 비행 중 -43 °C 대신 적용).\n승인된 FSII (Fuel System Ice Inhibitors, 연료 결빙 방지제) 첨가제는 다음과 같다 (부피 기준 0.10% ~ 0.15% 농도):\n- MIL-DTL-85470에 부합하는 Diethylene Glycol Monomethyl Ether (DiEGME)\n- 러시아 첨가제 \"I\" (Ethylene Glycol Monoethyl Ether)\n- 러시아 첨가제 \"I-M\""
+},
+"24-23-01A": {
+"h": "0a4f55d0",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nDURING PRELIMINARY COCKPIT PREPARATION (예비 조종실 준비 중)\nAPU GEN pb-sw ...... Off\nAPU generator에서는 전원을 공급받을 수 없다.\nAFTER LANDING, AT THE GATE (착륙 후 게이트에서)\n목적지에 external electrical power 지상 장비(GPU)가 없는 경우, 엔진 시동용 전원을 계속 확보하기 위해 급유 중 급유구(refueling point) 반대쪽 엔진을 작동시켜야 한다.\nFCOM/PRO-NOR-SUP-FUEL Refueling with One Engine Running(엔진 하나 작동 중 급유) 참조"
+},
+"24-23-01B": {
+"h": "b836b0a4",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING PRELIMINARY COCKPIT PREPARATION (예비 조종실 준비 중)\nAPU GEN pb-sw ...... Off\nAPU generator에서는 전원을 공급받을 수 없다.\nAFTER LANDING, AT THE GATE (착륙 후 게이트에서)\n목적지에 external electrical power 지상 장비(GPU)가 없는 경우, 엔진 시동용 전원을 계속 확보하기 위해 급유 중 급유구(refueling point) 반대쪽 엔진을 작동시켜야 한다.\nFCOM/PRO-NOR-SUP-FUEL Refueling with One Engine Running(엔진 하나 작동 중 급유) 참조"
+},
+"24-23-01C": {
+"h": "ca2067f0",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nDURING PRELIMINARY COCKPIT PREPARATION (예비 조종실 준비 중)\nAPU generator에서는 전원을 공급받을 수 없다.\nAFTER LANDING, AT THE GATE (착륙 후 게이트에서)\n목적지에 external electrical power 지상 장비(GPU)가 없는 경우, 엔진 시동용 전원을 계속 확보하기 위해 급유 중 급유구(refueling point) 반대쪽 엔진을 작동시켜야 한다.\nFCOM/PRO-NOR-SUP-FUEL Refueling with One Engine Running(엔진 하나 작동 중 급유) 참조"
+},
+"24-24-02A": {
+"h": "81c05b84",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다."
+},
+"24-24-03A": {
+"h": "81c05b84",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다."
+},
+"24-25-01A": {
+"h": "c056439a",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING PRELIMINARY COCKPIT PREPARATION (예비 조종실 준비 중)\nELEC SD page에서 AC BUS 1이 AC ESS BUS에 전원을 공급하고 있는지 확인한다."
+},
+"24-25-02A": {
+"h": "c056439a",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING PRELIMINARY COCKPIT PREPARATION (예비 조종실 준비 중)\nELEC SD page에서 AC BUS 1이 AC ESS BUS에 전원을 공급하고 있는지 확인한다."
+},
+"24-26-02B": {
+"h": "3f2a32f8",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND OR IN FLIGHT (지상 또는 비행 중)\n• SMOKE / FUMES / AVNCS SMOKE QRH 절차를 적용하는 경우, GALY & CAB pb-sw를 OFF로 놓는 조치를 다음 조치로 대체한다:\n- EMER EXIT LT selector ...... As required (필요에 따라)\n- COMMERCIAL pb-sw ...... OFF\nNote: COMMERCIAL pb-sw를 OFF로 놓으면 일반 객실 조명이 꺼진다. EMER EXIT LT selector를 ON으로 놓으면 최소 객실 조명이 회복된다."
+},
+"24-26-03A": {
+"h": "0bf45903",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND OR IN FLIGHT (지상 또는 비행 중)\n• SMOKE / FUMES / AVNCS SMOKE QRH 절차를 적용하는 경우, COMMERCIAL pb-sw를 OFF로 놓는 조치를 다음 조치로 대체한다:\n- BUS TIE pb ...... OFF\n- GEN 2 pb-sw ...... OFF\nF/O PFDU, F/O NDU, ECAM lower display(하단 ECAM 화면)가 상실된다.\n• 연기가 계속되면:\n- GEN 2 pb-sw ...... On\nGEN 2 pb-sw를 on으로 놓으면 모든 전기 bus가 회복되지만 TR 2는 계속 작동 불능 상태이다.\n- BUS TIE pb ...... AUTO\nLanding gear 내리기 전:\n- GEN 2 pb-sw ...... On\nGEN 2 pb-sw를 on으로 놓으면 모든 전기 bus가 회복되지만 TR 2는 계속 작동 불능 상태이다.\n- BUS TIE pb ...... AUTO"
+},
+"24-32-01A": {
+"h": "e04c5cc5",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\n최대 착륙 능력(landing capability)은 CAT III (Fail-passive)이다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nDURING PRELIMINARY COCKPIT PREPARATION (예비 조종실 준비 중)\nTR 1/CNTOR/SPLY (125VU CF01) C/B ...... Pull\nELEC SD page에서 비활성화된 TR 1 관련 지시는 무시한다.\nELEC SD page에서 TR 2와 ESS TR의 전압이 모두 27 V 이상인지 확인한다.\n다음 점검은 battery를 OFF로 놓은 상태에서 한다: battery voltage indicator에서 BAT 1과 BAT 2의 전압이 모두 25.5 V 이상인지 확인한다."
+},
+"24-32-01B": {
+"h": "647f5f6e",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\n최대 착륙 능력(landing capability)은 CAT III (Fail-passive)이다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nDURING PRELIMINARY COCKPIT PREPARATION (예비 조종실 준비 중)\nTR 2/CNTOR/SPLY (124VU BC01) C/B ...... Pull\nELEC SD page에서 비활성화된 TR 2 관련 지시는 무시한다.\nELEC SD page에서 TR 1과 ESS TR의 전압이 모두 27 V 이상인지 확인한다.\n다음 점검은 battery를 OFF로 놓은 상태에서 한다: battery voltage indicator에서 BAT 1과 BAT 2의 전압이 모두 25.5 V 이상인지 확인한다.\nAC ESS FEED pb-sw ...... ALTN\nIN FLIGHT (비행 중)\n• AC BUS 2가 고장 나면 모든 DU(display unit)가 상실된다. 이 경우:\nAC ESS FEED pb-sw ...... Norm\n• AC BUS 1이 고장 나면:\nRAT MAN ON pb-sw (HYD overhead panel) ...... Set (누른다)"
+},
+"24-38-02A": {
+"h": "6833b666",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nFLIGHT PREPARATION (비행 준비)\nAPU를 시동하지 않는다.\n지상에서 엔진 시동에는 ground power unit(GPU)을 사용한다.\nDURING PRELIMINARY COCKPIT PREPARATION (예비 조종실 준비 중)\n• BAT 1이 해당되는 경우:\nBAT 1 pb-sw ...... OFF\n• BAT 2가 해당되는 경우:\nBAT 2 pb-sw ...... OFF"
+},
+"24-01-01-07A": {
+"h": "b5409ad2",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nBEFORE PUSHBACK (푸시백 전)\nExternal power가 분리되었는지 ELEC SD page 또는 지상 조업자(ground crew)를 통해 확인한다.\nPARKING (주기)\n• APU를 사용할 수 없는 경우:\n‐ EXT PWR pb ...... ON\n‐ 엔진 정지 전에 external power가 연결되었는지 ELEC SD page 또는 지상 조업자(ground crew)를 통해 확인한다."
+},
+"24-01-01-09A": {
+"h": "fb8aeeb0",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nGalley automatic load shed system 점검:\n‐ APU 또는 external power로 전기 네트워크에 전원을 공급한다.\n‐ GALY & CAB pb-sw ...... AUTO\n‐ ELEC/GALY & CAB/GND/FLT/LOGIC (122VU S24) C/B ...... Pull\n‐ 작동 중인 galley 장비 일부가 작동을 멈추는지 확인한다.\n‐ ELEC/GALY & CAB/GND/FLT/LOGIC (122VU S24) C/B ...... Push\nNote: main galley가 연결되어 있지 않으면 이 절차는 무시한다."
+}
+}
+}

@@ -1,0 +1,25 @@
+{
+"items": {
+"70-00-01A": {
+"h": "5b584c73",
+"ko": "STATUS SD page에 ENG FADEC MAINTENANCE 메시지가 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"70-00-01B": {
+"h": "1348c108",
+"ko": "(m) CFDS(중앙 고장 표시 시스템)가 ADIRUs BUS 관련 고장을 보고하지 않는 것을 확인했다면, STATUS SD page에 ENG FADEC MAINTENANCE 메시지가 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 73-29-00-040-803 참조 (정비 절차)"
+},
+"70-00-02A": {
+"h": "3432c11c",
+"ko": "STATUS SD page에 ENG EIU MAINTENANCE 메시지가 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"70-00-02B": {
+"h": "e3a8f78b",
+"ko": "(m) CFDS가 Flight Lock Actuator가 사용하는 EIU discrete output(이산 출력) 관련 고장을 보고하지 않는 것을 확인했다면, STATUS SD page에 ENG EIU MAINTENANCE 메시지가 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 73-25-00-040-801 참조 (정비 절차)"
+},
+"70-00-03A": {
+"h": "636789e0",
+"ko": "STATUS SD page에 ENG EVMU MAINTENANCE 메시지가 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+}
+},
+"ops": {}
+}

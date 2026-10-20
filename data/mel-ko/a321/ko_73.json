@@ -1,0 +1,118 @@
+{
+"items": {
+"73-07-01A": {
+"h": "a45b742e",
+"ko": "다음 조건이면 하나가 작동 불능 상태로 운항할 수 있다:\n1) FUEL SD page에서 해당 탱크의 연료량 지시(fuel quantity indication)가 작동하고,\n2) Fuel Used 1+2 Indication을 작동 불능으로 간주한다.\nItem 28-07-06-02 Fuel Used 1+2 Indication on the FUEL SD page 참조"
+},
+"73-07-01B": {
+"h": "d210564c",
+"ko": "(o) 다음 조건이면 둘 다 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) FUEL SD page에서 해당 탱크들의 연료량 지시(fuel quantity indication)가 작동하고,\n3) Fuel Used 1+2 Indication을 작동 불능으로 간주한다.\nItem 28-07-06-02 Fuel Used 1+2 Indication on the FUEL SD page 참조\nNote: <MAINTENANCE (정비 조치)>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 73-07-01B Fuel Used Indication on the ENGINE SD page 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"73-07-02A": {
+"h": "fb2374b3",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"73-08-01A": {
+"h": "f8170acc",
+"ko": "FUEL SD page의 Fuel Flow 1+2 Indication을 작동 불능으로 간주하는 조건이면 하나가 작동 불능이어도 된다.\nItem 28-07-05-01 Fuel Flow 1+2 Indication on the FUEL SD Page 참조"
+},
+"73-09-01A": {
+"h": "d19bcfc6",
+"ko": "(m) 다음 조건이면 하나가 표시된 상태로 운항할 수 있다:\n1) troubleshooting(고장 탐구)으로 이 alert가 거짓(false)임을 확인하고,\n2) 해당 filter를 매일 교환한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry(정비일지 기록)를 작성한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 73-30-00-040-042 (CEO) 또는 73-30-00-040-802 (NEO) 참조 (정비 절차)"
+},
+"73-09-02A": {
+"h": "3c860f43",
+"ko": "하나가 표시된 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"73-09-04A": {
+"h": "dc2c69d6",
+"ko": "다음 조건이면 하나가 최대 3 비행 또는 6 비행시간 중 먼저 도래하는 시점까지 표시된 상태로 운항할 수 있다:\n1) 해당 FUEL FILTER SENSOR subtitle이 EWD에 표시되고,\n2) 해당 ENG 1(2) FUEL FILTER PARTLY CLOGGED alert가 직전 비행 중 EWD에 표시되지 않았다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE (정비 조치)>\n1. Defer Control(이연 관리)은 MCC에 연락."
+},
+"73-09-04B": {
+"h": "fa93fce8",
+"ko": "(m) 다음 조건이면 하나가 표시된 상태로 운항할 수 있다:\n1) 해당 ENG 1(2) FUEL FILTER SENSOR subtitle이 EWD에 표시되고,\n2) 해당 filter를 첫 MEL dispatch(MEL 적용 출발) 전에 교환하고, 이후 매 100 비행시간마다 교환한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry(정비일지 기록)를 작성한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 73-34-00-040-803 참조 (정비 절차)"
+},
+"73-09-04C": {
+"h": "3539c8ca",
+"ko": "다음 조건이면 하나가 표시된 상태로 운항할 수 있다:\n1) 해당 FUEL STRAINER SENSOR subtitle이 EWD에 표시되고,\n2) 해당 ENG 1(2) STRAINER CLOG alert가 직전 비행 중 EWD에 표시되지 않았고,\n3) 반대쪽 엔진에 대해 ENG 1(2) FUEL FILTER PARTLY CLOGGED alert와 ENG 1(2) FUEL SENSOR FAULT alert가 EWD에 표시되지 않는다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"73-09-04D": {
+"h": "f86880cf",
+"ko": "(m) 다음 조건이면 하나가 표시된 상태로 운항할 수 있다:\n1) 해당 FUEL STRAINER SENSOR subtitle이 EWD에 표시되고,\n2) 해당 fuel filter를 교환한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 73-34-00-040-803 참조 (정비 절차)"
+},
+"73-09-04E": {
+"h": "e697dff3",
+"ko": "다음 조건이면 하나 또는 둘 다 표시된 상태로 운항할 수 있다:\n1) 해당 TEMP SENSORS subtitle이 EWD에 표시되고,\n2) wing tank pump 4개가 모두 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"73-09-06A": {
+"h": "cdb48760",
+"ko": "다음 조건이면 하나가 연속 10일(calendar days) 동안 표시된 상태로 운항할 수 있다:\n1) 같은 엔진에 대해 ENG 1(2) FUEL FILTER PARTLY CLOGGED alert가 표시되지 않고,\n2) 다른 쪽 엔진에 대해 ENG 1(2) FUEL SENSOR FAULT alert가 표시되지 않는다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE (정비 조치)>\n1. Defer Control(이연 관리)은 MCC에 연락."
+},
+"73-09-07A": {
+"h": "b278476e",
+"ko": "다음 조건이면 하나가 표시된 상태로 운항할 수 있다:\n1) 해당 HP FUEL VALVE NOT OPEN subtitle이 EWD에 표시되고,\n2) 해당 엔진이 시동된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"73-09-08A": {
+"h": "80157c4d",
+"ko": "(m) FADEC에 저장된 해당 엔진 식별 정보(engine identification)와 engine plate(엔진 명판)에 기재된 식별 정보가 서로 다르지 않은 조건이면 하나 또는 둘 다 표시된 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 73-29-00-040-802 참조 (정비 절차)"
+},
+"73-09-09A": {
+"h": "e3681992",
+"ko": "반대쪽 엔진에 대해 ENG 1(2) FUEL SENSOR FAULT alert가 표시되지 않는 조건이면, 하나가 최대 3 비행 또는 6 비행시간 중 먼저 도래하는 시점까지 표시된 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE (정비 조치)>\n1. Defer Control(이연 관리)은 MCC에 연락."
+},
+"73-09-09B": {
+"h": "52a3cad6",
+"ko": "(m) 다음 조건이면 하나가 표시된 상태로 운항할 수 있다:\n1) troubleshooting(고장 탐구)으로 이 alert가 거짓(false)임을 확인하고,\n2) 해당 filter를 첫 MEL dispatch(MEL 적용 출발) 전에 교환하고, 이후 매 100 비행시간마다 교환한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry(정비일지 기록)를 작성한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 73-34-00-040-803 참조 (정비 절차)"
+},
+"73-10-01A": {
+"h": "9f837031",
+"ko": "APU와 AC auxiliary generation(APU 발전기 교류 전원)이 작동하는 조건이면, 한쪽 엔진에서 하나가 닫힌 위치(closed position)로 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"73-10-01B": {
+"h": "4c5b444a",
+"ko": "wing tank pump 4개가 모두 작동하는 조건이면, 하나 또는 둘 다 열린 위치(open position)로 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"73-10-03A": {
+"h": "b548c29d",
+"ko": "둘 다 작동해야 한다."
+},
+"73-10-04A": {
+"h": "b548c29d",
+"ko": "둘 다 작동해야 한다."
+},
+"73-20-01A": {
+"h": "6df833fa",
+"ko": "이륙에 최대 추력(maximum thrust)을 사용하는 조건이면 한쪽 또는 양쪽 엔진에서 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"73-20-04A": {
+"h": "ef1a6434",
+"ko": "(o) 다음 조건이면 한쪽 또는 양쪽 엔진에서 EPR control mode가 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) 양쪽 엔진에서 rated N1 control mode가 작동하고(STATUS SD page에 ENG 1(2) N1 DEGRADED MODE 메시지가 표시되지 않음),\n3) Flight Manual 성능 페널티(performance penalties)를 적용한다.\nNote: EPR Control Mode가 작동 불능이면 Autothrust도 작동 불능이다.\nItem 22-30-01 Autothrust (A/THR) 참조\nNote: <MAINTENANCE (정비 조치)>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 73-20-04A EPR Control Mode 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"73-20-05A": {
+"h": "592d4244",
+"ko": "(o) Flight Manual 성능 페널티(performance penalties)를 적용하는 조건이면 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE (정비 조치)>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 73-20-05A Minimum Idle on Ground 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"73-20-06A": {
+"h": "75da62aa",
+"ko": "한쪽 또는 양쪽 엔진에서 channel B power supply(채널 B 전원 공급)가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"73-25-01A": {
+"h": "15fd940d",
+"ko": "하나가 6 비행 동안 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE (정비 조치)>\n1. Defer Control(이연 관리)은 MCC에 연락."
+}
+},
+"ops": {
+"73-07-01B": {
+"h": "81c05b84",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 받는다."
+},
+"73-20-04A": {
+"h": "1611a443",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\n이륙 및 착륙 성능 산출 시, 해당 Flight Manual 성능 페널티(performance penalties)를 OCTOPUS 프로그램으로 산출한다.\nNote: Airbus EFB PERF 애플리케이션(FlySmart+)에서는 MEL 항목 “POWER MANAGEMENT SYSTEM DISPATCH IN RATED N1 MODE”에 해당한다.\n사용할 수 없으면 운항관리사(dispatcher)에게 이착륙 성능 자료를 요청한다.\nSingle engine cruise(단발 순항):\nDrift down ceiling(드리프트다운 상승 한계):\nActual Weight (1 000 lb): 110 | 130 | 150 | 170 | 190\nCeiling Penalty (ft, 상승 한계 감소량): 4 000 | 4 000 | 4 800 | 5 400 | 6 900\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 받는다.\nGENERAL INFORMATION (일반 정보)\nAutothrust 기능이 작동 불능이다.\nα floor를 사용할 수 없다.\nβ target을 사용할 수 없다.\nBump(장착 시)가 작동 불능이다.\nBEFORE ENGINE START (엔진 시동 전)\n‐ ENG 1 N1 MODE pb-sw(푸시버튼 스위치) ..... ON\n‐ ENG 2 N1 MODE pb-sw ..... ON\nFOR TAKEOFF (이륙 시)\nFlexible takeoff(FLEX 이륙)는 허용되지 않는다."
+},
+"73-20-05A": {
+"h": "76e83641",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n이륙 및 착륙 성능 산출 시, 해당 Flight Manual 성능 페널티(performance penalties)를 OCTOPUS 프로그램으로 산출한다.\nNote: Airbus EFB PERF 애플리케이션(FlySmart+)에서는 MEL 항목 “GROUND IDLE INOPERATIVE (ALL ENGINES)”에 해당한다.\n사용할 수 없으면 운항관리사(dispatcher)에게 이착륙 성능 자료를 요청한다.\nFLIGHT CREW (운항승무원 조치)\n운항관리사(dispatcher)에게 연락하여 flight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 받는다."
+}
+}
+}

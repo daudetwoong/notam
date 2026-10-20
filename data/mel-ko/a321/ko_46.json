@@ -1,0 +1,54 @@
+{
+"items": {
+"46-21-01B": {
+"h": "68ab142a",
+"ko": "(o) ATC 통신을 위한 대체 절차를 수립하여 사용하는 조건이면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE (정비)>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 46-21-01B Air Traffic Service Unit (procedures require ATC datalink) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"46-21-02A": {
+"h": "6fa08e29",
+"ko": "하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"46-21-02C": {
+"h": "87c2806c",
+"ko": "(o) ATC 통신을 위한 대체 절차를 수립하여 사용하는 조건이면, 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE (정비)>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 46-21-02C Datalink Control and Display Unit (DCDU) (procedures require ATC datalink) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"46-21-03A": {
+"h": "05ac2f47",
+"ko": "하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"46-21-03C": {
+"h": "0bba5414",
+"ko": "(o) ATC 통신을 위한 대체 절차를 수립하여 사용하는 조건이면, 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE (정비)>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 46-21-03C ATC MSG pb 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"46-21-04B": {
+"h": "cfbaa7cb",
+"ko": "(o) ATC 통신을 위한 대체 절차를 수립하여 사용하는 조건이면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE (정비)>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 46-21-04B ATC Datalink (procedures require ATC datalink) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"46-21-05A": {
+"h": "147c8691",
+"ko": "(o) 대체 절차를 수립하여 사용하는 조건이면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 46-21-05A COMPANY Datalink 참조 (운항 절차 — 아래 운항 절차 칸)"
+}
+},
+"ops": {
+"46-21-01B": {
+"h": "e3a925cb",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n‐ ATC datalink 통신(ADS-C, CPDLC, DCL, OCL, D-ATIS)을 사용할 수 없다.\n관련 ATC datalink Required Communication / Surveillance Performance(RCP / CPDLC용 Initial Continental Performance 및 ADS-C용 RSP) 능력이 상실된다.\nATC datalink 통신에 관한 항공기 능력의 자세한 내용은 FCOM/DSC-46-10-10 Overview 참조.\n‐ 대체 절차로서, ATC는 FANS A 항공기 능력이 요구되지 않는 대체 항로에서 음성 통신(voice communication) 사용을 허가할 수 있다.\n‐ FANS B 항공기 능력이 요구되는 운항에 대해서는 ATC가 음성 통신 사용을 허가한다.\n‐ 4D Operations 능력이 있는 항공기의 경우, 4D Operations는 허용되지 않는다.\nCOMPANY Datalink 전송이 작동 불능일 수 있다. Item 46-21-05 COMPANY Datalink 참조\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher(운항관리사)에게 연락한다."
+},
+"46-21-02C": {
+"h": "2a623285",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n‐ ATC datalink 통신(CPDLC, DCL, OCL)을 사용할 수 없다.\n관련 ATC datalink Required Communication Performance(RCP / CPDLC용 Initial Continental Performance) 능력이 상실된다.\nATC datalink 통신에 관한 항공기 능력의 자세한 내용은 FCOM/DSC-46-10-10 Overview 참조.\n‐ 대체 절차로서, ATC는 FANS A 항공기 능력이 요구되지 않는 대체 항로에서 음성 통신(voice communication) 사용을 허가할 수 있다.\n‐ FANS B 항공기 능력이 요구되는 운항에 대해서는 ATC가 음성 통신 사용을 허가한다.\n‐ 4D Operations 능력이 있는 항공기의 경우, 4D Operations는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher(운항관리사)에게 연락한다."
+},
+"46-21-03C": {
+"h": "ba41b799",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n‐ ATC datalink는 사용할 수 있다.\n‐ ATC datalink 메시지를 수신했을 때:\n해당 메시지에 대해 DCDU에서 어떤 조작이든 하면 운항승무원은 관련 경고(aural alert 및 ATC MSG pb 등 점멸, 있는 경우)를 멈출 수 있다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher(운항관리사)에게 연락한다."
+},
+"46-21-04B": {
+"h": "47dc3204",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n‐ ATC datalink 통신(ADS-C, CPDLC, DCL, OCL, D-ATIS)을 사용할 수 없다.\n관련 ATC datalink Required Communication / Surveillance Performance(RCP / CPDLC용 Initial Continental Performance 및 ADS-C용 RSP) 능력이 상실된다.\nATC datalink 통신에 관한 항공기 능력의 자세한 내용은 FCOM/DSC-46-10-10 Overview 참조.\n‐ 대체 절차로서, ATC는 FANS A 항공기 능력이 요구되지 않는 대체 항로에서 음성 통신(voice communication) 사용을 허가할 수 있다.\n‐ FANS B 항공기 능력이 요구되는 운항에 대해서는 ATC가 음성 통신 사용을 허가한다.\n‐ 4D Operations 능력이 있는 항공기의 경우, 4D Operations는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher(운항관리사)에게 연락한다."
+},
+"46-21-05A": {
+"h": "9a2df9dd",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n대체 절차로서, AOC application(회사 운항 통신 응용프로그램)을 사용할 수 없으므로 VOICE 통신(음성 통신)을 사용한다."
+}
+}
+}

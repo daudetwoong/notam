@@ -1,0 +1,62 @@
+{
+"items": {
+"78-08-01A": {
+"h": "c4ebcf98",
+"ko": "둘 다 반드시 작동 가능해야 한다."
+},
+"78-08-01B": {
+"h": "88d00a43",
+"ko": "해당 thrust reverser(역추력장치)를 작동 불능으로 간주하는 조건이면 하나 또는 둘 다 작동 불능이어도 된다.\nItem 78-30-01 Thrust Reverser 참조"
+},
+"78-09-01A": {
+"h": "e362db80",
+"ko": "(o) 적절한 성능 보정(performance adjustments)을 적용하는 조건이면 하나 또는 둘 다 표시된 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE (정비 조치)>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 78-09-01A ENG 1(2) REVERSER CTL FAULT Alert 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"78-09-02A": {
+"h": "7d764335",
+"ko": "하나 또는 둘 다 표시된 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"78-30-01A": {
+"h": "a4495568",
+"ko": "(o) (m) 다음 조건이면 하나 또는 둘 다 작동 불능 상태로 운항할 수 있다:\n1) 작동 불능인 thrust reverser(역추력장치)를 deactivate(비활성화)하고 stowed(수납) 위치에 고정하고,\n2) 비활성화 후 EWD에 ENG 1(2) REV INHIBITED alert가 표시되고,\n3) 비활성화 후 작동 불능 thrust reverser에 해당하는 ENG 1(2) REV UNLOCKED alert와 ENG 1(2) REV PRESSURIZED alert가 EWD에 표시되지 않고,\n4) 적절한 성능 보정(performance adjustments)을 적용한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 78-30-01A Thrust Reverser 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 78-30-00-040-810 참조 (정비 절차)"
+},
+"78-30-01B": {
+"h": "021f5809",
+"ko": "(o) (m) 다음 조건이면 하나 또는 둘 다 작동 불능 상태로 운항할 수 있다:\n1) 작동 불능인 thrust reverser(역추력장치)를 deactivate(비활성화)하고 stowed(수납) 위치에 고정하고,\n2) 비활성화 후 EWD에 ENG 1(2) REV INHIBITED alert가 표시되고,\n3) 비활성화 후 작동 불능 thrust reverser에 해당하는 ENG 1(2) REV UNLOCKED alert가 EWD에 표시되지 않고,\n4) 매 비행 전 ICV가 닫혀 있는지 확인하고,\n5) 적절한 성능 보정(performance adjustments)을 적용한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 78-30-01B Thrust Reverser (ENG 1(2) REV PRESSURIZED alert displayed after deactivation) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 78-30-00-040-811 참조 (정비 절차)"
+},
+"78-30-02A": {
+"h": "899a8339",
+"ko": "해당 thrust reverser(역추력장치)를 작동 불능으로 간주하는 조건이면 하나 이상이 작동 불능이어도 된다.\nItem 78-30-01 Thrust Reverser 참조"
+},
+"78-30-03A": {
+"h": "925b6de6",
+"ko": "하나 또는 둘 다 open(열림) 위치에서 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"78-30-04A": {
+"h": "88d00a43",
+"ko": "해당 thrust reverser(역추력장치)를 작동 불능으로 간주하는 조건이면 하나 또는 둘 다 작동 불능이어도 된다.\nItem 78-30-01 Thrust Reverser 참조"
+},
+"78-30-04B": {
+"h": "2dd352ed",
+"ko": "(o) (m) 다음 조건이면 하나 이상이 작동 불능 상태로 운항할 수 있다:\n1) 해당 thrust reverser door tertiary lock(3차 잠금장치)을 open(열림) 위치에 고정하고,\n2) 비활성화 후 해당 thrust reverser에 해당하는 ENG 1(2) REV LOCKED alert가 EWD에 표시되지 않는다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 78-30-04B Thrust Reverser Door Tertiary Lock 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 78-37-00-040-803 참조 (정비 절차)"
+}
+},
+"ops": {
+"78-09-01A": {
+"h": "0e2eb18c",
+"ko": "OpsProc 78-30-01A Thrust Reverser 참조"
+},
+"78-30-01A": {
+"h": "da03c6a3",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n이륙 및 착륙 성능 산출 시, 해당 Flight Manual 성능 패널티(penalty)를 OCTOPUS 프로그램으로 산출한다.\nNote: Airbus EFB PERF 애플리케이션(FlySmart+)에서:\n‐ 한쪽 엔진 reverser가 작동 불능이면 MEL item \"THRUST REVERSERS CREDIT ONE REVERSER INOPERATIVE\"에 해당한다.\n‐ 양쪽 엔진 reverser가 모두 작동 불능이면 MEL item \"THRUST REVERSERS CREDIT ALL REVERSERS INOPERATIVE\"에 해당한다.\n사용할 수 없으면 이륙·착륙 성능 데이터는 dispatcher(운항관리사)에게 연락해 받는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\n정비 절차를 적용한 후\n그리고\nFADEC에 전원이 들어와 있을 때:\nEWD에 ENG (AFFECTED SIDE, 해당 측) REV INHIBITED alert가 표시되는지 확인한다.\nFOR TAKEOFF (이륙)\n이륙 브리핑 시 운항승무원은 다음을 검토해야 한다:\n‐ thrust reverser 상태, 그리고\n‐ thrust reverser 사용 방법\nREJECTED TAKEOFF (이륙 중단)\n양쪽 엔진 thrust lever가 IDLE detent에 있는지 확인한 뒤:\nthrust reverser 하나가 작동 불능이면:\n역추력(reverse thrust) 적용 시 양쪽 thrust lever를 모두 사용한다.\nthrust reverser 둘 다 작동 불능이면:\nthrust lever를 reverse로 움직이지 않는다.\nDURING APPROACH (접근 중)\n접근 브리핑 시 운항승무원은 다음을 검토해야 한다:\n‐ thrust reverser 상태, 그리고\n‐ thrust reverser 사용 방법\nFOR LANDING (착륙)\n접지(touchdown) 전, flare를 위해 양쪽 엔진 thrust lever가 IDLE detent에 있는지 확인한다.\n접지 후, thrust reverser 하나가 작동 불능이면:\n역추력 적용 시 양쪽 thrust lever를 모두 사용한다.\nthrust reverser 하나가 작동 불능인 상태의 automatic roll-out(자동 활주)에 대해서는 AFM/LIM-22-FGS CAT II / CAT III Operations 참조.\n접지 후, thrust reverser 둘 다 작동 불능이면:\nthrust lever를 reverse로 움직이지 않는다."
+},
+"78-30-01B": {
+"h": "32370861",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n이륙 및 착륙 성능 산출 시, 해당 Flight Manual 성능 패널티(penalty)를 OCTOPUS 프로그램으로 산출한다.\nNote: Airbus EFB PERF 애플리케이션(FlySmart+)에서:\n‐ 한쪽 엔진 reverser가 작동 불능이면 MEL item \"THRUST REVERSERS CREDIT ONE REVERSER INOPERATIVE\"에 해당한다.\n‐ 양쪽 엔진 reverser가 모두 작동 불능이면 MEL item \"THRUST REVERSERS CREDIT ALL REVERSERS INOPERATIVE\"에 해당한다.\n사용할 수 없으면 이륙·착륙 성능 데이터는 dispatcher(운항관리사)에게 연락해 받는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\n작동 불능 thrust reverser에 해당하는 FADEC에 전원이 들어와 있을 때:\n‐ 작동 불능 thrust reverser에 해당하는 ENG 1(2) REV INHIBITED alert가 EWD에 표시되는지 확인하고,\n‐ EWD에 표시되는, 작동 불능 thrust reverser에 해당하는 ENG 1(2) REV PRESSURIZED alert는 무시한다.\nFOR TAKEOFF (이륙)\n이륙 브리핑 시 운항승무원은 다음을 검토해야 한다:\n‐ thrust reverser 상태, 그리고\n‐ thrust reverser 사용 방법\nREJECTED TAKEOFF (이륙 중단)\n양쪽 엔진 thrust lever가 IDLE detent에 있는지 확인한 뒤:\nthrust reverser 하나가 작동 불능이면:\n역추력(reverse thrust) 적용 시 양쪽 thrust lever를 모두 사용한다.\nthrust reverser 둘 다 작동 불능이면:\nthrust lever를 reverse로 움직이지 않는다.\nDURING APPROACH (접근 중)\n접근 브리핑 시 운항승무원은 다음을 검토해야 한다:\n‐ thrust reverser 상태, 그리고\n‐ thrust reverser 사용 방법\nFOR LANDING (착륙)\n접지(touchdown) 전, flare를 위해 양쪽 엔진 thrust lever가 IDLE detent에 있는지 확인한다.\n접지 후, thrust reverser 하나가 작동 불능이면:\n역추력 적용 시 양쪽 thrust lever를 모두 사용한다.\nthrust reverser 하나가 작동 불능인 상태의 automatic roll-out(자동 활주)에 대해서는 AFM/LIM-22-FGS CAT II / CAT III Operations 참조.\n접지 후, thrust reverser 둘 다 작동 불능이면:\nthrust lever를 reverse로 움직이지 않는다."
+},
+"78-30-04B": {
+"h": "9e733af4",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\n정비 절차를 적용한 후:\nEWD에 ENG 1(2) REV LOCKED alert가 표시되지 않는지 확인한다.\nEWD에 표시되는 ENG 1(2) REV MINOR FAULT alert는 무시한다."
+}
+}
+}

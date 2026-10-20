@@ -1,0 +1,462 @@
+{
+"items": {
+"21-00-04A": {
+"h": "367818b5",
+"ko": "TEMP CTL 1(2) MAINTENANCE 메시지가 STATUS SD page에 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-00-05A": {
+"h": "0bb1ecaf",
+"ko": "CPC 1(2) MAINTENANCE 메시지가 STATUS SD page에 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-09-01A": {
+"h": "9cd4e818",
+"ko": "(o) (m) 다음 조건이면 표시된 상태로 운항할 수 있다:\n1) 매 비행 전 blower fan이 작동함을 확인하고,\n2) 매 비행 전 VENT AVNCS SYS FAULT alert가 작동함을 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 21-09-01A VENT BLOWER FAULT Alert 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 21-26-00-040-010 참조 (정비 절차)"
+},
+"21-09-01B": {
+"h": "5cf2f42f",
+"ko": "Avionics blower fan을 작동 불능으로 간주하는 조건이면 표시된 상태로 운항할 수 있다.\nItem 21-26-01 Avionics Blower Fan 참조"
+},
+"21-09-02A": {
+"h": "b2cffab9",
+"ko": "(o) (m) 다음 조건이면 표시된 상태로 운항할 수 있다:\n1) 매 비행 전 extract fan이 작동함을 확인하고,\n2) 매 비행 전 VENT AVNCS SYS FAULT alert가 작동함을 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 21-09-02A VENT EXTRACT FAULT Alert 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 21-26-00-040-011 참조 (정비 절차)"
+},
+"21-09-02B": {
+"h": "f7dc70fd",
+"ko": "Avionics extract fan을 작동 불능으로 간주하는 조건이면 표시된 상태로 운항할 수 있다.\nItem 21-26-02 Avionics Extract Fan 참조"
+},
+"21-09-03A": {
+"h": "a69675e7",
+"ko": "(m) 두 safety valve(안전 밸브)가 모두 닫혀 있음을 육안으로 확인한 조건이면 표시된 상태로 운항할 수 있다.\nRAMP RETURN (AFTER DOOR CLOSE) (도어 닫힌 후 발생 시 램프 리턴)\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM 21-31-00-040-005 참조 (정비 절차)"
+},
+"21-21-01A": {
+"h": "ddc2985e",
+"ko": "(o) 하나가 작동 불능이어도 된다.\nNote: 운항 절차는 해당 cabin fan이 계속 돌아가는 경우, 또는 작동 불능인 cabin fan과 관련된 \"타는 냄새(burning smell)\"가 나는 경우에만 적용한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 21-21-01A Cabin Fan 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"21-23-01B": {
+"h": "fa53c64f",
+"ko": "(o) 객실의 모든 duct temperature 지시가 COND SD page에서 작동하는 조건이면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 21-23-01B Lavatory and Galley Extraction Fan 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"21-26-01A": {
+"h": "a279ec30",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) BLOWER pb-sw(푸시버튼 스위치)를 OVRD로 놓고,\n2) 양쪽 air conditioning pack이 모두 작동하고,\n3) VENT AVNCS SYS FAULT alert가 표시되지 않는다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 21-26-01A Avionics Blower Fan (VENT AVNCS SYS FAULT Alert not displayed) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"21-26-01B": {
+"h": "75dde643",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) BLOWER pb-sw를 OVRD로 놓고,\n2) 양쪽 air conditioning pack이 모두 작동하고,\n3) 매 비행 전 air conditioning inlet valve가 열려 있음을 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 21-26-01B Avionics Blower Fan (Air conditioning inlet valve checked open before each flight) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 21-26-00-040-006 참조 (정비 절차)"
+},
+"21-26-01C": {
+"h": "1f973538",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) BLOWER pb-sw를 OVRD로 놓고,\n2) 양쪽 air conditioning pack이 모두 작동하고,\n3) air conditioning inlet valve를 열림 위치에 고정(secure)하고,\n4) 매 비행 전 avionics ventilation system을 점검한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 21-26-01C Avionics Blower Fan (Avionics ventilation system checked before each flight) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 21-26-00-040-013 참조 (정비 절차)"
+},
+"21-26-02A": {
+"h": "110ec241",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) blower fan이 작동하고,\n2) EXTRACT pb-sw를 OVRD로 놓고,\n3) 양쪽 air conditioning pack이 모두 작동하고,\n4) VENT AVNCS SYS FAULT alert가 표시되지 않는다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 21-26-02A Avionics Extract Fan (VENT AVNCS SYS FAULT Alert not displayed) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"21-26-02B": {
+"h": "2f9d4fda",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) blower fan이 작동하고,\n2) EXTRACT pb-sw를 OVRD로 놓고,\n3) 양쪽 air conditioning pack이 모두 작동하고,\n4) 매 비행 전 air conditioning inlet valve가 열려 있음을 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. 출발 승인은 MCC에 연락.\n3. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 21-26-02B Avionics Extract Fan (Air conditioning inlet valve checked open before each flight) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 21-26-00-040-007 참조 (정비 절차)"
+},
+"21-26-02C": {
+"h": "cbc6ece1",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) blower fan이 작동하고,\n2) EXTRACT pb-sw를 OVRD로 놓고,\n3) 양쪽 air conditioning pack이 모두 작동하고,\n4) air conditioning inlet valve를 열림 위치에 고정하고,\n5) 매 비행 전 avionics ventilation system을 점검한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. 출발 승인은 MCC에 연락.\n3. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 21-26-02C Avionics Extract Fan (Avionics ventilation system checked before each flight) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 21-26-00-040-015 참조 (정비 절차)"
+},
+"21-26-03A": {
+"h": "85132707",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) avionics skin exchanger inlet bypass valve를 수동으로 닫힘 위치에 고정하고,\n2) 매 비행 전 avionics ventilation system을 점검한다.\nNote: 지상 운용 중에는 avionics ventilation(항전장비 환기)이 올바르게 이루어지도록 해야 한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 21-26-03A Avionics Skin Exchanger Inlet Bypass Valve 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 21-26-00-040-001 참조 (정비 절차)"
+},
+"21-26-04A": {
+"h": "4d7e15c4",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) internal flap(내부 플랩)을 수동으로 열림 위치에 고정하고,\n2) CAB PRESS SD page에서 skin air outlet valve가 부분 열림 위치로 황색(amber) 또는 녹색으로 표시되고,\n3) 양쪽 air conditioning pack이 모두 작동하고,\n4) skin exchanger isolation valve를 열림 위치에 고정하고,\n5) 매 비행 전 avionics ventilation system을 점검하고,\n6) 매 비행 전 avionics smoke detection system(항전장비 연기 감지 계통)이 작동함을 확인한다.\nNote: 지상 운용 중에는 avionics ventilation(항전장비 환기)이 올바르게 이루어지도록 해야 한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 21-26-04A Avionics Skin Air Outlet Valve 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 21-26-00-040-002 참조 (정비 절차)"
+},
+"21-26-05A": {
+"h": "1df5aca4",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) avionics skin air inlet valve를 수동으로 닫힘 위치에 고정하고,\n2) 지상에서 air conditioning inlet valve가 열려 있고,\n3) 매 비행 전 avionics ventilation system을 점검한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 21-26-05A Avionics Skin Air Inlet Valve (Air conditioning inlet valve open on the ground) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 21-26-00-040-004 참조 (정비 절차)"
+},
+"21-26-05B": {
+"h": "8926b5d8",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) avionics skin air inlet valve를 수동으로 닫힘 위치에 고정하고,\n2) air conditioning inlet valve를 열림 위치에 고정하고,\n3) 매 비행 전 avionics ventilation system을 점검한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 21-26-05B Avionics Skin Air Inlet Valve (Air conditioning inlet valve secured in the open position) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 21-26-00-040-014 참조 (정비 절차)"
+},
+"21-26-06A": {
+"h": "6fac4eba",
+"ko": "(o) (m) 매 비행 전 avionics ventilation system을 점검하는 조건이면 열림 위치에서 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 21-26-06A Avionics Skin Exchanger Isolation Valve 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 21-26-00-040-008 참조 (정비 절차)"
+},
+"21-26-06B": {
+"h": "a8612af8",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) avionics skin exchanger isolation valve를 열림 위치에 고정하고,\nNote: 이 밸브를 열림 위치에 고정할 수 없으면 skin exchanger outlet bypass valve와 서로 바꿔 장착할 수 있다.\n2) 매 비행 전 avionics ventilation system을 점검한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 21-26-06B Avionics Skin Exchanger Isolation Valve 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 21-26-00-040-016 참조 (정비 절차)"
+},
+"21-26-07A": {
+"h": "c047b9f1",
+"ko": "작동 불능이어도 된다.\nNote: 지상 운용 중에는 avionics ventilation(항전장비 환기)이 올바르게 이루어지도록 해야 한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-26-08A": {
+"h": "8a39f852",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) avionics air conditioning inlet valve를 수동으로 열림 위치에 고정하고,\n2) 양쪽 air conditioning pack이 모두 작동하고,\n3) 매 비행 전 avionics ventilation을 점검한다.\nNote: 지상 운용 중에는 avionics ventilation(항전장비 환기)이 올바르게 이루어지도록 해야 한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 21-26-08A Avionics Air Conditioning Inlet Valve 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 21-26-00-040-003 참조 (정비 절차)"
+},
+"21-26-09A": {
+"h": "ac520019",
+"ko": "(o) 다음 조건이면 작동 불능(막힘, clogged) 상태로 운항할 수 있다:\n1) blower fan과 extract fan이 작동하고,\n2) EXTRACT pb-sw를 OVRD로 놓고,\n3) 양쪽 air conditioning pack이 모두 작동하고,\n4) VENT AVNCS SYS FAULT alert가 표시되지 않는다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 21-26-09A Avionics Ventilation Filter (VENT AVNCS SYS FAULT Alert not displayed) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"21-26-09B": {
+"h": "510918ad",
+"ko": "(o) (m) 다음 조건이면 작동 불능(막힘, clogged) 상태로 운항할 수 있다:\n1) blower fan과 extract fan이 작동하고,\n2) EXTRACT pb-sw를 OVRD로 놓고,\n3) 양쪽 air conditioning pack이 모두 작동하고,\n4) 매 비행 전 air conditioning inlet valve가 열려 있음을 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 21-26-09B Avionics Ventilation Filter (Air conditioning inlet valve checked open before each flight) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 21-26-00-040-009 참조 (정비 절차)"
+},
+"21-26-09C": {
+"h": "46a45eac",
+"ko": "(o) (m) 다음 조건이면 작동 불능(막힘, clogged) 상태로 운항할 수 있다:\n1) blower fan과 extract fan이 작동하고,\n2) EXTRACT pb-sw를 OVRD로 놓고,\n3) 양쪽 air conditioning pack이 모두 작동하고,\n4) air conditioning inlet valve를 열림 위치에 고정하고,\n5) 매 비행 전 avionics ventilation system을 점검한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 21-26-09C Avionics Ventilation Filter (Avionics ventilation system checked before each flight) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 21-26-00-040-017 참조 (정비 절차)"
+},
+"21-26-10A": {
+"h": "f6a0bf6d",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 양쪽 air conditioning pack이 모두 작동하고,\n2) BLOWER pb-sw와 EXTRACT pb-sw를 OVRD로 놓고,\n3) 매 비행 전 air conditioning inlet valve와 skin air outlet valve가 올바른 위치에 있음을 확인하고,\n4) 매 비행 전 extract fan이 작동함을 확인하고,\n5) skin air inlet valve를 닫힘 위치에 고정한다.\nNote: 지상 운용 중에는 avionics ventilation(항전장비 환기)이 올바르게 이루어지도록 해야 한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control은 MCC에 연락.\n참조\n(o) OpsProc 21-26-10A Avionics Equipment Ventilation Computer (AEVC) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 21-26-00-040-005 참조 (정비 절차)"
+},
+"21-31-01A": {
+"h": "11f84a1b",
+"ko": "(o) 다음 조건이면 automatic cabin pressure control system 1(자동 여압 조절 계통 1)이 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) 해당 계통을 비활성화(deactivate)하고,\n3) CAB PRESS SD page의 cabin pressure 지시가 manual mode에서 작동함을 확인하고,\n4) LDG ELEV selector의 MAN 기능이 작동한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 21-31-01A Automatic Cabin Pressure Control System (CPC, Outflow Valve AUTO Channel) (Automatic CPC 1/2 inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"21-31-01B": {
+"h": "903861be",
+"ko": "(o) 다음 조건이면 automatic cabin pressure control system 2(자동 여압 조절 계통 2)가 작동 불능 상태로 운항할 수 있다:\n1) 해당 계통을 비활성화(deactivate)하고,\n2) CAB PRESS SD page의 cabin pressure 지시가 manual mode에서 작동함을 확인하고,\n3) LDG ELEV selector의 MAN 기능이 작동한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 21-31-01B Automatic Cabin Pressure Control System (CPC, Outflow Valve AUTO Channel) (Automatic CPC 1/2 inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"21-31-01C": {
+"h": "013390d1",
+"ko": "(o) 다음 조건이면 둘 다 작동 불능 상태로 운항할 수 있다:\n1) manual cabin pressure control system(수동 여압 조절 계통)이 작동하고,\n2) 여압 없이 비행한다.\nFCOM/PRO-NOR-SUP-MISC-E Flight Without Cabin Pressurization(객실 여압 없는 비행) 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 21-31-01C Automatic Cabin Pressure Control System (CPC, Outflow Valve AUTO Channel) (Both automatic CPCs inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"21-31-02A": {
+"h": "3a0d91a3",
+"ko": "(m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) LDG ELEV selector의 MAN 기능이 작동하고,\n2) 매 비행 전 두 automatic cabin pressure control system이 모두 작동함을 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control은 MCC에 연락.\n참조\n(m) AMM Task 21-31-00-040-002 참조 (정비 절차)"
+},
+"21-31-03A": {
+"h": "600b6e16",
+"ko": "(m) 다음 조건이면 하나가 닫힘 위치에서 작동 불능 상태로 운항할 수 있다:\n1) 두 automatic cabin pressure control system이 모두 작동하고,\n2) 세 개의 outflow valve motor가 작동함을 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 21-31-00-040-001 참조 (정비 절차)"
+},
+"21-31-04A": {
+"h": "0f257cf7",
+"ko": "(o) 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 21-31-04A Landing Elevation Selection AUTO Function 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"21-31-05A": {
+"h": "3d667581",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) landing elevation selection AUTO 기능이 작동하고,\n2) 두 FMGC가 모두 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 21-31-05A Landing Elevation Selection MAN Function 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"21-51-02A": {
+"h": "3f7774db",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-51-03A": {
+"h": "afecccd4",
+"ko": "(o) 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 21-51-03A Pack Flow Sensor 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"21-52-01E": {
+"h": "46c2bad8",
+"ko": "(o) (m) 다음 조건이면 하나가 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) 비행 고도를 31 500 ft (9 600 m)로 제한하고,\n3) 다음 alert들:\nAIR PACK 1(2) REGUL FAULT\nAIR COND CTL 1(2)-A FAULT\nAIR COND CTL 1(2)-B FAULT\n중 작동하는(정상) pack 쪽에 해당하는 것이 EWD에 표시되지 않고,\n4) 해당 PACK 1(2) pb-sw를 OFF로 놓고,\n5) 해당 pack flow control valve를 닫힘 위치에 고정한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 21-52-01E Air Conditioning Pack (Limitation to 31 500 ft) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 21-51-00-040-002 참조 (정비 절차)"
+},
+"21-52-01G": {
+"h": "39a5d2f4",
+"ko": "(o) 다음 조건이면 하나를 heat exchanger cooling만으로(air cycle machine 고장 상태로) 운용할 수 있다:\n1) 다음 alert들:\nAIR COND CTL 1(2)-A FAULT\nAIR COND CTL 1(2)-B FAULT\n중 작동하는(정상) pack 쪽에 해당하는 것이 EWD에 표시되지 않고,\n2) 해당 pack의 outlet temperature 지시가 BLEED SD page에서 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 21-52-01G Air Conditioning Pack (One Air Conditioning Pack in Heat Exchanger Cooling Mode only) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"21-52-01H": {
+"h": "efb0cd7e",
+"ko": "(o) 다음 조건이면 둘 다 작동 불능 상태로 운항할 수 있다:\n1) 여압 없이 비행하고\nFCOM/PRO-NOR-SUP-MISC-E Flight Without Cabin Pressurization(객실 여압 없는 비행) 참조, 그리고\n2) 승객을 태우지 않고 비행한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 21-52-01H Air Conditioning Pack (Non pressurized flight) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"21-52-02A": {
+"h": "9b545e9a",
+"ko": "(m) 해당 flap을 열림 위치에서 비활성화(deactivate)한 조건이면 하나 또는 둘 다 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 21-61-00-040-002 참조 (정비 절차)"
+},
+"21-52-02B": {
+"h": "edbb1e87",
+"ko": "해당 air conditioning pack을 작동 불능으로 간주하는 조건이면 하나가 닫힘 위치에서 작동 불능 상태로 운항할 수 있다.\nItem 21-52-01 Air Conditioning Pack 참조"
+},
+"21-52-02C": {
+"h": "041caae2",
+"ko": "(o) 여압 없이 비행하는 조건이면 둘 다 닫힘 위치에서 작동 불능 상태로 운항할 수 있다.\nFCOM/PRO-NOR-SUP-MISC-E Flight Without Cabin Pressurization(객실 여압 없는 비행) 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 21-52-02C Air Conditioning Pack Ram Air Inlet Flap (Non pressurized flight) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"21-55-01A": {
+"h": "29027881",
+"ko": "(m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) emergency ram air inlet을 닫힘 위치에서 비활성화(deactivate)하고,\n2) 양쪽 air conditioning pack이 모두 작동함을 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 21-55-00-040-002 참조 (정비 절차)"
+},
+"21-55-01B": {
+"h": "2ed5f45a",
+"ko": "(o) 다음 조건이면 열림 위치에서 작동 불능 상태로 운항할 수 있다:\n1) EDTO 및 extended overwater flight(장거리 해상 비행)를 수행하지 않고,\n2) 여압 없이 비행한다.\nFCOM/PRO-NOR-SUP-MISC-E Flight Without Cabin Pressurization(객실 여압 없는 비행) 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 21-55-01B Emergency Ram Air Inlet (Non pressurized flight) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"21-61-01A": {
+"h": "ab0e0482",
+"ko": "하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-63-02A": {
+"h": "2033266f",
+"ko": "(o) 해당 valve가 COND SD page에서 닫혀 있음을 확인한 조건이면 하나 이상이 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 21-63-02A Cockpit and Cabin Trim Air Valve (Affected valve secured/checked in the closed position) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"21-63-02B": {
+"h": "2ecb87b9",
+"ko": "(o) hot air pressure regulating valve가 COND SD page에서 작동함을 확인한 조건이면 하나 이상이 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 21-63-02B Cockpit and Cabin Trim Air Valve (Hot air pressure regulating valve checked closed/operative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"21-63-02E": {
+"h": "ae1ab26b",
+"ko": "hot air pressure regulating valve를 작동 불능으로 간주하는 조건이면 하나 이상이 작동 불능 상태로 운항할 수 있다.\nItem 21-63-03 Hot Air Pressure Regulating Valve 참조"
+},
+"21-63-03A": {
+"h": "aed3cde3",
+"ko": "(o) 다음 조건이면 닫힘 위치에서 작동 불능 상태로 운항할 수 있다:\n1) HOT AIR pb-sw를 OFF로 놓고,\n2) Hot Air Pressure Regulating Valve가 COND SD page에서 닫혀 있음을 확인한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 21-63-03A Hot Air Pressure Regulating Valve (Hot air pressure valve checked closed) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"21-63-03B": {
+"h": "12e497ff",
+"ko": "(o) 다음 조건이면 열림 위치에서 작동 불능 상태로 운항할 수 있다:\n1) HOT AIR pb-sw를 OFF로 놓고,\n2) 모든 Trim Air Valve가 COND SD page에서 닫혀 있음을 확인한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 21-63-03B Hot Air Pressure Regulating Valve (Trim air valve checked closed) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"21-63-03C": {
+"h": "5d4fad9b",
+"ko": "(o) (m) hot air pressure regulating valve를 닫힘 위치에 고정(secure)한 조건이면 작동 불능 상태로 운항할 수 있다.\nRAMP RETURN (AFTER DOOR CLOSE) (도어 닫힌 후 발생 시 램프 리턴)\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 21-63-03C Hot Air Pressure Regulating Valve (Affected valve secured in the closed position) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 21-63-00-040-002 참조 (정비 절차)"
+},
+"21-63-04A": {
+"h": "6c83bec7",
+"ko": "(o) EDTO를 수행하지 않는 조건이면 각 side(1, 2)마다 하나씩 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 21-63-04A Air Conditioning System Controller Channel (COND CTL 1(2)-A(B)) (Non EDTO flight) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"21-63-04B": {
+"h": "d66b3150",
+"ko": "EDTO의 경우, AIR COND CTL 1–B FAULT alert가 EWD에 표시되지 않는 조건이면 각 side(1, 2)마다 하나씩 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-01-01-01A": {
+"h": "74fcbb72",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-01-01-02A": {
+"h": "74fcbb72",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-01-01-03A": {
+"h": "30095742",
+"ko": "COND SD page에서 모든 zone duct temperature(구역 덕트 온도) 지시가 작동하는 조건이면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-01-01-04A": {
+"h": "c9aee036",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-01-02-01A": {
+"h": "6b954295",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-01-04-01A": {
+"h": "6b954295",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-01-04-02A": {
+"h": "6b954295",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-01-04-03A": {
+"h": "6b954295",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-01-04-04A": {
+"h": "6b954295",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-01-04-05A": {
+"h": "6b954295",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-07-01-01A": {
+"h": "75be7837",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-07-01-02A": {
+"h": "75be7837",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-07-01-03A": {
+"h": "75be7837",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-07-01-04A": {
+"h": "75be7837",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-07-01-05A": {
+"h": "75be7837",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-07-01-06A": {
+"h": "b1e83f43",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-07-02-01A": {
+"h": "38180c4a",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: 지상 운용 중에는 avionics ventilation(항공전자 장비 환기)이 올바르게 이루어지도록 해야 한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-07-02-02A": {
+"h": "ae933327",
+"ko": "(m) 두 valve 모두 닫혀 있음을 육안으로 확인한 조건이면 pressure safety valve가 열림(open)으로 지시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM 21-31-00-040-004 참조 (정비 절차)"
+},
+"21-07-02-03A": {
+"h": "abe8ee68",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-07-03-01A": {
+"h": "0d9149c0",
+"ko": "지시(indication) 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-07-04-01A": {
+"h": "ccf5d675",
+"ko": "지시(indication) 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"21-52-01D": {
+"h": "c93e4214",
+"ko": "(o) (m) 다음 조건이면 하나가 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) 다음 alert가:\nAIR PACK 1(2) REGUL FAULT\nAIR COND CTL 1(2)-A FAULT\nAIR COND CTL 1(2)-B FAULT\n작동하는 pack과 관련하여 EWD에 표시되지 않고,\n3) 해당 PACK 1(2) pb-sw를 OFF로 놓고,\n4) speedbrake가 작동하고,\n5) 해당 pack flow control valve를 닫힘 위치에 고정한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 21-52-01D Air Conditioning Pack (With speedbrakes available) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 21-51-00-040-002 참조 (정비 절차)"
+}
+},
+"ops": {
+"21-52-01E": {
+"h": "97ce531b",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\n비행 고도는 31 500 ft (9 600 m)로 제한된다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nPACK FLOW selector ...... HI\nONE ENGINE TAXI AT DEPARTURE (출발 시 단발 엔진 택시)\n• Pack 1이 작동 불능인 경우:\n• Engine 1 시동 후:\nX BLEED selector ...... OPEN\nEngine 1으로 pack 2에 공기를 공급하기 위해 crossbleed valve를 연다.\n• Engine 2 시동 후:\nX BLEED selector ...... AUTO\nIN FLIGHT (비행 중)\n• BLOWER pb-sw와 EXTRACT pb-sw가 OVRD로 놓여 있으면:\n- Cabin altitude가 약 9 700 ft까지 올라갈 수 있고,\n- CAB PR EXCESS CAB ALT alert가 EWD에 표시될 수 있다.\nONE ENGINE TAXI AT ARRIVAL (도착 시 단발 엔진 택시)\n• Pack 1이 작동 불능인 경우:\n• Engine 2 정지 전:\nX BLEED selector ...... OPEN\nEngine 1으로 pack 2에 공기를 공급하기 위해 crossbleed valve를 연다.\n• Engine 1 정지 후:\nX BLEED selector ...... AUTO"
+},
+"21-09-01A": {
+"h": "fb715d51",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nEWD에 표시되는 VENT BLOWER FAULT alert는 무시한다.\nVENTILATION overhead panel의 BLOWER pb-sw FAULT light 점등은 무시한다.\nNote: Ground horn이 울리면:\nEIS/HORN/SPLY (121VU P09) C/B ...... Pull\n이 C/B는 첫 번째 엔진 시동 후 다시 닫아야(push) 한다.\n엔진이 꺼진 상태로 착륙 후 ground horn이 울리면 같은 방법으로 다시 끌 수 있다. 이 경우 항공기를 떠나기 전에 ADIRS를 OFF로 놓아야 한다."
+},
+"21-09-02A": {
+"h": "901b894f",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nEWD에 표시되는 VENT EXTRACT FAULT alert는 무시한다."
+},
+"21-21-01A": {
+"h": "185dc326",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\n• LH(좌측) cabin fan이 해당되는 경우:\nAIR COND/RECIRC FAN/L/SPLY (122VU X18) C/B ...... Pull\n• RH(우측) cabin fan이 해당되는 경우:\nAIR COND/RECIRC FAN/R/SPLY (122VU W18) C/B ...... Pull"
+},
+"21-23-01B": {
+"h": "25306337",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\nCOND SD page의 cabin zone temperature 지시 자리에 황색(amber) 십자 표시 두 개가 대신 표시된다.\nItem 21-07-03-01 Cockpit and Cabin Temperature Indications on the COND SD page 참조\nSTATUS SD page의 INOP SYS 칸에 LAV DET 메시지가 표시될 수 있다.\nCabin zone temperature regulation(객실 구역 온도 자동 조절)은 상실된다.\nAir Conditioning System Controller는 AIR COND overhead panel의 FWD CABIN selector와 AFT CABIN selector 위치를 이용해 FWD 및 AFT cabin duct 온도를 조절한다.\n객실 쾌적성에 약간의 영향이 있을 수 있다.\n조종실 온도 조절은 계속 작동한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nLavatory and galley extraction fan이 계속 돌아가는 경우, 또는 작동 불능인 lavatory and galley extraction fan과 관련된 \"타는 냄새(burning smell)\"가 나는 경우:\n- AIR COND/LAV/GALLEY VENT CTL/EXTRACT FAN/CTL (122VU U21) C/B ...... Pull\n- AIR COND/LAV/GALLEY VENT CTL/EXTRACT FAN/SPLY (122VU U19) C/B ...... Pull"
+},
+"21-26-01A": {
+"h": "c1537d51",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\n- 항공기 전기 네트워크에 전원을 공급한다.\n- 양쪽 air conditioning pack을 모두 on으로 놓은 상태에서 air conditioning이 정상 작동하는지 확인한다.\n- BLOWER pb-sw ...... OVRD\n- AVNCS VENT/BLOWER/FAN (123VU AD10) C/B ...... Pull\n- VENT AVNCS SYS FAULT alert와 VENT EXTRACT FAULT alert가 EWD에 표시되지 않는지 확인한다.\n• VENT EXTRACT FAULT alert가 EWD에 표시되면 blower fan이 고착(seized)되었을 수 있다. 이 경우:\n- 정비사에게 연락해 blower fan과 extract fan을 서로 바꿔 장착한다.\n그 후에는 VENT EXTRACT FAULT alert만 EWD에 표시되어야 한다.\n- blower fan과 extract fan을 바꿔 장착한 경우, Item 21-26-02 Avionics Extract Fan 참조"
+},
+"21-26-01B": {
+"h": "3b8c5fc2",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\n- 항공기 전기 네트워크에 전원을 공급한다.\n- 양쪽 air conditioning pack을 모두 on으로 놓은 상태에서 air conditioning이 정상 작동하는지 확인한다.\n- BLOWER pb-sw ...... OVRD\n- AVNCS VENT/BLOWER/FAN (123VU AD10) C/B ...... Pull\n- VENT EXTRACT FAULT alert가 EWD에 표시되지 않는지 확인한다.\n• VENT EXTRACT FAULT alert가 EWD에 표시되면 blower fan이 고착(seized)되었을 수 있다. 이 경우:\n- 정비사에게 연락해 blower fan과 extract fan을 서로 바꿔 장착한다.\n그 후에는 VENT EXTRACT FAULT alert만 EWD에 표시되어야 한다.\n- blower fan과 extract fan을 바꿔 장착한 경우, Item 21-26-02 Avionics Extract Fan 참조"
+},
+"21-26-01C": {
+"h": "572199ce",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\n- 항공기 전기 네트워크에 전원을 공급한다.\n- 양쪽 air conditioning pack을 모두 on으로 놓은 상태에서 air conditioning이 정상 작동하는지 확인한다.\n- BLOWER pb-sw ...... OVRD\n- AVNCS VENT/BLOWER/FAN (123VU AD10) C/B ...... Pull\n- VENT EXTRACT FAULT alert가 EWD에 표시되지 않는지 확인한다.\n• 정비 절차 적용 후:\nCLR pb를 이용해 VENT AVNCS SYS FAULT alert를 clear한다.\nVENT AVNCS SYS FAULT alert는 착륙 후 다시 표시된다.\n• VENT EXTRACT FAULT alert가 EWD에 표시되면 blower fan이 고착(seized)되었을 수 있다. 이 경우:\n- 정비사에게 연락해 blower fan과 extract fan을 서로 바꿔 장착한다.\n그 후에는 VENT EXTRACT FAULT alert만 EWD에 표시되어야 한다.\n- blower fan과 extract fan을 바꿔 장착한 경우, Item 21-26-02 Avionics Extract Fan 참조"
+},
+"21-26-02A": {
+"h": "e193434c",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n전기 네트워크에 전원이 공급된 상태에서의 지상 시간 제한:\nOAT (°C) | ≤ 38 | ≤ 45 | ≤ 55\n최대 시간 | 제한 없음 | 3시간 | 35분\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\n- 항공기 전기 네트워크에 전원을 공급한다.\n- 양쪽 air conditioning pack을 모두 on으로 놓은 상태에서 air conditioning이 정상 작동하는지 확인한다.\n- EXTRACT pb-sw ...... OVRD\n- CLR pb를 이용해 VENT EXTRACT FAULT alert를 clear한다.\n- AVNCS VENT/EXTC/FAN (123VU AC4) C/B ...... Pull\n- VENT AVNCS SYS FAULT alert가 EWD에 표시되지 않는지 확인한다.\nNote: Ground horn이 울리면:\nEIS/HORN/SPLY (121VU P09) C/B ...... Pull\n이 C/B는 첫 번째 엔진 시동 후 다시 닫아야(push) 한다.\n엔진이 꺼진 상태로 착륙 후 ground horn이 울리면 같은 방법으로 다시 끌 수 있다. 이 경우 항공기를 떠나기 전에 ADIRS를 OFF로 놓아야 한다."
+},
+"21-26-02B": {
+"h": "340397f0",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n전기 네트워크에 전원이 공급된 상태에서의 지상 시간 제한:\nOAT (°C) | ≤ 38 | ≤ 45 | ≤ 55\n최대 시간 | 제한 없음 | 3시간 | 35분\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\n- 항공기 전기 네트워크에 전원을 공급한다.\n- 양쪽 air conditioning pack을 모두 on으로 놓은 상태에서 air conditioning이 정상 작동하는지 확인한다.\n- EXTRACT pb-sw ...... OVRD\n- CLR pb를 이용해 VENT EXTRACT FAULT alert를 clear한다.\n- AVNCS VENT/EXTC/FAN (123VU AC4) C/B ...... Pull\nNote: Ground horn이 울리면:\nEIS/HORN/SPLY (121VU P09) C/B ...... Pull\n이 C/B는 첫 번째 엔진 시동 후 다시 닫아야(push) 한다.\n엔진이 꺼진 상태로 착륙 후 ground horn이 울리면 같은 방법으로 다시 끌 수 있다. 이 경우 항공기를 떠나기 전에 ADIRS를 OFF로 놓아야 한다."
+},
+"21-26-02C": {
+"h": "7ce3eeef",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n전기 네트워크에 전원이 공급된 상태에서의 지상 시간 제한:\nOAT (°C) | ≤ 38 | ≤ 45 | ≤ 55\n최대 시간 | 제한 없음 | 3시간 | 35분\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\n- 항공기 전기 네트워크에 전원을 공급한다.\n- 양쪽 air conditioning pack을 모두 on으로 놓은 상태에서 air conditioning이 정상 작동하는지 확인한다.\n- EXTRACT pb-sw ...... OVRD\n- CLR pb를 이용해 VENT EXTRACT FAULT alert를 clear한다.\n- AVNCS VENT/EXTC/FAN (123VU AC4) C/B ...... Pull\n• 정비 절차 적용 후:\nCLR pb를 이용해 VENT AVNCS SYS FAULT alert를 clear한다.\nVENT AVNCS SYS FAULT alert는 착륙 후 다시 표시된다.\nNote: Ground horn이 울리면:\nEIS/HORN/SPLY (121VU P09) C/B ...... Pull\n이 C/B는 첫 번째 엔진 시동 후 다시 닫아야(push) 한다.\n엔진이 꺼진 상태로 착륙 후 ground horn이 울리면 같은 방법으로 다시 끌 수 있다. 이 경우 항공기를 떠나기 전에 ADIRS를 OFF로 놓아야 한다."
+},
+"21-26-03A": {
+"h": "c75df919",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND (지상에서)\n• 정비 절차 적용 후:\nCLR pb를 이용해 EWD에 표시된 VENT AVNCS SYS FAULT alert를 clear한다.\nVENT AVNCS SYS FAULT alert는 착륙 후 다시 표시된다."
+},
+"21-26-04A": {
+"h": "d3b6a923",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nON GROUND (지상에서)\n• 정비 절차 적용 후:\nCLR pb를 이용해 EWD에 표시된 VENT AVNCS SYS FAULT alert를 clear한다.\nVENT AVNCS SYS FAULT alert는 착륙 후 다시 표시된다.\nNote: 밸브의 internal flap이 열려 있어 avionics smoke(항전장비 연기)를 조종실에서 감지하지 못할 수 있다.\nAVIONICS SMOKE alert가 뜨는 경우:\n연기가 감지되지 않더라도 ECAM 절차를 적용한다."
+},
+"21-26-05A": {
+"h": "0f2a0ba5",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\n- 항공기 전기 네트워크에 전원을 공급한다.\n- air conditioning pack 하나 또는 둘을 on으로 놓은 상태에서 air conditioning이 작동하는지 확인한다.\n- EXTRACT pb-sw ...... OVRD\n- CLR pb를 이용해 EWD에 표시된 VENT AVNCS SYS FAULT alert를 clear한다.\nNote: air conditioning pack이 하나만 작동하는 경우, 지상 운용 시간은 1시간으로 제한된다.\nAFTER TAKEOFF (이륙 후)\nEXTRACT pb-sw ...... AUTO\nAFTER LANDING (착륙 후)\nNote: 일시적인 저압 상태 때문에 EXTRACT pb-sw가 OVRD 위치가 아니면 VENT BLOWER FAULT alert가 나타날 수 있다.\n운항승무원은 관련 ECAM 절차를 무시해야 한다.\nEXTRACT pb-sw를 OVRD 위치로 놓으면 VENT BLOWER FAULT alert는 사라진다.\nEXTRACT pb-sw ...... OVRD"
+},
+"21-26-05B": {
+"h": "e45b8f05",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\n- 항공기 전기 네트워크에 전원을 공급한다.\n- air conditioning pack 하나 또는 둘을 on으로 놓은 상태에서 air conditioning이 작동하는지 확인한다.\n- EXTRACT pb-sw ...... OVRD\n• 정비 절차 적용 후:\nCLR pb를 이용해 EWD에 표시된 VENT AVNCS SYS FAULT alert를 clear한다.\nVENT AVNCS SYS FAULT alert는 착륙 후 다시 표시된다.\nNote: air conditioning pack이 하나만 작동하는 경우, 지상 운용 시간은 1시간으로 제한된다.\nAFTER TAKEOFF (이륙 후)\nEXTRACT pb-sw ...... AUTO\nAFTER LANDING (착륙 후)\nNote: 일시적인 저압 상태 때문에 EXTRACT pb-sw가 OVRD 위치가 아니면 VENT BLOWER FAULT alert가 나타날 수 있다.\n운항승무원은 관련 ECAM 절차를 무시해야 한다. EXTRACT pb-sw를 OVRD 위치로 놓으면 VENT BLOWER FAULT alert는 사라진다.\nEXTRACT pb-sw ...... OVRD"
+},
+"21-26-06A": {
+"h": "da4d3941",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND (지상에서)\n• 정비 절차 적용 후:\nCLR pb를 이용해 EWD에 표시된 VENT AVNCS SYS FAULT alert를 clear한다."
+},
+"21-26-06B": {
+"h": "da4d3941",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND (지상에서)\n• 정비 절차 적용 후:\nCLR pb를 이용해 EWD에 표시된 VENT AVNCS SYS FAULT alert를 clear한다."
+},
+"21-26-08A": {
+"h": "b209b8de",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nON GROUND (지상에서)\n• 정비 절차 적용 후:\nCLR pb를 이용해 EWD에 표시된 VENT AVNCS SYS FAULT alert를 clear한다."
+},
+"21-26-09A": {
+"h": "c469fdeb",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\n- 항공기 전기 네트워크에 전원을 공급한다.\n- 양쪽 air conditioning pack을 모두 on으로 놓은 상태에서 air conditioning이 작동하는지 확인한다.\n- EXTRACT pb-sw ...... OVRD\n- VENT AVNCS SYS FAULT alert가 EWD에 표시되지 않는지 확인한다."
+},
+"21-26-09B": {
+"h": "221d5b12",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\n- 항공기 전기 네트워크에 전원을 공급한다.\n- 양쪽 air conditioning pack을 모두 on으로 놓은 상태에서 air conditioning이 작동하는지 확인한다.\n- EXTRACT pb-sw ...... OVRD"
+},
+"21-26-09C": {
+"h": "650be2c1",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\n- 항공기 전기 네트워크에 전원을 공급한다.\n- 양쪽 air conditioning pack을 모두 on으로 놓은 상태에서 air conditioning이 작동하는지 확인한다.\n- EXTRACT pb-sw ...... OVRD\n• 정비 절차 적용 후:\nCLR pb를 이용해 EWD에 표시된 VENT AVNCS SYS FAULT alert를 clear한다.\nVENT AVNCS SYS FAULT alert는 착륙 후 다시 표시된다."
+},
+"21-26-10A": {
+"h": "b9d7f2a3",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\n- 항공기 전기 네트워크에 전원을 공급한다.\n- 양쪽 air conditioning pack을 모두 on으로 놓은 상태에서 air conditioning이 작동하는지 확인한다.\n- BLOWER pb-sw ...... OVRD\n- EXTRACT pb-sw ...... OVRD\nNote: Ground horn이 울리면:\nEIS/HORN/SPLY (121VU P09) C/B ...... Pull\n이 C/B는 첫 번째 엔진 시동 후 다시 닫아야(push) 한다.\n엔진이 꺼진 상태로 착륙 후 ground horn이 울리면 같은 방법으로 다시 끌 수 있다. 이 경우 항공기를 떠나기 전에 ADIRS를 OFF로 놓아야 한다.\nNote: avionics compartment ventilation duct의 압력이 낮은 경우, 지상에서 weather radar 영상이 ND에 표시되지 않을 수 있다.\nCLR pb를 이용해 EWD에 표시된 VENT AVNCS SYS FAULT alert를 clear한다.\nIN FLIGHT (비행 중)\n• air conditioning pack이 고장 나는 경우:\n- Cabin altitude가 약 9 700 ft (3 000 m)까지 올라갈 수 있고,\n- CAB PR EXCESS CAB ALT alert가 EWD에 표시될 수 있다."
+},
+"21-31-01A": {
+"h": "43434d17",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n• CPC 1이 해당되는 경우:\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\n• CPC 1이 해당되는 경우:\nAIR COND/CAB/PRESS/CTL 1 (49VU D09) C/B ...... Pull\n• CPC 2가 해당되는 경우:\nAIR COND/CAB/PRESS/CTL 2 (122VU Y22) C/B ...... Pull\n- RPCU (122VU X23) C/B ...... Pull\n- MODE SEL pb-sw ...... MAN\n- CAB PRESS SD page에서 cabin differential pressure(객실 차압), cabin vertical speed, cabin altitude, outflow valve 위치가 표시되는지 확인한다.\n- MAN V/S CTL sw ...... DN\n- CAB PRESS SD page에서 outflow valve가 움직이는지 확인한다.\n- RPCU (122VU X23) C/B ...... Push\n- MODE SEL pb-sw ...... AUTO"
+},
+"21-31-01B": {
+"h": "43434d17",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n• CPC 1이 해당되는 경우:\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\n• CPC 1이 해당되는 경우:\nAIR COND/CAB/PRESS/CTL 1 (49VU D09) C/B ...... Pull\n• CPC 2가 해당되는 경우:\nAIR COND/CAB/PRESS/CTL 2 (122VU Y22) C/B ...... Pull\n- RPCU (122VU X23) C/B ...... Pull\n- MODE SEL pb-sw ...... MAN\n- CAB PRESS SD page에서 cabin differential pressure(객실 차압), cabin vertical speed, cabin altitude, outflow valve 위치가 표시되는지 확인한다.\n- MAN V/S CTL sw ...... DN\n- CAB PRESS SD page에서 outflow valve가 움직이는지 확인한다.\n- RPCU (122VU X23) C/B ...... Push\n- MODE SEL pb-sw ...... AUTO"
+},
+"21-31-01C": {
+"h": "8faa9a48",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n여압 없이 비행한다.\nFCOM/PRO-NOR-SUP-MISC-E Flight Without Cabin Pressurization(객실 여압 없는 비행) 참조\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다."
+},
+"21-31-04A": {
+"h": "3c270ecb",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nBEFORE TAKEOFF (이륙 전)\n- CABIN PRESS panel의 LDG ELEV selector를 목적지 공항 고도(altitude)에 맞춘다.\n- CAB PRESS SD page에 LDG ELEV MAN 메시지가 표시되는지 확인한다."
+},
+"21-31-05A": {
+"h": "eacffaf5",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nCAB PRESS SD page에 LDG ELEV AUTO 메시지가 표시되는지 확인하여 LDG ELEV selector 위치가 올바른지 확인한다.\nNote: 목적지 공항의 landing field elevation이 CAB PRESS SD page에 올바르게 표시되지 않을 수 있다. 첫 번째 엔진 시동 후 자동으로 수정된다."
+},
+"21-51-03A": {
+"h": "a95dd06f",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\nhot air pressure regulating valve가 자동으로 닫힌다.\n해당 side의 Flow Control Valve는 pneumatic backup mode(공압 백업 모드)로 작동한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nAIR COND HOT AIR pb-sw ...... OFF\nNote: - hot air pressure regulating valve가 닫혀 있을 때 승객 분포가 고르지 않으면 후방 객실 온도가 높아질 수 있다.\n- hot air pressure regulating valve가 닫힌 상태에서 single pack(pack 하나) 운용이 겹치면 조종실 온도가 낮아질 수 있다."
+},
+"21-52-01D": {
+"h": "7d54bc4a",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nPACK FLOW selector ...... HI\nONE ENGINE TAXI AT DEPARTURE (출발 시 단발 엔진 택시)\n• Pack 1이 작동 불능인 경우:\n• Engine 1 시동 후:\nX BLEED selector ...... OPEN\nEngine 1으로 pack 2에 공기를 공급하기 위해 crossbleed valve를 연다.\n• Engine 2 시동 후:\nX BLEED selector ...... AUTO\nIN FLIGHT (비행 중)\n• BLOWER pb-sw와 EXTRACT pb-sw가 OVRD로 놓여 있으면:\n- Cabin altitude가 약 9 700 ft까지 올라갈 수 있고,\n- CAB PR EXCESS CAB ALT alert가 EWD에 표시될 수 있다.\nONE ENGINE TAXI AT ARRIVAL (도착 시 단발 엔진 택시)\n• Pack 1이 작동 불능인 경우:\n• Engine 2 정지 전:\nX BLEED selector ...... OPEN\nEngine 1으로 pack 2에 공기를 공급하기 위해 crossbleed valve를 연다.\n• Engine 1 정지 후:\nX BLEED selector ...... AUTO"
+},
+"21-52-01G": {
+"h": "2f49a4fe",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n• Pack 1이 작동 불능인 경우:\nOne engine taxi(단발 엔진 택시)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\n\"heat exchanger cooling only\" 상태인 PACK 1(2) pb-sw ...... OFF\nIN FLIGHT (비행 중)\n• TAT가 12 °C 이하이면:\n\"heat exchanger cooling only\" 상태인 PACK 1(2) pb-sw ...... On\n• 영향을 받지 않은(정상) air conditioning pack이 고장 나면:\n최대 비행 고도 ...... 31 500 ft (9 600 m)\nDURING DESCENT (강하 중)\n• TAT가 12 °C보다 높으면:\n\"heat exchanger cooling only\" 상태인 PACK 1(2) pb-sw ...... OFF\n• 10 000 ft에서, engine anti-ice(PACK pb-sw가 OFF인 쪽)를 사용할 수 있으면:\nANTI ICE ENG (PACK pb-sw가 OFF인 쪽) pb-sw ...... ON\nAT THE END OF THE DESCENT, BEFORE LANDING (강하 종료 시, 착륙 전)\n\"heat exchanger cooling only\" 상태인 PACK 1(2) pb-sw ...... OFF\n• engine anti-ice(PACK pb-sw가 OFF인 쪽)를 사용할 수 있으면:\nANTI ICE ENG (PACK pb-sw가 OFF인 쪽) pb-sw ...... ON"
+},
+"21-52-01H": {
+"h": "1bb0278b",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n여압 없이 비행한다.\nFCOM/PRO-NOR-SUP-MISC-E Flight Without Cabin Pressurization(객실 여압 없는 비행) 참조\n승객을 태우지 않고 비행한다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다."
+},
+"21-52-02C": {
+"h": "207afb87",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n여압 없이 비행한다.\nFCOM/PRO-NOR-SUP-MISC-E Flight Without Cabin Pressurization(객실 여압 없는 비행) 참조\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다."
+},
+"21-55-01B": {
+"h": "9a90486e",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO 및 extended overwater flight(장거리 해상 비행)를 수행하지 않는다.\n여압 없이 비행한다.\nFCOM/PRO-NOR-SUP-MISC-E Flight Without Cabin Pressurization(객실 여압 없는 비행) 참조\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다."
+},
+"21-63-02A": {
+"h": "d77e08d4",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nCOND SD page에서 해당 trim air valve가 닫혀 있는지 확인한다.\nIN FLIGHT (비행 중)\n• 해당 zone의 온도가 불쾌해지면:\nHOT AIR pb-sw (AIR COND overhead panel) ...... OFF"
+},
+"21-63-02B": {
+"h": "b3f97893",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\n- HOT AIR pb-sw (AIR COND overhead panel) ...... OFF 후 다시 on\n- COND SD page에서 hot air pressure regulating valve가 HOT AIR pb-sw 조작을 따라 움직이는지 확인한다.\nIN FLIGHT (비행 중)\n• 해당 zone의 온도가 불쾌해지면:\nHOT AIR pb-sw (AIR COND overhead panel) ...... OFF"
+},
+"21-63-03A": {
+"h": "72a5a08a",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\n- HOT AIR pb-sw (AIR COND overhead panel) ...... OFF\n- COND SD page에서 hot air pressure regulating valve가 닫힘(amber, 황색)으로 표시되는지 확인한다."
+},
+"21-63-03B": {
+"h": "e3450afc",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\nCOND SD page에서 hot air pressure regulating valve가 열림(amber, 황색)으로 표시된다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\n- HOT AIR pb-sw (AIR COND overhead panel) ...... OFF\n- COND SD page에서 모든 trim air valve가 닫혀 있는지 확인한다."
+},
+"21-63-03C": {
+"h": "97a2d9ee",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nHOT AIR pb-sw (AIR COND overhead panel) ...... OFF"
+},
+"21-63-04A": {
+"h": "81c05b84",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락한다."
+}
+}
+}

@@ -1,0 +1,414 @@
+{
+"items": {
+"23-00-01A": {
+"h": "d0491b66",
+"ko": "CIDS 1(2) MAINTENANCE 메시지가 하나 또는 둘 다 STATUS SD page에 표시되어도 된다.\nNote: CIDS 기능의 완전 고장은 ECAM 경고 COM CIDS 1+2 FAULT로 표시된다. Item 23-73-01-01 Cabin Intercommunication Data System (CIDS) Function 참조\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-09-01A": {
+"h": "281abe4c",
+"ko": "(o) 다음 조건이면 하나 또는 둘 다 표시되어도 된다:\n1) troubleshooting으로 이 경고가 거짓(false)임이 확인되고,\n2) 해당 HF를 비활성화(deactivate)하고 작동 불능으로 간주한다.\nItem 23-10-01 HF Voice 참조\n참조\n(o) OpsProc 23-09-01A COM HF 1(2) EMITTING Alert 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-09-02A": {
+"h": "6e0dc979",
+"ko": "(o) 다음 조건이면 하나 이상이 표시되어도 된다:\n1) troubleshooting으로 이 경고가 거짓(false)임이 확인되고,\n2) 해당 VHF를 비활성화(deactivate)하고 작동 불능으로 간주한다.\nItem 23-10-02 VHF Voice 참조\n참조\n(o) OpsProc 23-09-02A COM VHF 1(2)(3) EMITTING Alert 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-10-01A": {
+"h": "e4848718",
+"ko": "(o) 다음 조건이면 하나 또는 둘 다 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) 항공기를 VHF 통신 범위(coverage) 안에서 운항한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 23-10-01A HF Voice (Flight within VHF coverage) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-10-01B": {
+"h": "6b9043c9",
+"ko": "(o) 항공기를 VHF 통신 범위(coverage) 안에서 운항한다면 HF2 Voice가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 23-10-01B HF Voice (Flight within VHF coverage) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-10-01C": {
+"h": "65311a5b",
+"ko": "(o) SATCOM Voice 또는 SATCOM Data가 작동한다면 HF2 Voice가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 23-10-01C HF Voice (Flight outside VHF coverage) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-10-01D": {
+"h": "716c73dc",
+"ko": "(o) 다음 조건이면 HF1 Voice가 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) SATCOM Voice 또는 SATCOM Data가 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 23-10-01D HF Voice (Flight outside VHF coverage) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-10-02C": {
+"h": "351a0b2a",
+"ko": "(o) 다음 조건이면 VHF1이 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) 매 비행 전에 VHF3를 VOICE mode로 set하고,\n3) VHF datalink 통신을 작동 불능으로 간주한다.\nItem 23-20-04 VHF Datalink 참조\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 23-10-02C VHF Voice 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-10-02D": {
+"h": "639300f7",
+"ko": "(o) 다음 조건이면 VHF2가 작동 불능이어도 된다:\n1) 매 비행 전에 VHF3를 VOICE mode로 set하고,\n2) VHF datalink 통신을 작동 불능으로 간주한다.\nItem 23-20-04 VHF Datalink 참조\n참조\n(o) OpsProc 23-10-02D VHF Voice 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-10-02E": {
+"h": "ba0f5179",
+"ko": "VHF datalink 통신을 작동 불능으로 간주하면 VHF3가 작동 불능이어도 된다.\nItem 23-20-04 VHF Datalink 참조"
+},
+"23-10-03A": {
+"h": "f04760bd",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-13-01A": {
+"h": "08fd45c2",
+"ko": "(o) 다음 조건이면 RMP 1 또는 RMP 2가 작동 불능이어도 된다:\n1) 해당 RMP를 OFF로 set하고,\n2) 해당 쪽 승무원이 비행 내내 boomset(붐 마이크 헤드셋)을 착용한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 23-13-01A RMP (RMP 1 or RMP 2 Inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-13-01B": {
+"h": "895031e9",
+"ko": "RMP 2 또는 RMP 3가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-13-02A": {
+"h": "d0295927",
+"ko": "다음 조건이면 각 RMP에서 하나가 작동 불능이어도 된다:\n1) RMP 1에서 VHF 1 selection key가 작동하고,\n2) HF가 필요한 경우, RMP 1에서 HF 1 selection key가 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-13-03A": {
+"h": "efeb9697",
+"ko": "(o) 다음 조건이면 각 RMP에서 하나 이상이 작동 불능이어도 된다:\n1) 한 RMP에서 VHF 1 통신이 작동함을 확인하고,\n2) HF가 필요한 경우, 한 RMP에서 HF 1 통신이 작동함을 확인하고,\n3) RMP 1에서 XPDR 선택이 작동함을 확인한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 23-13-03A RMP Key (Affected RMP Operative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-13-03B": {
+"h": "aebd3674",
+"ko": "해당 RMP를 작동 불능으로 간주하면 한 RMP에서 하나 이상이 작동 불능이어도 된다.\nItem 23-13-01 Radio Management Panel (RMP) 참조."
+},
+"23-13-04A": {
+"h": "a2369e1c",
+"ko": "다음 조건이면 각 RMP에서 하나 이상이 작동 불능이어도 된다:\n1) 한 RMP에서 VHF 1 reception knob(수신 노브)이 작동하고,\n2) HF가 필요한 경우, 한 RMP에서 HF 1 reception knob이 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-13-04B": {
+"h": "66d95f80",
+"ko": "해당 RMP를 작동 불능으로 간주하면 한 RMP에서 하나 이상이 작동 불능이어도 된다.\nItem 23-13-01 Radio Management Panel (RMP) 참조."
+},
+"23-20-02B": {
+"h": "7402f5f1",
+"ko": "(o) ATC 통신을 위한 대체 절차(alternate procedures)를 수립하여 사용한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 23-20-02B SATCOM Data Mode (If Installed) (procedures require SATCOM datalink) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-20-04C": {
+"h": "21814c81",
+"ko": "(o) ATC 통신을 위한 대체 절차(alternate procedures)를 수립하여 사용한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 23-20-04C VHF Datalink (If Installed) (procedures require ATC datalink) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-31-01A": {
+"h": "e858c144",
+"ko": "작동해야 한다.\nNote: 1. passenger address(기내 방송) 계통이 부분 고장인 경우, 영향받은 계통의 해당 item을 참조한다.\n2. passenger address 계통의 완전 고장(EWD에 COM CIDS 1+2 FAULT 경고가 표시됨)은 허용되지 않는다."
+},
+"23-40-01A": {
+"h": "94ded052",
+"ko": "(o) 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 23-40-01A Ground External Horn 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-40-02A": {
+"h": "5165ab8e",
+"ko": "조종실 근무자(person on cockpit duty) 각각에 대해 작동해야 한다."
+},
+"23-40-03A": {
+"h": "e172e9fb",
+"ko": "(o) 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 23-40-03A Flight Crew to Ground Communication System 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-40-04A": {
+"h": "f7fb4e5e",
+"ko": "(o) 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 23-40-04A Service Interphone Jack 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-51-01A": {
+"h": "b22f1a59",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-51-02A": {
+"h": "b5514259",
+"ko": "근무 중인 승무원 각각에 대해 boomset(붐 마이크가 달린 headset) 하나가 작동해야 한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-51-03A": {
+"h": "409771fe",
+"ko": "하나 이상이 작동 불능이거나, 없거나(missing), 제거되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-51-04A": {
+"h": "6e0b0bdc",
+"ko": "조종실 근무 승무원 중 적어도 한 명이 비행 내내 boomset을 착용한다면 F/O loudspeaker만 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-51-04B": {
+"h": "1cfb870e",
+"ko": "(o) 다음 조건이면 둘 다 작동 불능이어도 된다:\n1) 두 승무원 모두 비행 내내 boomset을 착용하고,\n2) 세 번째 탑승자(third occupant)용 boomset이 작동함을 확인한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 23-51-04B Cockpit Loudspeaker (Both Loudspeakers Inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-51-05A": {
+"h": "81bfae56",
+"ko": "(o) 해당 조종실 근무 승무원이 비행 내내 boomset을 착용한다면 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 23-51-05A Cockpit Loudspeaker Volume Control 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-51-06B": {
+"h": "af30d2fc",
+"ko": "(o) (m) CAPT ACP, F/O ACP 및 ACP 3의 INT/RAD sw가 작동한다면 하나 또는 둘 다 열린 위치(open position, 송신하지 않는 위치)에서 작동 불능이어도 된다.\nNote: 정비 절차는 작동 불능인 sidestick PTT sw가 닫힌 위치(closed position, 송신 위치)로 고장난 경우에만 적용한다. 이 경우 운항승무원은 Return To Gate 해야 한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 23-51-06B Sidestick PTT sw 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 23-51-00-040-001 참조 (정비 절차)"
+},
+"23-52-01A": {
+"h": "3fb24428",
+"ko": "(o) 다음 조건이면 하나가 작동 불능이어도 된다:\n1) ACP 3가 작동하고,\n2) AUDIO SWITCHING selector가 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 23-52-01A CAPT and F/O ACP 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-52-02A": {
+"h": "1c399cda",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-52-05A": {
+"h": "df672aba",
+"ko": "다음 조건이면 각 ACP에서 하나가 작동 불능이어도 된다:\n1) CAPT ACP 또는 F/O ACP 중 한쪽에서 VHF 1 transmission key(송신 키)가 작동하고,\n2) HF가 필요한 경우, CAPT ACP 또는 F/O ACP 중 한쪽에서 HF 1 transmission key가 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-52-06A": {
+"h": "9459cd8d",
+"ko": "다음 조건이면 각 ACP에서 하나가 작동 불능이어도 된다:\n1) CAPT ACP 또는 F/O ACP 중 한쪽에서 VHF 1 reception knob(수신 노브)이 작동하고,\n2) HF가 필요한 경우, CAPT ACP 또는 F/O ACP 중 한쪽에서 HF 1 reception knob이 작동하고,\n3) 접근에 ILS가 필요한 경우, CAPT ACP 또는 F/O ACP 중 한쪽에서 ILS reception knob 하나가 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-52-07A": {
+"h": "e67478ec",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-71-01A": {
+"h": "9837604f",
+"ko": "3 calendar day 또는 8 비행(flights) 중 먼저 도래하는 기간 동안 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. Defer Control은 MCC에 연락."
+},
+"23-72-01A": {
+"h": "9e4061c1",
+"ko": "(o) 대체 절차(alternate procedures)를 수립하여 사용한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 23-72-01A Cockpit Door Surveillance System (CDSS) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-74-01A": {
+"h": "50b50488",
+"ko": "(o) FAP의 안전 관련 메시지를 작동 불능으로 간주하면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 23-74-01A FAP Display Unit 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-74-02A": {
+"h": "b8b31cc2",
+"ko": "작동해야 한다."
+},
+"23-74-03A": {
+"h": "dfcb4bfd",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-74-08A": {
+"h": "e99968b4",
+"ko": "Item 25-62-07 Cabin Overwing Exit Slide Pressure Message on the PTP/FAP 참조"
+},
+"23-74-09A": {
+"h": "6ccfa0fe",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-74-10A": {
+"h": "6ccfa0fe",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-74-11A": {
+"h": "6ccfa0fe",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-01-01-32A": {
+"h": "be48ac45",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-01-01-33A": {
+"h": "c254a52c",
+"ko": "Cockpit Voice Recorder(CVR)를 작동 불능으로 간주하는 조건이면 작동 불능이어도 된다.\nItem 23-71-01 Cockpit Voice Recorder (CVR) 참조"
+},
+"23-01-02-31A": {
+"h": "a4fd8941",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-01-02-32A": {
+"h": "5313f86a",
+"ko": "조종실과 객실 간 통신에 passenger address(기내 방송) 계통을 사용하는 조건이면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-01-02-32B": {
+"h": "0c9e6208",
+"ko": "조종실과 객실 간 통신에 cockpit handset interphone(조종실 핸드셋 인터폰)을 사용하는 조건이면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-01-03-31A": {
+"h": "1c399cda",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-73-01-01A": {
+"h": "cc92225e",
+"ko": "CIDS 기능은 작동해야 한다.\nNote: 1. 이 MEL item은 CIDS 기능의 완전 고장(CIDS Director 둘 다 완전 고장)에 관한 것이다.\n2. CIDS Director 하나 또는 둘 다의 부분 고장(partial failure)은 STATUS SD page에만 CIDS 1(2) MAINTENANCE 메시지 하나 또는 둘로 표시된다(ECAM alert COM CIDS 1+2 FAULT는 표시되지 않음).\nItem 23-00-01 CIDS 1(2) MAINTENANCE Message 참조.\n3. CIDS 기능에 장애(disturbance)가 있는 경우, 해당 CIDS Director를 deactivate(비활성화)하면 CIDS 기능이 정상 작동으로 회복될 수 있다.\nAMM TASK 23-73-00-040-001 참조."
+},
+"23-73-02-01A": {
+"h": "01d23bf6",
+"ko": "(o) 다음 조건이면 하나 이상이 작동 불능이고 해당 승객 좌석에 승객이 앉아도 된다:\n1) 비행 중 객실 전체에서 passenger announcement(기내 방송)를 들을 수 있고,\n2) \"Return to Seat / Fasten Seat Belt / No Smoking\" sign이 필요할 때 passenger address(기내 방송) 계통으로 승객에게 알린다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 23-73-02-01A Cabin DEU A 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-73-02-01B": {
+"h": "d3383973",
+"ko": "해당 좌석을 사용 차단(blocked)하고 작동 불능(inoperative) 플래카드를 붙이는 조건이면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-73-02-02A": {
+"h": "5658f9a2",
+"ko": "해당 lavatory(화장실)를 닫고 작동 불능(inoperative) 플래카드를 붙이는 조건이면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-73-03-01B": {
+"h": "9d6efc7a",
+"ko": "(o) 다음 조건이면 하나 이상이 작동 불능이어도 된다:\n1) 각 floor level exit door 쌍(pair)마다 DEU B 하나와 해당 handset이 작동하고,\n2) 영향을 받는 각 DEU B에 연결된 slide bottle(슬라이드 팽창용 가스통) 압력과 door bottle 압력을 매일 첫 비행 전에 해당 direct reading pressure gauge(직독식 압력계)로 점검하고,\nItem 25-62-07 Cabin Overwing Exit Slide Pressure Message on the PTP/FAP 참조, 및\n3) 해당 lavatory(화장실) 소화 계통(fire extinguisher system)이 작동함을 확인하고,\n4) 해당 lavatory에 연기가 없는지 주기적으로 확인한다.\nItem 26-17-01 Lavatory Smoke Detection System 참조.\n참조\n(o) OpsProc 23-73-03-01B Cabin DEU B 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-73-04-01A": {
+"h": "a73440d6",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-73-04-02A": {
+"h": "3f553410",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-73-05-01A": {
+"h": "b7d3eb21",
+"ko": "(o) 승객이 passenger announcement(기내 방송)를 들을 수 없는 좌석에는 승객이 앉지 않는 조건이면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 23-73-05-01A Cabin Loudspeaker 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-73-05-02A": {
+"h": "e6c2fe58",
+"ko": "(o) 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 23-73-05-02A Lavatory Loudspeaker 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-73-05-03A": {
+"h": "59478fdb",
+"ko": "(o) galley 또는 해당 cabin crew station(객실승무원 근무 위치) 부근에서 객실승무원 및 승객 방송(announcement)이 명확하게 들리는지 확인한 조건이면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 23-73-05-03A Cabin Crew Station/Galley Loudspeaker (Announcements audible) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-73-05-03B": {
+"h": "183e6c87",
+"ko": "(o) galley 또는 해당 cabin crew station(객실승무원 근무 위치) 부근의 객실승무원이나 승객에게 알리기 위한 대체 절차를 수립하여 사용하는 조건이면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 23-73-05-03B Cabin Crew Station/Galley Loudspeaker (Announcements not audible) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-73-06-01A": {
+"h": "7c20eee0",
+"ko": "조종실과 객실 간 통신에 cockpit audio control panel(ACP)을 사용하는 조건이면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-73-06-02A": {
+"h": "20bce461",
+"ko": "(o) 각 floor level exit door 쌍(pair)마다 handset 하나가 작동하는 조건이면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 23-73-06-02A Cabin Handset 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-73-06-03A": {
+"h": "6926fbe1",
+"ko": "다음 조건이면 하나 이상이 작동 불능이어도 된다:\n1) 해당 handset의 passenger address(기내 방송) 기능이 작동하고,\n2) 해당 handset의 cabin to cockpit interphone(객실-조종실 인터폰) 기능이 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-73-06-03B": {
+"h": "f03012d4",
+"ko": "해당 handset을 작동 불능으로 간주하는 조건이면 하나 이상이 작동 불능이어도 된다.\nItem 23-73-06-02 Cabin Handset 참조"
+},
+"23-73-07-01A": {
+"h": "e88f1d0b",
+"ko": "(o) 작동 불능이어도 된다.\nNote: PRAM의 music reproducer(음악 재생) 기능만 작동 불능인 경우에는 MEL을 적용할 필요가 없다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 23-73-07-01A Prerecorded Announcement and Music Reproducer (PRAM) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"23-73-08-01A": {
+"h": "3eebf474",
+"ko": "작동 불능이거나 없어도(missing) 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-73-09-01A": {
+"h": "22c0b39c",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"23-73-10-01A": {
+"h": "8145f837",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) cargo compartment(화물칸)가 비어 있거나 가연성(flammable) 또는 연소성(combustible) 물질을 싣지 않고,\n2) lavatory smoke detection system(화장실 연기 감지 계통)을 작동 불능으로 간주한다.\nItem 26-17-01 Lavatory Smoke Detection System 참조\nNote: CIDS-SDF channel 하나의 고장은 STATUS SD page의 MAINTENANCE 메시지로 표시된다.\nItem 26-00-01 SDCU/SMOKE MAINTENANCE Message 참조\nNote: <MAINTENANCE> (정비)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 23-73-10-01A Smoke Detection Function (CIDS-SDF) 참조 (운항 절차 — 아래 운항 절차 칸)"
+}
+},
+"ops": {
+"23-09-01A": {
+"h": "1c9e32d9",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\ntroubleshooting을 쉽게 하려면 FCOM/PRO-ABN-COM COM VHF 1(2)(3)/HF 1(2) EMITTING (If Installed) 참조.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nHF1 계통을 비활성화하려면 다음을 적용한다:\nCOM HF1 (49 VU HA14) C/B ........ PULL (뽑음)\n또는\nCOM NAV/HF1 (121 VU L10) C/B ........ PULL (뽑음)\nHF2 계통을 비활성화하려면 다음을 적용한다:\nCOM NAV/HF2 (121 VU L13) C/B ........ PULL (뽑음)"
+},
+"23-09-02A": {
+"h": "aa4c7c2f",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\ntroubleshooting을 쉽게 하려면 FCOM/PRO-ABN-COM COM VHF 1(2)(3)/HF 1(2) EMITTING (If Installed) 참조.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nVHF1 계통을 비활성화하려면 다음을 적용한다:\nCOM/VHF/1 (49 VU G09) C/B ........ PULL (뽑음)\nVHF2 계통을 비활성화하려면 다음을 적용한다:\nCOM NAV/VHF/2 (121 VU L04) C/B ........ PULL (뽑음)\nVHF3 계통을 비활성화하려면 다음을 적용한다:\nCOM NAV/VHF/3 (121 VU L05) C/B ........ PULL (뽑음)"
+},
+"23-10-01A": {
+"h": "4d68d882",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nHF 1 또는 HF 둘 다 작동 불능인 경우:\nEDTO를 수행하지 않는다.\n항공기를 VHF 통신 범위(coverage) 안에서 운항한다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"23-10-01B": {
+"h": "4d68d882",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nHF 1 또는 HF 둘 다 작동 불능인 경우:\nEDTO를 수행하지 않는다.\n항공기를 VHF 통신 범위(coverage) 안에서 운항한다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"23-10-01C": {
+"h": "d344dbde",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nHF 1이 작동 불능인 경우:\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\nHF 통신 계통 하나만 작동하는 상태에서 장거리 통신 계통(Long Range Communications Systems, LRCS) 두 개가 필요한 운항의 경우:\n‐ SATCOM voice 또는 data link(및 ACARS)가 정상 작동하는지 확인하고,\n‐ 대체 절차로 FOM Chapter 9.1 SATCOM을 참조하고,\n‐ 예정 비행 항로 전체에서 SATCOM 사용 가능 여부를 확인하고,\n‐ SATCOM voice를 사용할 때 ATS 기관과 협조하되, ATS 기관의 전화번호를 알 수 없으면 dispatcher에게 연락해 SATCOM으로 회신(call-back)을 요청한다."
+},
+"23-10-01D": {
+"h": "d344dbde",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nHF 1이 작동 불능인 경우:\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\nHF 통신 계통 하나만 작동하는 상태에서 장거리 통신 계통(Long Range Communications Systems, LRCS) 두 개가 필요한 운항의 경우:\n‐ SATCOM voice 또는 data link(및 ACARS)가 정상 작동하는지 확인하고,\n‐ 대체 절차로 FOM Chapter 9.1 SATCOM을 참조하고,\n‐ 예정 비행 항로 전체에서 SATCOM 사용 가능 여부를 확인하고,\n‐ SATCOM voice를 사용할 때 ATS 기관과 협조하되, ATS 기관의 전화번호를 알 수 없으면 dispatcher에게 연락해 SATCOM으로 회신(call-back)을 요청한다."
+},
+"23-10-02C": {
+"h": "b10f6342",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nVHF 1이 작동 불능인 경우:\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nVHF1 또는 VHF2가 작동 불능이면 매 비행 전에 VHF3를 VOICE mode로 set한다.\nECAM에 \"VHF3 VOICE\" memo가 표시된다."
+},
+"23-10-02D": {
+"h": "b10f6342",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nVHF 1이 작동 불능인 경우:\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nVHF1 또는 VHF2가 작동 불능이면 매 비행 전에 VHF3를 VOICE mode로 set한다.\nECAM에 \"VHF3 VOICE\" memo가 표시된다."
+},
+"23-13-01A": {
+"h": "ed4bd8d4",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nRMP (해당 RMP) ........ OFF\nRMP 3 ........ USE (사용)\nRMP 1이 작동 불능이면 Captain loudspeaker가 상실된다. Captain은 비행 내내 boomset을 착용해야 한다.\nRMP 2가 작동 불능이면 First Officer loudspeaker가 상실된다. First Officer는 비행 내내 boomset을 착용해야 한다."
+},
+"23-13-01B": {
+"h": "d4bb1874",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n조종실과 지상 요원 간 통신에는 service interphone 또는 Jack-Flight Interphone을 사용한다.\nNote: nose landing gear가 압축(compressed)되지 않은 상태(예: nose landing gear가 flight simulation 상태이거나 항공기가 jack으로 들려 있는 경우)에서는 SERV INT OVRD 스위치를 눌러 Service Interphone System을 사용한다.\n통신이 불가능하면 지상 요원과 대체 통신 절차를 협의한다. (Jeppesen ATC Annex 2 Signals 참조) 이 절차에는 “외부 전원 제거(remove external power)”, “초크 제거(remove chocks)”, “엔진 정지(shut down engines)” 등의 수신호(hand signal)가 포함된다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nRMP 3 ........ OFF\n조종실-지상 통신(cockpit ground communication)이 상실된다."
+},
+"23-13-03A": {
+"h": "b4f4c2bf",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\n운항승무원은 다음을 모두 확인해야 한다:\n‐ VHF 1 주파수를 변경·청취하고 ATC 교신에 사용할 수 있고,\n‐ 필요한 경우, HF 1 주파수를 변경·청취하고 ATC 교신에 사용할 수 있고,\n‐ RMP 1으로 XPDR 1을 선택·변경할 수 있고 ATC가 이를 정상 수신한다."
+},
+"23-20-02B": {
+"h": "bbfb9d47",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nVHF 통신 범위(coverage) 밖에서:\n‐ ACARS를 통한 ATC datalink application(ADS-C, CPDLC, DCL, OCL 및 D-ATIS)을 사용할 수 없다.\n관련 ATC datalink 요구 통신/감시 성능(Required Communication / Surveillance Performance: CPDLC는 RCP 240 이상, ADS-C는 RSP 180 이상) 능력이 상실된다.\n‐ 대체 절차로, ATC는 FANS A 항공기 능력이 필요하지 않은 대체 항로에서 SATCOM 또는 HF voice 통신 사용을 허용할 수 있다.\nATC datalink 통신에 관한 항공기 능력의 자세한 내용은 FCOM/DSC-46-10-10 Overview 참조.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"23-20-04C": {
+"h": "8400b609",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nFANS A 항공기 능력을 사용하는 운항의 경우:\nSATCOM datalink가 작동하는 경우:\nVHF 통신 범위 안에서, SATCOM datalink가 대체 subnetwork로 허용되지 않는 경우:\n‐ ACARS를 통한 CPDLC가 상실된다\n‐ ACARS를 통한 CPDLC의 RCP 130, RCP 240 이상 능력이 상실된다\n‐ ATC 통신 대체 절차: ATC는 VHF datalink를 통한 FANS A 항공기 능력이 필요한 운항에 대해 대체 통신 수단의 사용을 허용할 수 있다.\nSATCOM datalink가 작동 불능인 경우:\n‐ ACARS를 통한 ATC datalink application(ADS-C, CPDLC, DCL, OCL 및 D-ATIS)이 상실된다\n‐ 요구 통신/감시 성능(CPDLC는 RCP 130, RCP 240 이상, ADS-C는 RSP 160, RSP 180 이상) 능력이 상실된다\n‐ ATC 통신 대체 절차: ATC는 VHF datalink를 통한 FANS A 항공기 능력이 필요한 운항에 대해 대체 통신 수단의 사용을 허용할 수 있다.\nFANS B 항공기 능력을 사용하는 운항의 경우:\nSATCOM datalink가 작동하는 경우:\n‐ ATN을 통한 CPDLC가 상실된다\n‐ 요구 통신 성능(Initial Continental Performance, CPDLC의 RCP 130) 능력이 상실된다\n‐ ATC 통신 대체 절차: ATC는 FANS B 항공기 능력이 필요한 운항에 대해 voice 통신 사용을 허용한다.\nSATCOM datalink가 작동 불능인 경우:\n‐ ATN을 통한 CPDLC가 상실된다\n‐ ACARS를 통한 ATC datalink application(DCL, OCL 및 D-ATIS)이 상실된다\n‐ 요구 통신 성능(Initial Continental Performance, CPDLC의 RCP 130) 능력이 상실된다\n‐ ATC 통신 대체 절차: ATC는 FANS B 항공기 능력이 필요한 운항에 대해 voice 통신 사용을 허용한다.\nFANS C 항공기 능력을 사용하는 운항의 경우:\nSATCOM datalink가 작동하는 경우:\n‐ ATN을 통한 ATC datalink application(CPDLC 및 ADS-C)이 상실된다\n‐ 요구 통신/감시 성능(CPDLC는 RCP 130 이상, ADS-C는 RSP 160 이상) 능력이 상실된다.\nSATCOM datalink가 작동 불능인 경우:\n‐ ATN을 통한 ATC datalink application(CPDLC, ADS-C)이 상실된다\n‐ ACARS를 통한 ATC datalink application(DCL, OCL 및 D-ATIS)이 상실된다\n‐ 요구 통신/감시 성능(CPDLC는 RCP 130 이상, ADS-C는 RSP 160 이상) 능력이 상실된다.\n4D Operations 능력을 갖춘 항공기의 경우, 4D Operations는 허용되지 않는다.\nATC datalink 통신에 관한 항공기 능력의 자세한 내용은 FCOM/DSC-46-10-10 Overview 참조\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"23-40-01A": {
+"h": "52a61de3",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND (지상에서)\n항공기 전기 계통(electrical network)에 전원이 공급된 상태에서:\n조종실에서 avionics 장비 환기(ventilation) 상태를 감시한다.\n지상 요원을 부르기 위해 NOSE & RWY TURN OFF light를 점멸(flash)할 수 있다.\nBEFORE LEAVING THE AIRCRAFT (항공기에서 내리기 전)\nADIRS Mode selector 세 개를 OFF로 set한다."
+},
+"23-40-03A": {
+"h": "7d1a6485",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n조종실과 지상 요원 간 통신에는 service interphone 또는 Jack-Flight Interphone을 사용한다.\nNote: nose landing gear가 압축(compressed)되지 않은 상태(예: nose landing gear가 flight simulation 상태이거나 항공기가 jack으로 들려 있는 경우)에서는 SERV INT OVRD 스위치를 눌러 Service Interphone System을 사용한다.\n통신이 불가능하면 지상 요원과 대체 통신 절차를 협의한다. (Jeppesen ATC Annex 2 Signals 참조) 이 절차에는 “외부 전원 제거(remove external power)”, “초크 제거(remove chocks)”, “엔진 정지(shut down engines)” 등의 수신호(hand signal)가 포함된다."
+},
+"23-40-04A": {
+"h": "9d1b1407",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nmarshalling 신호를 따른다. Jeppesen 참조.\n필요하면 조종실과 지상 간 통신 중계를 위해 company radio 또는 OCC/MCC에 연락한다."
+},
+"23-51-04B": {
+"h": "dd7ed0ef",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\n세 번째 탑승자(third occupant)용 boomset이 작동하는지 확인한다."
+},
+"23-51-05A": {
+"h": "af872c53",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n해당 조종실 근무 승무원은 비행 내내 boomset을 착용한다."
+},
+"23-51-06B": {
+"h": "e176f80a",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n작동 불능인 sidestick PTT sw가 닫힌 위치(closed position, 송신 위치)로 고장난 경우, 정비 절차를 적용하기 위해 게이트로 돌아간다(return to gate)."
+},
+"23-52-01A": {
+"h": "e45444e7",
+"ko": "적용 기체: HL8371, HL8398, HL8399, HL8510, HL8511\n\nFLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\n영향받은 쪽의 audio channel을 복구하려면:\nAUDIO SWITCHING selector ........ CAPT 3 (F/O 3)"
+},
+"23-72-01A": {
+"h": "c81df3bd",
+"ko": "적용 기체: HL8511, HL8533, HL8534, HL8582, HL8584, HL8586, HL8705\n\nFLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n대체 절차로, cockpit door의 spy hole(들여다보는 구멍)을 통해 바깥의 보안 상태를 확인한다.\nGENERAL INFORMATION (일반 정보)\n1. 운항승무원은 CDSS 또는 그 구성품이 작동 불능임을 객실승무원에게 브리핑해야 하며, 조종실 출입을 요청할 때는 cabin interphone 계통으로 운항승무원과 통신하도록 객실승무원에게 상기시켜야 한다.\n2. 비행 내내 조종실에 항상 두 사람이 있어야 한다. 조종실에 운항승무원 두 명만 있는 경우, 운항승무원 한 명이 조종실을 떠나야 하면 door lock/unlock을 위해 객실승무원 한 명을 조종실에 배치한다."
+},
+"23-74-01A": {
+"h": "30bec940",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\n객실 조명은 Additional Attendant Panel (AAP)로 어둡게(dim) 할 수 있다 (장착된 경우)."
+},
+"23-73-02-01A": {
+"h": "04f7e32e",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nGENERAL INFORMATION (일반 정보)\n영향을 받는 객실 구역에서는:\n‐ 객실 일반 조명(general cabin illumination)이 최대 밝기로 설정되고,\n‐ Passenger Call(승객 호출)을 사용할 수 없고,\n‐ (No Smoking/Fasten Seat Belt/No Portable Electric Device) sign을 사용할 수 없다.\nIN FLIGHT (비행 중)\n착석(return to seat)을 요구할 때,\n또는\n좌석벨트를 매야 할 때,\n또는\n흡연이 금지될 때,\n또는\n휴대용 전자기기(portable electric device) 사용이 금지될 때,\npassenger address(기내 방송) 계통을 사용하여 객실승무원과 승객에게 알린다."
+},
+"23-73-03-01B": {
+"h": "d91fd732",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n출발 전에 PIC는 Purser(객실사무장)에게 연락하여, 고장난 계통을 대신하여 비정상 상황에서 floor level exit door 쌍(pair)마다 handset 하나를 사용하는 통신 방법을 정해야 한다.\n필요하면 Purser가 사용할 handset 위치를 정한다."
+},
+"23-73-05-01A": {
+"h": "0d26ac0a",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n영향을 받는 좌석에 앉은 승객이 passenger address announcement(기내 방송)를 명확하게 들을 수 있는지 확인한다.\n객실승무원은 영향을 받는 좌석에 앉은 승객이 PA 방송을 명확하게 들을 수 있는지 확인해야 한다.\n그렇지 않으면 영향을 받는 좌석에는 승객이 앉아서는 안 되며 작동 불능(inoperative) 플래카드를 붙여야 한다. Item 25-20-01 Passenger Seat 참조.\nNote: 작동 불능인 loudspeaker에 인접한 loudspeaker 하나가 작동하면, 승객이 passenger announcement(기내 방송)를 들을 수 있는 것으로 본다."
+},
+"23-73-05-02A": {
+"h": "3309f38f",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n출발 전에 PIC는 객실승무원에게 작동 불능인 speaker를 알려야 한다.\nPA(기내 방송)가 필요한 경우 객실승무원은 lavatory(화장실) 사용자에게 구두로 지시해야 한다."
+},
+"23-73-05-03A": {
+"h": "6e185853",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n출발 전에 PIC는 Purser(객실사무장)와 객실승무원에게 작동 불능인 Cabin Crew Station/Galley Loudspeaker를 알려야 한다.\n객실승무원은 영향을 받는 galley 또는 해당 cabin crew station(객실승무원 근무 위치)에서 passenger address announcement(기내 방송)가 명확하게 들리는지 확인해야 한다."
+},
+"23-73-05-03B": {
+"h": "4169c2ae",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n출발 전에 PIC는 Purser(객실사무장)와 객실승무원에게 작동 불능인 Cabin Crew Station/Galley Loudspeaker를 알려야 한다.\nCabin Crew Station/Galley Loudspeaker가 작동 불능인 경우 객실승무원은 galley에 있는 사람에게 구두로 지시해야 한다."
+},
+"23-73-06-02A": {
+"h": "74696cdc",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n출발 전에 PIC는 Purser(객실사무장)에게 연락하여, 고장난 계통을 대신하여 비정상 상황에서 floor level exit door 쌍(pair)마다 handset 하나를 사용하는 통신 방법을 정해야 한다.\n필요하면 Purser가 사용할 cabin handset의 위치를 정한다."
+},
+"23-73-07-01A": {
+"h": "b0082840",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n출발 전에 PIC는 객실승무원에게 사용할 비상 절차(emergency procedure)를 브리핑해야 한다.\n객실승무원에게 다음 사전 녹음 방송(prerecorded announcement)이 영향을 받음을 알린다.\n‐ Safety Briefing (Oxygen Mask 및 Life-vest 포함)\n‐ Decompression(감압)\n필요한 시범(demonstration) 장비를 기내에 갖추어야 한다."
+},
+"23-73-10-01A": {
+"h": "de1db1a9",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n다음을 제외한 어떤 물품도 실을 수 없다:\n‐ 화물 취급 장비(cargo handling equipment) (적재물 없음, 비어 있음 또는 ballast 포함),\n‐ Fly away kit(비행 휴대 정비 키트) (단, 유압유 캔, 세척 용제, 배터리, 커패시터, chemical generator 등은 제외),\n‐ 기내 서비스 물품(회수 케이터링(return catering) – 닫힌 케이터링 트롤리/박스만 가능, 신문·주류·면세품은 불가).\nNote: 사용 가능한(serviceable) 타이어를 싣는 경우, 사용 가능 상태를 유지할 수 있는 최소 압력까지만 공기를 채워야 한다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+}
+}
+}

@@ -1,0 +1,562 @@
+{
+"items": {
+"28-00-01A": {
+"h": "901b08ff",
+"ko": "STATUS SD page에 FUEL MAINTENANCE 메시지가 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-09-01A": {
+"h": "3a892cd6",
+"ko": "(o) 다음 조건이면 하나가 표시된 상태로 운항할 수 있다:\n1) 반대쪽 wing의 fuel temperature 지시가 FUEL SD page에서 작동하고,\n2) 이륙 전과 비행 중에 fuel temperature를 감시한다.\nNote: fuel temperature 제한은 AFM/LIM-28 Fuel Temperature Limits 참조.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 28-09-01A FUEL L(R) WING TK HI TEMP Alert 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-09-01B": {
+"h": "1a804db9",
+"ko": "(o) 다음 조건이면 하나 또는 둘 다 표시된 상태로 운항할 수 있다:\n1) fuel temperature 지시가 FUEL SD page에서 작동하고,\n2) 이륙 전과 비행 중에 fuel temperature를 감시한다.\nNote: fuel temperature 제한은 AFM/LIM-28 Fuel Temperature Limits 참조.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 28-09-01B FUEL L(R) WING TK HI TEMP Alert 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-09-02A": {
+"h": "2591a968",
+"ko": "(o) 다음 조건이면 하나가 표시된 상태로 운항할 수 있다:\n1) 반대쪽 wing의 fuel temperature 지시가 FUEL SD page에서 작동하고,\n2) 이륙 전과 비행 중에 fuel temperature를 감시한다.\nNote: fuel temperature 제한은 AFM/LIM-28 Fuel Temperature Limits 참조.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 28-09-02A FUEL L(R) WING TK LO TEMP Alert 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-09-02B": {
+"h": "89915c6d",
+"ko": "(o) 다음 조건이면 하나 또는 둘 다 표시된 상태로 운항할 수 있다:\n1) fuel temperature 지시가 FUEL SD page에서 작동하고,\n2) 이륙 전과 비행 중에 fuel temperature를 감시한다.\nNote: fuel temperature 제한은 AFM/LIM-28 Fuel Temperature Limits 참조.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 28-09-02B FUEL L(R) WING TK LO TEMP Alert 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-09-03A": {
+"h": "04769c52",
+"ko": "어느 ACT에도 연료가 없으면 표시된 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-09-03B": {
+"h": "699bd3ed",
+"ko": "(o) 비행 중 ACT에서 center tank로의 forward transfer(전방 이송)를 감시하면 표시된 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 28-09-03B FUEL ACT XFR FAULT Alert 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-09-04A": {
+"h": "59851f7b",
+"ko": "표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-09-05A": {
+"h": "4f789716",
+"ko": "어느 ACT에도, 그리고 center tank에도 연료가 없으면 표시된 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-09-06A": {
+"h": "0259858b",
+"ko": "어느 ACT에도 연료가 없으면 표시된 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-12-02A": {
+"h": "24be142c",
+"ko": "(o) 하나 또는 둘 다 파손되거나 없어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 28-12-02A Overpressure Protector in the Vent Surge Tank 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-12-03A": {
+"h": "b3afc648",
+"ko": "둘 다 작동 가능해야 한다."
+},
+"28-12-04A": {
+"h": "1cb0a3c4",
+"ko": "작동 가능해야 한다."
+},
+"28-12-05A": {
+"h": "46687765",
+"ko": "ACT auto transfer system을 작동 불능으로 간주하면 전부 파손되거나 없어도 된다.\nItem 28-28-01 ACT Auto Transfer System 참조"
+},
+"28-12-06A": {
+"h": "3c262697",
+"ko": "어느 ACT에도, 그리고 center tank에도 연료가 없으면 하나 또는 둘 다 파손되거나 없어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-21-01A": {
+"h": "890785e4",
+"ko": "(o) JP4/JET B를 사용하지 않으면 펌프 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 28-21-01A Wing Tank Pump 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-21-01B": {
+"h": "b27117b9",
+"ko": "(o) JP4/JET B를 사용할 때는 fuel temperature가 30 °C 미만이면 pump 2 LH 또는 pump 2 RH가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 28-21-01B Wing Tank Pump 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-22-01A": {
+"h": "1ca985a1",
+"ko": "(o) EDTO를 수행하지 않으면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 28-22-01A APU Fuel Pump (Non EDTO flight) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-22-01B": {
+"h": "d9b95b52",
+"ko": "(o) 120분을 초과하는 EDTO를 수행하지 않으면 4개 비행(four flights) 동안 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 조치)\n1. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 28-22-01B APU Fuel Pump 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-23-01A": {
+"h": "5512c5b7",
+"ko": "작동 가능해야 한다."
+},
+"28-24-01A": {
+"h": "e532f13b",
+"ko": "(m) 다음 조건이면 한쪽 엔진에서 하나가 작동 불능이어도 된다:\n1) 해당 motor를 deactivate(비활성화)하고,\n2) 나머지 motor가 작동함을 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 28-24-00-040-002 참조 (정비 절차)"
+},
+"28-25-01A": {
+"h": "a16af64a",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+},
+"28-25-02A": {
+"h": "1c785349",
+"ko": "급유 및 배유(refueling/defueling) 중 FUEL SD page에서 fuel quantity를 지속적으로 감시하면 하나 이상의 지시가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+},
+"28-25-03A": {
+"h": "39ce503c",
+"ko": "(m) 항공기를 수동으로 급유(manual refueling)하면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 28-25-00-040-005 참조 (정비 절차)"
+},
+"28-25-03B": {
+"h": "a4b142d8",
+"ko": "overwing gravity refueling(날개 위 중력 급유)을 수행하면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-25-04A": {
+"h": "cbd293c6",
+"ko": "(m) valve를 닫힌 위치로 고정하면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 28-25-00-040-004 참조 (정비 절차)"
+},
+"28-25-05A": {
+"h": "77040d9f",
+"ko": "(m) 항공기를 수동으로 급유(manual refueling)하면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 28-25-00-040-008 참조 (정비 절차)"
+},
+"28-26-01B": {
+"h": "ad12b85b",
+"ko": "(o) center tank와 어느 ACT에 연료가 있는 상태에서 나머지 center tank transfer valve가 고장 나더라도 적절한 공항(suitable airport)에 착륙할 수 있는 비행 경로이면, 하나가 닫힌 위치에서 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 28-26-01B Center Tank Transfer Valve 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-26-01E": {
+"h": "103c484d",
+"ko": "어느 ACT에도 그리고 center tank에도 연료가 없거나, 또는 ACT와 center tank의 연료를 사용 불가(not usable)로 간주하여 ZFW의 일부로 포함하고 CG 산출에 반영하면, 둘 다 닫힌 위치에서 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-26-01F": {
+"h": "6124ef4d",
+"ko": "center tank와 어느 ACT에도 연료가 없으면 하나 또는 둘 다 열린 위치에서 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-28-01A": {
+"h": "58108ce4",
+"ko": "어느 ACT에도 연료가 없으면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-28-01B": {
+"h": "df0f2174",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) ACT에서 center tank로의 manual transfer(수동 이송)가 작동하고,\n2) ACT와 center tank의 fuel quantity 지시가 FUEL SD page에서 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 28-28-01B ACT Auto Transfer System (Manual transfer from the ACT(s) to the center tank operative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-28-01C": {
+"h": "2040f5fe",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) ACT의 연료를 사용 불가(not usable)로 간주하여 ZFW의 일부로 포함하고 CG 산출에 반영하며,\n2) ACT transfer valve를 닫힌 위치로 고정한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 28-28-01C ACT Auto Transfer System (Fuel in the ACT(s) considered as not usable) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 28-28-00-040-009 참조 (정비 절차)"
+},
+"28-28-02A": {
+"h": "c5336559",
+"ko": "어느 ACT에도 연료가 없으면 닫힌 위치에서 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-28-02B": {
+"h": "73b164a8",
+"ko": "(m) ACT 급유에 특별 절차(special procedure)를 적용하면 열린 위치에서 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 28-28-00-040-001 참조 (정비 절차)"
+},
+"28-28-02C": {
+"h": "04aea694",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 닫힌 위치로 고정하고,\n2) ACT의 연료를 사용 불가(not usable)로 간주하여 ZFW의 일부로 포함하고 CG 산출에 반영한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 28-28-02C ACT Transfer Valve 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 28-28-00-040-010 참조 (정비 절차)"
+},
+"28-28-03A": {
+"h": "1c399cda",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-28-04A": {
+"h": "aba64602",
+"ko": "어느 ACT에도 연료가 없으면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-28-04D": {
+"h": "18c1bdd7",
+"ko": "(o) 다음 조건이면 열린 위치에서 작동 불능이어도 된다:\n1) ACT에서 center tank로의 manual transfer(수동 이송)가 작동함을 확인하고,\n2) FUEL SD page의 ACT fuel quantity 지시가 작동하고,\n3) center tank의 fuel quantity 지시가 FUEL SD page에서 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 28-28-04D ACT Air Shutoff Valve 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-28-04B": {
+"h": "98d0e839",
+"ko": "ACT auto transfer system을 작동 불능으로 간주하면 작동 불능이어도 된다.\nItem 28-28-01 ACT Auto Transfer System 참조"
+},
+"28-28-05A": {
+"h": "f95cefea",
+"ko": "(o) 다음 조건이면 하나 이상이 열린 위치에서 작동 불능이어도 된다:\n1) ACT에서 center tank로의 manual transfer(수동 이송)가 작동하고,\n2) ACT와 center tank의 fuel quantity 지시가 FUEL SD page에서 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 28-28-05A ACT Inward Pressure Relief Valve 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-28-05B": {
+"h": "52b66912",
+"ko": "어느 ACT에도 연료가 없으면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-28-06A": {
+"h": "45e81307",
+"ko": "(o) (m) 다음 조건이면 하나 이상이 열린 위치에서 작동 불능이어도 된다:\n1) ACT에서 center tank로의 manual transfer(수동 이송)가 작동하고,\n2) ACT와 center tank의 fuel quantity 지시가 FUEL SD page에서 작동한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 28-28-06A ACT Vent Valve (Manual transfer from the ACT(s) to the center tank operative) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 28-28-00-040-003 참조 (정비 절차)"
+},
+"28-28-06B": {
+"h": "42a2bc8f",
+"ko": "(o) (m) 다음 조건이면 하나 이상이 작동 불능이어도 된다:\n1) ACT의 연료를 사용 불가(not usable)로 간주하여 ZFW의 일부로 포함하고 CG 산출에 반영하며,\n2) ACT transfer valve를 닫힌 위치로 고정한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 28-28-06B ACT Vent Valve (Fuel in the ACT(s) considered as not usable) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 28-28-00-040-011 참조 (정비 절차)"
+},
+"28-28-06E": {
+"h": "c5001733",
+"ko": "ACT에 연료가 없으면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-28-06C": {
+"h": "b28c4c5e",
+"ko": "(m) ACT 급유에 특별 절차(special procedure)를 적용하면 닫힌 위치에서 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 28-28-00-040-007 참조 (정비 절차)"
+},
+"28-28-07A": {
+"h": "ef065738",
+"ko": "작동 불능이어도 된다.\nNote: refuel valve가 닫힌 위치에서 작동 불능이면 ACT를 수동으로 급유할 수 있다. AMM task 28-25-00-040-005 참조.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-28-08A": {
+"h": "a9144e76",
+"ko": "(m) heat shield(열 차폐막)가 손상되지 않았으면 ACT integrated impact wall의 protection cover가 손상되어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 28-28-00-040-006 참조 (정비 절차)"
+},
+"28-28-08B": {
+"h": "d9898259",
+"ko": "AFT cargo compartment가 비어 있으면 손상되거나 없어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-28-09A": {
+"h": "1bd1c7e6",
+"ko": "어느 ACT에도 연료가 없으면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-28-09B": {
+"h": "38970c62",
+"ko": "ACT에 연료가 없으면 닫힌 위치에서 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-28-09C": {
+"h": "45d520af",
+"ko": "(o) (m) 다음 조건이면 닫힌 위치에서 작동 불능이어도 된다:\n1) ACT의 연료를 사용 불가(not usable)로 간주하여 ZFW의 일부로 포함하고 CG 산출에 반영하며,\n2) ACT transfer valve를 닫힌 위치로 고정한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 28-28-09C ACT 1 Inlet Valve 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 28-28-00-040-008 참조 (정비 절차)"
+},
+"28-28-09D": {
+"h": "83e6ec34",
+"ko": "(m) 다음 조건이면 열린 위치에서 작동 불능이어도 된다:\n1) ACT 2(장착 시)가 비어 있고,\n2) ACT 1을 사용할 때는 매 비행 전 ACT transfer valve가 작동함을 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 로그에 기입.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 28-28-00-040-004 참조 (정비 절차)"
+},
+"28-28-10A": {
+"h": "58108ce4",
+"ko": "어느 ACT에도 연료가 없으면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-28-10C": {
+"h": "cc3ce1bc",
+"ko": "FWD ACT(장착 시)와 AFT2 ACT(장착 시)에 연료가 없으면 닫힌 위치에서 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-28-12A": {
+"h": "58108ce4",
+"ko": "어느 ACT에도 연료가 없으면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-28-12B": {
+"h": "b4f5b710",
+"ko": "FWD ACT(장착 시)에 연료가 없으면 닫힌 위치에서 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-28-15A": {
+"h": "326cac48",
+"ko": "FWD ACT(장착 시)에 연료가 없으면 닫힌 위치에서 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-28-16A": {
+"h": "f2ae0332",
+"ko": "(m) 다음 조건이면 닫힌 위치에서 작동 불능이어도 된다:\n1) FWD ACT(장착 시)에 연료가 없고,\n2) ACT refuelling control panel에 있는 FWD ACT REFUEL VALVE selector를 SHUT에 놓는다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 28-28-00-040-005 참조 (정비 절차)"
+},
+"28-29-01A": {
+"h": "3cb87d86",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) FUEL SD page에서 닫힘(closed)으로 확인되고,\n2) APU를 사용하지 않는다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 28-29-01A APU LP Fuel Valve 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-29-01B": {
+"h": "500fd053",
+"ko": "(m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 닫힌 위치로 고정하고,\n2) APU를 작동 불능으로 간주한다.\nItem 49-10-01 Power Plant (APU) 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 28-29-00-040-002 참조 (정비 절차)"
+},
+"28-43-01A": {
+"h": "587b00f5",
+"ko": "해당 fuel quantity 지시가 FUEL SD page에서 작동하면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-43-01B": {
+"h": "633b59a0",
+"ko": "(m) 다음 조건이면 하나 이상이 작동 불능이어도 된다:\n1) 급유 전에 high level fuel detection system이 작동함을 확인하고,\n2) 양쪽 wing의 tank가 가득(full) 차 있고,\n3) 해당 fuel used 지시가 작동한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 로그에 기입.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 28-40-00-040-012 참조 (정비 절차)"
+},
+"28-46-01A": {
+"h": "018bd56b",
+"ko": "급유 중 fuel quantity를 지속적으로 감시하면 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+},
+"28-46-02A": {
+"h": "2e667401",
+"ko": "다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 급유 중 fuel quantity를 지속적으로 감시하고,\n2) ACT auto transfer system을 작동 불능으로 간주한다.\nItem 28-28-01 ACT Auto Transfer System 참조"
+},
+"28-46-03A": {
+"h": "2cd7ccae",
+"ko": "급유 중 fuel quantity를 지속적으로 감시하면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-46-04A": {
+"h": "b5f8b840",
+"ko": "하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-46-05A": {
+"h": "e6f82b0b",
+"ko": "ACT auto transfer system을 작동 불능으로 간주하면 작동 불능이어도 된다.\nItem 28-28-01 ACT Auto Transfer System 참조"
+},
+"28-50-01A": {
+"h": "3304a424",
+"ko": "(o) 다음 조건이면 하나가 10 calendar days(역일 기준 10일) 동안 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) 어느 ACT에도 연료가 없다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 28-50-01A Fuel Quantity Indicating Computer (FQIC) Channel 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-50-02A": {
+"h": "9ef63a6f",
+"ko": "(o) 다음 조건이면 하나가 10 calendar days(역일 기준 10일) 동안 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) 어느 ACT에도 연료가 없다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 28-50-02A Auxiliary Fuel Management Computer (AFMC) Channel 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-01-01-01A": {
+"h": "04b945ed",
+"ko": "해당 tank가 비었을 때 해당 pump를 OFF로 놓는다면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-01-01-02A": {
+"h": "62855ec6",
+"ko": "해당 pump 지시가 FUEL SD page에서 작동한다면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-01-01-03A": {
+"h": "3e138b95",
+"ko": "X FEED 지시가 FUEL SD page에서 작동한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-01-01-04A": {
+"h": "3e138b95",
+"ko": "X FEED 지시가 FUEL SD page에서 작동한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-01-01-05A": {
+"h": "46c33161",
+"ko": "center tank에 연료가 없을 때 해당 transfer valve를 OFF로 놓는다면 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-01-01-06A": {
+"h": "381dd71a",
+"ko": "해당 transfer valve 지시가 FUEL SD page에서 작동한다면 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-01-01-07B": {
+"h": "115f3658",
+"ko": "모든 wing tank pump와 center tank transfer valve 지시가 FUEL SD page에서 작동한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-01-01-08A": {
+"h": "ab25d876",
+"ko": "(o) ACT(들)와 center tank의 fuel quantity 지시가 FUEL SD page에서 작동한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 28-01-01-08A ACT pb-sw FAULT light 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-01-01-09A": {
+"h": "d334d8b0",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-01-02-01A": {
+"h": "128de575",
+"ko": "(o) ACT들의 fuel quantity 지시가 FUEL SD page에서 작동한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 28-01-02-01A ACT XFR MODE SEL pb-sw FAULT light 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-01-02-02A": {
+"h": "0ab3e2db",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-01-02-03A": {
+"h": "14447225",
+"ko": "(o) center tank의 fuel quantity 지시가 FUEL SD page에서 작동한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 28-01-02-03A ALL ACT pb-sw OVFL light 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-01-02-04A": {
+"h": "847b4e97",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-01-02-05A": {
+"h": "11682001",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-01-02-06A": {
+"h": "11682001",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-01-02-31A": {
+"h": "ad4fdcc4",
+"ko": "(o) 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 28-01-02-31A ACT XFR selector 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-07-01-01A": {
+"h": "5ae0cc24",
+"ko": "(o) 3% legal contingency fuel(3% 법정 예비연료) 운항을 하지 않는다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 28-07-01-01A Fuel On Board (FOB) Indication on the FUEL SD page 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-07-01-02A": {
+"h": "0c609193",
+"ko": "(o) 다음 조건이면 하나 이상의 FQI가 degraded mode(저하 모드, 마지막 두 자리가 대시(-)로 표시)여도 된다:\n1) 해당 tank마다 정확도 손실(loss of accuracy)을 fuel planning(연료 계획)에 반영하고,\n2) 3% legal contingency fuel(3% 법정 예비연료) 운항을 하지 않는다.\nNote: Fuel On Board 지시도 degraded mode가 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 28-07-01-02A Fuel Quantity Indication (FQI) in Degraded Mode on the FUEL SD page 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-07-01-04A": {
+"h": "f8d77cb5",
+"ko": "(o) (m) 다음 조건이면 하나가 작동 불능 상태로 운항할 수 있다:\n1) 매 급유 후 해당 tank의 fuel quantity를 manual magnetic indicator(MMI, 수동 자기식 지시계) 또는 refuel/defuel control panel의 해당 fuel quantity indicator로 확인하고,\n2) 해당 fuel used 지시가 작동한다.\n3) 3% legal contingency fuel(3% 법정 예비연료) 운항을 하지 않는다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(o) OpsProc 28-07-01-04A Inner/Wing Tank Fuel Quantity Indication on the FUEL SD page 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 28-40-00-040-005 참조 (정비 절차)"
+},
+"28-07-01-05A": {
+"h": "2c5afc54",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 매 급유 후 center tank의 fuel quantity를 manual magnetic indicator(MMI, 수동 자기식 지시계) 또는 refuel/defuel control panel의 해당 fuel quantity indicator로 확인하고,\n2) 모든 wing tank와 ACT(들)의 fuel quantity 지시가 작동하고,\n3) 양쪽 fuel used 지시가 모두 작동하고,\n4) 비행 중 ACT(들)에서 center tank로의 forward transfer를 감시한다.\n5) 3% legal contingency fuel(3% 법정 예비연료) 운항을 하지 않는다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 28-07-01-05A Center Tank Fuel Quantity Indication on the FUEL SD page 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 28-40-00-040-006 참조 (정비 절차)"
+},
+"28-07-01-05B": {
+"h": "8d01e07b",
+"ko": "다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) center tank에 연료가 없거나, 또는 이 tank의 연료를 사용 불가(not usable)로 간주하여 ZFW의 일부로 포함하고 CG 산출에 반영하고,\n2) 어느 ACT에도 연료가 없다.\n3) 3% legal contingency fuel(3% 법정 예비연료) 운항을 하지 않는다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-07-01-06D": {
+"h": "9b5cc5dc",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 해당 ACT(들)와, fuel feed 순서(FWD - AFT2 - AFT1)상 그보다 앞 순서인 ACT(들)가 비어 있고,\n2) 모든 wing tank와 center tank의 fuel quantity 지시가 작동한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 28-07-01-06D ACT Fuel Quantity Indication on the FUEL SD page (A321 LR/ACJ320Neo) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-07-01-06B": {
+"h": "db4dfb70",
+"ko": "(o) 다음 조건이면 fuel quantity 지시 하나가 작동 불능 상태로 운항할 수 있다:\n1) 모든 wing tank, center tank 및 다른 ACT(ACT가 2개 장착된 경우)의 fuel quantity 지시가 작동하고,\n2) 양쪽 fuel used 지시가 모두 작동하고,\n3) 비행 중 ACT(들)에서 center tank로의 forward transfer를 감시한다.\n4) 3% legal contingency fuel(3% 법정 예비연료) 운항을 하지 않는다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 28-07-01-06B ACT Fuel Quantity Indication on the FUEL SD page 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"28-07-01-06C": {
+"h": "487d5050",
+"ko": "어느 ACT에도 연료가 없다면 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-07-02-01A": {
+"h": "e0b00d06",
+"ko": "하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-07-03-01A": {
+"h": "9a11ca14",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-07-04-01A": {
+"h": "dee9b07d",
+"ko": "(m) 매 비행 전에 해당 LP valve가 작동함을 확인한다면 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 28-40-00-040-009 참조 (정비 절차)"
+},
+"28-07-04-02A": {
+"h": "0d05b8f5",
+"ko": "(m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) APU LP valve를 닫힌 위치에 고정(secure)하고,\n2) APU를 작동 불능으로 간주한다.\nItem 49-10-01 Power Plant (APU) 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 28-40-00-040-001 참조 (정비 절차)"
+},
+"28-07-04-03A": {
+"h": "bfef11e1",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) 매일 첫 비행 전에 crossfeed valve의 작동을 점검한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. 출발 승인은 MCC에 연락.\n3. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 28-07-04-03A Crossfeed Valve Indication on the FUEL SD page (Non EDTO flight) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 28-40-00-040-002 참조 (정비 절차)"
+},
+"28-07-04-03B": {
+"h": "5f9705a3",
+"ko": "(m) EDTO의 경우, 매 비행 전에 crossfeed valve의 작동을 점검한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 28-40-00-040-002 참조 (정비 절차)"
+},
+"28-07-04-05A": {
+"h": "adc6236f",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-07-04-06A": {
+"h": "57fbdba9",
+"ko": "ACT(들)와 center tank의 fuel quantity 지시(ACT가 2개 장착된 경우 두 FQI 모두)가 FUEL SD page에서 작동한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-07-05-01A": {
+"h": "1c399cda",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"28-07-06-01A": {
+"h": "e35e57e0",
+"ko": "Item 73-07-01 Fuel Used Indication on the ENGINE SD page 참조"
+},
+"28-07-06-02A": {
+"h": "59ce1d49",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+}
+},
+"ops": {
+"28-09-01A": {
+"h": "4b24ee29",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND OR IN FLIGHT (지상 또는 비행 중)\nFUEL SD page에서 반대쪽 wing의 fuel temperature 지시를 이용해, 이륙 전과 비행 중 주기적으로 fuel temperature를 감시한다.\nNote: fuel temperature 제한은 AFM/LIM-28 Fuel Temperature Limits 참조.\nfuel temperature가 제한치에 도달하면:\n이륙 전:\n이륙을 지연하고 해당 쪽 엔진을 shut down한다.\n비행 중:\n- 해당 쪽 엔진의 fuel flow를 증가시킨다.\n- 필요하면 APU GEN을 사용하고 해당 쪽 IDG를 off한다 (반대쪽 GEN이 사용 가능한 경우)."
+},
+"28-09-01B": {
+"h": "d6cc4270",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND OR IN FLIGHT (지상 또는 비행 중)\nFUEL SD page에서 이륙 전과 비행 중 주기적으로 fuel temperature를 감시한다.\nNote: fuel temperature 제한은 AFM/LIM-28 Fuel Temperature Limits 참조.\nfuel temperature가 제한치에 도달하면:\n이륙 전:\n이륙을 지연하고 해당 쪽 엔진을 shut down한다.\n비행 중:\n- 해당 쪽 엔진의 fuel flow를 증가시킨다.\n- 필요하면 APU GEN을 사용하고 해당 쪽 IDG를 off한다 (반대쪽 GEN이 사용 가능한 경우)."
+},
+"28-09-02A": {
+"h": "0f6dc833",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND OR IN FLIGHT (지상 또는 비행 중)\nFUEL SD page에서 반대쪽 wing의 fuel temperature 지시를 이용해, 이륙 전과 비행 중 주기적으로 fuel temperature를 감시한다.\nNote: fuel temperature 제한은 AFM/LIM-28 Fuel Temperature Limits 참조.\nfuel temperature가 제한치에 도달하면:\n이륙 전:\n이륙을 지연한다.\n비행 중:\nTAT를 높이기 위해 더 낮은 고도로의 강하 및/또는 mach 증가를 고려한다."
+},
+"28-09-02B": {
+"h": "73a1782f",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND OR IN FLIGHT (지상 또는 비행 중)\nFUEL SD page에서 이륙 전과 비행 중 주기적으로 fuel temperature를 감시한다.\nNote: fuel temperature 제한은 AFM/LIM-28 Fuel Temperature Limits 참조.\nfuel temperature가 제한치에 도달하면:\n이륙 전:\n이륙을 지연한다.\n비행 중:\nTAT를 높이기 위해 더 낮은 고도로의 강하 및/또는 mach 증가를 고려한다."
+},
+"28-09-03B": {
+"h": "daac625e",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nAFTER TAKEOFF (이륙 후)\n이륙 40분 후:\nACT에서 CTR tank로의 transfer가 시작되었는지 확인한다.\ntransfer가 되지 않으면:\nACT XFR Fault 절차를 적용한다. QRH/ABN-21 ACT XFR Fault 참조\nIN FLIGHT (비행 중)\nACT에서 CTR tank로의 fuel transfer를 감시한다.\nautomatic transfer가 실패하면:\nACT XFR Fault 절차를 적용한다. QRH/ABN-21 ACT XFR Fault 참조"
+},
+"28-12-02A": {
+"h": "afc2dbea",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND AND IN FLIGHT (지상 및 비행 중)\n- taxi와 climb out 중 fuel spill(연료 유출) 가능성을 줄이기 위해 횡방향 가속(lateral acceleration)을 피한다.\n- cruise 중 fuel spillage(연료 유출)가 없었는지 확인한다.\n- 적정 reserve를 포함하여 목적지까지 도달하기에 FOB가 충분한지 확인한다."
+},
+"28-21-01A": {
+"h": "9a24cb7e",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nTK PUMP (해당 펌프) ..... OFF"
+},
+"28-21-01B": {
+"h": "9a24cb7e",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nTK PUMP (해당 펌프) ..... OFF"
+},
+"28-22-01A": {
+"h": "db511efd",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락.\nFOR APU START AND FOR APU OPERATION (APU 시동 및 APU 작동 시)\nfuel tank pump를 최소 하나 이상 사용하여 LH fuel manifold를 가압한다."
+},
+"28-22-01B": {
+"h": "20a8323f",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nFOR APU START AND FOR APU OPERATION (APU 시동 및 APU 작동 시)\nfuel tank pump를 최소 하나 이상 사용하여 LH fuel manifold를 가압한다."
+},
+"28-26-01B": {
+"h": "0ef5015d",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n적절한 공항(suitable airport)에 착륙할 수 있는 비행 경로여야 한다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락.\nIN FLIGHT (비행 중)\n- EWD에 표시되는 FUEL CTR L(R) XFR FAULT alert는 무시한다.\n- CTR TK MODE SEL pb-sw ..... AUTO\n- 작동하는 쪽 CTR TK L(R) XFR pb-sw ..... ON\n- 해당(고장) 쪽 CTR TK L(R) XFR pb-sw ..... OFF\n양쪽 wing의 fuel quantity 차이가 1 500 kg (3 300 lb)을 초과하면:\nfuel imbalance를 감시한다.\nNote: fuel leak가 의심되지 않는 경우에 한해 필요에 따라 FUEL IMBALANCE FCOM 절차를 적용한다. FCOM/PRO-ABN-FUEL [QRH] FUEL IMBALANCE 참조."
+},
+"28-28-01B": {
+"h": "260a45ad",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\n다음 절차를 위해 조종실-지상 간 통신(cockpit to ground communications)을 설정한다.\nREFUEL PANEL DOOR ..... OPEN\nmanual transfer 작동을 확인하려면 refuel panel door가 열려 있어야 한다.\ncenter tank가 가득 차 있으면:\nACT pb-sw ..... CHECK AUTO\nTEST sw ..... HI. LVL 선택 후 유지(SELECT AND MAINTAIN)\nACT에서 center tank로의 manual fuel transfer는 보통 center tank가 가득 차지 않은 상태(center tank high level sensor dry)에서 수행한다. 따라서 center tank가 가득 차 있으면 refuel/defuel control panel의 TEST sw를 선택한 상태로 유지하여 high level sensor를 override한다.\nCAUTION: ACT pb-sw를 FWD로 놓으면 center tank에서 left surge tank로 연료가 넘칠 수 있다. manual fuel transfer가 작동함을 확인한 즉시 ACT pb-sw를 AUTO로 놓는다. 그렇지 않으면 left tank에서 연료가 유출될 수 있다.\nACT pb-sw ..... FWD\nFUEL SD page ..... MONITOR\n다음 중 하나가 나타나면 manual fuel transfer가 작동하는 것으로 확인된다:\n- ACT→center tank fuel transfer 지시가 완전히 green으로 표시된다\n- 한 ACT(ACT 1, 또는 비어 있지 않다면 ACT 2)의 fuel quantity가 감소한다.\nACT pb-sw ..... AUTO\nTEST sw ..... RELEASE\nREFUEL PANEL DOOR ..... CLOSE\n30 MIN AFTER TAKEOFF (이륙 30분 후)\nACT pb-sw ..... FWD\nFUEL SD page ..... MONITOR\nACT에서 center tank로 연료가 이송되는지 확인한다.\n필요하면 FL 270으로 강하한다.\nACT(ACT가 2개 장착된 경우 둘 다)가 비면:\nACT pb-sw ..... AUTO"
+},
+"28-28-01C": {
+"h": "b1f49dc3",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND OR IN FLIGHT (지상 또는 비행 중)\ncenter tank 연료가 3 000 kg (6 700 lb) 미만일 때:\nEWD에 표시되는 FUEL ACT XFR FAULT alert는 무시하고 clear한다."
+},
+"28-28-02B": {
+"h": "409435eb",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND OR IN FLIGHT (지상 또는 비행 중)\nEWD에 FUEL L(R) WING TK OVERFLOW alert가 표시되면:\nECAM 절차에서 ALL ACT pb-sw를 ISOL로 놓도록 요구하더라도, ACT transfer valve가 열린 상태로 고장 나 있으므로 이 pb-sw 조작으로는 ACT가 isolate되지 않는다.\n모든 ACT를 isolate하려면 다음 조치를 수행해야 한다:\n- ACT XFR selector ..... OFF\n- ACT XFR MODE SEL pb-sw ..... MAN\nCTR TK fuel quantity가 3 t에 도달하면:\nFUEL ACT XFR FAULT 절차를 적용한다\nCTR TK가 비면:\nFUEL L(R) WING TK OVERFLOW 절차를 재개한다"
+},
+"28-28-02C": {
+"h": "b1f49dc3",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND OR IN FLIGHT (지상 또는 비행 중)\ncenter tank 연료가 3 000 kg (6 700 lb) 미만일 때:\nEWD에 표시되는 FUEL ACT XFR FAULT alert는 무시하고 clear한다."
+},
+"28-28-04D": {
+"h": "17375a2c",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\n1. 지상에서 FUEL SD page로 manual transfer 작동을 확인하려면 refuel panel door가 열려 있어야 한다. 지상과 통신을 설정하고, 다음 점검 중에는 refuel panel door가 열려 있고 점검이 끝난 뒤에는 닫히도록 한다.\n2. manual transfer는 center tank가 가득 차지 않은 경우(center tank high level sensor dry)에만 수행할 수 있다. center tank가 가득 차 있으면 refuel panel의 HI LVL pb test를 누른 상태로 유지하여 high level sensor를 override할 수 있다. high level sensor를 override한 상태에서는 center tank를 과충전하지 않도록 주의한다. 그렇지 않으면 surge tank에서 연료가 유출될 수 있다.\n- ALL ACT pb ..... CHECK NOT ISOL\n- ACT XFR rotary selector ..... 해당 ACT(APPROPRIATE ACT)\n이송할 ACT를 FWD - AFT2 - AFT1 순서로 선택한다. 절차 적용 중 FUEL SD page에서 fuel quantity가 깜박이는(pulsing) 지시는 무시한다.\n- ACT XFR MODE SEL pb-sw ..... MAN\n- FUEL SD page에서 선택한 ACT에서 center tank로 연료가 이송되는지 확인한다.\n- ACT XFR rotary selector ..... OFF\n- ACT XFR MODE SEL pb-sw ..... AUTO"
+},
+"28-28-05A": {
+"h": "4f8f68e8",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\n1. 지상에서 FUEL SD page로 manual transfer 작동을 확인하려면 refuel panel door가 열려 있어야 한다. 지상과 통신을 설정하고, 다음 점검 중에는 refuel panel door가 열려 있고 점검이 끝난 뒤에는 닫히도록 한다.\n2. manual transfer는 center tank가 가득 차지 않은 경우(center tank high level sensor dry)에만 수행할 수 있다. center tank가 가득 차 있으면 refuel panel의 HI LVL pb test를 누른 상태로 유지하여 high level sensor를 override할 수 있다. high level sensor를 override한 상태에서는 center tank를 과충전하지 않도록 주의한다. 그렇지 않으면 surge tank에서 연료가 유출될 수 있다.\n- ACT pb-sw ..... FWD\n- FUEL SD page에서 한 ACT에서 center tank로 연료가 이송되는지 확인한다.\n- ACT pb-sw ..... AUTO\nAT TOP OF CLIMB (상승 종료 시점)\nACT에서 center tank로 연료가 이송되는지 확인한다.\nautomatic transfer가 시작되지 않았으면:\n비행 30분 후:\n- ACT pb-sw ..... FWD\n- 필요하면 FL 270으로 강하한다.\nACT(ACT가 2개 장착된 경우 둘 다)가 비면:\nACT pb-sw ..... AUTO"
+},
+"28-28-06A": {
+"h": "d4d4a2db",
+"ko": "OpsProc 28-28-01B ACT Auto Transfer System (Manual transfer from the ACT(s) to the center tank operative) 참조"
+},
+"28-28-06B": {
+"h": "b1f49dc3",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND OR IN FLIGHT (지상 또는 비행 중)\ncenter tank 연료가 3 000 kg (6 700 lb) 미만일 때:\nEWD에 표시되는 FUEL ACT XFR FAULT alert는 무시하고 clear한다."
+},
+"28-28-09C": {
+"h": "b1f49dc3",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND OR IN FLIGHT (지상 또는 비행 중)\ncenter tank 연료가 3 000 kg (6 700 lb) 미만일 때:\nEWD에 표시되는 FUEL ACT XFR FAULT alert는 무시하고 clear한다."
+},
+"28-29-01A": {
+"h": "fbd2fb4a",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nOne engine taxi(단발 엔진 taxi)는 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락.\nDURING PRELIMINARY COCKPIT PREPARATION (예비 조종실 준비 중)\nAPU를 사용하지 않는다.\nAPU MASTER SW pb-sw ..... OFF\nMain Engine Start (MES)나 air conditioning에 APU bleed air를 사용할 수 없다.\nAPU generator의 전원을 사용할 수 없다.\nBEFORE PUSHBACK OR ENGINE START (푸시백 또는 엔진 시동 전)\nAPU 없이 엔진을 시동하려면 FCOM/PRO-NOR-SUP-ENG Engine Start with an Air Start Unit 참조.\nFUEL SD page에서 APU LP valve가 닫힘(closed)으로 지시되는지 확인한다: FCOM/DSC-28-20 ECAM Fuel Page 참조.\nAFTER LANDING, AT THE GATE (착륙 후, 게이트에서)\n목적지에 적절한 지상 지원 장비(ground support equipment)가 없으면, 엔진 시동용 bleed air와 전원을 계속 확보하기 위해 급유 중 급유 지점 반대쪽 엔진을 작동시켜야 한다.\nFCOM/PRO-NOR-SUP-FUEL Refueling with One Engine Running 참조."
+},
+"28-50-01A": {
+"h": "b6afcd79",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락.\nFLIGHT PREPARATION (비행 준비)\n1. 해당(고장) FQIC channel과 연계된 FMGC에 올바른 weight가 입력되었는지 확인한다.\n2. 비행 중 나머지 FQIC channel마저 고장 나면 EWD의 모든 fuel quantity 지시가 상실된다."
+},
+"28-50-02A": {
+"h": "81c05b84",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락."
+},
+"28-01-01-08A": {
+"h": "e95c956a",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nIN FLIGHT (비행 중)\nACT에서 CTR tank로의 manual transfer가 필요한 경우:\n- FCOM/PRO-ABN-FUEL FUEL ACT XFR FAULT (If Installed) 참조.\n- FUEL SD page에서 fuel transfer를 감시한다."
+},
+"28-01-02-01A": {
+"h": "bb8d3ce4",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nIN FLIGHT (비행 중)\nACT에서 CTR tank로의 manual transfer가 필요한 경우:\n- FCOM/PRO-ABN-FUEL [QRH] ACT XFR FAULT 참조.\n- FUEL SD page에서 fuel transfer를 감시한다."
+},
+"28-01-02-03A": {
+"h": "1d78a820",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nIN FLIGHT (비행 중)\nFUEL SD page에서 ACT에서 center tank로의 fuel transfer를 감시한다.\ncenter tank가 가득 차면(> 5 750 kg, 12 680 lb):\nALL ACT pb-sw ..... ISOL\nEWD에 FUEL ACT XFR FAULT alert가 표시되면:\nALL ACT pb-sw ..... Auto"
+},
+"28-01-02-31A": {
+"h": "c7d0a98b",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nAFTER TAKEOFF (이륙 후)\n이륙 40분 후:\nACT에서 CTR tank로의 transfer가 시작되었는지 확인한다.\ntransfer가 되지 않거나 EWD에 FUEL ACT XFR FAULT alert가 표시되면:\nFUEL ACT XFR FAULT alert에 연계된 절차는 무시한다.\n연료가 ACT에 갇혀(trapped) 있다.\nALL ACT pb ..... ISOL\nCTR TK L XFR ..... OFF\nCTR TK R XFR ..... OFF\nCG를 제한 범위 내로 유지하기 위해 WING TANK 연료만 사용한다 (USE ONLY WING TANK FUEL TO KEEP CG WITHIN LIMITS)\nCAUTION: 사용 가능 연료(usable fuel)가 wing tank로만 제한되므로 FMS fuel prediction은 무시한다. 고장 감지 후에는 아래 표의 최대 허용 비행시간 이전에 착륙한다.\n[표] 출발 시 급유한 ACT 수(Number of refuelled ACTs at dispatch): 1 / 2 / 3\n- FWD ACT XFR failed: - / - / 120 min\n- AFT2 ACT XFR failed: - / 120 min / 170 min\n- AFT1 ACT XFR failed: 120 min / 170 min / 200 min"
+},
+"28-07-01-01A": {
+"h": "c617cdd5",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n3% legal contingency fuel(3% 법정 예비연료) 운항 – 허용되지 않음(Not Authorized).\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\nAFTER ENGINE START (엔진 시동 후)\nMCDU FUEL PRED page에서 /FF가 선택되어 있는지 확인한다.\nMCDU FUEL PRED page에서 /FF가 선택되어 있지 않으면:\nFOB를 입력한다.\nFOB는 refuel control panel의 지시(사용 가능한 경우) 또는 Manual Magnetic Indicator(MMI, 수동 자기식 지시계)를 이용해 계산할 수 있다: FCOM/EFB-LOD-FUL-C.USE OF MANUAL MAGNETIC INDICATORS (MMI) 참조."
+},
+"28-07-01-02A": {
+"h": "74f4fc7c",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n3% legal contingency fuel(3% 법정 예비연료) 운항 – 허용되지 않음(Not Authorized).\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\nON GROUND (지상에서)\nEWD의 FOB 지시에서 마지막 두 자리가 대시(--)로 표시되면 FQI가 degraded mode(저하 모드)인 것이다.\nFQI가 degraded mode일 때:\nFUEL SD page에서 어느 tank가 해당되는지 확인한다.\n그로 인한 정확도 손실(loss of accuracy)은 다음 두 파라미터를 사용해 반영해야 한다:\n1. Fq: 추가로 탑재해야 할 연료량.\n2. W: TOW 계산에만 한해 총 연료 무게에 더해야 할 무게.\nFq와 W 값은 다음과 같다:\nLOSS OF ACCURACY DUE TO THE FUEL QUANTITY INDICATION IN DEGRADED MODE (degraded mode FQI로 인한 정확도 손실) (kg 단위)\n[tank: Fq (kg) / W (kg)]\nWING TANK: 130 / 310\nCENTER TANK: 130 / 130\nALL TANKS: 390 / 750\nLOSS OF ACCURACY DUE TO THE FUEL QUANTITY INDICATION IN DEGRADED MODE (lb 단위 – 해당하는 경우)\n[tank: Fq (lb) / W (lb)]\nWING TANK: 290 / 690\nCENTER TANK: 290 / 290\nALL TANKS: 870 / 1 670\nNote: 항공사 편의에 따라, 위 표의 Fq와 W 값 및 계산 결과(즉 Fm+Fq, Fm+Fq+W, 및/또는 Fm+Fq*+W)를 다음 50 또는 100 kg(lb) 단위로 올림(round up)할 수 있다.\n임무에 필요한 연료량을 preselect한다: Fm\n급유가 멈추면:\n- 표에서 해당 tank의 Fq와 W 값을 찾는다.\n- 총 FOB에 해당하는 새 preselect 양(Fm+Fq)으로 급유를 다시 시작한다.\nNote: Fq 값을 전부 탑재하기 전에 모든 tank가 high level에 도달하면, 모든 tank가 부피상으로는 가득 찼지만 fuel quantity 지시가 연료 밀도(density)에 따라 달라지므로 임무에 필요한 연료 질량(mass)은 보장되지 않는다는 뜻이다. 따라서 탑재된 것으로 확인된 최소 연료량에 맞도록 임무 또는 항공기 load를 수정해야 한다.\n급유가 다시 멈추면:\nTOW 계산에 사용할 FOB 값은: FOB = Fm+Fq+W\nFq 값을 탑재하기 전에 모든 tank가 high level에 도달한 경우:\n- 탑재된 것으로 확인된 추가 연료량은 Fq*이며, Fq* < Fq 이다.\n- TOW 계산에 사용할 FOB 값은: FOB = Fm+Fq*+W\n산출된 TOW가 MTOW를 초과하면:\n항공기 load를 줄여야 한다."
+},
+"28-07-01-04A": {
+"h": "70d888a2",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n3% legal contingency fuel(3% 법정 예비연료) 운항 – 허용되지 않음(Not Authorized).\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\nAFTER REFUELING (급유 후)\nFOB는 refuel control panel의 지시(사용 가능한 경우) 또는 Manual Magnetic Indicator(MMI, 수동 자기식 지시계)를 이용해 계산할 수 있다: FCOM/PER-LOD-FUL-FUEL-C.USE OF MANUAL MAGNETIC INDICATORS (MMI) 참조.\nAFTER ENGINE START (엔진 시동 후)\nMCDU FUEL PRED page에서 /FF가 선택되어 있는지 확인한다.\nMCDU FUEL PRED page에서 /FF가 선택되어 있지 않으면:\nFOB를 입력한다."
+},
+"28-07-01-05A": {
+"h": "4f8c45d4",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n3% legal contingency fuel(3% 법정 예비연료) 운항 – 허용되지 않음(Not Authorized).\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\nAFTER REFUELING (급유 후)\nFOB는 refuel control panel의 지시(사용 가능한 경우) 또는 Manual Magnetic Indicator(MMI, 수동 자기식 지시계)를 이용해 계산할 수 있다: FCOM/PER-LOD-FUL-FUEL-C.USE OF MANUAL MAGNETIC INDICATORS (MMI) 참조.\nAFTER ENGINE START (엔진 시동 후)\nMCDU FUEL PRED page에서 /FF가 선택되어 있는지 확인한다.\nMCDU FUEL PRED page에서 /FF가 선택되어 있지 않으면:\nFOB를 입력한다.\nAT TOP OF CLIMB (상승 종료 시점)\n- FUEL SD page에서 additional center tank 하나(ACT 2가 장착되어 있고 비어 있지 않으면 ACT 2)에서 center tank로 연료가 이송되는지 확인한다.\n- additional center tank 하나(ACT 2가 장착되어 있고 비어 있지 않으면 ACT 2)의 fuel quantity가 감소했는지 확인한다.\nautomatic transfer가 시작되지 않았으면:\n비행 30분 후:\n- ACT pb-sw ..... FWD\n- 필요하면 FL 270으로 강하한다.\nACT(ACT가 2개 장착된 경우 둘 다)가 비면:\nACT pb-sw ..... AUTO"
+},
+"28-07-01-06B": {
+"h": "f5f465a5",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n3% legal contingency fuel(3% 법정 예비연료) 운항 – 허용되지 않음(Not Authorized).\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\nAT TOP OF CLIMB (상승 종료 시점)\nadditional center tank 하나(ACT 2가 장착되어 있고 비어 있지 않으면 ACT 2)에서 center tank로의 fuel transfer 확인:\nFUEL SD page에서 transfer 지시(화살표)가 표시되는지 확인하거나, 지시되는 총 연료량이 급유 후 실제 지시 연료량에서 FU(fuel used)를 뺀 값보다 많은지 확인한다.\nautomatic transfer가 시작되지 않았으면:\n비행 30분 후:\n- ACT pb-sw ..... FWD\n- 필요하면 FL 270으로 강하한다.\nACT(ACT가 2개 장착된 경우 둘 다)가 비면:\nACT pb-sw ..... AUTO"
+},
+"28-07-01-06D": {
+"h": "867dc949",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nFUEL SD page에서 FWD ACT fuel quantity 지시가 작동 불능이면:\nFWD ACT가 비어 있어야 한다.\nFUEL SD page에서 AFT2 ACT fuel quantity 지시가 작동 불능이면:\nFWD ACT와 AFT2 ACT가 비어 있어야 한다.\nFUEL SD page에서 AFT1 ACT fuel quantity 지시가 작동 불능이면:\n모든 ACT가 비어 있어야 한다.\nFUEL SD page에서 FWD ACT와 AFT2 ACT fuel quantity 지시가 작동 불능이면:\nFWD ACT와 AFT2 ACT가 비어 있어야 한다.\nFUEL SD page에서 FWD ACT와 AFT1 ACT fuel quantity 지시가 작동 불능이면:\n모든 ACT가 비어 있어야 한다.\nFUEL SD page에서 AFT1 ACT와 AFT2 ACT fuel quantity 지시가 작동 불능이면:\n모든 ACT가 비어 있어야 한다.\nFUEL SD page에서 모든 ACT fuel quantity 지시가 작동 불능이면:\n모든 ACT가 비어 있어야 한다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"28-07-04-03A": {
+"h": "81c05b84",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+}
+}
+}

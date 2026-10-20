@@ -1,0 +1,110 @@
+{
+"items": {
+"77-08-01A": {
+"h": "bb350e3c",
+"ko": "반드시 작동 가능해야 한다."
+},
+"77-08-02A": {
+"h": "b32bb8fe",
+"ko": "Item 73-20-04 EPR Control Mode 참조"
+},
+"77-08-03A": {
+"h": "847c1884",
+"ko": "Item 73-08-01 Fuel Flow Indication on the EWD 참조"
+},
+"77-08-04A": {
+"h": "d4ceccbf",
+"ko": "반드시 작동 가능해야 한다."
+},
+"77-08-05A": {
+"h": "d4ceccbf",
+"ko": "반드시 작동 가능해야 한다."
+},
+"77-08-06A": {
+"h": "68a25cfa",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"77-07-01-01A": {
+"h": "3cf7038e",
+"ko": "Item 77-07-02-05 N1 Vibration Indication on the ENGINE SD page 참조 (해당 항목으로 이동)"
+},
+"77-07-01-02A": {
+"h": "e7158ad7",
+"ko": "Item 77-07-02-06 N2 Vibration Indication on the ENGINE SD page 참조 (해당 항목으로 이동)"
+},
+"77-07-01-03A": {
+"h": "7be3c130",
+"ko": "Item 73-07-01 Fuel Used Indication on the ENGINE SD page 참조 (해당 항목으로 이동)"
+},
+"77-07-01-04A": {
+"h": "d0a6a235",
+"ko": "Item 79-07-03 Oil Quantity Indication on the ENGINE SD page 참조 (해당 항목으로 이동)"
+},
+"77-07-02-01A": {
+"h": "d4423f36",
+"ko": "Item 36-07-04 Engine Bleed Precooler Inlet Pressure Indication on the BLEED SD page 참조 (해당 항목으로 이동)"
+},
+"77-07-02-02A": {
+"h": "b6c285e0",
+"ko": "Item 73-07-02 Fuel Filter CLOG Indication on the ENGINE SD page 참조 (해당 항목으로 이동)"
+},
+"77-07-02-03A": {
+"h": "7be3c130",
+"ko": "Item 73-07-01 Fuel Used Indication on the ENGINE SD page 참조 (해당 항목으로 이동)"
+},
+"77-07-02-04A": {
+"h": "b2c70841",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"77-07-02-05A": {
+"h": "f996e2ab",
+"ko": "하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"77-07-02-05B": {
+"h": "45412ccc",
+"ko": "(o) 다음 조건이면 둘 다 3개 비행(three flights) 동안 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) 직전 비행(previous flight)에서 vibration advisory가 표시되지 않았다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 77-07-02-05B N1 or N2 Vibration Indication on the ENGINE SD page 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"77-07-02-06A": {
+"h": "976c39e4",
+"ko": "하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"77-07-02-06B": {
+"h": "3c1f645a",
+"ko": "(o) 다음 조건이면 둘 다 3개 비행(three flights) 동안 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) 직전 비행(previous flight)에서 vibration advisory가 표시되지 않았다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 77-07-02-06B N1 or N2 Vibration Indication on the ENGINE SD page 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"77-07-02-07A": {
+"h": "c50790d2",
+"ko": "Item 79-07-01 CLOG Indication on the ENGINE SD page 참조 (해당 항목으로 이동)"
+},
+"77-07-02-08A": {
+"h": "2c7a1e01",
+"ko": "Item 79-07-02 Oil Pressure Indication and Advisory on the ENGINE SD page 참조 (해당 항목으로 이동)"
+},
+"77-07-02-09A": {
+"h": "d0a6a235",
+"ko": "Item 79-07-03 Oil Quantity Indication on the ENGINE SD page 참조 (해당 항목으로 이동)"
+},
+"77-07-02-10A": {
+"h": "2f18b5ce",
+"ko": "Item 79-07-04 Oil Temperature Indication on the ENGINE SD page 참조 (해당 항목으로 이동)"
+},
+"77-07-02-11A": {
+"h": "f9e19a6d",
+"ko": "Item 74-07-01 Selected Igniter Indication on the ENGINE SD page 참조 (해당 항목으로 이동)"
+},
+"77-07-02-12A": {
+"h": "bdeb53c6",
+"ko": "Item 80-07-01 Start Valve Position Indication on the ENGINE SD page 참조 (해당 항목으로 이동)"
+}
+},
+"ops": {
+"77-07-02-05B": {
+"h": "81c05b84",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락."
+},
+"77-07-02-06B": {
+"h": "81c05b84",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락."
+}
+}
+}

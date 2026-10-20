@@ -1,0 +1,334 @@
+{
+"items": {
+"30-00-01A": {
+"h": "93630f36",
+"ko": "STATUS SD page에 ICE DETECT MAINTENANCE 메시지가 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"30-00-02A": {
+"h": "186143c2",
+"ko": "STATUS SD page에 ENG 1(2) A.ICE MAINTENANCE 메시지가 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"30-07-01A": {
+"h": "e9a244ba",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"30-07-02A": {
+"h": "e9a244ba",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"30-09-01A": {
+"h": "b0aab5e8",
+"ko": "(o) 다음 조건이면 하나 또는 둘 다 표시된 상태로 운항할 수 있다:\n1) 해당 ENG 1(2) A.ICE VALVE OPEN subtitle(부제목)이 EWD에 표시되고,\n2) Flight Manual의 performance penalty(성능 감소분)를 적용한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 30-09-01A ANTI ICE ENG 1(2) CTL FAULT Alert (Associated ENG 1(2) A.ICE VALVE OPEN subtitle displayed on the EWD) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"30-09-01B": {
+"h": "5aae6f82",
+"ko": "(o) 다음 조건이면 하나가 표시된 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) 해당 ENG 1(2) A.ICE MON FAULT subtitle(부제목)이 EWD에 표시되고,\n3) 예정 경로상 알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않는다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 30-09-01B ANTI ICE ENG 1(2) CTL FAULT Alert (Associated ENG 1(2) A.ICE MON FAULT subtitle displayed on the EWD) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"30-11-01A": {
+"h": "787e9328",
+"ko": "(o) (m) 관련 ECAM 절차를 적용하면 RH valve가 열린 위치에서 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 30-11-01A Wing Anti-Ice Control Valve (Inoperative in the open position) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 30-11-00-040-004 참조 (정비 절차)"
+},
+"30-11-01B": {
+"h": "addcb7f4",
+"ko": "(o) (m) 다음 조건이면 하나 또는 둘 다 닫힌 위치에서 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) 알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않는다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 30-11-01B Wing Anti-Ice Control Valve (Inoperative in the closed position) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 30-11-00-040-001 참조 (정비 절차)"
+},
+"30-21-01A": {
+"h": "234a12e6",
+"ko": "(o) 다음 조건이면 같은 엔진의 PRSOV 하나 또는 둘이 닫힌 위치에서 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) 예정 경로상 알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않는다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 30-21-01A Engine Anti-Ice Valve (Inop in the closed position) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"30-21-01C": {
+"h": "ad606674",
+"ko": "(o) (m) 다음 조건이면 하나 또는 둘 다 열린 위치에서 작동 불능이어도 된다:\n1) Flight Manual의 performance penalty(성능 감소분)를 적용하고,\n2) OAT가 ISA+35 °C 미만이다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 30-21-01C Engine Anti-Ice Valve 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 30-21-00-040-010 참조 (정비 절차)"
+},
+"30-21-01B": {
+"h": "fd7f39d4",
+"ko": "(m) 열린 위치에서 deactivate(비활성화)하면 엔진당 PRSOV 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 30-21-00-040-805 참조 (정비 절차)"
+},
+"30-21-01D": {
+"h": "b1a222aa",
+"ko": "(o) (m) 다음 조건이면 같은 엔진에서 둘이 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) 해당 PRSOV들을 닫힌 위치에서 deactivate(비활성화)하고,\n3) 예정 경로상 알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않는다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 30-21-01D Engine Anti-Ice Valve (Inop in the closed position) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 30-21-00-040-805 참조 (정비 절차)"
+},
+"30-31-01A": {
+"h": "95061cf1",
+"ko": "(o) (m) 매 비행 전 해당 probe heating이 작동함을 확인하면 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 로그에 기입.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 30-31-01A PHC (associated probe heating operative) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 30-31-00-040-001 참조 (정비 절차)"
+},
+"30-31-01B": {
+"h": "671c2e7a",
+"ko": "(o) (m) 작동하는 computer와 연계된 ADR, heater 및 failure alert가 매일 작동함을 확인하면 F/O PHC가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 로그에 기입.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 30-31-01B PHC (F/O PHC inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 30-31-00-040-002 참조 (정비 절차)"
+},
+"30-31-01C": {
+"h": "391500b7",
+"ko": "(o) (m) 다음 조건이면 STBY PHC가 작동 불능이어도 된다:\n1) 작동하는 computer와 연계된 ADR, heater 및 failure alert가 매일 작동함을 확인되고,\n2) 가시 습기(visible moisture) 또는 알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않고,\n3) taxiway 또는 runway가 물이나 slush로 오염된 경우 출발 공항의 OAT가 5 °C를 초과한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 로그에 기입.\n2. 출발 승인은 MCC에 연락.\n3. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 30-31-01C PHC (STBY PHC inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 30-31-00-040-002 참조 (정비 절차)"
+},
+"30-31-02A": {
+"h": "5327f70d",
+"ko": "(o) (m) CAPT 및 STBY probe(pitot, static, AOA, TAT)와 연계된 ADR, heater 및 failure alert가 매일 작동함을 확인하면 F/O pitot heater가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 로그에 기입.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 30-31-02A Pitot Heater (F/O pitot heater inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 30-31-00-040-002 참조 (정비 절차)"
+},
+"30-31-02B": {
+"h": "412c1fac",
+"ko": "(o) (m) 다음 조건이면 CAPT pitot heater가 작동 불능이어도 된다:\n1) F/O 및 STBY probe(pitot, static, AOA, TAT)와 연계된 ADR, heater 및 failure alert가 매일 작동함을 확인되고,\n2) 가시 습기(visible moisture) 또는 알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않는다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 로그에 기입.\n2. 출발 승인은 MCC에 연락.\n3. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 30-31-02B Pitot Heater (CAPT or STBY pitot heater inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 30-31-00-040-002 참조 (정비 절차)"
+},
+"30-31-02C": {
+"h": "03452c6b",
+"ko": "(o) (m) 다음 조건이면 STBY pitot heater가 작동 불능이어도 된다:\n1) CAPT 및 F/O probe(pitot, static, AOA, TAT)와 연계된 ADR, heater 및 failure alert가 매일 작동함을 확인되고,\n2) 가시 습기(visible moisture) 또는 알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않는다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 로그에 기입.\n2. 출발 승인은 MCC에 연락.\n3. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 30-31-02C Pitot Heater (CAPT or STBY pitot heater inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 30-31-00-040-002 참조 (정비 절차)"
+},
+"30-31-03A": {
+"h": "845df2be",
+"ko": "STBY static ports heater 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"30-31-03B": {
+"h": "cc32440d",
+"ko": "(o) (m) 다음 조건이면 STBY static ports heater 둘 다 작동 불능이어도 된다:\n1) CAPT 및 F/O probe(pitot, static, AOA, TAT)와 연계된 ADR, heater 및 failure alert가 매일 작동함을 확인되고,\n2) runway가 물이나 slush로 오염된 경우 출발 공항의 OAT가 5 °C를 초과한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 로그에 기입.\n2. 출발 승인은 MCC에 연락.\n3. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 30-31-03B STBY Static Ports Heater 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 30-31-00-040-002 참조 (정비 절차)"
+},
+"30-31-03C": {
+"h": "676197dd",
+"ko": "(o) (m) CAPT 및 STBY probe(pitot, static, AOA, TAT)와 연계된 ADR, heater 및 failure alert가 매일 작동함을 확인하면 F/O static ports heater 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 로그에 기입.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 30-31-03C F/O Static Ports Heater 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 30-31-00-040-002 참조 (정비 절차)"
+},
+"30-31-03D": {
+"h": "1c1dc586",
+"ko": "(o) (m) 다음 조건이면 CAPT static ports heater 하나 또는 둘 다 작동 불능이어도 된다:\n1) F/O 및 STBY probe(pitot, static, AOA, TAT)와 연계된 ADR, heater 및 failure alert가 매일 작동함을 확인되고,\n2) runway가 물이나 slush로 오염된 경우 출발 공항의 OAT가 5 °C를 초과한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 로그에 기입.\n2. 출발 승인은 MCC에 연락.\n3. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 30-31-03D CAPT Static Ports Heater 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 30-31-00-040-002 참조 (정비 절차)"
+},
+"30-31-04A": {
+"h": "f7e94005",
+"ko": "(o) (m) CAPT 및 STBY probe(pitot, static, AOA, TAT)와 연계된 ADR, heater 및 failure alert가 매일 작동함을 확인하면 F/O AOA probes heating이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 로그에 기입.\n2. CAT II/III 운항 등급 하향 관리를 위해 MEL item 22-00-00을 적용.\n3. 출발 승인은 MCC에 연락.\n4. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 30-31-04A Angle of Attack (AOA) Probes Heating (F/O inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 30-31-00-040-002 참조 (정비 절차)"
+},
+"30-31-04B": {
+"h": "7292566a",
+"ko": "(o) (m) CAPT 및 F/O probe(pitot, static, AOA, TAT)와 연계된 ADR, heater 및 failure alert가 매일 작동함을 확인하면 STBY AOA probes heating이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 로그에 기입.\n2. CAT II/III 운항 등급 하향 관리를 위해 MEL item 22-00-00을 적용.\n3. 출발 승인은 MCC에 연락.\n4. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 30-31-04B Angle of Attack (AOA) Probes Heating (STBY inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 30-31-00-040-002 참조 (정비 절차)"
+},
+"30-31-04C": {
+"h": "1d6ec768",
+"ko": "(o) (m) 다음 조건이면 CAPT AOA probes heating이 작동 불능이어도 된다:\n1) F/O 및 STBY probe(pitot, static, AOA, TAT)와 연계된 ADR, heater 및 failure alert가 매일 작동함을 확인되고,\n2) 가시 습기(visible moisture) 또는 알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않는다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 로그에 기입.\n2. 출발 승인은 MCC에 연락.\n3. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 30-31-04C Angle of Attack (AOA) Probes Heating (CAPT inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 30-31-00-040-002 참조 (정비 절차)"
+},
+"30-31-05A": {
+"h": "feafe7ff",
+"ko": "하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"30-31-05B": {
+"h": "c9e80472",
+"ko": "(o) 가시 습기(visible moisture) 또는 알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않으면 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 30-31-05B TAT Probes Heating (Both inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"30-42-01A": {
+"h": "dcadfa50",
+"ko": "(o) (m) 다음 조건이면 하나가 작동 불능이어도 된다:\n1) 알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않고,\n2) 작동하는 computer와 연계된 front window 및 sliding window의 모든 heater와 failure alert가 매일 작동함을 확인된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 로그에 기입.\n2. CAT II/III 운항 등급 하향 관리를 위해 MEL item 22-00-00을 적용.\n3. 출발 승인은 MCC에 연락.\n4. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 30-42-01A Window Heat Computer 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 30-42-00-040-001 참조 (정비 절차)"
+},
+"30-42-02A": {
+"h": "e42f4401",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"30-42-03A": {
+"h": "43a51717",
+"ko": "(o) 예정 경로상 알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않으면 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. CAT II/III 운항 등급 하향 관리를 위해 MEL item 22-00-00을 적용.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 30-42-03A Windshield Heating 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"30-42-03B": {
+"h": "d49126e9",
+"ko": "(o) 운항 고도를 FL230으로 제한하면 하나가 ISB(CEO는 ref. 56-1022, NEO는 ref. 56-1023)의 합격 기준(passed criteria)을 넘어 열화(degraded)된 상태여도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n2. ISB 56-1022 또는 56-1023 확인은 MCC에 연락.\n참조\n(o) OpsProc 30-42-03B Windshield Heating (For SGS Windshield: ISB (ref. 56-1022 or 56-1023) findings - Degradation out of allowance) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"30-42-04A": {
+"h": "8a3f876b",
+"ko": "PROBES/WINDOW HEAT system을 수동으로 선택하면 automatic control(자동 제어)이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"30-42-05A": {
+"h": "8b869c39",
+"ko": "작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"30-45-01A": {
+"h": "1e1daf2d",
+"ko": "PM side의 하나가 3개 비행(three flights) 동안 작동 불능이어도 된다.\nNote: left side는 작동 가능해야 한다.\nNote: 기장 훈련(Captain's training) 또는 check flight의 경우 양쪽 모두 작동 가능해야 한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 조치)\n1. Defer Control(이연 관리)은 MCC에 연락."
+},
+"30-45-01B": {
+"h": "d901b494",
+"ko": "(o) 다음 조건이면 하나 또는 둘 다 작동 불능이어도 된다:\n1) 출발 및 도착 지역(departure and arrival areas)에서 강수(precipitation) 중에 항공기를 운항하지 않고,\n2) approach minima가 wiper 사용을 요구하지 않는다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. CAT II/III 운항 등급 하향 관리를 위해 MEL item 22-00-00을 적용.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 30-45-01B Windshield Wiper 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"30-45-01C": {
+"h": "2e185eb3",
+"ko": "(o) 다음 조건이면 하나 또는 둘 다 작동 불능이어도 된다:\n1) 해당 wiper를 deactivate(비활성화)하고,\n2) 출발 및 도착 지역(departure and arrival areas)에서 강수(precipitation) 중에 항공기를 운항하지 않고,\n3) approach minima가 wiper 사용을 요구하지 않는다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. CAT II/III 운항 등급 하향 관리를 위해 MEL item 22-00-00을 적용.\n2. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 30-45-01C Windshield Wiper continuously running 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"30-45-01D": {
+"h": "d0587a2b",
+"ko": "해당 rain repellent system이 장착되어 있고 작동하면 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락."
+},
+"30-45-02A": {
+"h": "ab0c52b7",
+"ko": "해당 wiper를 전방 시야를 가리지 않는 위치에 둘 수 있으면 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"30-45-02B": {
+"h": "34328859",
+"ko": "(m) 해당 wiper를 장탈(remove)하면 하나 또는 둘 다 작동 불능이어도 된다.\nItem 30-45-01 Windshield Wiper 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM 30-45-00-040-003 참조 (정비 절차)"
+},
+"30-45-03A": {
+"h": "bc493ce8",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: 장착되어 있으나 의도적으로 deactivate(비활성화)한 경우에는 logbook 기입이 필요 없다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"30-71-01A": {
+"h": "42c9b8c2",
+"ko": "(m) 다음 조건이면 하나 또는 둘 다 작동 불능이어도 된다:\n1) 해당 galley와 lavatory를 사용하지 않고,\n2) 해당 lavatory water supply(급수)를 닫는다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 30-71-00-040-001 참조 (정비 절차)"
+},
+"30-71-01B": {
+"h": "c456d0af",
+"ko": "(m) 다음 조건이면 하나 이상이 작동 불능이어도 된다:\n1) 해당 galley와 lavatory를 사용하지 않고,\n2) 해당 lavatory water supply(급수)를 닫는다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 30-71-00-040-001 참조 (정비 절차)"
+},
+"30-81-01A": {
+"h": "31d281b8",
+"ko": "(o) 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 30-81-01A Ice Detection System 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"30-81-02A": {
+"h": "fcef4903",
+"ko": "AFM/CDL-30-01 Icing Indicator 참조"
+},
+"30-81-03A": {
+"h": "aba66c67",
+"ko": "(o) 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 30-81-03A Lighting of External Visual Icing Indicator 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"30-01-01-01A": {
+"h": "c2672222",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"30-01-01-02A": {
+"h": "c2672222",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"30-01-01-03A": {
+"h": "ee943422",
+"ko": "(o) BLEED SD page에서 anti-ice “arrow” symbol(화살표 기호)이 작동하는 조건이면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 30-01-01-03A ANTI ICE WING pb-sw FAULT light 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"30-01-01-03B": {
+"h": "c0de1ee3",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) wing anti-ice control valve를 닫힌 위치로 비활성화(deactivate)하고 작동 불능으로 간주한다.\nItem 30-11-01 Wing Anti-Ice Control Valve 참조\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 30-01-01-03B ANTI ICE WING pb-sw FAULT light (Non EDTO flight) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 30-11-00-040-002 참조 (정비 절차)"
+},
+"30-01-01-04A": {
+"h": "59ce1d49",
+"ko": "작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"30-01-02-01A": {
+"h": "cd780ec3",
+"ko": "관련 low speed function(저속 기능)이 작동하는 조건이면 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"30-01-02-02A": {
+"h": "ebce80ec",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"30-01-02-03A": {
+"h": "7c938124",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+}
+},
+"ops": {
+"30-09-01A": {
+"h": "8168990c",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nT/O 및 Landing performance 산출 시, 관련 Flight Manual performance penalty(성능 감소분)를 OCTOPUS 프로그램으로 산출한다.\nNote: Airbus EFB PERF 애플리케이션(FlySmart+)에서는 MEL item \"ENG. A-ICE VALVE POSITION STUCK OPEN\"에 해당한다.\n사용할 수 없으면 dispatcher에게 이륙 및 착륙 performance data를 요청한다.\nFlight planning(비행계획):\n연료 소모량을 다음만큼 증가시킨다:\nZp (ft) — [ENG 1 CTL FAULT와 ENG 2 CTL FAULT 둘 다 표시] / [ENG 1(2) CTL FAULT 하나만 표시]\n5 000 — 2.1 % / 1.1 %\n10 000 — 2.0 % / 1.0 %\n15 000 — 2.1 % / 1.1 %\n20 000 — 2.1 % / 1.0 %\n25 000 — 4.7 % / 2.4 %\n30 000 — 4.9 % / 2.5 %\n35 000 — 2.0 % / 1.0 %\n40 000 — 1.8 % / 0.9 %\nSingle engine cruise(단발 순항):\ndrift down ceiling을 다음만큼 낮춘다:\nOAT ≤ ISA + 5 °C일 때 45 ft\nOAT > ISA + 5 °C일 때 1 180 ft\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락.\nGENERAL INFORMATION (일반 정보)\nENG 1(2) A.ICE VALVE OPEN subtitle과 함께 ANTI-ICE ENG 1(2) CTL FAULT alert가 EWD에 표시되면 양쪽 엔진 모두 더 높은 idle speed로 설정된다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nANTI ICE ENG (해당 엔진) pb-sw ..... ON"
+},
+"30-09-01B": {
+"h": "e56fef34",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\n예정 경로상 알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락."
+},
+"30-11-01A": {
+"h": "f6e25c93",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nFlight planning(비행계획):\n연료 소모량을 다음만큼 증가시킨다:\nZp (ft): 5 000 / 10 000 / 15 000 / 20 000 / 25 000 / 30 000 / 35 000 / 40 000\nFuel penalties (%): 3.5 % / 2.5 % / 2.5 % / 3.0 % / 3.5 % / 3.5 % / 3.5 % / 3.5 %\nSingle engine cruise(단발 순항):\ndrift down ceiling을 다음만큼 낮춘다:\nOAT ≤ ISA + 20 °C일 때 1 500 ft\nOAT > ISA + 20 °C일 때 2 700 ft\nApproach climb performance:\nengine bleed air supply system이 닫혀 있을 때:\npenalty 없음.\nengine bleed air supply system이 열려 있을 때:\nmaximum climb limiting weight를 다음만큼 감소시킨다:\n2 300 kg (5 100 lb)\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락.\nDURING COCKPIT PREPARATION (조종실 준비 중)\n정비 절차 적용 후:\nBLEED SD page에서 anti-ice arrow symbol(화살표 기호)이 표시되는지 확인한다.\nanti-ice arrow symbol은 amber 또는 green으로 표시될 수 있다.\nWING A.ICE L(R) HI PR alert가 EWD에 표시되어서는 안 된다.\nBEFORE ENGINE START (엔진 시동 전)\n- APU bleed를 사용할 때는 엔진 시동 전 X BLEED selector를 SHUT에 유지한다.\n- 엔진 1을 시동한다.\n엔진 1 시동 중 X BLEED selector를 SHUT에 유지한다.\n- 엔진 2 시동에는 CROSS BLEED ENGINE START 절차(FCOM/PRO-NOR-SUP-ENG Crossbleed Engine Start 참조)를 사용한다.\n- EWD에 표시되는 WING A.ICE R VALVE OPEN alert 관련 절차를 적용한다.\nAFTER TAKEOFF (이륙 후)\n1 500 ft 이상에서:\nEWD에 표시되는 WING A.ICE R VALVE OPEN 절차의 automatic recall을 적용한다.\nIN FLIGHT (비행 중)\n비행 중 wing anti ice를 작동하면 EWD에 WING A.ICE R HI PR alert가 표시될 수 있다.\nBleed Air Supply System이 고장 난 경우:\n양쪽 PACK이 모두 작동하면:\nPACK (해당 쪽) pb-sw ..... OFF\nAFTER LANDING (착륙 후)\nEWD에 표시되는 WING A.ICE R VALVE OPEN 절차의 automatic recall을 적용한다."
+},
+"30-11-01B": {
+"h": "c67c713f",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\n예정 경로상 알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락."
+},
+"30-21-01C": {
+"h": "d1b273dd",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nOAT가 ISA+35 °C 미만이어야 한다.\nT/O 및 Landing performance 산출 시, 관련 Flight Manual performance penalty(성능 감소분)를 OCTOPUS 프로그램으로 산출한다.\nNote: Airbus EFB PERF 애플리케이션(FlySmart+)에서는 MEL item \"ENG. A-ICE VALVE POSITION STUCK OPEN\"에 해당한다.\n사용할 수 없으면 dispatcher에게 이륙 및 착륙 performance data를 요청한다.\nFlight planning(비행계획):\n연료 소모량을 다음만큼 증가시킨다:\nZp (ft) — [valve 2개 OPEN 고착] / [valve 1개 OPEN 고착]\n5 000 — 4.0 % / 2.0 %\n10 000 — 4.0 % / 2.0 %\n15 000 — 3.5 % / 2.0 %\n20 000 — 3.5 % / 2.0 %\n25 000 — 3.5 % / 2.0 %\n30 000 — 3.5 % / 2.0 %\n35 000 — 3.5 % / 2.0 %\n40 000 — 3.0 % / 1.5 %\nSingle engine cruise(단발 순항):\ndrift down ceiling을 다음만큼 낮춘다:\nOAT ≤ ISA + 15 °C일 때 1 100 ft\nOAT > ISA + 15 °C일 때 3 300 ft\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락.\nGENERAL INFORMATION (일반 정보)\nengine anti-ice valve가 열린 위치에서 작동 불능이면 양쪽 엔진 모두 더 높은 idle speed로 설정된다.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nANTI ICE ENG (해당 엔진) pb-sw ..... ON"
+},
+"30-21-01A": {
+"h": "15f160ad",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\n알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락."
+},
+"30-21-01D": {
+"h": "15f160ad",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\n알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락."
+},
+"30-31-01A": {
+"h": "620b78df",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\n비행 전 CAPT(F/O)(STBY) probe heating이 작동함을 확실히 확인한 경우에 한해, CAPT(F/O)(STBY) probe heating과 연계된 ANTI ICE CAPT(F/O)(STBY) PROBES alert는 무시하고 clear한다."
+},
+"30-31-01B": {
+"h": "67e955c7",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nAIR DATA selector ..... F/O 3\nIN FLIGHT (비행 중)\n결빙 조건(icing conditions)에 들어가면:\nADR 2 pb-sw ..... OFF\nCAUTION: ADR 2를 OFF로 놓으면,\n- CONF 1+F 이륙은 허용되지 않으며,\n- maximum landing capability는 CAT 3 SINGLE이다.\nADR 2 pb-sw는 남은 비행 동안 계속 OFF로 두어야 한다.\nCAPT alpha probe heater가 고장 난 경우:\nANTI ICE CAPT+F/O AOA ECAM 절차를 적용한다.\nSTBY alpha probe heater가 고장 난 경우:\nANTI ICE F/O+STBY AOA ECAM 절차를 적용한다."
+},
+"30-31-01C": {
+"h": "11f2fadd",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n가시 습기(visible moisture) 또는 알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않는다.\ntaxiway 또는 runway가 물이나 slush로 오염된 경우 출발 공항의 OAT가 5 °C를 초과해야 한다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락.\nIN FLIGHT (비행 중)\nCAPT alpha probe heater가 고장 난 경우:\nANTI ICE CAPT+STBY AOA ECAM 절차를 적용한다.\nF/O alpha probe heater가 고장 난 경우:\nANTI ICE F/O+STBY AOA ECAM 절차를 적용한다."
+},
+"30-31-02A": {
+"h": "2b46207b",
+"ko": "OpsProc 30-31-01B PHC (F/O PHC inoperative) 참조"
+},
+"30-31-02B": {
+"h": "3f4e8ce1",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n가시 습기(visible moisture) 또는 알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락."
+},
+"30-31-02C": {
+"h": "3f4e8ce1",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n가시 습기(visible moisture) 또는 알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락."
+},
+"30-31-03B": {
+"h": "af385334",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\ntaxiway 또는 runway가 물이나 slush로 오염된 경우 출발 공항의 OAT가 5 °C를 초과해야 한다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락."
+},
+"30-31-03C": {
+"h": "2b46207b",
+"ko": "OpsProc 30-31-01B PHC (F/O PHC inoperative) 참조"
+},
+"30-31-03D": {
+"h": "a0c7638c",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\ntaxiway 또는 runway가 물이나 slush로 오염된 경우 출발 공항의 OAT가 5 °C를 초과해야 한다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락.\nON GROUND OR IN FLIGHT (지상 또는 비행 중)\n출발(dispatch)을 위해, 작동 불능인 CAPT static ports heater와 연계된 ANTI ICE CAPT L(R) STAT alert는 무시하고 clear한다."
+},
+"30-31-04A": {
+"h": "b1349cb0",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n비행 중 결빙 조건(icing conditions)에 들어가면:\nmaximum landing capability가 CAT III(Fail-passive)로 하향될 수 있다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락.\nDURING COCKPIT PREPARATION (조종실 준비 중)\nAIR DATA selector ..... F/O 3\nIN FLIGHT (비행 중)\nCAPT alpha probe heater가 고장 난 경우:\nANTI ICE CAPT+F/O AOA ECAM 절차를 적용한다.\nSTBY alpha probe heater가 고장 난 경우:\nANTI ICE F/O+STBY AOA ECAM 절차를 적용한다."
+},
+"30-31-04B": {
+"h": "4bbe9e33",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n비행 중 결빙 조건(icing conditions)에 들어가면:\nmaximum landing capability가 CAT III(Fail-passive)로 하향될 수 있다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락.\nIN FLIGHT (비행 중)\nCAPT alpha probe heater가 고장 난 경우:\nANTI ICE CAPT+STBY AOA ECAM 절차를 적용한다.\nF/O alpha probe heater가 고장 난 경우:\nANTI ICE F/O+STBY AOA ECAM 절차를 적용한다."
+},
+"30-31-04C": {
+"h": "e61f577a",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n가시 습기(visible moisture) 또는 알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락.\nDURING COCKPIT PREPARATION (조종실 준비 중)\n출발(dispatch)을 위해, 작동 불능인 CAPT AOA probes heating과 연계된 ANTI ICE CAPT AOA alert는 무시하고 clear한다.\nIN FLIGHT (비행 중)\nF/O alpha probe heater가 고장 난 경우:\nANTI ICE CAPT+F/O AOA ECAM 절차를 적용한다.\nSTBY alpha probe heater가 고장 난 경우:\nANTI ICE CAPT+STBY AOA ECAM 절차를 적용한다."
+},
+"30-31-05B": {
+"h": "3e84dded",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n가시 습기(visible moisture) 또는 알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락."
+},
+"30-42-01A": {
+"h": "94fefdd2",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n가시 습기(visible moisture) 또는 알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않는다.\nCAPT side가 작동 불능일 때:\nmaximum landing capability는 CAT I이다.\nF/O side가 작동 불능일 때:\nmaximum landing capability는 CAT III(Fail-operational)이다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락."
+},
+"30-42-03A": {
+"h": "1831b6d9",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n가시 습기(visible moisture) 또는 알려지거나 예보된 결빙 조건(known or forecast icing conditions)에서 항공기를 운항하지 않는다.\nCAPT side가 작동 불능일 때:\nmaximum landing capability는 CAT I이다.\nF/O side가 작동 불능일 때:\nmaximum landing capability는 CAT III(Fail-operational)이다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락."
+},
+"30-42-03B": {
+"h": "8190a631",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n운항 고도를 FL230으로 제한한다\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락."
+},
+"30-45-01B": {
+"h": "ae56e78e",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n출발 및 도착 지역(departure and arrival areas)에서 강수(precipitation) 중에 항공기를 운항하지 않는다.\nCAPT side의 wiper와 rain repellent가 작동 불능이거나 deactivate(비활성화)된 경우:\nmaximum landing capability는 CAT I이다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락."
+},
+"30-45-01C": {
+"h": "0526c7aa",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nCAPT side에서 wiper가 deactivate(비활성화)되고 rain repellent가 작동 불능이거나 미장착인 경우:\nmaximum landing capability는 CAT I이다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락.\nFLIGHT PREPARATION (비행 준비)\nCAPT side의 windshield wiper가 계속 작동(continuously running)하면:\nANTI ICE/WIPER/CAPT (122VU X12) C/B ..... PULL\nwiper가 운항승무원의 시야를 확보하는 위치에 있을 때 C/B를 뽑는다.\nF/O side의 windshield wiper가 계속 작동하면:\nANTI ICE/F/O/WIPER (122VU W12) C/B ..... PULL\nwiper가 운항승무원의 시야를 확보하는 위치에 있을 때 C/B를 뽑는다."
+},
+"30-81-01A": {
+"h": "ce9b0568",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nIN FLIGHT (비행 중)\nwindshield 주변과 wiper 위의 착빙 여부를 주기적으로 확인한다."
+},
+"30-81-03A": {
+"h": "309a1abb",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nIN FLIGHT (비행 중)\n야간 운항 중 결빙 조건(icing conditions)이 예상되면:\nengine anti-ice와 wing anti-ice를 켠다."
+},
+"30-01-01-03A": {
+"h": "76a46cf1",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nDURING COCKPIT PREPARATION (조종실 준비 중)\nanti-ice \"arrow\" symbol(화살표 기호) 점검:\n‐ bleed air supply system을 사용할 수 있는지 확인한다.\n‐ ANTI ICE WING pb-sw ..... ON\n‐ BLEED SD page에서 anti-ice \"arrow\" symbol이 amber로 표시되었다가 30초 후에 사라지는지 확인한다.\n‐ ANTI ICE WING pb-sw ..... Off"
+},
+"30-01-01-03B": {
+"h": "85c2f308",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher에게 연락."
+}
+}
+}

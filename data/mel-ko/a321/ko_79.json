@@ -1,0 +1,94 @@
+{
+"items": {
+"79-07-01A": {
+"h": "abca31a3",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+},
+"79-07-02C": {
+"h": "ebf83756",
+"ko": "(o) 다음 조건이면 하나가 작동 불능 상태로 운항할 수 있다:\n1) EDTO를 수행하지 않고,\n2) 해당 ENG 1(2) OIL LO PR alert가 작동 가능하고,\n3) ENGINE SD page에서 해당 oil quantity(오일량) 지시가 작동 가능하다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 79-07-02C Oil Pressure Indication and Advisory on the ENGINE SD page 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"79-07-03A": {
+"h": "7599c840",
+"ko": "(m) 매 비행 전 해당 oil quantity(오일량)를 점검하는 조건이면 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer placard를 사용하고 log entry(정비 기록)를 작성한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 79-31-00-040-041 (CEO) 또는 79-31-00-040-803 (NEO) 참조 (정비 절차)"
+},
+"79-07-04A": {
+"h": "b6b92b1e",
+"ko": "반드시 작동 가능해야 한다."
+},
+"79-09-01A": {
+"h": "f4702bd0",
+"ko": "(o) 하나 또는 둘 다 표시된 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 79-09-01A ENG 1(2) OIL LO PR Alert 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"79-09-02A": {
+"h": "74c05bff",
+"ko": "(m) 다음 조건이면 하나가 표시된 상태로 운항할 수 있다:\n1) troubleshooting(고장 탐구)으로 해당 alert가 거짓(false)임이 확인되고,\n2) 해당 filter를 첫 MEL dispatch(출발) 전에 교체하고 이후 매 150 비행시간마다 교체하고,\n3) 해당 magnetic chip detector를 filter 교체 시 점검하여 chip(금속 조각)이 발견되지 않아야 한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer placard를 사용하고 log entry(정비 기록)를 작성한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 79-35-00-040-809 참조 (정비 절차)"
+},
+"79-09-02D": {
+"h": "0e7faffa",
+"ko": "(m) 다음 조건이면 하나가 표시된 상태로 운항할 수 있다:\n1) troubleshooting(고장 탐구)으로 해당 alert가 거짓(false)임이 확인되고,\n2) 해당 filter를 첫 MEL dispatch(출발) 전에 교체하고 이후 매 150 비행시간마다 교체하고,\n3) 해당 Oil Debris Monitoring System(오일 이물질 감시 시스템)이 filter 교체 시 작동 가능한지 확인하고,\n4) 이전 비행 중 EWD에 해당 ENG 1(2) OIL CHIP DETECTED가 표시되지 않았어야 한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer placard를 사용하고 log entry(정비 기록)를 작성한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 79-35-00-040-808 참조 (정비 절차)"
+},
+"79-09-02E": {
+"h": "1be7a6db",
+"ko": "(m) 최대 3일 또는 30 비행시간 중 먼저 도래하는 시점까지 다음 조건이면 하나가 표시된 상태로 운항할 수 있다:\n1) troubleshooting(고장 탐구)으로 해당 alert가 거짓(false)임이 확인되고,\n2) 이전 비행 중 EWD에 해당 ENG 1(2) OIL FILTER PARTLY CLOGGED가 표시되지 않았고,\n3) 해당 magnetic chip detector를 점검하여 chip(금속 조각)이 발견되지 않아야 한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 79-35-00-040-807 참조 (정비 절차)"
+},
+"79-09-02F": {
+"h": "12c186e5",
+"ko": "(m) 최대 3일 또는 30 비행시간 중 먼저 도래하는 시점까지 다음 조건이면 하나가 표시된 상태로 운항할 수 있다:\n1) troubleshooting(고장 탐구)으로 해당 alert가 거짓(false)임이 확인되고,\n2) 이전 비행 중 EWD에 해당 ENG 1(2) OIL FILTER PARTLY CLOGGED가 표시되지 않았고,\n3) 이전 비행 중 EWD에 해당 ENG 1(2) OIL CHIP DETECTED가 표시되지 않았고,\n4) 해당 Oil Debris Monitoring System(오일 이물질 감시 시스템)이 작동 가능한지 확인한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 79-35-00-040-806 참조 (정비 절차)"
+},
+"79-09-03A": {
+"h": "75c2267b",
+"ko": "ENG 1(2) BEARING 4 OIL SYS alert에 HI PRESS 메시지가 동반되지 않는 조건이면 하나 또는 둘 다 3일 동안 표시된 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE (정비 조치)>\n1. Defer Control(이연 관리)은 MCC에 연락."
+},
+"79-09-05A": {
+"h": "95a5a936",
+"ko": "이전 비행 중 EWD에 해당 ENG 1(2) OIL FILTER PARTLY CLOGGED가 표시되지 않았던 조건이면, 하나가 최대 3일 또는 30 비행시간 중 먼저 도래하는 시점까지 표시된 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE (정비 조치)>\n1. Defer Control(이연 관리)은 MCC에 연락."
+},
+"79-09-05B": {
+"h": "03bfb550",
+"ko": "(m) 다음 조건이면 하나가 표시된 상태로 운항할 수 있다:\n1) 해당 filter를 첫 MEL dispatch(출발) 전에 교체하고 이후 매 150 비행시간마다 교체하고,\n2) 해당 magnetic chip detector를 filter 교체 시 점검하여 chip(금속 조각)이 발견되지 않아야 한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer placard를 사용하고 log entry(정비 기록)를 작성한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 79-35-00-040-809 참조 (정비 절차)"
+},
+"79-09-05C": {
+"h": "bba74c8f",
+"ko": "(m) 다음 조건이면 하나가 표시된 상태로 운항할 수 있다:\n1) 해당 filter를 첫 MEL dispatch(출발) 전에 교체하고 이후 매 150 비행시간마다 교체하고,\n2) 해당 Oil Debris Monitoring System(오일 이물질 감시 시스템)이 filter 교체 시 작동 가능한지 확인하고,\n3) 이전 비행 중 EWD에 해당 ENG 1(2) OIL CHIP DETECTED가 표시되지 않았어야 한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer placard를 사용하고 log entry(정비 기록)를 작성한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 79-35-00-040-808 참조 (정비 절차)"
+},
+"79-09-06A": {
+"h": "a74a991e",
+"ko": "EWD에 표시되어서는 안 된다. (표시되면 출발 불가)"
+},
+"79-09-07A": {
+"h": "11c3edb8",
+"ko": "하나가 최대 3일 또는 30 비행시간 중 먼저 도래하는 시점까지 표시된 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. Defer Control(이연 관리)은 MCC에 연락."
+},
+"79-09-07B": {
+"h": "74c05bff",
+"ko": "(m) 다음 조건이면 하나가 표시된 상태로 운항할 수 있다:\n1) troubleshooting(고장 탐구)으로 해당 alert가 거짓(false)임이 확인되고,\n2) 해당 filter를 첫 MEL dispatch(출발) 전에 교체하고 이후 매 150 비행시간마다 교체하고,\n3) 해당 magnetic chip detector를 filter 교체 시 점검하여 chip(금속 조각)이 발견되지 않아야 한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer placard를 사용하고 log entry(정비 기록)를 작성한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 79-35-00-040-809 참조 (정비 절차)"
+},
+"79-09-07C": {
+"h": "ac857ec5",
+"ko": "(m) 다음 조건이면 하나가 표시된 상태로 운항할 수 있다:\n1) troubleshooting(고장 탐구)으로 해당 alert가 거짓(false)임이 확인되고,\n2) 해당 filter를 첫 MEL dispatch(출발) 전에 교체하고 이후 매 150 비행시간마다 교체하고,\n3) 해당 Oil Debris Monitoring System(오일 이물질 감시 시스템)이 filter 교체 시 작동 가능한지 확인하고,\n4) 이전 비행 중 EWD에 해당 ENG 1(2) OIL CHIP DETECTED가 표시되지 않았어야 한다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비 조치)>\n1. 반복 정비 조치 필요 - 노란색 defer placard를 사용하고 log entry(정비 기록)를 작성한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 79-35-00-040-808 참조 (정비 절차)"
+},
+"79-20-01A": {
+"h": "751bf306",
+"ko": "(o) inner tank(내측 탱크)의 연료 온도가 -20 °C보다 높은지 확인하는 조건이면 하나 또는 둘 다 open(열림) 위치에서 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 79-20-01A Air Cooled Oil Cooler (ACOC) Modulating Valve 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"79-40-01A": {
+"h": "9b6051fe",
+"ko": "Item 73-10-01 Fuel Return Valve 참조"
+}
+},
+"ops": {
+"79-07-02C": {
+"h": "81c05b84",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nFlight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher(운항관리사)에게 연락한다."
+},
+"79-09-01A": {
+"h": "c2036609",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nAFTER ENGINE START (엔진 시동 후)\n양쪽 엔진 모두 해당되는 경우:\nRCDR GND CTL pb-sw(푸시버튼 스위치) .......... CHECK ON (ON인지 확인)"
+},
+"79-20-01A": {
+"h": "3dc253be",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nBEFORE TAKEOFF (이륙 전)\nFUEL SD page에서 inner tank(내측 탱크)의 연료 온도가 -20 °C보다 높은지 확인한다."
+}
+}
+}

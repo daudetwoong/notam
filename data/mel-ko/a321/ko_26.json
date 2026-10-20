@@ -1,0 +1,318 @@
+{
+"items": {
+"26-00-01A": {
+"h": "e38f6cbf",
+"ko": "SMOKE MAINTENANCE 메시지가 STATUS SD page에 표시되어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"26-12-01A": {
+"h": "7a25a7e3",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 120분을 초과하는 EDTO를 수행하지 않고,\n2) 관련 detection loop B가 작동하고,\n3) 매 비행 전에 engine fire test를 실시한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 26-12-01A Engine Fire Detection Loop A on the Engine 1 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-12-02A": {
+"h": "aec0dcc6",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 관련 detection loop B가 작동하고,\n2) 매 비행 전에 engine fire test를 실시한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 26-12-02A Engine Fire Detection Loop A on the Engine 2 or Loop B on the Engine 1 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-12-03A": {
+"h": "cd0e7834",
+"ko": "(o) 매 비행 전에 engine fire test를 실시한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 26-12-03A Engine Fire Detection Loop A on the Engine 2 or Loop B on the Engine 1 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-12-04A": {
+"h": "3e10b0c5",
+"ko": "(o) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 120분을 초과하는 EDTO를 수행하지 않고,\n2) 매 비행 전에 engine fire test를 실시한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 26-12-04A Engine Fire Detection Loop B on the Engine 2 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-12-05A": {
+"h": "cc23b472",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"26-13-01A": {
+"h": "607c992d",
+"ko": "(o) 다음 조건이면 APU fire detection loop A가 작동 불능이어도 된다:\n1) 120분을 초과하는 EDTO를 수행하지 않고,\n2) 매 APU 시동 전에 APU fire test를 실시하고,\n3) 지상에서 APU 작동 중에는 조종실에서 APU 상태를 지속적으로 감시한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 26-13-01A APU Fire Detection Loop 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-13-01B": {
+"h": "82af28a5",
+"ko": "(o) 다음 조건이면 APU fire detection loop B가 작동 불능이어도 된다:\n1) 120분을 초과하는 EDTO를 수행하지 않고,\n2) 매 APU 시동 전에 APU fire test를 실시한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 26-13-01B APU Fire Detection Loop 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-13-01C": {
+"h": "7fd8d597",
+"ko": "(o) 다음 조건이면 두 loop 모두 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) APU를 비활성화(deactivate)한다.\nItem 49-10-01C Power Plant (APU) 참조\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 26-13-01C APU Fire Detection Loop (Both loops inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-15-01A": {
+"h": "f5c4d7c4",
+"ko": "(o) EDTO를 수행하지 않는다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 26-15-01A Avionics Smoke Detection System 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-16-01A": {
+"h": "6666152a",
+"ko": "(o) FWD cargo compartment가 비어 있거나 인화성(flammable) 또는 가연성(combustible) 물질을 싣지 않는다면, 하나 또는 두 cavity(구역)의 detector 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 26-16-01A Smoke Detector in the FWD or the AFT and the BULK Cargo Compartment 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-16-02A": {
+"h": "ab3371e7",
+"ko": "(o) AFT 및 BULK cargo compartment가 비어 있거나 인화성(flammable) 또는 가연성(combustible) 물질을 싣지 않는다면, 하나 이상의 cavity(구역)의 detector 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 26-16-02A Smoke Detector in the FWD or the AFT and the BULK Cargo Compartment 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-17-01A": {
+"h": "08c8e27b",
+"ko": "(o) 다음 조건이면 하나 이상이 작동 불능이어도 된다:\n1) 해당 lavatory의 소화 계통(fire extinguishing system)이 작동하고,\n2) 해당 lavatory에 연기가 없는지 주기적으로 확인하는 절차를 사용한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 26-17-01A Lavatory Smoke Detection System 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-17-01B": {
+"h": "d561bdc3",
+"ko": "다음 조건이면 하나 이상이 작동 불능이어도 된다:\n1) 해당 lavatory의 waste receptacle(쓰레기통)을 비우고,\n2) 해당 lavatory 도어를 닫아 잠그고 작동 불능(inoperative) 플래카드를 붙이고,\n3) 해당 lavatory를 보관 용도나 다른 어떤 용도로도 사용하지 않는다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"26-18-01A": {
+"h": "300d9f76",
+"ko": "(o) Video Control Center (VCC)에 연기가 없는지 30분마다 확인하는 절차를 사용한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 26-18-01A Video Control Center Standalone Smoke Detection System (If Installed) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-18-01B": {
+"h": "4f23acc2",
+"ko": "(m) Video Control Center (VCC)를 비활성화(deactivate)한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 26-18-00-040-801 참조 (정비 절차)"
+},
+"26-22-01A": {
+"h": "b6bf4e35",
+"ko": "지상에서 APU 작동 중 조종실에서 APU 상태를 지속적으로 감시한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"26-22-01B": {
+"h": "6a11e866",
+"ko": "APU를 비활성화(deactivate)한다면 작동 불능 상태로 운항할 수 있다.\nItem 49-10-01C Power Plant (APU) 참조"
+},
+"26-22-02A": {
+"h": "4c7987dc",
+"ko": "(m) 매일 첫 비행 전에 APU fire extinguisher bottle pressure switch가 작동함을 확인한다면 손상되거나 없어도(missing) 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE>\n1. 반복 정비 조치(repetitive maintenance action) 필요 - 황색 defer placard를 사용하고 log entry를 작성한다.\n2. Defer Control은 MCC에 연락.\n참조\n(m) AMM Task 26-22-00-040-007 참조 (정비 절차)"
+},
+"26-22-02B": {
+"h": "e521bcf8",
+"ko": "APU를 비활성화(deactivate)한다면 작동 불능 상태로 운항할 수 있다.\nItem 49-10-01C Power Plant (APU) 참조"
+},
+"26-22-03A": {
+"h": "adcfc66e",
+"ko": "(m) 매일 첫 비행 전에 남은 squib(소화기 점화 장치)가 작동함을 확인한다면 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE>\n1. 반복 정비 조치(repetitive maintenance action) 필요 - 황색 defer placard를 사용하고 log entry를 작성한다.\n2. Defer Control은 MCC에 연락.\n참조\n(m) AMM Task 26-22-00-040-008 참조 (정비 절차)"
+},
+"26-22-03B": {
+"h": "9aa46d8e",
+"ko": "APU를 비활성화(deactivate)한다면 둘 다 작동 불능이어도 된다.\nItem 49-10-01C Power Plant (APU) 참조"
+},
+"26-22-04A": {
+"h": "93882a22",
+"ko": "APU를 비활성화(deactivate)한다면 작동 불능 상태로 운항할 수 있다.\nItem 49-10-01C Power Plant (APU) 참조"
+},
+"26-22-05A": {
+"h": "4d14ca2d",
+"ko": "지상에서의 APU 자동 소화 제어(APU automatic fire extinguishing control on ground)를 작동 불능으로 간주하면 작동 불능 상태로 운항할 수 있다.\nItem 26-22-01 APU Automatic Fire Extinguishing Control on Ground 참조"
+},
+"26-22-06A": {
+"h": "8a3cce09",
+"ko": "(m) 지상에서의 APU 자동 소화 제어(APU automatic fire extinguishing control on ground)가 작동함을 확인한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 26-22-00-040-010 참조 (정비 절차)"
+},
+"26-22-06B": {
+"h": "ccdf083c",
+"ko": "지상에서의 APU 자동 소화 제어(APU automatic fire extinguishing control on ground)를 작동 불능으로 간주하면 작동 불능 상태로 운항할 수 있다.\nItem 26-22-01 APU Automatic Fire Extinguishing Control on Ground 참조"
+},
+"26-22-07A": {
+"h": "de138fff",
+"ko": "(m) 지상에서의 APU 자동 소화 제어(APU automatic fire extinguishing control on ground)가 작동함을 확인한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 26-22-00-040-011 참조 (정비 절차)"
+},
+"26-22-07B": {
+"h": "deb01a2f",
+"ko": "지상에서의 APU 자동 소화 제어(APU automatic fire extinguishing control on ground)를 작동 불능으로 간주하면 작동 불능 상태로 운항할 수 있다.\nItem 26-22-01 APU Automatic Fire Extinguishing Control on Ground 참조"
+},
+"26-23-01A": {
+"h": "18c217c3",
+"ko": "(o) cargo compartment가 비어 있거나 인화성(flammable) 또는 가연성(combustible) 물질을 싣지 않는다면 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 26-23-01A Cargo Agent Bottle (No flammable or combustible materials) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-23-01C": {
+"h": "98221731",
+"ko": "(o) EDTO를 수행하지 않는다면 agent bottle 2만 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 26-23-01C Cargo Agent Bottle (Non EDTO flight) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-23-02A": {
+"h": "078bc708",
+"ko": "(o) FWD cargo compartment가 비어 있거나 인화성(flammable) 또는 가연성(combustible) 물질을 싣지 않는다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 26-23-02A Squib of the FWD or the AFT/BULK Cargo Bottle 1 (No flammable or combustible materials) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-23-03A": {
+"h": "7533f293",
+"ko": "(o) AFT 및 BULK cargo compartment가 비어 있거나 인화성(flammable) 또는 가연성(combustible) 물질을 싣지 않는다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 26-23-03A Squib of the FWD or the AFT/BULK Cargo Bottle 1 (No flammable or combustible materials) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-23-04A": {
+"h": "5f513255",
+"ko": "(o) FWD cargo compartment가 비어 있거나 인화성(flammable) 또는 가연성(combustible) 물질을 싣지 않는다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 26-23-04A Squib of the FWD or the AFT/BULK Cargo Bottle 2 (No flammable or combustible materials) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-23-04B": {
+"h": "ed1514ca",
+"ko": "(o) EDTO를 수행하지 않는다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 26-23-04B Squib of the FWD or the AFT/BULK Cargo Bottle 2 (Non EDTO flight) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-23-05A": {
+"h": "eca2ea61",
+"ko": "(o) AFT 및 BULK cargo compartment가 비어 있거나 인화성(flammable) 또는 가연성(combustible) 물질을 싣지 않는다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 26-23-05A Squib of the FWD or the AFT/BULK Cargo Bottle 2 (No flammable or combustible materials) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-23-05B": {
+"h": "ed895edd",
+"ko": "(o) EDTO를 수행하지 않는다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <MAINTENANCE>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 26-23-05B Squib of the FWD or the AFT/BULK Cargo Bottle 2 (Non EDTO flight) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-24-01A": {
+"h": "5e4c853d",
+"ko": "해당 휴대용 소화기에 작동 불능(inoperative) 플래카드를 붙인다면, 필수 수량이 아닌(non required) 휴대용 소화기 하나 이상이 작동 불능이고 제거되거나 없어도(missing) 된다.\nNote: 작동 불능인 휴대용 소화기는 위험물(dangerous goods) 요건의 적용을 받을 수 있다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"26-24-02A": {
+"h": "ad2dbd75",
+"ko": "작동해야 한다."
+},
+"26-25-01A": {
+"h": "13144ac4",
+"ko": "하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"26-01-01-01A": {
+"h": "264c8ba5",
+"ko": "각 ENG FIRE-PUSH pb-sw(푸시버튼 스위치)마다 bulb 또는 LED가 최대 4개까지 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\nNote: <OPERATIONS> (운항 참고)\n각 ENG FIRE-PUSH pb-sw에는 bulb 또는 LED가 8개 있다."
+},
+"26-01-01-02A": {
+"h": "e0e289e1",
+"ko": "(m) 매일 첫 비행 전에 해당 fire extinguisher bottle(소화기 용기)을 점검한다면, 각 엔진에서 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 26-21-00-040-001 참조 (정비 절차)"
+},
+"26-01-01-02B": {
+"h": "4e0abe7b",
+"ko": "(m) 매 비행 전에 해당 fire extinguisher bottle(소화기 용기)들을 점검한다면, 한 엔진에서 둘 다 4개 비행(four flights) 또는 15 비행시간(flight hours) 중 먼저 도래하는 시점까지 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 26-21-00-040-001 참조 (정비 절차)"
+},
+"26-01-01-03A": {
+"h": "83e12360",
+"ko": "(m) 매일 첫 비행 전에 engine extinguishing system firing circuit(엔진 소화 계통 점화 회로)이 작동함을 확인한다면, 하나 이상이 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM 26-21-00-040-003 참조 (정비 절차)"
+},
+"26-01-01-04A": {
+"h": "7c8b3cb4",
+"ko": "bulb 또는 LED가 최대 4개까지 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"26-01-01-04B": {
+"h": "835654ac",
+"ko": "(o) 다음 조건이면 bulb 또는 LED 5개 이상이 작동 불능이어도 된다:\n1) EDTO를 수행하지 않고,\n2) APU를 비활성화(deactivate)한다.\nItem 49-10-01C Power Plant (APU) 참조\nNote: <MAINTENANCE> (정비 조치)\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 26-01-01-04B Bulb/LED in the APU FIRE-PUSH pb-sw (Five or more bulbs or LEDs inoperative) 참조 (운항 절차 — 아래 운항 절차 칸)"
+},
+"26-01-01-05A": {
+"h": "2cce13bf",
+"ko": "(m) 매일 첫 비행 전에 APU fire extinguisher bottle(소화기 용기)을 점검한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 26-22-00-040-004 참조 (정비 절차)"
+},
+"26-01-01-05B": {
+"h": "dfe7fbe2",
+"ko": "APU를 비활성화(deactivate)한다면 작동 불능 상태로 운항할 수 있다.\nItem 49-10-01C Power Plant (APU) 참조"
+},
+"26-01-01-06A": {
+"h": "02c8a70f",
+"ko": "(m) 매일 첫 비행 전에 APU extinguishing system firing circuit(APU 소화 계통 점화 회로)이 작동함을 확인한다면 작동 불능 상태로 운항할 수 있다.\nRAMP RETURN (AFTER DOOR CLOSE) (도어 닫힌 후 발생 시 램프 리턴)\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 26-22-00-040-005 참조 (정비 절차)"
+},
+"26-01-01-06B": {
+"h": "dfe7fbe2",
+"ko": "APU를 비활성화(deactivate)한다면 작동 불능 상태로 운항할 수 있다.\nItem 49-10-01C Power Plant (APU) 참조"
+},
+"26-01-01-31A": {
+"h": "a54bb6c8",
+"ko": "(m) 매일 첫 비행 전에 해당 engine fire extinguishing system(엔진 소화 계통)과 detection system(화재 감지 계통)이 작동함을 확인한다면 하나가 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM 26-21-00-040-002 참조 (정비 절차)"
+},
+"26-01-01-32A": {
+"h": "fbb7ca4f",
+"ko": "(m) 매일 첫 비행 전에 APU extinguishing system firing circuit(APU 소화 계통 점화 회로)과 bottle low pressure detection system(소화기 용기 저압 감지 계통)이 작동함을 확인한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 26-22-00-040-012 참조 (정비 절차)"
+},
+"26-01-01-32B": {
+"h": "7ee090ef",
+"ko": "APU를 비활성화(deactivate)한다면 작동 불능 상태로 운항할 수 있다.\nItem 49-10-01C Power Plant (APU) 참조"
+},
+"26-01-01-33A": {
+"h": "7ee090ef",
+"ko": "APU를 비활성화(deactivate)한다면 작동 불능 상태로 운항할 수 있다.\nItem 49-10-01C Power Plant (APU) 참조"
+},
+"26-01-01-34A": {
+"h": "7ee090ef",
+"ko": "APU를 비활성화(deactivate)한다면 작동 불능 상태로 운항할 수 있다.\nItem 49-10-01C Power Plant (APU) 참조"
+},
+"26-01-02-01A": {
+"h": "7dc6f9a4",
+"ko": "(m) 매일 첫 비행 전에 해당 bottle(소화기 용기)의 무게를 점검한다면 작동 불능 상태로 운항할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE> (정비 조치)\n1. 반복 정비 조치 필요 - 노란색 defer 플래카드를 사용하고 log entry를 기록한다.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(m) AMM Task 26-23-00-040-001 참조 (정비 절차)"
+},
+"26-01-02-01B": {
+"h": "539694e8",
+"ko": "해당 bottle(소화기 용기)을 작동 불능으로 간주한다면 작동 불능 상태로 운항할 수 있다.\nItem 26-23-01 Cargo Agent Bottle 참조"
+},
+"26-01-02-02A": {
+"h": "6f614122",
+"ko": "agent bottle 2(소화제 용기 2)를 작동 불능으로 간주한다면 작동 불능 상태로 운항할 수 있다.\nItem 26-23-01 Cargo Agent Bottle 참조"
+}
+},
+"ops": {
+"26-12-01A": {
+"h": "02135618",
+"ko": "적용 기체: HL8004, HL8018, HL8038, HL8039, HL8059, HL8060, HL8071, HL8074, HL8277, HL8278, HL8279\n\nFLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nCOCKPIT PREPARATION (조종실 준비)\n매 비행 전에 engine fire test를 실시한다.\nNote: ENG MASTER panel(pedestal)의 FIRE light 1은 무시한다"
+},
+"26-12-02A": {
+"h": "834137fd",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nCOCKPIT PREPARATION (조종실 준비)\n매 비행 전에 engine fire test를 실시한다."
+},
+"26-12-03A": {
+"h": "834137fd",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nCOCKPIT PREPARATION (조종실 준비)\n매 비행 전에 engine fire test를 실시한다."
+},
+"26-12-04A": {
+"h": "323e1724",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nCOCKPIT PREPARATION (조종실 준비)\n매 비행 전에 engine fire test를 실시한다.\nNote: ENG MASTER panel(pedestal)의 FIRE light 2는 무시한다"
+},
+"26-13-01A": {
+"h": "8818a993",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND (지상에서)\n매 APU 시동 전에 APU fire test를 실시한다."
+},
+"26-13-01B": {
+"h": "8818a993",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nON GROUND (지상에서)\n매 APU 시동 전에 APU fire test를 실시한다."
+},
+"26-13-01C": {
+"h": "81c05b84",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"26-15-01A": {
+"h": "bf1cb297",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다.\nON GROUND OR IN FLIGHT (지상 또는 비행 중)\n다음을 무시한다:\n‐ VENTILATION overhead panel의 BLOWER pb-sw FAULT light 및 EXTRACT pb-sw FAULT light\n‐ EMER ELEC PWR overhead panel의 GEN 1 LINE pb-sw SMOKE light\nIN FLIGHT (비행 중)\n전기 계통 연기(electrical smoke)가 발생한 경우:\nAVNCS SMOKE 비상 절차를 적용한다. QRH/ABN-27 Smoke / Fumes / AVNCS Smoke - General 참조."
+},
+"26-16-01A": {
+"h": "c71a1693",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n다음을 제외하고는 어떤 물품도 실을 수 없다:\n‐ 화물 취급 장비(cargo handling equipment) (적재물 없음, 비어 있음 또는 ballast 포함),\n‐ Fly away kit (예: 유압유 캔, 세척 용제, 배터리, 콘덴서(capacitor), 화학 발생기 등은 제외),\n‐ 기내 서비스 물품(Return catering – 닫힌 catering trolley/box만 가능, 신문·주류·면세품 불가).\nNote: 사용 가능한(serviceable) 타이어를 싣는 경우, 사용 가능 상태를 유지하는 최소 압력까지만 공기를 넣어야 한다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"26-16-02A": {
+"h": "c71a1693",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n다음을 제외하고는 어떤 물품도 실을 수 없다:\n‐ 화물 취급 장비(cargo handling equipment) (적재물 없음, 비어 있음 또는 ballast 포함),\n‐ Fly away kit (예: 유압유 캔, 세척 용제, 배터리, 콘덴서(capacitor), 화학 발생기 등은 제외),\n‐ 기내 서비스 물품(Return catering – 닫힌 catering trolley/box만 가능, 신문·주류·면세품 불가).\nNote: 사용 가능한(serviceable) 타이어를 싣는 경우, 사용 가능 상태를 유지하는 최소 압력까지만 공기를 넣어야 한다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"26-17-01A": {
+"h": "875ea2ea",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n출발 전, Captain은 Purser에게 다음과 같이 해당 lavatory에 연기가 없는지 주기적으로 확인하도록 브리핑한다;\n‐ 흡연을 금지하고,\n‐ 인화성 또는 가연성 물질의 반입을 금지한다.\nNote: 15분마다 lavatory를 주기적으로 점검할 것을 권고한다."
+},
+"26-18-01A": {
+"h": "2ca6f6e8",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n출발 전, Captain은 Purser에게 30분마다 VCC에 타는 냄새나 연기가 없는지, 그리고 IFE control panel에 failure 메시지가 없는지 확인하도록 브리핑한다.\n운항승무원은 적용된 MEL의 CAUTION 내용을 cabin manager에게 알린다. 객실승무원은 30분마다 VCC와 IFE control panel의 메시지를 확인해야 한다. CAUTION에 해당하는 증상이 나타나면 그 지시에 따른다.\nCAUTION: 객실승무원이나 승객이 video/audio 분배 문제 같은 이상을 보고하는 경우:\n연기가 없는지 즉시 VCC를 확인해야 한다.\n타는 냄새나 연기가 의심되거나 IFE control panel에 failure 메시지가 표시되는 경우:\nVCC를 off로 set해야 한다."
+},
+"26-23-01A": {
+"h": "d603ff55",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n다음을 제외하고는 어떤 물품도 실을 수 없다:\n‐ 화물 취급 장비(cargo handling equipment) (적재물 없음, 비어 있음 또는 ballast 포함),\n‐ Fly away kit (예: 유압유 캔, 세척 용제, 배터리, 콘덴서(capacitor), 화학 발생기 등은 제외),\n‐ 기내 서비스 물품(Return catering – 닫힌 catering trolley/box만 가능, 신문·주류·면세품 불가).\nNote: 사용 가능한(serviceable) 타이어를 싣는 경우, 사용 가능 상태를 유지하는 최소 압력까지만 공기를 넣어야 한다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"26-23-01C": {
+"h": "81c05b84",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"26-23-02A": {
+"h": "04891a3c",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n다음을 제외하고는 어떤 물품도 실을 수 없다:\n‐ 화물 취급 장비(cargo handling equipment) (적재물 없음, 비어 있음 또는 ballast 포함),\n‐ Fly away kit (예: 유압유 캔, 세척 용제, 배터리, 콘덴서(capacitor), 화학 발생기 등은 제외),\n‐ 기내 서비스 물품(Return catering – 닫힌 catering trolley/box만 가능, 신문·주류·면세품 불가).\nNote: 사용 가능한(serviceable) 타이어를 싣는 경우, 사용 가능 상태를 유지하는 최소 압력까지만 공기를 넣어야 한다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"26-23-03A": {
+"h": "04891a3c",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n다음을 제외하고는 어떤 물품도 실을 수 없다:\n‐ 화물 취급 장비(cargo handling equipment) (적재물 없음, 비어 있음 또는 ballast 포함),\n‐ Fly away kit (예: 유압유 캔, 세척 용제, 배터리, 콘덴서(capacitor), 화학 발생기 등은 제외),\n‐ 기내 서비스 물품(Return catering – 닫힌 catering trolley/box만 가능, 신문·주류·면세품 불가).\nNote: 사용 가능한(serviceable) 타이어를 싣는 경우, 사용 가능 상태를 유지하는 최소 압력까지만 공기를 넣어야 한다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"26-23-04A": {
+"h": "c71a1693",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n다음을 제외하고는 어떤 물품도 실을 수 없다:\n‐ 화물 취급 장비(cargo handling equipment) (적재물 없음, 비어 있음 또는 ballast 포함),\n‐ Fly away kit (예: 유압유 캔, 세척 용제, 배터리, 콘덴서(capacitor), 화학 발생기 등은 제외),\n‐ 기내 서비스 물품(Return catering – 닫힌 catering trolley/box만 가능, 신문·주류·면세품 불가).\nNote: 사용 가능한(serviceable) 타이어를 싣는 경우, 사용 가능 상태를 유지하는 최소 압력까지만 공기를 넣어야 한다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"26-23-05A": {
+"h": "c71a1693",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n다음을 제외하고는 어떤 물품도 실을 수 없다:\n‐ 화물 취급 장비(cargo handling equipment) (적재물 없음, 비어 있음 또는 ballast 포함),\n‐ Fly away kit (예: 유압유 캔, 세척 용제, 배터리, 콘덴서(capacitor), 화학 발생기 등은 제외),\n‐ 기내 서비스 물품(Return catering – 닫힌 catering trolley/box만 가능, 신문·주류·면세품 불가).\nNote: 사용 가능한(serviceable) 타이어를 싣는 경우, 사용 가능 상태를 유지하는 최소 압력까지만 공기를 넣어야 한다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"26-23-04B": {
+"h": "81c05b84",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"26-23-05B": {
+"h": "81c05b84",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+},
+"26-01-01-04B": {
+"h": "81c05b84",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nEDTO를 수행하지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 “FLIGHT PLANNING RESTRICTIONS” 확인을 위해 dispatcher에게 연락한다."
+}
+}
+}

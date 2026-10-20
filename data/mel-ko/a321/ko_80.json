@@ -1,0 +1,30 @@
+{
+"items": {
+"80-01-31A": {
+"h": "83e26605",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+},
+"80-07-01A": {
+"h": "110974be",
+"ko": "(o) (m) 해당 엔진 시동 후 해당 start valve가 닫혔는지 확인하는 조건이면 하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 80-07-01A Start Valve Position Indication on the ENGINE SD page 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 80-11-00-040-042 (CEO) 또는 80-11-00-040-805 (NEO) 참조 (정비 절차)"
+},
+"80-11-01A": {
+"h": "472de51c",
+"ko": "(o) (m) 해당 엔진 시동 후 start valve를 수동으로 닫는 조건이면 하나가 작동 불능이어도 된다.\nA321NEO 항공기의 경우 APU bleed가 반드시 작동 가능해야 한다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)\n참조\n(o) OpsProc 80-11-01A Start Valve 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 80-11-00-040-043 (CEO) 또는 80-11-00-040-804 (NEO) 참조 (정비 절차)"
+},
+"80-12-01A": {
+"h": "6ed307e0",
+"ko": "하나 또는 둘 다 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Crew Defer (승무원 이연 절차 수행 후 운항 계속 가능)\n운항승무원은 Crew Defer 절차를 마친 뒤 운항을 계속할 수 있다. (MEL Policy 참조)"
+}
+},
+"ops": {
+"80-07-01A": {
+"h": "c22645d1",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\n정비 인원에게 연락하여 정비 절차에 따라 해당 start valve가 닫혔는지 확인하게 한다. 불가능하면 Return To Gate(게이트로 복귀)."
+},
+"80-11-01A": {
+"h": "bdfccc12",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\n제한 없음.\nFLIGHT CREW (운항승무원 조치)\nBEFORE ENGINE START (엔진 시동 전)\nFCOM/PRO-NOR-SUP-ENG Engine Start Valve Manual Operation 참조\nIN FLIGHT (비행 중)\n해당 엔진이 꺼지면(shut down) windmilling relight(풍차 회전 재시동)로만 재시동을 시도한다."
+}
+}
+}

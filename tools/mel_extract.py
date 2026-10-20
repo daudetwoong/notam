@@ -30,7 +30,7 @@ def main():
         for l in ls:
             s = l.strip()
             if not started:
-                if s == 'MINIMUM EQUIPMENT LIST': started = True
+                if s.startswith('MINIMUM EQUIPMENT LIST'): started = True
                 continue
             if s.startswith('AAR A321 FLEET'): break
             if s in ('Continued on the following page', 'Continued from the previous page', 'Intentionally left blank'): continue
@@ -45,6 +45,7 @@ def main():
         ls = [l.strip() for l in p.split('\n') if l.strip()]
         # 머리글(페이지 맨 위) 우선: 'MEL ITEMS' 등 → 섹션, '25-24 - ...' → 챕터
         sec = HEAD.get(ls[0]) if ls else None
+        if sec and len(ls) > 1 and ls[1].startswith('PRELIMINARY PAGES'): continue
         f = foot_rx.search(p)
         if sec is None and f: sec = f.group(1)
         if sec is None: continue
@@ -58,9 +59,9 @@ def main():
         if h: chapters[h.group(1)] = h.group(2).strip()
     if dates: rev_date = max(dates).strftime('%d %b %y').upper()
 
-    code_sub = re.compile(r'^\s{0,6}(\d{2}-\d{2}-\d{2}[A-Z])\b\s*(.*)$')
-    code_par = re.compile(r'^\s{0,2}(\d{2}-\d{2}-\d{2})\s{2,}(\S.*)$')
-    code_any = re.compile(r'^\s{0,6}(\d{2}-\d{2}-\d{2}[A-Z]?)\s*(.*)$')
+    code_sub = re.compile(r'^ {0,11}(\d{2}-\d{2}-\d{2}(?:-\d{2})?[A-Z])\b(?![-(])\s*(.*)$')
+    code_par = re.compile(r'^ {0,11}(\d{2}-\d{2}-\d{2}(?:-\d{2})?)(?:\s{2,}(\S.*))?\s*$')
+    code_any = re.compile(r'^ {0,11}(\d{2}-\d{2}-\d{2}(?:-\d{2})?[A-Z]?)(?![-\d])\s*(.*)$')
     tbl_hdr = re.compile(r'Repair interval\s+Nbr installed\s+Nbr required\s+Placard')
 
     items = {}; ops = {}; ecam = []
@@ -82,7 +83,7 @@ def main():
         for l in body_lines(p):
             mp = code_par.match(l)
             if mp and not code_sub.match(l):
-                close(); parent = {'code': mp.group(1), 't': mp.group(2).strip(), 'ident': '', 'appl': ''}; continue
+                close(); parent = {'code': mp.group(1), 't': (mp.group(2) or '').strip(), 'ident': '', 'appl': ''}; continue
             ms = code_sub.match(l)
             if ms:
                 close(); cur = {'code': ms.group(1), 't': ms.group(2).strip(), 'pt': parent['t'] if parent['code'] == ms.group(1)[:-1] else '', 'p': i + 1, 'ch': chap_of.get(i), '_l': []}; continue
@@ -116,9 +117,14 @@ def main():
             cur = None
     for i, p in enumerate(pages):
         if sec_of.get(i) != 'MO': continue
-        for l in body_lines(p):
+        bl = body_lines(p)
+        for li, l in enumerate(bl):
             ma = code_any.match(l)
-            if ma and (cur is None or cur.get('ident') is not None or not cur['_l'] or True):
+            # 새 엔트리는 몇 줄 안에 'Ident.:' 가 따라온다. 본문 안의 참조(예: 'Refer to Item\n 32-51-01 ...')는 제외.
+            if ma:
+                ahead = [x.strip() for x in bl[li + 1:li + 6] if x.strip()]
+                if not any(re.search(r'(^|\s)Ident\.:', x) for x in ahead) and not (cur and cur.get('ident') is None): ma = None
+            if ma:
                 code, rest = ma.group(1), ma.group(2).strip()
                 # 새 엔트리 시작 조건: 직전 엔트리가 Ident 를 이미 가졌거나 비어 있음
                 if cur and cur.get('ident') is None and not cur['_l']:
@@ -129,7 +135,8 @@ def main():
                 continue
             s = l.strip()
             if cur is None: continue
-            if s.startswith('Ident.:'): cur['ident'] = s[7:].strip(); continue
+            mi = re.match(r'^(?:\d\s+)?Ident\.:\s*(.*)$', s)
+            if mi: cur['ident'] = mi.group(1).strip(); continue
             if s.startswith('Applicable to:'): continue
             if cur['ident'] is None and not cur['t'] and s: cur['t'] = s; continue
             if cur['ident'] is None and s and not cur['_l']:

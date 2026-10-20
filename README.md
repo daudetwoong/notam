@@ -19,6 +19,7 @@
 - ✅ 비행 중 할 일 타임라인: OFP 공지·노탐 코멘트의 보고/요청 문장, 경로 교차 유효 노탐, FIR 진입, SR 구간, TOC/TOD, 직접 메모 — 실시간 위치 50NM 전 알림
 - ⛽ 연료 요약: FOD·최소 착륙연료·holding 여유·실제 RAMP/FOB 반영·노선 통계
 - 🛬 가까운 공항 (현재 위치 기준) · 🌤️ TAF 한국어 풀이 (ETD/ETA 기준) · 🌬️ 고도별 바람 힌트 · 📋 브리핑 요약 복사/인쇄
+- 🔧 MEL 바로 보기: OFP의 MEL / CDL ITEMS 줄을 A321 MEL(R49) 색인에서 찾아 제한조건·(m)(o)·운항 절차를 바로 표시, 원문을 누르면 한글 해석. 번호·ECAM 문구 검색. 색인은 처음 한 번 받으면 기기에 저장(오프라인). 데이터: `data/mel/`, 한국어: `data/mel-ko/`, 생성: `tools/mel_extract.py`
 
 ## 구조
-- `src/` 친절모드 레이어 소스 · `build.py` 조립 스크립트 · `UPDATE.md` 원본 변경 반영 절차 · `upstream_commit.txt` 마지막으로 반영한 원본 커밋
+- `src/` 친절모드 레이어 소스 · `data/` MEL 색인·한국어 해석 · `tools/` 색인 생성·검사 도구 · `build.py` 조립 스크립트 · `UPDATE.md` 원본 변경 반영 절차 · `upstream_commit.txt` 마지막으로 반영한 원본 커밋

@@ -1,0 +1,42 @@
+{
+"items": {
+"38-10-01A": {
+"h": "dba2b223",
+"ko": "다음 조건이면 개별 구성품이 작동 불능이어도 된다:\n1) 관련 구성품을 deactivate(비활성화)하거나 isolate(차단)하고,\n2) 관련 시스템 구성품에 누출(leak)이 없음을 확인한다.\nNote: 시스템 중 정상 작동하는 부분은 사용해도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+},
+"38-10-01B": {
+"h": "ca97fb3f",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 시스템을 배수(drain)하고,\n2) 항공기는 다음 지정 공항(GMP, ICN)까지 1회 비행 또는 연속 비행(series of flights)으로 출발할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비)>\n1. 출발 승인은 MCC에 연락.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 38-10-01B Potable Water System (System Drained and Not Serviced) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 12-24-38-680-001 또는 12-24-38-680-002 참조 (정비 절차)"
+},
+"38-30-01A": {
+"h": "52a2afea",
+"ko": "(m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 누출(leak)을 막기 위해 관련 구성품을 deactivate(비활성화)하거나 isolate(차단)하고,\n2) 해당 화장실 door를 닫힌 상태로 고정하고 플래카드를 붙인다.\nNote: 시스템 중 정상 작동하는 부분은 사용해도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\n참조\n(m) AMM Task 38-31-00-040-002 참조 (정비 절차)"
+},
+"38-30-01B": {
+"h": "abd94ff0",
+"ko": "(o) (m) 다음 조건이면 작동 불능 상태로 운항할 수 있다:\n1) 누출(leak)을 막기 위해 관련 구성품을 deactivate(비활성화)하거나 isolate(차단)하고,\n2) 해당 화장실 door를 닫힌 상태로 고정하고 플래카드를 붙이고,\n3) 전방(forward) 화장실을 사용할 수 없는 상태로 비행시간이 수용 가능한지 기장(PIC)이 판단하고,\n4) 항공기는 다음 지정 공항(GMP, ICN)까지 1회 비행 또는 연속 비행(series of flights)으로 출발할 수 있다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비)>\n1. 출발 승인은 MCC에 연락.\n2. Defer Control(이연 관리)은 MCC에 연락.\n참조\n(o) OpsProc 38-30-01B Lavatory Waste System (One Lavatory operative) 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 38-31-00-040-002 참조 (정비 절차)"
+},
+"38-30-02A": {
+"h": "8a4a1797",
+"ko": "(o) (m) vacuum generator(진공 발생기)를 deactivate(비활성화)하는 조건이면 작동 불능이어도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)\nNote: <MAINTENANCE (정비)>\n1. 출발 승인은 MCC에 연락.\n참조\n(o) OpsProc 38-30-02A Vacuum Generator 참조 (운항 절차 — 아래 운항 절차 칸)\n(m) AMM Task 38-31-00-040-802 참조 (정비 절차)"
+},
+"38-30-03A": {
+"h": "24c64d53",
+"ko": "다음 조건이면 개별 구성품이 작동 불능이어도 된다:\n1) 관련 구성품을 deactivate(비활성화)하거나 isolate(차단)하고,\n2) 관련 시스템 구성품에 누출(leak)이 없음을 확인한다.\nNote: 시스템 중 정상 작동하는 부분은 사용해도 된다.\nNote: <도어 닫힌 후 발생 시> Return To Gate (게이트로 돌아가 정비 조치 필요)"
+}
+},
+"ops": {
+"38-10-01B": {
+"h": "b16c1904",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nGMP 또는 ICN 공항에서의 출발은 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher(운항관리사)에게 연락한다.\n출발 전에 PIC는 객실승무원에게 알려, 화장실 오수 시스템(lavatory waste system)은 정상 작동하므로(세정수(flushing water)만 공급되지 않음) 물을 부어 사용할 수 있음을 확인하게 한다."
+},
+"38-30-01B": {
+"h": "dab98269",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nGMP 또는 ICN 공항에서의 출발은 허용되지 않는다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher(운항관리사)에게 연락한다."
+},
+"38-30-02A": {
+"h": "cff8626b",
+"ko": "FLIGHT PLANNING RESTRICTIONS (비행계획 제한)\nvacuum 오수 시스템(vacuum waste system)은 지상에서, 그리고 비행고도 16,000 ft 미만에서는 사용할 수 없다.\nFLIGHT CREW (운항승무원 조치)\nflight release 갱신과 \"FLIGHT PLANNING RESTRICTIONS\" 확인을 위해 dispatcher(운항관리사)에게 연락한다.\nPIC는 객실승무원에게 알려, 비행 중에는 vacuum 오수 시스템이 정상 작동함을 확인하게 한다. (지상에서, 그리고 비행고도 16,000 ft 미만에서는 화장실을 사용하지 않는다)"
+}
+}
+}
