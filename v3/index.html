@@ -5867,7 +5867,10 @@ svg.leaflet-image-layer.leaflet-interactive path {
     const fodRamp = fuelInputs.ramp != null && (g('RAMP OUT') || g('PLN TAKEOFF')) ? fodPlan + (fuelInputs.ramp - (g('RAMP OUT') || g('PLN TAKEOFF'))) : null;
     const tile = (lbl, val, sub, cls = '') => `<div class="${cls}"><span>${lbl}</span><b>${val}</b>${sub ? `<span>${sub}</span>` : ''}</div>`;
     const hCls = m => m == null ? '' : m >= 30 ? 'hi' : m >= 15 ? 'warn' : 'bad';
-    box.innerHTML = `
+    // 계산 결과(그리드·통계·입력 옆 결과)만 갱신하고, 입력칸 자체는 한 번만 만든다.
+    // 전체를 innerHTML로 다시 그리면 위치 갱신 때마다 입력칸이 새 요소로 바뀌어
+    // 포커스가 날아가고 (iPad에서) 키보드가 닫히는 문제가 생긴다.
+    const calcHtml = `
       <div class="kp-grid">
         ${tile('계획 FOD (도착 잔량)', fmtN(fodPlan) + ' ' + U, r.FOD && r.FOD.min != null ? '여유 ' + hm(r.FOD.min) : '')}
         ${tile('최소 착륙연료', fmtN(minLand) + ' ' + U, `교체 ${fmtN(g('ALTN'))} + 최종예비 ${fmtN(g('FINAL RES'))}`)}
@@ -5875,19 +5878,37 @@ svg.leaflet-image-layer.leaflet-interactive path {
         ${tile('교체 포기 시 holding', holdCommit(fodPlan) != null ? holdCommit(fodPlan) + '분' : '--', '최종예비만 남길 때', hCls(holdCommit(fodPlan)))}
       </div>
       <div class="kp-dim">holding 소모율 ${rate ? fmtN(rate * 60) + ' ' + U + '/h' : '--'} (FINAL RES 기준) · 예비 ${fmtN(g('CONT'))}${fuel.contPct ? ' (' + fuel.contPct + '%)' : ''} · 재량 ${fmtN(g('DISC') || g('EXTRA'))} · 택시 ${fmtN(g('TAXI'))} · RAMP ${fmtN(g('RAMP OUT') || g('PLN TAKEOFF'))}${fuel.validUntil ? ' · 플랜 유효 ' + fuel.validUntil.slice(0, 2) + ':' + fuel.validUntil.slice(2) + 'Z 출발까지' : ''}</div>
-      ${fuel.stat ? `<div class="kp-note ${fuel.stat.p90 > g('DISC') ? 'amb' : ''}">📊 이 노선 3개월 통계: 실제가 계획보다 평균 <b>${fmtN(fuel.stat.mean)}</b>, 90% 확률로 <b>${fmtN(fuel.stat.p90)}</b> 이내, 99%는 <b>${fmtN(fuel.stat.p99)}</b> ${fuel.stat.unit} 더 탔어요. 90% 기준 FOD <b>${fmtN(fodPlan - fuel.stat.p90)}</b> → holding ${holdMin(fodPlan - fuel.stat.p90) ?? '--'}분${fuel.stat.p90 > g('DISC') ? ' · 재량연료보다 커요' : ''}</div>` : ''}
+      ${fuel.stat ? `<div class="kp-note ${fuel.stat.p90 > g('DISC') ? 'amb' : ''}">📊 이 노선 3개월 통계: 실제가 계획보다 평균 <b>${fmtN(fuel.stat.mean)}</b>, 90% 확률로 <b>${fmtN(fuel.stat.p90)}</b> 이내, 99%는 <b>${fmtN(fuel.stat.p99)}</b> ${fuel.stat.unit} 더 탔어요. 90% 기준 FOD <b>${fmtN(fodPlan - fuel.stat.p90)}</b> → holding ${holdMin(fodPlan - fuel.stat.p90) ?? '--'}분${fuel.stat.p90 > g('DISC') ? ' · 재량연료보다 커요' : ''}</div>` : ''}`;
+    const rampRes = fodRamp != null ? `→ 예상 FOD <b class="mono" style="color:#6ee7b7">${fmtN(fodRamp)}</b> · holding ${holdMin(fodRamp) ?? '--'}분` : '';
+    const fobRes = fodNow != null ? `→ 예상 FOD <b class="mono" style="color:${fodNow >= minLand ? '#6ee7b7' : '#fb7185'}">${fmtN(fodNow)}</b> · holding ${holdMin(fodNow) ?? '--'}분 <span class="kp-dim">(${basis})</span>` : (fuelInputs.fob != null ? '<span class="kp-dim">현재 위치를 먼저 정해 주세요 (실시간 위치 또는 수동 선택)</span>' : '');
+    const num = v => { const n = parseFloat(String(v).replace(/,/g, '')); return isFinite(n) ? n : null; };
+    if ($id('kp-ramp') && $id('kp-fob') && $id('kp-fuel-calc')) {
+      $id('kp-fuel-calc').innerHTML = calcHtml;
+      $id('kp-ramp').placeholder = fmtN(g('RAMP OUT') || g('PLN TAKEOFF'));
+      $id('kp-fob').placeholder = U;
+      $id('kp-ramp-res').innerHTML = rampRes;
+      $id('kp-fob-res').innerHTML = fobRes;
+      return;
+    }
+    box.innerHTML = `
+      <div id="kp-fuel-calc">${calcHtml}</div>
       <div class="flex items-center gap-2 flex-wrap" style="margin-top:4px">
-        <label class="kp-dim">실제 RAMP 연료</label><input id="kp-ramp" class="kp-in" inputmode="numeric" placeholder="${fmtN(g('RAMP OUT') || g('PLN TAKEOFF'))}" value="${fuelInputs.ramp ?? ''}">
-        ${fodRamp != null ? `<span>→ 예상 FOD <b class="mono" style="color:#6ee7b7">${fmtN(fodRamp)}</b> · holding ${holdMin(fodRamp) ?? '--'}분</span>` : ''}
+        <label class="kp-dim" for="kp-ramp">실제 RAMP 연료</label><input id="kp-ramp" class="kp-in" type="text" inputmode="numeric" enterkeyhint="done" autocomplete="off" placeholder="${fmtN(g('RAMP OUT') || g('PLN TAKEOFF'))}" value="${fuelInputs.ramp ?? ''}">
+        <span id="kp-ramp-res">${rampRes}</span>
       </div>
       <div class="flex items-center gap-2 flex-wrap">
-        <label class="kp-dim">지금 FOB</label><input id="kp-fob" class="kp-in" inputmode="numeric" placeholder="${U}" value="${fuelInputs.fob ?? ''}">
-        ${fodNow != null ? `<span>→ 예상 FOD <b class="mono" style="color:${fodNow >= minLand ? '#6ee7b7' : '#fb7185'}">${fmtN(fodNow)}</b> · holding ${holdMin(fodNow) ?? '--'}분 <span class="kp-dim">(${basis})</span></span>` : (fuelInputs.fob != null ? '<span class="kp-dim">현재 위치를 먼저 정해 주세요 (실시간 위치 또는 수동 선택)</span>' : '')}
+        <label class="kp-dim" for="kp-fob">지금 FOB</label><input id="kp-fob" class="kp-in" type="text" inputmode="numeric" enterkeyhint="done" autocomplete="off" placeholder="${U}" value="${fuelInputs.fob ?? ''}">
+        <span id="kp-fob-res">${fobRes}</span>
       </div>
       <div class="kp-dim">계산은 OFP 계획 소모량 기준이에요. 실제 바람·고도·ATC 지연은 반영되지 않으니 FMS 예측과 같이 보세요.</div>`;
-    const num = v => { const n = parseFloat(String(v).replace(/,/g, '')); return isFinite(n) ? n : null; };
-    $id('kp-ramp').addEventListener('change', e => { fuelInputs.ramp = num(e.target.value); renderFuel(); });
-    $id('kp-fob').addEventListener('change', e => { fuelInputs.fob = num(e.target.value); renderFuel(); });
+    const bind = (id, key) => {
+      const inp = $id(id);
+      const apply = () => { const v = num(inp.value); if (v !== fuelInputs[key]) { fuelInputs[key] = v; renderFuel(); } };
+      inp.addEventListener('change', apply);
+      inp.addEventListener('blur', apply);
+      inp.addEventListener('keydown', e => { if (e.key === 'Enter') { apply(); inp.blur(); } });
+    };
+    bind('kp-ramp', 'ramp'); bind('kp-fob', 'fob');
   }
 
   // ---------- ③ 가까운 공항 ----------
@@ -6027,7 +6048,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
   let lastKey = '';
   function refreshAll() {
     fillSelects(); buildTimeline(); renderTimeline(); renderFuel(); renderNear(); renderTaf(); renderWind();
-    const k = flightKey(); if (k && k !== lastKey) { lastKey = k; alerted = new Set(); try { const o = JSON.parse(localStorage.getItem('kpManual') || '{}'); manual = o && o.k === k ? (o.r || []) : []; } catch (e) { manual = []; } buildTimeline(); renderTimeline(); }
+    const k = flightKey(); if (k && k !== lastKey) { lastKey = k; alerted = new Set(); fuelInputs.ramp = null; fuelInputs.fob = null; const fb = $id('kp-fuel'); if (fb) { fb.innerHTML = ''; } renderFuel(); try { const o = JSON.parse(localStorage.getItem('kpManual') || '{}'); manual = o && o.k === k ? (o.r || []) : []; } catch (e) { manual = []; } buildTimeline(); renderTimeline(); }
   }
   let tmr = null; const schedule = () => { clearTimeout(tmr); tmr = setTimeout(refreshAll, 400); };
   if (typeof renderMap === 'function') { const orig = renderMap; window.renderMap = function () { const r = orig.apply(this, arguments); schedule(); return r; }; try { renderMap = window.renderMap; } catch (e) {} }
