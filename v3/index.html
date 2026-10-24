@@ -6844,8 +6844,13 @@ svg.leaflet-image-layer.leaflet-interactive path {
     // 계산 결과(그리드·통계·입력 옆 결과)만 갱신하고, 입력칸 자체는 한 번만 만든다.
     // 전체를 innerHTML로 다시 그리면 위치 갱신 때마다 입력칸이 새 요소로 바뀌어
     // 포커스가 날아가고 (iPad에서) 키보드가 닫히는 문제가 생긴다.
+    // REQ(RQD TAKEOFF) = 트립+예비+교체+최종예비: 이 이하로는 이륙하면 안 되는 최소 이륙연료
+    const rqd = g('RQD TAKEOFF'), plnTO = g('PLN TAKEOFF') || ((g('RAMP OUT') || 0) - g('TAXI'));
+    const rqdMargin = rqd && plnTO ? plnTO - rqd : null;
+    const rampTO = fuelInputs.ramp != null ? fuelInputs.ramp - g('TAXI') : null;   // 실제 RAMP 기준 이륙연료
     const calcHtml = `
       <div class="kp-grid">
+        ${rqd ? tile('REQ 이륙연료 (RQD T/O)', fmtN(rqd) + ' ' + U, rqdMargin != null ? `계획 T/O ${fmtN(plnTO)} · 여유 ${fmtN(rqdMargin)}${r['RQD TAKEOFF'].min ? ' · ' + hm(r['RQD TAKEOFF'].min) : ''}` : '', rqdMargin != null && rqdMargin <= 0 ? 'bad' : '') : ''}
         ${tile('계획 FOD (도착 잔량)', fmtN(fodPlan) + ' ' + U, r.FOD && r.FOD.min != null ? '여유 ' + hm(r.FOD.min) : '')}
         ${tile('최소 착륙연료', fmtN(minLand) + ' ' + U, `교체 ${fmtN(g('ALTN'))} + 최종예비 ${fmtN(g('FINAL RES'))}`)}
         ${tile('목적지 holding 여유', holdMin(fodPlan) != null ? holdMin(fodPlan) + '분' : '--', '교체공항 유지 시', hCls(holdMin(fodPlan)))}
@@ -6853,7 +6858,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
       </div>
       <div class="kp-dim">holding 소모율 ${rate ? fmtN(rate * 60) + ' ' + U + '/h' : '--'} (FINAL RES 기준) · 예비 ${fmtN(g('CONT'))}${fuel.contPct ? ' (' + fuel.contPct + '%)' : ''} · 재량 ${fmtN(g('DISC') || g('EXTRA'))} · 택시 ${fmtN(g('TAXI'))} · RAMP ${fmtN(g('RAMP OUT') || g('PLN TAKEOFF'))}${fuel.validUntil ? ' · 플랜 유효 ' + fuel.validUntil.slice(0, 2) + ':' + fuel.validUntil.slice(2) + 'Z 출발까지' : ''}</div>
       ${fuel.stat ? `<div class="kp-note ${fuel.stat.p90 > g('DISC') ? 'amb' : ''}">📊 이 노선 3개월 통계: 실제가 계획보다 평균 <b>${fmtN(fuel.stat.mean)}</b>, 90% 확률로 <b>${fmtN(fuel.stat.p90)}</b> 이내, 99%는 <b>${fmtN(fuel.stat.p99)}</b> ${fuel.stat.unit} 더 탔어요. 90% 기준 FOD <b>${fmtN(fodPlan - fuel.stat.p90)}</b> → holding ${holdMin(fodPlan - fuel.stat.p90) ?? '--'}분${fuel.stat.p90 > g('DISC') ? ' · 재량연료보다 커요' : ''}</div>` : ''}`;
-    const rampRes = fodRamp != null ? `→ 예상 FOD <b class="mono" style="color:#6ee7b7">${fmtN(fodRamp)}</b> · holding ${holdMin(fodRamp) ?? '--'}분` : '';
+    const rampRes = fodRamp != null ? `→ 예상 FOD <b class="mono" style="color:#6ee7b7">${fmtN(fodRamp)}</b> · holding ${holdMin(fodRamp) ?? '--'}분${rqd && rampTO != null ? ` · <span class="kp-dim">REQ 대비</span> <b class="mono" style="color:${rampTO - rqd >= 0 ? '#6ee7b7' : '#fb7185'}">${rampTO - rqd >= 0 ? '+' : ''}${fmtN(rampTO - rqd)}</b>${rampTO - rqd < 0 ? ' <span style="color:#fb7185">⚠ 택시 후 REQ 미달</span>' : ''}` : ''}` : '';
     const fobRes = fodNow != null ? `→ 예상 FOD <b class="mono" style="color:${fodNow >= minLand ? '#6ee7b7' : '#fb7185'}">${fmtN(fodNow)}</b> · holding ${holdMin(fodNow) ?? '--'}분 <span class="kp-dim">(${basis})</span>` : (fuelInputs.fob != null ? '<span class="kp-dim">현재 위치를 먼저 정해 주세요 (실시간 위치 또는 수동 선택)</span>' : '');
     const num = v => { const n = parseFloat(String(v).replace(/,/g, '')); return isFinite(n) ? n : null; };
     if ($id('kp-ramp') && $id('kp-fob') && $id('kp-fuel-calc')) {
