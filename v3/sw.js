@@ -1,6 +1,6 @@
 // NOTAM 지도 친절모드 — 오프라인 캐시 서비스 워커 (원본 notammap v90 sw.js 기반)
 // 전략: 온라인이면 최신 페이지를 먼저 받아 바로 보여주고(4초 안에 응답 없으면 저장본), 오프라인이면 저장본
-const CACHE = 'notammap-kind-v3-a89b6e681a';
+const CACHE = 'notammap-kind-v3-82ee173d6e';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon.svg'];
 const EXTRA = ['./apple-touch-icon.png', './icon-192.png', './icon-512.png'];   // 있으면 함께 저장
 

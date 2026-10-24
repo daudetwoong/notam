@@ -293,6 +293,11 @@
     const sm = t.match(/MEAN\/\s*(-?[\d,]+)\s*LBS,\s*90% STAT\/\s*(-?[\d,]+)\s*LBS,\s*99% STAT\/\s*(-?[\d,]+)/);
     if (sm) f.stat = { mean: +sm[1].replace(/,/g, ''), p90: +sm[2].replace(/,/g, ''), p99: +sm[3].replace(/,/g, ''), unit: 'LBS' };
     const vm = t.match(/PLAN VALID FOR DEPARTURE UNTIL\s+(\d{4})Z/); if (vm) f.validUntil = vm[1];
+    // 중량 (OFP 첫 장 헤더: ZFW/MZFW/TOW/MTOW/LDW/MLDW/AGTOW/RWY/TCAP) — 항법로그 시작 전 구간에서만 읽는다
+    const hi = t.search(/DIST\s+LATITUDE/); const head = t.slice(0, hi > 0 ? hi : 5000);
+    f.wt = {}; const wr = /\b(AGTOW|MZFW|ZFW|MTOW|TOW|MLDW|LDW|RWY|TCAP|SOW|PLD)\s+(\d{4,6})\b/g;
+    while ((m = wr.exec(head))) { if (f.wt[m[1]] == null) f.wt[m[1]] = +m[2] * mult; }
+    if (f.wt.ZFW == null) f.wt = null;
     const fr = f.rows['FINAL RES'];
     f.holdRate = fr && fr.min ? fr.fuel / fr.min : (f.rows.TRIP.min ? f.rows.TRIP.fuel / f.rows.TRIP.min * 0.85 : null);   // 분당
     // 웨이포인트별 누적 연료 (항법로그 두번째 줄: ... 00.11 0029/)
@@ -329,6 +334,23 @@
     const rqd = g('RQD TAKEOFF'), plnTO = g('PLN TAKEOFF') || ((g('RAMP OUT') || 0) - g('TAXI'));
     const rqdMargin = rqd && plnTO ? plnTO - rqd : null;
     const rampTO = fuelInputs.ramp != null ? fuelInputs.ramp - g('TAXI') : null;   // 실제 RAMP 기준 이륙연료
+    // 중량 체크: 실제 RAMP → 예상 TOW = ZFW + (RAMP − TAXI), 예상 LDW = TOW − TRIP ; 지금 FOB → 예상 LDW = ZFW + 예상 FOD
+    const W = fuel.wt; let wtHtml = '';
+    if (W) {
+      const lim = [['MTOW', W.MTOW], ['AGTOW', W.AGTOW], ['RWY', W.RWY], ['TCAP', W.TCAP]].filter(x => x[1] > 0);
+      const toLimit = lim.length ? lim.reduce((a, b) => b[1] < a[1] ? b : a) : null;
+      const warnM = U === 'KG' ? 1000 : 2000;   // 이 안쪽이면 노란색
+      const row = (lbl, val, limLbl, limVal, note) => { if (val == null || !limVal) return ''; const d = limVal - val; return `<div class="${d < 0 ? 'bad' : d < warnM ? 'warn' : 'hi'}"><span>${lbl}</span><b>${fmtN(Math.round(val))} ${U}</b><span>${limLbl} ${fmtN(limVal)} · ${d >= 0 ? '여유 ' + fmtN(Math.round(d)) : '<span style="color:#fb7185">⚠ ' + fmtN(Math.round(-d)) + ' 초과</span>'}${note ? ' · ' + note : ''}</span></div>`; };
+      const toActual = fuelInputs.ramp != null ? W.ZFW + fuelInputs.ramp - g('TAXI') : null;
+      const ldwActual = toActual != null && r.TRIP ? toActual - g('TRIP') : null;
+      const ldwNow = fodNow != null ? W.ZFW + fodNow : null;
+      const rows = [];
+      if (toActual != null && toLimit) rows.push(row('예상 TOW (실제 RAMP)', toActual, toLimit[0], toLimit[1], W.MTOW && toLimit[0] !== 'MTOW' ? 'MTOW ' + fmtN(W.MTOW) : ''));
+      if (ldwActual != null && W.MLDW) rows.push(row('예상 LDW (실제 RAMP)', ldwActual, 'MLDW', W.MLDW, ''));
+      if (ldwNow != null && W.MLDW) rows.push(row('예상 LDW (지금 FOB)', ldwNow, 'MLDW', W.MLDW, ''));
+      const plan = `계획 ZFW ${fmtN(W.ZFW)}${W.MZFW ? '/' + fmtN(W.MZFW) : ''} · TOW ${fmtN(W.TOW)}${toLimit ? '/' + toLimit[0] + ' ' + fmtN(toLimit[1]) : ''} · LDW ${fmtN(W.LDW)}${W.MLDW ? '/' + fmtN(W.MLDW) : ''} ${U}`;
+      wtHtml = `<div class="kp-dim" style="margin-top:2px">⚖️ ${plan}${rows.length ? '' : ' — 실제 RAMP나 FOB를 넣으면 MTOW·MLDW 이내인지 계산해요'}</div>` + (rows.length ? `<div class="kp-grid" style="margin-top:4px">${rows.join('')}</div><div class="kp-dim">ZFW는 OFP 계획값이에요. 실제 ZFW가 다르면(loadsheet) 그 차이만큼 TOW·LDW도 같이 움직여요.</div>` : '');
+    }
     const calcHtml = `
       <div class="kp-grid">
         ${rqd ? tile('REQ 이륙연료 (RQD T/O)', fmtN(rqd) + ' ' + U, rqdMargin != null ? `계획 T/O ${fmtN(plnTO)} · 여유 ${fmtN(rqdMargin)}${r['RQD TAKEOFF'].min ? ' · ' + hm(r['RQD TAKEOFF'].min) : ''}` : '', rqdMargin != null && rqdMargin <= 0 ? 'bad' : '') : ''}
@@ -338,7 +360,8 @@
         ${tile('교체 포기 시 holding', holdCommit(fodPlan) != null ? holdCommit(fodPlan) + '분' : '--', '최종예비만 남길 때', hCls(holdCommit(fodPlan)))}
       </div>
       <div class="kp-dim">holding 소모율 ${rate ? fmtN(rate * 60) + ' ' + U + '/h' : '--'} (FINAL RES 기준) · 예비 ${fmtN(g('CONT'))}${fuel.contPct ? ' (' + fuel.contPct + '%)' : ''} · 재량 ${fmtN(g('DISC') || g('EXTRA'))} · 택시 ${fmtN(g('TAXI'))} · RAMP ${fmtN(g('RAMP OUT') || g('PLN TAKEOFF'))}${fuel.validUntil ? ' · 플랜 유효 ' + fuel.validUntil.slice(0, 2) + ':' + fuel.validUntil.slice(2) + 'Z 출발까지' : ''}</div>
-      ${fuel.stat ? `<div class="kp-note ${fuel.stat.p90 > g('DISC') ? 'amb' : ''}">📊 이 노선 3개월 통계: 실제가 계획보다 평균 <b>${fmtN(fuel.stat.mean)}</b>, 90% 확률로 <b>${fmtN(fuel.stat.p90)}</b> 이내, 99%는 <b>${fmtN(fuel.stat.p99)}</b> ${fuel.stat.unit} 더 탔어요. 90% 기준 FOD <b>${fmtN(fodPlan - fuel.stat.p90)}</b> → holding ${holdMin(fodPlan - fuel.stat.p90) ?? '--'}분${fuel.stat.p90 > g('DISC') ? ' · 재량연료보다 커요' : ''}</div>` : ''}`;
+      ${fuel.stat ? `<div class="kp-note ${fuel.stat.p90 > g('DISC') ? 'amb' : ''}">📊 이 노선 3개월 통계: 실제가 계획보다 평균 <b>${fmtN(fuel.stat.mean)}</b>, 90% 확률로 <b>${fmtN(fuel.stat.p90)}</b> 이내, 99%는 <b>${fmtN(fuel.stat.p99)}</b> ${fuel.stat.unit} 더 탔어요. 90% 기준 FOD <b>${fmtN(fodPlan - fuel.stat.p90)}</b> → holding ${holdMin(fodPlan - fuel.stat.p90) ?? '--'}분${fuel.stat.p90 > g('DISC') ? ' · 재량연료보다 커요' : ''}</div>` : ''}
+      ${wtHtml}`;
     const rampRes = fodRamp != null ? `→ 예상 FOD <b class="mono" style="color:#6ee7b7">${fmtN(fodRamp)}</b> · holding ${holdMin(fodRamp) ?? '--'}분${rqd && rampTO != null ? ` · <span class="kp-dim">REQ 대비</span> <b class="mono" style="color:${rampTO - rqd >= 0 ? '#6ee7b7' : '#fb7185'}">${rampTO - rqd >= 0 ? '+' : ''}${fmtN(rampTO - rqd)}</b>${rampTO - rqd < 0 ? ' <span style="color:#fb7185">⚠ 택시 후 REQ 미달</span>' : ''}` : ''}` : '';
     const fobRes = fodNow != null ? `→ 예상 FOD <b class="mono" style="color:${fodNow >= minLand ? '#6ee7b7' : '#fb7185'}">${fmtN(fodNow)}</b> · holding ${holdMin(fodNow) ?? '--'}분 <span class="kp-dim">(${basis})</span>` : (fuelInputs.fob != null ? '<span class="kp-dim">현재 위치를 먼저 정해 주세요 (실시간 위치 또는 수동 선택)</span>' : '');
     const num = v => { const n = parseFloat(String(v).replace(/,/g, '')); return isFinite(n) ? n : null; };
