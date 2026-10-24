@@ -14,9 +14,10 @@
 6. 사람에게 보고: 원본 커밋 메시지 요약, 바뀐 섹션/기능, 상충 여부.
 
 ## 친절모드가 의존하는 원본 구조 (build.py 가 검사)
-- 섹션 제목 `1.`~`6.`, 요소 id: fir-list, pdf-input, dropzone, map, flt-info, fpl-input, btn-reset
+- 섹션: v89~ 는 id `sec-ofp/sec-flt/sec-map/sec-brf/sec-fir` (1 OFP·2 Flight Info·3 지도·4 노탐 브리핑·5 FIR), 그 이전은 제목 `1.`~`6.` · 요소 id: fir-list, pdf-input, dropzone, map, flt-info, fpl-input, btn-reset
 - 함수: rawBlock, renderMap, notamRange, notamIsActive, tafAt, wxCat, gcDistNm, getAirportCoord, elAt, flightWindow
 - 전역: visibleFir, otherNotams, pdfNav, window.__ofpText
+- 원본 v79~ 가 manifest·apple-touch-icon·서비스 워커 등록(`serviceWorker.register('sw.js')`)을 직접 넣으므로 build.py 는 없는 것만 보충하고 등록 코드를 생략한다. `src/sw.js` 는 원본 sw.js(network-first) 기반이니 원본 sw.js 가 바뀌면 같이 맞춘다.
 
 ## MEL 바로 보기 데이터 (v3)
 - `data/mel/<기종>/*.json` 은 MEL PDF에서 `tools/mel_extract.py` 로 만든 색인(항목·운항절차·ECAM 엔트리)이고, `build.py --v3` 가 `v3/mel/` 로 복사한다. 원본(notammap)과 무관하므로 원본 업데이트 때 그대로 유지한다.

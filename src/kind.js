@@ -314,15 +314,22 @@
     <div class="kd-steps">
       <div><i>1</i><b>OFP PDF 올리기</b><br>① 칸에 OFP를 넣으면 경로·노탐·TAF·SR을 자동으로 읽어요. 아이패드는 <b>파일 앱</b>에서 고르면 돼요.</div>
       <div><i>2</i><b>비행 개요 확인</b><br>② Flight Information에서 시각·연료·고도와 <b>🌪️ SR 4 이상 구간</b>을 봐요.</div>
-      <div><i>3</i><b>공항 노탐</b><br>③ 출발·목적·교체, ④ ERA 공항 노탐을 운항 시간대 기준으로 걸러서 봐요.</div>
-      <div><i>4</i><b>항로 노탐 · 지도</b><br>⑤ 🔴 경로 교차 노탐부터 <b>😊 쉬운 해설</b>을 읽고, ⑥ 지도에서 위치와 ✈️ 내 위치를 확인해요.</div>
+      <div><i>3</i><b>지도 · 공항 노탐</b><br>③ 지도에서 경로·FIR·✈️ 내 위치를 보고, ④ 노탐 브리핑에서 출발·목적·교체·ERA 공항 노탐을 운항 시간대 기준으로 걸러서 봐요.</div>
+      <div><i>4</i><b>항로 노탐</b><br>⑤ 🔴 경로 교차 노탐부터 <b>😊 쉬운 해설</b>을 읽어요. 화면 아래 아이콘 줄(1~5·★·Joint Brief)로 섹션 사이를 바로 옮겨 다닐 수 있어요.</div>
     </div>
     <div class="kd-dim" style="margin-top:6px">🔒 PDF는 이 기기 안에서만 읽혀요. 인터넷으로 전송되지 않아요. 자동 해설은 참고용이에요. 판단은 꼭 원문과 회사 브리핑 자료로 하세요.</div></details>`;
   const main = document.querySelector('main'); if (main) main.parentNode.insertBefore(start, main);
 
+  // 원본 v89부터 섹션 순서가 1 OFP · 2 Flight Info · 3 지도 · 4 노탐 브리핑(Package 1 + ERA) · 5 FIR 로 바뀌고 id 가 붙었다.
+  // id 가 있으면 id 로, 없으면(이전 원본) 제목 번호로 찾는다.
   const secByNum = n => [...document.querySelectorAll('main section')].find(sc => { const h = sc.querySelector('h2'); return h && h.textContent.trim().startsWith(n + '.'); });
+  const secById = (id, n) => document.getElementById(id) || secByNum(n);
   const put = (sec, el) => { if (!sec) return; const h = sec.querySelector('h2'); const anchor = h && h.parentElement !== sec ? h.parentElement : h; anchor ? anchor.after(el) : sec.prepend(el); };
-  const secs = [1, 2, 3, 4, 5, 6].map(secByNum);
+  const sOfp = secById('sec-ofp', 1), sFlt = secById('sec-flt', 2), sMap = secById('sec-map', 3), sBrf = document.getElementById('sec-brf'), sFir = secById('sec-fir', 5);
+  const newLayout = !!sBrf;
+  const sPk1 = newLayout ? sBrf : secByNum(3), sEra = newLayout ? sBrf : secByNum(4);
+  const nMap = newLayout ? '③' : '⑥';
+  const secs = [sOfp, sFlt, sPk1, sEra, sFir, sMap];
   put(secs[0], guide('① 이 칸은 뭐예요?', [
     '<b>OFP PDF 첨부</b>: OFP의 항법로그·FPL·NOTAM 패키지·TAF를 자동으로 읽어요. 출발·도착, ETD/ETA, 경로 웨이포인트가 아래 회색 칸에 나타나요.',
     '<b>FPL 직접 붙여넣기</b>: PDF가 없으면 FPL 전문을 붙여넣고 <b>경로 적용</b>을 눌러도 돼요. (SR 구간은 OFP PDF가 있어야 나와요)',
@@ -335,18 +342,32 @@
     '<b>📍 실시간 위치</b>: 아이패드 위치 서비스로 들어오는 GPS(블루투스 GPS 포함)를 받아 지도에 비행기를 표시해요.',
     '<b>🌀 흔들림 정보 → 지도</b>: 난기류 보고 텍스트를 붙여넣으면 좌표·웨이포인트·고도·원인을 읽어 지도에 그려요. 인터넷 없이 돼요.'
   ]));
-  put(secs[2], guide('③ Package 1 공항 노탐 보는 법', [
-    '<b>출발·목적·교체</b> 탭을 눌러 공항별 시설 노탐(활주로·유도로·게이트·항법시설·접근 minimum 등)을 봐요.',
-    '<b>운항시간 필터링</b>: 출발은 ETD, 도착은 ETA 시간대에 유효한 것만 남겨요. 끄면 전체가 보여요.',
-    '<b>실제 ETD 입력 / +15·+30·+60분</b>: 지연되면 바뀐 시각으로 다시 걸러줘요. 지연 때문에 새로 걸리는 노탐을 놓치지 않게 해줘요.',
-    '<b>퀵턴</b>: 복편 시간대까지 같이 보고 싶을 때 써요.',
-    '🚨 <b>유사 콜사인 주의</b> 배지는 회사 공지(COAD)에 내 편명과 비슷한 콜사인이 있을 때 떠요.',
-    '카드를 누르면 원문·한국어 요약·FMS 좌표가 크게 열려요.'
-  ]));
-  put(secs[3], guide('④ Package 2 ERA 노탐 보는 법', [
-    'OFP에 적힌 <b>ERA(항로상 교체공항)</b>를 골라서 그 공항 노탐을 봐요. 여러 개를 같이 고를 수 있어요.',
-    '기준은 <b>조정 ETD</b>예요. 회항 가능성이 있는 시간대에 그 공항이 쓸 만한지 확인하는 용도예요.'
-  ]));
+  if (newLayout) {
+    // 원본 v88~: Package 1(출발/도착/교체) · Package 2(ERA) · FIR 노탐이 ④ 노탐 브리핑 한 곳으로 통합됨
+    put(sBrf, guide('④ 노탐 브리핑 보는 법', [
+      '<b>출발·목적·교체(Package 1) → ERA(Package 2) → FIR(Package 3)</b> 순서, 즉 OFP 노탐 패키지 순서 그대로 한곳에 나와요. 처음엔 다 펼쳐져 있어요.',
+      '<b>운항시간 유효 배지</b>: 출발은 ETD, 도착은 ETA 시간대에 살아 있는 노탐만 색으로 강조해요. <b>⚪ 참고 펼치기</b>를 켜면 시간대 밖인 것도 보여요.',
+      '<b>⏱ 출발 지연 ETD 조정 / +15·+30·+60분</b>: 지연되면 바뀐 시각으로 다시 걸러줘요. ETA도 같이 밀려서 지연 때문에 새로 걸리는 도착 노탐을 놓치지 않아요.',
+      '<b>🔄 퀵턴(복편)</b>: 복편 ETD/ETA와 정비 시간을 넣으면 복편 시간대 노탐까지 같이 봐요.',
+      '<b>ERA</b>는 OFP에 적힌 항로상 교체공항이에요. 회항 가능성이 있는 시간대에 그 공항이 쓸 만한지 확인하는 용도예요.',
+      '<b>한글 요약</b>: 직역(원문 충실) / 템플릿(자연스러운 문장) 중에서 골라요. 카드 원문 아래엔 <b>약어 해설</b>(ICAO 약어 사전)이 같이 나와요.',
+      '<b>★ 별</b>을 누르면 중요 노탐으로 모아둬요. 화면 아래 아이콘 줄의 ★에서 한 번에 다시 볼 수 있고, 펼침 상태도 기억해요.',
+      '🚨 <b>유사 콜사인 주의</b> 배지는 회사 공지(COAD)에 내 편명과 비슷한 콜사인이 있을 때 떠요. 카드를 누르면 원문·한국어 요약·FMS 좌표가 크게 열려요.'
+    ]));
+  } else {
+    put(sPk1, guide('③ Package 1 공항 노탐 보는 법', [
+      '<b>출발·목적·교체</b> 탭을 눌러 공항별 시설 노탐(활주로·유도로·게이트·항법시설·접근 minimum 등)을 봐요.',
+      '<b>운항시간 필터링</b>: 출발은 ETD, 도착은 ETA 시간대에 유효한 것만 남겨요. 끄면 전체가 보여요.',
+      '<b>실제 ETD 입력 / +15·+30·+60분</b>: 지연되면 바뀐 시각으로 다시 걸러줘요. 지연 때문에 새로 걸리는 노탐을 놓치지 않게 해줘요.',
+      '<b>퀵턴</b>: 복편 시간대까지 같이 보고 싶을 때 써요.',
+      '🚨 <b>유사 콜사인 주의</b> 배지는 회사 공지(COAD)에 내 편명과 비슷한 콜사인이 있을 때 떠요.',
+      '카드를 누르면 원문·한국어 요약·FMS 좌표가 크게 열려요.'
+    ]));
+    put(sEra, guide('④ Package 2 ERA 노탐 보는 법', [
+      'OFP에 적힌 <b>ERA(항로상 교체공항)</b>를 골라서 그 공항 노탐을 봐요. 여러 개를 같이 고를 수 있어요.',
+      '기준은 <b>조정 ETD</b>예요. 회항 가능성이 있는 시간대에 그 공항이 쓸 만한지 확인하는 용도예요.'
+    ]));
+  }
   put(secs[4], guide('⑤ FIR 노탐 목록 보는 법', [
     '<b>🔴 경로 교차</b>: 내 비행경로 선이 노탐 구역을 실제로 지나가요.',
     '<b>🟠 경로 FIR 내</b>: 같은 FIR 안이지만 경로와 직접 겹치지는 않아요. <b>⚪ 경로 무관</b>: 지나가는 FIR 밖이에요.',
@@ -354,12 +375,13 @@
     '<b>FMS 좌표</b>: 노탐 좌표를 FMS 입력 형식으로 바꾼 거예요. 복사해서 쓰세요.',
     '각 카드의 <b>😊 쉬운 해설</b>에 한 줄 요약, 내 비행과의 관계, 한국시간 유효기간, 고도가 정리돼 있어요.'
   ]));
-  put(secs[5], guide('⑥ 지도·버튼 설명', [
+  put(secs[5], guide(nMap + ' 지도·버튼 설명', [
     '<b>FIR 구간 표시</b>: 경로를 FIR별 색으로 나눠요. 구간 선을 누르면 통과시각과 좌표 없는 노탐 목록이 떠요.',
     '<b>온라인 상세지도</b>: 인터넷이 될 때 OpenStreetMap을 덧씌워요. 꺼도 기본 지도는 오프라인으로 보여요.',
     '<b>ETP·EEP·EXP·CP</b>: ETP는 두 공항까지 시간이 같은 지점, EEP/EXP는 EDTO 구간 진입·이탈점이에요.',
     '<b>EDTO threshold 원 · B042 교체공항</b> <span class="kd-dim">(EDTO 비행에서만)</span>: 기종별 기준 거리 원과 운영기준 승인 공항이에요.',
     '<b>🌪️ 보라색 굵은 선</b>: SR 4 이상 구간이에요. <b>✈️ 아이콘</b>: 실시간 내 위치예요.',
+    '<b>내 기체 위치(기번)</b> <span class="kd-dim">(원본 기능)</span>: 인터넷이 될 때 ADS-B 공개 데이터로 그 기번의 현재 위치와 출발공항 도착 예상을 보여줘요. 지상에서 기체가 언제 오는지 볼 때 쓰고, 비행 중 내 위치는 📍 실시간 위치(GPS)를 쓰세요.',
     '<b>좌표 입력 · FMS 변환</b>: 노탐 좌표를 붙여넣으면 FMS 형식으로 바꾸고 지도에 그려요.'
   ]));
 

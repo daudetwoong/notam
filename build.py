@@ -45,11 +45,18 @@ def main():
     ]:
         if need not in o:
             problems.append(f'{need} 없음 — {why}')
-    secs = re.findall(r'<h2[^>]*>(.*?)</h2>', o, re.S)
-    titles = [re.sub(r'<[^>]+>|\s+', ' ', s).strip() for s in secs]
-    for n in ['1.', '2.', '3.', '4.', '5.', '6.']:
-        if not any(t.startswith(n) for t in titles):
-            problems.append(f'섹션 "{n}" 제목 없음 (현재: {titles})')
+    # 섹션 구조: v89~ 는 id(sec-ofp/flt/map/brf/fir) 5개, 그 이전은 제목 번호 1.~6.
+    ids = ['sec-ofp', 'sec-flt', 'sec-map', 'sec-brf', 'sec-fir']
+    if all(f'id="{i}"' in o for i in ids):
+        pass
+    elif any(f'id="{i}"' in o for i in ids):
+        problems.append('섹션 id 일부만 있음: ' + ', '.join(i for i in ids if f'id="{i}"' not in o) + ' 없음')
+    else:
+        secs = re.findall(r'<h2[^>]*>(.*?)</h2>', o, re.S)
+        titles = [re.sub(r'<[^>]+>|\s+', ' ', s).strip() for s in secs]
+        for n in ['1.', '2.', '3.', '4.', '5.', '6.']:
+            if not any(t.startswith(n) for t in titles):
+                problems.append(f'섹션 "{n}" 제목 없음 (현재: {titles})')
     if not re.search(r'<h1[^>]*>.*?</h1>', o, re.S):
         problems.append('h1 제목 없음')
     if problems:
@@ -59,10 +66,14 @@ def main():
 
     # ---- 조립 ----
     title = re.search(r'<title>(.*?)</title>', o).group(1)
-    o = o.replace(f'<title>{title}</title>',
-        '<title>NOTAM 지도 친절모드</title>\n<meta name="apple-mobile-web-app-capable" content="yes" />\n'
-        '<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />\n'
-        '<link rel="manifest" href="manifest.webmanifest" />\n<link rel="apple-touch-icon" href="icon.svg" />', 1)
+    # 원본(v79~)이 manifest·apple-touch-icon·meta 를 직접 넣게 되어, 없는 것만 보충한다 (중복 방지)
+    extra = ''
+    if 'rel="manifest"' not in o: extra += '\n<link rel="manifest" href="manifest.webmanifest" />'
+    if 'rel="apple-touch-icon"' not in o: extra += '\n<link rel="apple-touch-icon" href="icon.svg" />'
+    if 'apple-mobile-web-app-capable' not in o: extra += '\n<meta name="apple-mobile-web-app-capable" content="yes" />'
+    if 'apple-mobile-web-app-status-bar-style' not in o: extra += '\n<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />'
+    o = o.replace(f'<title>{title}</title>', '<title>NOTAM 지도 친절모드</title>' + extra, 1)
+    o = o.replace('content="NOTAM Lite"', 'content="NOTAM 친절모드"', 1)
     h1 = re.search(r'<h1[^>]*>.*?</h1>', o, re.S).group(0)
     tag = ' <span style="font-size:12px;color:#67e8f9">· 친절모드' + (' v3' if v3 else '') + '</span></h1>'
     o = o.replace(h1, '<div>' + h1.replace('</h1>', tag) +
@@ -86,12 +97,17 @@ if ('serviceWorker' in navigator && location.protocol === 'https:') {
   navigator.serviceWorker.register('sw.js').then(r => { try { r.update(); } catch (e) {} }).catch(() => {});
 }
 '''
+    if "serviceWorker.register('sw.js')" in o: sw = ''   # 원본(v79~)이 직접 등록·업데이트 안내함
     i = o.rfind('</body>')
     o = o[:i] + '<script>\n' + js + sw + '</script>\n' + o[i:]
     os.makedirs(out_dir, exist_ok=True)
     open(os.path.join(out_dir, 'index.html'), 'w', encoding='utf-8').write(o)
     for f in ['sw.js', 'manifest.webmanifest', 'icon.svg']:
         shutil.copy(os.path.join(src_dir, f), os.path.join(out_dir, f))
+    # 원본의 PNG 아이콘(apple-touch-icon 등)도 같이 (있으면)
+    for f in ['apple-touch-icon.png', 'icon-192.png', 'icon-512.png']:
+        q = os.path.join(os.path.dirname(os.path.abspath(sys.argv[1])), f)
+        if os.path.exists(q): shutil.copy(q, os.path.join(out_dir, f))
     # MEL 색인 데이터 (data/mel/<fleet>/*.json) → 출력폴더/mel/
     data_dir = os.path.join(here, 'data', 'mel')
     if v3 and os.path.isdir(data_dir):
