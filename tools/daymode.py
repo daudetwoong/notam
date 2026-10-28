@@ -55,6 +55,14 @@ def flip_colors(v, kind='text'):
     out = RGB.sub(rg, HEX.sub(hx, v))
     return None if keep else out
 
+ALPHA = re.compile(r'(?:/\s*|,\s*)(0?\.\d+|1(?:\.0+)?|\d{1,3}%)\s*\)')
+def translucent(v):
+    """rgba(…, .3) · rgb(r g b/.3) 처럼 알파가 낮은 배경: 흰 바탕에서는 옅은 색조일 뿐이라 '버튼 배경'(글자색 유지) 취급을 하지 않는다."""
+    for m in ALPHA.finditer(v):
+        a = m.group(1); a = float(a[:-1]) / 100 if a.endswith('%') else float(a)
+        if a < 0.6: return True
+    return False
+
 def prop_kind(p):
     if p.startswith('background'): return 'bg'
     if p.startswith('border') or p.startswith('outline'): return 'border'
@@ -134,7 +142,7 @@ def _flip_decls(body):
         k = prop_kind(p)
         nv = flip_colors(v, k)
         if nv is None:
-            if k == 'bg' and (HEX.search(v) or RGB.search(v)): keep = True
+            if k == 'bg' and (HEX.search(v) or RGB.search(v)) and not translucent(v): keep = True
             continue
         if nv != v: decls.append(f'{p}:{nv}')
     return (True, orig) if keep else (False, decls)
