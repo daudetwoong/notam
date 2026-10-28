@@ -98,6 +98,17 @@ if ('serviceWorker' in navigator && location.protocol === 'https:') {
 }
 '''
     if "serviceWorker.register('sw.js')" in o: sw = ''   # 원본(v79~)이 직접 등록·업데이트 안내함
+    # 중계 서버(ADS-B·주기장): 원본 Worker 는 fly-smart-team.github.io 출처만 허용하므로(CORS) 내 Worker 주소로 바꾼다.
+    # 루트의 proxy_url.txt 에 주소 한 줄이 있으면 적용 (배포 방법: proxy/README.md). 기기에 저장된 원본 기본 주소도 무시하게 함.
+    purl_path = os.path.join(here, 'proxy_url.txt')
+    purl = open(purl_path, encoding='utf-8').read().strip().rstrip('/') if os.path.exists(purl_path) else ''
+    if purl:
+        o, n = re.subn(r"const DEFAULT_PROXY = '[^']*';", f"const DEFAULT_PROXY = '{purl}';", o, count=1)
+        o, n2 = re.subn(r"!/flyacelee/\.test\(v\)", "!/flyacelee|notam-proxy\\.sapsary1/.test(v)", o, count=1)
+        if n != 1 or n2 != 1:
+            print('WARN: 원본의 DEFAULT_PROXY/getProxy 모양이 바뀌어 중계 주소를 바꾸지 못했어요 — 주기장·기체위치 조회가 CORS로 막힐 수 있어요 (proxy/README.md)')
+        else:
+            print(f'중계 서버 주소 → {purl}')
     i = o.rfind('</body>')
     o = o[:i] + '<script>\n' + js + sw + '</script>\n' + o[i:]
     os.makedirs(out_dir, exist_ok=True)

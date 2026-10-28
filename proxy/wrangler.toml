@@ -1,0 +1,4 @@
+name = "notam-proxy-kind"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+# 비밀값(ICN_KEY)은 파일에 적지 않고 대시보드 Settings → Variables and Secrets 에서 넣는다.

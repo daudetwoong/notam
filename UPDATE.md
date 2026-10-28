@@ -19,6 +19,11 @@
 - 전역: visibleFir, otherNotams, pdfNav, window.__ofpText
 - 원본 v79~ 가 manifest·apple-touch-icon·서비스 워커 등록(`serviceWorker.register('sw.js')`)을 직접 넣으므로 build.py 는 없는 것만 보충하고 등록 코드를 생략한다. `src/sw.js` 는 원본 sw.js(network-first) 기반이니 원본 sw.js 가 바뀌면 같이 맞춘다.
 
+## 중계 서버 (주기장·인천 운항이력·기체위치 ADS-B)
+- 원본의 Worker(`notam-proxy.sapsary1.workers.dev`)는 `fly-smart-team.github.io` 출처만 허용(CORS)해서 친절모드 주소에서는 조회가 실패한다. 그래서 내 Cloudflare Worker 를 따로 쓴다 — 배포 방법은 `proxy/README.md`.
+- 루트 `proxy_url.txt` 에 내 Worker 주소가 있으면 `build.py` 가 원본의 `DEFAULT_PROXY` 를 그 주소로 바꾼다(없으면 원본 그대로). 바꾸지 못하면 WARN 을 출력하니 보고에 적는다.
+- 원본 `proxy/worker.js` 가 바뀌면 `proxy/worker.js` 도 `ALLOW_ORIGINS` 줄만 유지하고 맞춘 뒤, 사람이 Cloudflare 대시보드에 다시 올려야 한다(자동 배포 아님) — 보고에 적는다.
+
 ## MEL 바로 보기 데이터 (v3)
 - `data/mel/<기종>/*.json` 은 MEL PDF에서 `tools/mel_extract.py` 로 만든 색인(항목·운항절차·ECAM 엔트리)이고, `build.py --v3` 가 `v3/mel/` 로 복사한다. 원본(notammap)과 무관하므로 원본 업데이트 때 그대로 유지한다.
 - MEL 개정판이 나오면: `python3 tools/mel_extract.py <새 MEL.pdf> data/mel/a321 --ko data/mel-ko/a321` → 출력의 `stale`(원문이 바뀐 항목)·`missing`(새 항목) 목록을 다시 번역해 `data/mel-ko/a321/ko_<ATA>.json` 에 반영(`tools/mel_ko_merge.py`) → 다시 조립·푸시.
