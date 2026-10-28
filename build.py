@@ -78,7 +78,7 @@ def main():
     tag = ' <span style="font-size:12px;color:#67e8f9">· 친절모드' + (' v3' if v3 else '') + '</span></h1>'
     o = o.replace(h1, '<div>' + h1.replace('</h1>', tag) +
         '<div style="font-size:10px;color:#64748b">원본: fly-smart-team/notammap · 한국어 해설·SR 구간·실시간 위치·흔들림 정보' + (' · 브리핑 보조 · MEL 바로 보기' if v3 else '') + ' 추가</div></div>', 1)
-    files = ['kind.js', 'addon.js', 'turb.js', 'fpl.js'] + (['pro.js', 'mel.js'] if v3 else []) + ['day.js']
+    files = ['kind.js', 'addon.js', 'turb.js', 'fpl.js'] + (['pro.js', 'mel.js'] if v3 else []) + ['top.js', 'day.js']
     js = '\n'.join(open(os.path.join(src_dir, f), encoding='utf-8').read() for f in files)
     sw = '''
 // 오프라인 캐시 등록 (https 웹 주소에서만 동작) · 새 버전이 내려오면 위에 안내 띠를 띄움
