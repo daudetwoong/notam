@@ -7130,7 +7130,7 @@ html.kd-day .leaflet-basemap-pane canvas{filter:invert(1) hue-rotate(180deg)}htm
 })();
 
 // NOTAM 지도 친절모드 — 맨 위 두 줄 요약 (OFP 올리면 표시). 연료·무게는 천 단위 소수 한 자리(예: 150.4 = 150,400)
-//   1줄: ZFW · RAMP OUT · REQ FUEL(RQD TAKEOFF)   2줄: TAXI · 5% CONT · ALTN 연료 · 첫 순항고도 · 승객 수
+//   1줄: ETD · TRIP 시간 · ZFW · RAMP OUT · REQ FUEL(RQD TAKEOFF)   2줄: TAXI · 5% CONT · ALTN 연료 · 첫 순항고도 · 승객 수
 (() => {
   const css = `
   .kt-bar{max-width:72rem;margin:10px auto 0;padding:0 16px;display:none}
@@ -7157,6 +7157,9 @@ html.kd-day .leaflet-basemap-pane canvas{filter:invert(1) hue-rotate(180deg)}htm
     const mul = /^100/.test(unit) ? 100 : 1, u = unit.replace(/^100/, '') || '';
     const g = re => { const m = t.match(re); return m ? +m[1] * mul : null; };
     const o = { unit: u };
+    const etd = t.match(/\bETD\s+([A-Z]{4})\s+(\d{4})Z?\b/) || t.match(/\bETD\s+(\d{4})Z\b/);
+    if (etd) o.etd = etd[2] ? { ap: etd[1], hm: etd[2] } : { ap: '', hm: etd[1] };
+    const tr = t.match(/^\s*TRIP\s+\d{3,6}\s+(\d{2})\.(\d{2})\b/m); if (tr) o.trip = `${+tr[1]}:${tr[2]}`;
     o.zfw = g(/\bZFW\s+(\d{3,6})\b/);
     o.ramp = g(/^\s*RAMP\s*OUT\s+(\d{3,6})/m);
     o.taxi = g(/^\s*TAXI\s+(\d{3,6})/m);
@@ -7175,6 +7178,8 @@ html.kd-day .leaflet-basemap-pane canvas{filter:invert(1) hue-rotate(180deg)}htm
     const cell = (label, v, extra) => v == null ? '' : `<span><i>${label}</i><b>${esc(v)}</b>${extra || ''}</span>`;
     const line1 = [
       `<span class="kt-t">📋 오늘 요약</span>`,
+      cell('ETD', o.etd ? o.etd.hm + 'Z' : null, o.etd && o.etd.ap ? `<span class="kt-u">${esc(o.etd.ap)}</span>` : ''),
+      cell('TRIP', o.trip),
       cell('ZFW', k(o.zfw), u),
       cell('RAMP OUT', k(o.ramp), u),
       cell('REQ FUEL', k(o.req), u)
