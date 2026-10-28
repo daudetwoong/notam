@@ -5044,9 +5044,9 @@ html.kd-day .leaflet-basemap-pane canvas{filter:invert(1) hue-rotate(180deg)}htm
     // ===================== 내 기체(기번) 실시간 위치 · 도착 예상 (무료 ADS-B: adsb.fi / adsb.lol / airplanes.live) =====================
     let acLive = { status: 'idle' }, acTimer = null;
     // 중계 서버 (Cloudflare Worker) 주소 — 기본값은 배포 시 지정, 기기별로 바꿀 수도 있음
-    const DEFAULT_PROXY = 'https://notam-proxy.sapsary1.workers.dev';
+    const DEFAULT_PROXY = 'https://notam-proxy-kind.daudet0127.workers.dev';
     // 예전 기본 주소(flyacelee)가 기기에 저장돼 있으면 새 기본값 사용
-    const getProxy = () => { try { const v = localStorage.getItem('proxyBase.v1'); return (v && !/flyacelee/.test(v) ? v : DEFAULT_PROXY).replace(/\/+$/, ''); } catch (e) { return DEFAULT_PROXY; } };
+    const getProxy = () => { try { const v = localStorage.getItem('proxyBase.v1'); return (v && !/flyacelee|notam-proxy\.sapsary1/.test(v) ? v : DEFAULT_PROXY).replace(/\/+$/, ''); } catch (e) { return DEFAULT_PROXY; } };
     async function fetchAcByReg(reg) {
       const r = encodeURIComponent(String(reg).toUpperCase().replace(/[^A-Z0-9-]/g, ''));
       const srcs = [
