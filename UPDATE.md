@@ -19,6 +19,10 @@
 - 전역: visibleFir, otherNotams, pdfNav, window.__ofpText
 - 원본 v79~ 가 manifest·apple-touch-icon·서비스 워커 등록(`serviceWorker.register('sw.js')`)을 직접 넣으므로 build.py 는 없는 것만 보충하고 등록 코드를 생략한다. `src/sw.js` 는 원본 sw.js(network-first) 기반이니 원본 sw.js 가 바뀌면 같이 맞춘다.
 
+## 주간 모드 (흰 바탕)
+- `tools/daymode.py` 가 조립된 index.html 의 CSS(원본 Tailwind·사용자 CSS·친절모드 `css` 문자열·인라인 style)를 읽어 색의 명도만 반전한 규칙을 `<style id="kd-day">` 로 넣고, `src/day.js` 가 헤더의 ☀️/🌙 버튼으로 `html.kd-day` 를 켜고 끈다(기기별 저장, 기본은 야간).
+- 지도 라벨·Leaflet 팝업·Joint Brief 문서·인쇄용은 반전하지 않는다(`EXCLUDE`). 원본에 새 어두운 요소가 생기면 대체로 자동으로 따라가지만, 새 색이 어색하면 `EXCLUDE` 나 `build()` 끝의 보정 규칙을 손본다.
+
 ## 중계 서버 (주기장·인천 운항이력·기체위치 ADS-B)
 - 원본의 Worker(`notam-proxy.sapsary1.workers.dev`)는 `fly-smart-team.github.io` 출처만 허용(CORS)해서 친절모드 주소에서는 조회가 실패한다. 그래서 내 Cloudflare Worker 를 따로 쓴다 — 배포 방법은 `proxy/README.md`.
 - 루트 `proxy_url.txt` 에 내 Worker 주소가 있으면 `build.py` 가 원본의 `DEFAULT_PROXY` 를 그 주소로 바꾼다(없으면 원본 그대로). 바꾸지 못하면 WARN 을 출력하니 보고에 적는다.
